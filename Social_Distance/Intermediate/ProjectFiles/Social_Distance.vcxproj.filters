@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Social_Distance.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4051D8E4-3810-46D1-B885-06B4F6776435}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Social_Distance.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Social_DistanceEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{BD8A10E2-C157-41F6-8D30-010EE1954689}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Social_Distance">
+      <UniqueIdentifier>{942DE0B2-5BF2-4F2C-840F-9B40E7624A83}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Social_Distance\Social_Distance.Build.cs">
+      <Filter>Source\Social_Distance</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Social_Distance\Social_Distance.cpp">
+      <Filter>Source\Social_Distance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Social_Distance\Social_Distance.h">
+      <Filter>Source\Social_Distance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Social_Distance\Social_DistanceCharacter.cpp">
+      <Filter>Source\Social_Distance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Social_Distance\Social_DistanceCharacter.h">
+      <Filter>Source\Social_Distance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Social_Distance\Social_DistanceGameMode.cpp">
+      <Filter>Source\Social_Distance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Social_Distance\Social_DistanceGameMode.h">
+      <Filter>Source\Social_Distance</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
