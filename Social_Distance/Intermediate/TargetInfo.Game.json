@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Social_Distance",
+			"Path": "E:\\Github\\Group5\\Social_Distance\\Source\\Social_Distance.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Social_DistanceEditor",
+			"Path": "E:\\Github\\Group5\\Social_Distance\\Source\\Social_DistanceEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

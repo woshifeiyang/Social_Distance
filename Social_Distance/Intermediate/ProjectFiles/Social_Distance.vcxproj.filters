@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Social_Distance.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4051D8E4-3810-46D1-B885-06B4F6776435}</UniqueIdentifier>
+      <UniqueIdentifier>{90E94C40-B142-431F-B8E6-03A9FF62302A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Social_Distance.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BD8A10E2-C157-41F6-8D30-010EE1954689}</UniqueIdentifier>
+      <UniqueIdentifier>{0FD55E8B-30F4-43F6-84C2-CEA656E83AB1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,20 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Social_Distance">
-      <UniqueIdentifier>{942DE0B2-5BF2-4F2C-840F-9B40E7624A83}</UniqueIdentifier>
+      <UniqueIdentifier>{9E2CDC0A-C1E1-4EFC-A5B9-7BEC6BABEA5F}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Social_Distance\MovableNPCController.cpp">
+      <Filter>Source\Social_Distance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Social_Distance\MovableNPCController.h">
+      <Filter>Source\Social_Distance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Social_Distance\NPC_Movable.cpp">
+      <Filter>Source\Social_Distance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Social_Distance\NPC_Movable.h">
+      <Filter>Source\Social_Distance</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Social_Distance\Social_Distance.Build.cs">
       <Filter>Source\Social_Distance</Filter>
     </None>
