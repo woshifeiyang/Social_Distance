@@ -17,17 +17,10 @@ void EmptyLinkFunctionForGeneratedCodeMovableNPCController() {}
 	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_AMovableNPCController();
 	AIMODULE_API UClass* Z_Construct_UClass_AAIController();
 	UPackage* Z_Construct_UPackage__Script_Social_Distance();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FTimerHandle();
+	ENGINE_API UClass* Z_Construct_UClass_UCharacterMovementComponent_NoRegister();
+	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_ANPC_Movable_NoRegister();
 // End Cross Module References
-	DEFINE_FUNCTION(AMovableNPCController::execGetActorLocation)
-	{
-		P_GET_OBJECT(AActor,Z_Param_Actor);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		*(FVector*)Z_Param__Result=P_THIS->GetActorLocation(Z_Param_Actor);
-		P_NATIVE_END;
-	}
 	DEFINE_FUNCTION(AMovableNPCController::execPrintLog)
 	{
 		P_GET_PROPERTY(FStrProperty,Z_Param_String);
@@ -36,80 +29,21 @@ void EmptyLinkFunctionForGeneratedCodeMovableNPCController() {}
 		P_THIS->PrintLog(Z_Param_String);
 		P_NATIVE_END;
 	}
-	DEFINE_FUNCTION(AMovableNPCController::execGoToRandomWaypoint)
+	DEFINE_FUNCTION(AMovableNPCController::execWalkingInPath)
 	{
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->GoToRandomWaypoint();
+		P_THIS->WalkingInPath();
 		P_NATIVE_END;
 	}
 	void AMovableNPCController::StaticRegisterNativesAMovableNPCController()
 	{
 		UClass* Class = AMovableNPCController::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "GetActorLocation", &AMovableNPCController::execGetActorLocation },
-			{ "GoToRandomWaypoint", &AMovableNPCController::execGoToRandomWaypoint },
 			{ "PrintLog", &AMovableNPCController::execPrintLog },
+			{ "WalkingInPath", &AMovableNPCController::execWalkingInPath },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_AMovableNPCController_GetActorLocation_Statics
-	{
-		struct MovableNPCController_eventGetActorLocation_Parms
-		{
-			AActor* Actor;
-			FVector ReturnValue;
-		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Actor;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AMovableNPCController_GetActorLocation_Statics::NewProp_Actor = { "Actor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MovableNPCController_eventGetActorLocation_Parms, Actor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMovableNPCController_GetActorLocation_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MovableNPCController_eventGetActorLocation_Parms, ReturnValue), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMovableNPCController_GetActorLocation_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMovableNPCController_GetActorLocation_Statics::NewProp_Actor,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMovableNPCController_GetActorLocation_Statics::NewProp_ReturnValue,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMovableNPCController_GetActorLocation_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "MovableNPCController.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMovableNPCController_GetActorLocation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMovableNPCController, nullptr, "GetActorLocation", nullptr, nullptr, sizeof(MovableNPCController_eventGetActorLocation_Parms), Z_Construct_UFunction_AMovableNPCController_GetActorLocation_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMovableNPCController_GetActorLocation_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMovableNPCController_GetActorLocation_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMovableNPCController_GetActorLocation_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AMovableNPCController_GetActorLocation()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMovableNPCController_GetActorLocation_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_AMovableNPCController_GoToRandomWaypoint_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMovableNPCController_GoToRandomWaypoint_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "MovableNPCController.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMovableNPCController_GoToRandomWaypoint_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMovableNPCController, nullptr, "GoToRandomWaypoint", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMovableNPCController_GoToRandomWaypoint_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMovableNPCController_GoToRandomWaypoint_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AMovableNPCController_GoToRandomWaypoint()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMovableNPCController_GoToRandomWaypoint_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AMovableNPCController_PrintLog_Statics
 	{
@@ -143,6 +77,28 @@ void EmptyLinkFunctionForGeneratedCodeMovableNPCController() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AMovableNPCController_WalkingInPath_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMovableNPCController_WalkingInPath_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MovableNPCController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMovableNPCController_WalkingInPath_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMovableNPCController, nullptr, "WalkingInPath", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMovableNPCController_WalkingInPath_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMovableNPCController_WalkingInPath_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMovableNPCController_WalkingInPath()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMovableNPCController_WalkingInPath_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AMovableNPCController_NoRegister()
 	{
 		return AMovableNPCController::StaticClass();
@@ -154,11 +110,22 @@ void EmptyLinkFunctionForGeneratedCodeMovableNPCController() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Waypoints_Inner;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Waypoints_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TimerHandle_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Waypoints;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_TimerHandle;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Index_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Index;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MovementComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MovementComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MyCharacter_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyCharacter;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -168,9 +135,8 @@ void EmptyLinkFunctionForGeneratedCodeMovableNPCController() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Social_Distance,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMovableNPCController_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMovableNPCController_GetActorLocation, "GetActorLocation" }, // 1095603645
-		{ &Z_Construct_UFunction_AMovableNPCController_GoToRandomWaypoint, "GoToRandomWaypoint" }, // 3311558836
 		{ &Z_Construct_UFunction_AMovableNPCController_PrintLog, "PrintLog" }, // 511691045
+		{ &Z_Construct_UFunction_AMovableNPCController_WalkingInPath, "WalkingInPath" }, // 3238201864
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovableNPCController_Statics::Class_MetaDataParams[] = {
@@ -180,17 +146,36 @@ void EmptyLinkFunctionForGeneratedCodeMovableNPCController() {}
 		{ "ModuleRelativePath", "MovableNPCController.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMovableNPCController_Statics::NewProp_Waypoints_Inner = { "Waypoints", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovableNPCController_Statics::NewProp_Waypoints_MetaData[] = {
-		{ "Category", "PATH" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovableNPCController_Statics::NewProp_TimerHandle_MetaData[] = {
 		{ "ModuleRelativePath", "MovableNPCController.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMovableNPCController_Statics::NewProp_Waypoints = { "Waypoints", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovableNPCController, Waypoints), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AMovableNPCController_Statics::NewProp_Waypoints_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovableNPCController_Statics::NewProp_Waypoints_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovableNPCController_Statics::NewProp_TimerHandle = { "TimerHandle", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovableNPCController, TimerHandle), Z_Construct_UScriptStruct_FTimerHandle, METADATA_PARAMS(Z_Construct_UClass_AMovableNPCController_Statics::NewProp_TimerHandle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovableNPCController_Statics::NewProp_TimerHandle_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovableNPCController_Statics::NewProp_Index_MetaData[] = {
+		{ "ModuleRelativePath", "MovableNPCController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMovableNPCController_Statics::NewProp_Index = { "Index", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovableNPCController, Index), METADATA_PARAMS(Z_Construct_UClass_AMovableNPCController_Statics::NewProp_Index_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovableNPCController_Statics::NewProp_Index_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovableNPCController_Statics::NewProp_MovementComponent_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MovableNPCController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMovableNPCController_Statics::NewProp_MovementComponent = { "MovementComponent", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovableNPCController, MovementComponent), Z_Construct_UClass_UCharacterMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMovableNPCController_Statics::NewProp_MovementComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovableNPCController_Statics::NewProp_MovementComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovableNPCController_Statics::NewProp_MyCharacter_MetaData[] = {
+		{ "ModuleRelativePath", "MovableNPCController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMovableNPCController_Statics::NewProp_MyCharacter = { "MyCharacter", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovableNPCController, MyCharacter), Z_Construct_UClass_ANPC_Movable_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMovableNPCController_Statics::NewProp_MyCharacter_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovableNPCController_Statics::NewProp_MyCharacter_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMovableNPCController_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovableNPCController_Statics::NewProp_Waypoints_Inner,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovableNPCController_Statics::NewProp_Waypoints,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovableNPCController_Statics::NewProp_TimerHandle,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovableNPCController_Statics::NewProp_Index,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovableNPCController_Statics::NewProp_MovementComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovableNPCController_Statics::NewProp_MyCharacter,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMovableNPCController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMovableNPCController>::IsAbstract,
@@ -219,7 +204,7 @@ void EmptyLinkFunctionForGeneratedCodeMovableNPCController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMovableNPCController, 2548698739);
+	IMPLEMENT_CLASS(AMovableNPCController, 2122137352);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<AMovableNPCController>()
 	{
 		return AMovableNPCController::StaticClass();

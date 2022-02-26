@@ -8,29 +8,25 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class AActor;
-struct FVector;
 #ifdef SOCIAL_DISTANCE_MovableNPCController_generated_h
 #error "MovableNPCController.generated.h already included, missing '#pragma once' in MovableNPCController.h"
 #endif
 #define SOCIAL_DISTANCE_MovableNPCController_generated_h
 
-#define Social_Distance_Source_Social_Distance_MovableNPCController_h_15_SPARSE_DATA
-#define Social_Distance_Source_Social_Distance_MovableNPCController_h_15_RPC_WRAPPERS \
+#define Social_Distance_Source_Social_Distance_MovableNPCController_h_17_SPARSE_DATA
+#define Social_Distance_Source_Social_Distance_MovableNPCController_h_17_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execGetActorLocation); \
 	DECLARE_FUNCTION(execPrintLog); \
-	DECLARE_FUNCTION(execGoToRandomWaypoint);
+	DECLARE_FUNCTION(execWalkingInPath);
 
 
-#define Social_Distance_Source_Social_Distance_MovableNPCController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Social_Distance_Source_Social_Distance_MovableNPCController_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execGetActorLocation); \
 	DECLARE_FUNCTION(execPrintLog); \
-	DECLARE_FUNCTION(execGoToRandomWaypoint);
+	DECLARE_FUNCTION(execWalkingInPath);
 
 
-#define Social_Distance_Source_Social_Distance_MovableNPCController_h_15_INCLASS_NO_PURE_DECLS \
+#define Social_Distance_Source_Social_Distance_MovableNPCController_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMovableNPCController(); \
 	friend struct Z_Construct_UClass_AMovableNPCController_Statics; \
@@ -39,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(AMovableNPCController)
 
 
-#define Social_Distance_Source_Social_Distance_MovableNPCController_h_15_INCLASS \
+#define Social_Distance_Source_Social_Distance_MovableNPCController_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAMovableNPCController(); \
 	friend struct Z_Construct_UClass_AMovableNPCController_Statics; \
@@ -48,7 +44,7 @@ public: \
 	DECLARE_SERIALIZER(AMovableNPCController)
 
 
-#define Social_Distance_Source_Social_Distance_MovableNPCController_h_15_STANDARD_CONSTRUCTORS \
+#define Social_Distance_Source_Social_Distance_MovableNPCController_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMovableNPCController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMovableNPCController) \
@@ -61,7 +57,7 @@ private: \
 public:
 
 
-#define Social_Distance_Source_Social_Distance_MovableNPCController_h_15_ENHANCED_CONSTRUCTORS \
+#define Social_Distance_Source_Social_Distance_MovableNPCController_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMovableNPCController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -74,28 +70,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMovableNPCController); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMovableNPCController)
 
 
-#define Social_Distance_Source_Social_Distance_MovableNPCController_h_15_PRIVATE_PROPERTY_OFFSET
-#define Social_Distance_Source_Social_Distance_MovableNPCController_h_12_PROLOG
-#define Social_Distance_Source_Social_Distance_MovableNPCController_h_15_GENERATED_BODY_LEGACY \
+#define Social_Distance_Source_Social_Distance_MovableNPCController_h_17_PRIVATE_PROPERTY_OFFSET
+#define Social_Distance_Source_Social_Distance_MovableNPCController_h_14_PROLOG
+#define Social_Distance_Source_Social_Distance_MovableNPCController_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Social_Distance_Source_Social_Distance_MovableNPCController_h_15_PRIVATE_PROPERTY_OFFSET \
-	Social_Distance_Source_Social_Distance_MovableNPCController_h_15_SPARSE_DATA \
-	Social_Distance_Source_Social_Distance_MovableNPCController_h_15_RPC_WRAPPERS \
-	Social_Distance_Source_Social_Distance_MovableNPCController_h_15_INCLASS \
-	Social_Distance_Source_Social_Distance_MovableNPCController_h_15_STANDARD_CONSTRUCTORS \
+	Social_Distance_Source_Social_Distance_MovableNPCController_h_17_PRIVATE_PROPERTY_OFFSET \
+	Social_Distance_Source_Social_Distance_MovableNPCController_h_17_SPARSE_DATA \
+	Social_Distance_Source_Social_Distance_MovableNPCController_h_17_RPC_WRAPPERS \
+	Social_Distance_Source_Social_Distance_MovableNPCController_h_17_INCLASS \
+	Social_Distance_Source_Social_Distance_MovableNPCController_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Social_Distance_Source_Social_Distance_MovableNPCController_h_15_GENERATED_BODY \
+#define Social_Distance_Source_Social_Distance_MovableNPCController_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Social_Distance_Source_Social_Distance_MovableNPCController_h_15_PRIVATE_PROPERTY_OFFSET \
-	Social_Distance_Source_Social_Distance_MovableNPCController_h_15_SPARSE_DATA \
-	Social_Distance_Source_Social_Distance_MovableNPCController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Social_Distance_Source_Social_Distance_MovableNPCController_h_15_INCLASS_NO_PURE_DECLS \
-	Social_Distance_Source_Social_Distance_MovableNPCController_h_15_ENHANCED_CONSTRUCTORS \
+	Social_Distance_Source_Social_Distance_MovableNPCController_h_17_PRIVATE_PROPERTY_OFFSET \
+	Social_Distance_Source_Social_Distance_MovableNPCController_h_17_SPARSE_DATA \
+	Social_Distance_Source_Social_Distance_MovableNPCController_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	Social_Distance_Source_Social_Distance_MovableNPCController_h_17_INCLASS_NO_PURE_DECLS \
+	Social_Distance_Source_Social_Distance_MovableNPCController_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

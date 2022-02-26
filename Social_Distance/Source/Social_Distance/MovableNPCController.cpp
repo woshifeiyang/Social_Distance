@@ -2,27 +2,38 @@
 
 
 #include "MovableNPCController.h"
+#include <concrt.h>
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/Actor.h"
 
 void AMovableNPCController::BeginPlay()
 {
-	
-	UGameplayStatics::GetAllActorsWithTag(GetWorld(), TEXT("test"), Waypoints);
-	PrintLog("Waypoint num is: " + FString::FromInt(Waypoints.Num()));
-	GoToRandomWaypoint();
 	Super::BeginPlay();
+	// 获取控制器绑定的character
+	MyCharacter = Cast<ANPC_Movable>(this -> GetCharacter());
+	// 设置角色行走速度
+	MovementComponent = MyCharacter -> GetCharacterMovement();
+	MovementComponent -> MaxWalkSpeed = MyCharacter -> WalkingSpeed;
+	
+	Index = 0;
+	WalkingInPath();
+}
+// 当运动完成时，等待一段时间并寻找下一个目标点
+void AMovableNPCController::OnMoveCompleted(FAIRequestID RequestID, const FPathFollowingResult& Result)
+{
+	Super::OnMoveCompleted(RequestID, Result);
+	Index++;
+	if(Index == MyCharacter -> Waypoints.Num())
+	{
+		Index = 0;
+	}
+	GetWorldTimerManager().SetTimer(TimerHandle, this, &AMovableNPCController::WalkingInPath, MyCharacter -> WaitTime, false);
 }
 
-void AMovableNPCController::GoToRandomWaypoint()
+void AMovableNPCController::WalkingInPath()
 {
-	auto index = FMath::RandRange(0, Waypoints.Num() - 1);
-	PrintLog("Random index is: " + FString::FromInt(index));
-	
-	FVector vector = GetActorLocation(Waypoints[index]);
-	PrintLog("vector is: " + vector.ToString());
-	MoveToLocation(vector);
-	//MoveToActor(GetRandomWaypoint());
+	FVector Vector = MyCharacter -> Waypoints[Index] -> GetActorLocation();
+	MoveToLocation(Vector);
 }
 
 void AMovableNPCController::PrintLog(FString String)
@@ -33,8 +44,4 @@ void AMovableNPCController::PrintLog(FString String)
 	}
 }
 
-FVector AMovableNPCController::GetActorLocation(AActor* Actor)
-{
-	return Actor -> GetActorLocation();
-}
 

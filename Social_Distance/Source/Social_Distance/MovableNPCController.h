@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "AIController.h"
+#include "NPC_Movable.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "MovableNPCController.generated.h"
 
 /**
@@ -13,19 +15,28 @@ UCLASS()
 class SOCIAL_DISTANCE_API AMovableNPCController : public AAIController
 {
 	GENERATED_BODY()
-
+	
 public:
+	UPROPERTY()
+		FTimerHandle TimerHandle;
+	
+	UPROPERTY()
+		int32 Index;
+	
+	UPROPERTY()
+		UCharacterMovementComponent* MovementComponent;
+	
+	UPROPERTY()
+		ANPC_Movable* MyCharacter;
+	
 	virtual  void BeginPlay() override;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PATH)
-		TArray<AActor*> Waypoints;
-
+	void OnMoveCompleted(FAIRequestID RequestID, const FPathFollowingResult& Result) override;
+	
 	UFUNCTION()
-		void GoToRandomWaypoint();
+		void WalkingInPath();
 
 	UFUNCTION()
 		void PrintLog(FString String);
-
-	UFUNCTION()
-		FVector GetActorLocation(AActor* Actor);
+	
 };
