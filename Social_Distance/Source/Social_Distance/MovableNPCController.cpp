@@ -29,7 +29,7 @@ void AMovableNPCController::OnMoveCompleted(FAIRequestID RequestID, const FPathF
 	}
 	GetWorldTimerManager().SetTimer(TimerHandle, this, &AMovableNPCController::WalkingInPath, MyCharacter -> WaitTime, false);
 }
-
+// 移动到目标点
 void AMovableNPCController::WalkingInPath()
 {
 	FVector Vector = MyCharacter -> Waypoints[Index] -> GetActorLocation();
