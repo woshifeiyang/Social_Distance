@@ -105,16 +105,20 @@ void AMainCharacter::UpdateState()
 	if(Loneliness - LonelinessDeclineRate * Count > 0)
 	{
 		Loneliness -= LonelinessDeclineRate * Count;
+		PrintLog("Main Character Loneliness is: " + FString::SanitizeFloat(Loneliness));
 	}else
 	{
 		Loneliness = 0.0f;
+		PrintLog("Main Character Loneliness is: " + FString::SanitizeFloat(Loneliness));
 	}
 	if(Risk + RiskIncreaseRate * Count < 100.0f)
 	{
 		Risk += RiskIncreaseRate * Count;
+		PrintLog("Main Character Risk is: " + FString::SanitizeFloat(Risk));
 	}else
 	{
 		Risk = 100.0f;
+		PrintLog("Main Character Risk is: " + FString::SanitizeFloat(Risk));
 	}
 }
 
