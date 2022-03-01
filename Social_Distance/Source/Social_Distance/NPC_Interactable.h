@@ -17,16 +17,16 @@ public:
 	ANPC_Interactable();
 
 	UPROPERTY()
-		int32 Loneliness;
+		float Loneliness;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CharacterProperty)
-		int32 InitLoneliness;
+		float InitLoneliness;
 
 	UPROPERTY()
-		int32 Risk;
+		float Risk;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CharacterProperty)
-		int32 InitRisk;
+		float InitRisk;
 
 	UPROPERTY(BlueprintReadOnly)
 		FVector SelfLocation;

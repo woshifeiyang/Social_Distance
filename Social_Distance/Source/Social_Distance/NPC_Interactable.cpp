@@ -11,21 +11,22 @@ ANPC_Interactable::ANPC_Interactable()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
-	
-	Loneliness = InitLoneliness;
-	Risk = InitRisk;
-	IsIndoor = false;
 }
 
 // Called when the game starts or when spawned
 void ANPC_Interactable::BeginPlay()
 {
 	Super::BeginPlay();
+	
+	Loneliness = InitLoneliness;
+	Risk = InitRisk;
+	IsIndoor = false;
+	
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
 	if(MainCharacter)
 	{
-		PrintLog("cast to main character success");
-		GetWorldTimerManager().SetTimer(TimerHandle, this, &ANPC_Interactable::GetDistance, 0.5f, false);
+		//PrintLog("Main Character Loneliness is" + FString::SanitizeFloat(MainCharacter->Loneliness));
+		GetWorldTimerManager().SetTimer(TimerHandle, this, &ANPC_Interactable::GetDistance, 0.5f, true);
 	}
 }
 
@@ -61,7 +62,7 @@ void ANPC_Interactable::PrintLog(FString String)
 {
 	if (GEngine)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, String);
+		GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, String);
 	}
 }
 

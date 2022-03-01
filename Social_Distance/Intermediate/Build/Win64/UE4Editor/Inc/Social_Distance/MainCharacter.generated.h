@@ -14,8 +14,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define SOCIAL_DISTANCE_MainCharacter_generated_h
 
 #define Social_Distance_Source_Social_Distance_MainCharacter_h_12_SPARSE_DATA
-#define Social_Distance_Source_Social_Distance_MainCharacter_h_12_RPC_WRAPPERS
-#define Social_Distance_Source_Social_Distance_MainCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Social_Distance_Source_Social_Distance_MainCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execPrintLog); \
+	DECLARE_FUNCTION(execUpdateState);
+
+
+#define Social_Distance_Source_Social_Distance_MainCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execPrintLog); \
+	DECLARE_FUNCTION(execUpdateState);
+
+
 #define Social_Distance_Source_Social_Distance_MainCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMainCharacter(); \

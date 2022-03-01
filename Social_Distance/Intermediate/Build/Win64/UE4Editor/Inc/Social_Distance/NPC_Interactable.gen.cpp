@@ -174,19 +174,19 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Loneliness_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Loneliness;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Loneliness;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InitLoneliness_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_InitLoneliness;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_InitLoneliness;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Risk_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Risk;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Risk;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InitRisk_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_InitRisk;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_InitRisk;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SelfLocation_MetaData[];
 #endif
@@ -244,27 +244,27 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		{ "ModuleRelativePath", "NPC_Interactable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Loneliness = { "Loneliness", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, Loneliness), METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Loneliness_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Loneliness_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Loneliness = { "Loneliness", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, Loneliness), METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Loneliness_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Loneliness_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_InitLoneliness_MetaData[] = {
 		{ "Category", "CharacterProperty" },
 		{ "ModuleRelativePath", "NPC_Interactable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_InitLoneliness = { "InitLoneliness", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, InitLoneliness), METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_InitLoneliness_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_InitLoneliness_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_InitLoneliness = { "InitLoneliness", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, InitLoneliness), METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_InitLoneliness_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_InitLoneliness_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Risk_MetaData[] = {
 		{ "ModuleRelativePath", "NPC_Interactable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Risk = { "Risk", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, Risk), METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Risk_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Risk_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Risk = { "Risk", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, Risk), METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Risk_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Risk_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_InitRisk_MetaData[] = {
 		{ "Category", "CharacterProperty" },
 		{ "ModuleRelativePath", "NPC_Interactable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_InitRisk = { "InitRisk", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, InitRisk), METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_InitRisk_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_InitRisk_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_InitRisk = { "InitRisk", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, InitRisk), METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_InitRisk_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_InitRisk_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_SelfLocation_MetaData[] = {
 		{ "Category", "NPC_Interactable" },
@@ -361,7 +361,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANPC_Interactable, 1254340686);
+	IMPLEMENT_CLASS(ANPC_Interactable, 196920547);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<ANPC_Interactable>()
 	{
 		return ANPC_Interactable::StaticClass();
