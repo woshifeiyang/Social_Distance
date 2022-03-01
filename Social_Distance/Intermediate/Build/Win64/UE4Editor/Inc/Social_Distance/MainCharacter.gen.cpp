@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_AMainCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Social_Distance();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FTimerHandle();
 // End Cross Module References
@@ -138,10 +137,11 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RiskRangeValue_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RiskRangeValue;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DistanceList_Inner;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SelfLocation_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DistanceList_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_SelfLocation;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_DistanceList;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InteractableNPCList_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InteractableNPCList_MetaData[];
@@ -222,13 +222,14 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_RiskRangeValue = { "RiskRangeValue", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, RiskRangeValue), METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_RiskRangeValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_RiskRangeValue_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_DistanceList_Inner = { "DistanceList", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_SelfLocation_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_DistanceList_MetaData[] = {
 		{ "Category", "MainCharacter" },
 		{ "ModuleRelativePath", "MainCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_SelfLocation = { "SelfLocation", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, SelfLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_SelfLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_SelfLocation_MetaData)) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_DistanceList = { "DistanceList", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, DistanceList), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_DistanceList_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_DistanceList_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_InteractableNPCList_Inner = { "InteractableNPCList", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_InteractableNPCList_MetaData[] = {
@@ -257,7 +258,8 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_LonelinessDeclineRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_RiskIncreaseRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_RiskRangeValue,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_SelfLocation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_DistanceList_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_DistanceList,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_InteractableNPCList_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_InteractableNPCList,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_MovableNPCList_Inner,
@@ -291,7 +293,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMainCharacter, 2865276878);
+	IMPLEMENT_CLASS(AMainCharacter, 3517037846);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<AMainCharacter>()
 	{
 		return AMainCharacter::StaticClass();
