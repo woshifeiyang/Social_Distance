@@ -15,13 +15,13 @@ public:
 	// Sets default values for this character's properties
 	AMainCharacter();
 	
-	UPROPERTY()
+	UPROPERTY(BlueprintReadOnly)
 		float Loneliness;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
 		float InitLoneliness;
 
-	UPROPERTY()
+	UPROPERTY(BlueprintReadOnly)
 		float Risk;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
@@ -40,13 +40,18 @@ public:
 		TArray<float> DistanceList;
 
 	UPROPERTY()
+		FVector SelfLocation;
+
+	UPROPERTY()
 		TArray<AActor*> InteractableNPCList;
 
 	UPROPERTY()
 		TArray<AActor*> MovableNPCList;
 
-	UPROPERTY()
-		FTimerHandle TimerHandle;
+	
+	FTimerHandle TimerHandle_1;
+
+	FTimerHandle TimerHandle_2;
 	
 protected:
 	// Called when the game starts or when spawned
@@ -60,6 +65,9 @@ protected:
 
 	UFUNCTION()
 		void UpdateState();
+
+	UFUNCTION()
+		void UpdateSelfLocation();
 	
 	UFUNCTION()
 		void PrintLog(FString String);

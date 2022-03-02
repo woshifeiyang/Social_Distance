@@ -11,6 +11,7 @@ ANPC_Interactable::ANPC_Interactable()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
+	
 }
 
 // Called when the game starts or when spawned
@@ -26,8 +27,10 @@ void ANPC_Interactable::BeginPlay()
 	if(MainCharacter)
 	{
 		//PrintLog("Main Character Loneliness is" + FString::SanitizeFloat(MainCharacter->Loneliness));
-		GetWorldTimerManager().SetTimer(TimerHandle, this, &ANPC_Interactable::GetDistance, 0.5f, true);
+		GetWorldTimerManager().SetTimer(TimerHandle_1, this, &ANPC_Interactable::UpdateState, 0.5f, true);
 	}
+	// 设定定时器，每隔0.5秒更新一次SelfLocation
+	GetWorldTimerManager().SetTimer(TimerHandle_2, this, &ANPC_Interactable::UpdateSelfLocation, 0.5f, true);
 }
 
 // Called every frame
@@ -43,19 +46,32 @@ void ANPC_Interactable::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 
 }
 
-void ANPC_Interactable::GetDistance()
+void ANPC_Interactable::UpdateState()
 {
 	Distance = GetDistanceTo(MainCharacter);
+	if(Distance <= RiskRangeValue)
+	{
+		if(Loneliness - LonelinessDeclineRate > 0.0f)
+		{
+			// PrintLog("Interactable Character Loneliness is" + FString::SanitizeFloat(Loneliness));
+			Loneliness -= LonelinessDeclineRate;
+		}else
+		{
+			Loneliness = 0.0f;
+		}
+		if(Risk + RiskIncreaseRate < 100.0f)
+		{
+			Risk += RiskIncreaseRate;
+		}else
+		{
+			Risk = 100.0f;
+		}
+	}
 }
 
-void ANPC_Interactable::UpdateLoneliness()
+void ANPC_Interactable::UpdateSelfLocation()
 {
-	
-}
-
-void ANPC_Interactable::UpdateRisk()
-{
-	
+	SelfLocation = GetActorLocation();
 }
 
 void ANPC_Interactable::PrintLog(FString String)

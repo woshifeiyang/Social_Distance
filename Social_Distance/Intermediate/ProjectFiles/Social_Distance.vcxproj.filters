@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Social_Distance.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{40718B2A-56EB-4143-9B85-F9D46F4D1BE4}</UniqueIdentifier>
+      <UniqueIdentifier>{8D3DCBF8-BFD3-4E1A-84AC-AE8665C476EB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Social_Distance.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{383945A2-CD1F-46AE-89BE-B2BFCBD3CF44}</UniqueIdentifier>
+      <UniqueIdentifier>{8A60365B-1454-4AC4-8740-542539FFD48A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Social_Distance">
-      <UniqueIdentifier>{C9E1E3D2-4038-4643-928B-F9594F03E5B4}</UniqueIdentifier>
+      <UniqueIdentifier>{CE535821-6DFA-44FE-B4C9-540F0BE44EF5}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Social_Distance\InteractableNPCController.cpp">
+      <Filter>Source\Social_Distance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Social_Distance\InteractableNPCController.h">
+      <Filter>Source\Social_Distance</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Social_Distance\MainCharacter.cpp">
       <Filter>Source\Social_Distance</Filter>
     </ClCompile>
@@ -42,6 +48,12 @@
       <Filter>Source\Social_Distance</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Social_Distance\MovableNPCController.h">
+      <Filter>Source\Social_Distance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Social_Distance\MyBlueprintFunctionLibrary.cpp">
+      <Filter>Source\Social_Distance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Social_Distance\MyBlueprintFunctionLibrary.h">
       <Filter>Source\Social_Distance</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Social_Distance\NPC_Interactable.cpp">

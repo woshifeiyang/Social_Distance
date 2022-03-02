@@ -38,5 +38,4 @@ public:
 
 	UFUNCTION()
 		void PrintLog(FString String);
-	
 };

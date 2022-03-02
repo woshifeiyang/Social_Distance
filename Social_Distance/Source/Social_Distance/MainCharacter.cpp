@@ -24,21 +24,22 @@ AMainCharacter::AMainCharacter()
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // ...at this rotation rate
 	GetCharacterMovement()->JumpZVelocity = 600.f;
 	GetCharacterMovement()->AirControl = 0.2f;
-	
 }
 
 // Called when the game starts or when spawned
 void AMainCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
 	Loneliness = InitLoneliness;
 	Risk = InitRisk;
 	// 获取所有NPC对象
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ANPC_Interactable::StaticClass(), InteractableNPCList);
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ANPC_Movable::StaticClass(), MovableNPCList);
+	
 	// 设定定时器，每隔0.5秒更新一次孤单值和风险值
-	GetWorldTimerManager().SetTimer(TimerHandle, this, &AMainCharacter::UpdateState, 0.5f, true);
+	GetWorldTimerManager().SetTimer(TimerHandle_1, this, &AMainCharacter::UpdateState, 0.5f, true);
+	// 设定定时器，每隔0.5秒更新一次SelfLocation
+	GetWorldTimerManager().SetTimer(TimerHandle_2, this, &AMainCharacter::UpdateSelfLocation, 0.5f, true);
 }
 
 void AMainCharacter::MoveForward(float Value)
@@ -82,7 +83,6 @@ void AMainCharacter::UpdateState()
 		if(NPC)
 		{
 			float Distance = GetDistanceTo(NPC);
-			PrintLog("Distance of InteractableNPC is: " + FString::SanitizeFloat(Distance));
 			if(Distance <= RiskRangeValue)
 			{
 				Count++;
@@ -95,31 +95,32 @@ void AMainCharacter::UpdateState()
 		if(NPC)
 		{
 			float Distance = GetDistanceTo(NPC);
-			PrintLog("Distance of MovableNPC is: " + FString::SanitizeFloat(Distance));
 			if(Distance <= RiskRangeValue)
 			{
 				Count++;
 			}
 		}
 	}
-	if(Loneliness - LonelinessDeclineRate * Count > 0)
+	if(Loneliness - LonelinessDeclineRate * Count > 0.0f)
 	{
 		Loneliness -= LonelinessDeclineRate * Count;
-		PrintLog("Main Character Loneliness is: " + FString::SanitizeFloat(Loneliness));
 	}else
 	{
 		Loneliness = 0.0f;
-		PrintLog("Main Character Loneliness is: " + FString::SanitizeFloat(Loneliness));
 	}
 	if(Risk + RiskIncreaseRate * Count < 100.0f)
 	{
 		Risk += RiskIncreaseRate * Count;
-		PrintLog("Main Character Risk is: " + FString::SanitizeFloat(Risk));
 	}else
 	{
 		Risk = 100.0f;
-		PrintLog("Main Character Risk is: " + FString::SanitizeFloat(Risk));
 	}
+}
+
+void AMainCharacter::UpdateSelfLocation()
+{
+	//PrintLog("Self Location is: " + SelfLocation.ToString());
+	SelfLocation = GetActorLocation();
 }
 
 

@@ -17,17 +17,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Social_Distance_Source_Social_Distance_NPC_Interactable_h_13_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execPrintLog); \
-	DECLARE_FUNCTION(execUpdateRisk); \
-	DECLARE_FUNCTION(execUpdateLoneliness); \
-	DECLARE_FUNCTION(execGetDistance);
+	DECLARE_FUNCTION(execUpdateSelfLocation); \
+	DECLARE_FUNCTION(execUpdateState);
 
 
 #define Social_Distance_Source_Social_Distance_NPC_Interactable_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execPrintLog); \
-	DECLARE_FUNCTION(execUpdateRisk); \
-	DECLARE_FUNCTION(execUpdateLoneliness); \
-	DECLARE_FUNCTION(execGetDistance);
+	DECLARE_FUNCTION(execUpdateSelfLocation); \
+	DECLARE_FUNCTION(execUpdateState);
 
 
 #define Social_Distance_Source_Social_Distance_NPC_Interactable_h_13_INCLASS_NO_PURE_DECLS \

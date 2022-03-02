@@ -40,14 +40,25 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CharacterProperty)
 		bool HaveMask;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
+		float RiskRangeValue;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
+		float LonelinessDeclineRate;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
+		float RiskIncreaseRate;
+
 	UPROPERTY()
 		AMainCharacter* MainCharacter;
 
 	UPROPERTY()
 		TArray<AActor*> Actors;
 
-	UPROPERTY()
-		FTimerHandle TimerHandle;
+	
+	FTimerHandle TimerHandle_1;
+
+	FTimerHandle TimerHandle_2;
 
 protected:
 	// Called when the game starts or when spawned
@@ -61,13 +72,10 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	UFUNCTION()
-		void GetDistance();
+		void UpdateState();
 
 	UFUNCTION()
-		void UpdateLoneliness();
-
-	UFUNCTION()
-		void UpdateRisk();
+		void UpdateSelfLocation();
 	
 	UFUNCTION()
 		void PrintLog(FString String);
