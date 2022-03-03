@@ -13,3 +13,5 @@ D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Root
 D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\Social_DistanceCharacter.generated.h
+E:\Github\Group5\Social_Distance\Source\Social_Distance\C_MainCharacter.h
+E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\C_MainCharacter.generated.h

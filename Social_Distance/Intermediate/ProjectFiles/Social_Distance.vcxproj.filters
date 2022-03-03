@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Social_Distance.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8D3DCBF8-BFD3-4E1A-84AC-AE8665C476EB}</UniqueIdentifier>
+      <UniqueIdentifier>{27FF5044-76D1-4E8C-8DED-CC70C7202B03}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Social_Distance.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8A60365B-1454-4AC4-8740-542539FFD48A}</UniqueIdentifier>
+      <UniqueIdentifier>{1561710F-F5C2-4979-BFC6-3A96E727CEF0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,12 +30,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Social_Distance">
-      <UniqueIdentifier>{CE535821-6DFA-44FE-B4C9-540F0BE44EF5}</UniqueIdentifier>
+      <UniqueIdentifier>{F33D370D-1CE0-4C66-822A-5FE2AC78E90C}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\Social_Distance\InteractableNPCController.cpp">
+    <ClCompile Include="..\..\Source\Social_Distance\C_InteractableNPC.cpp">
       <Filter>Source\Social_Distance</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Social_Distance\InteractableNPCController.h">
+    <ClInclude Include="..\..\Source\Social_Distance\C_InteractableNPC.h">
+      <Filter>Source\Social_Distance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Social_Distance\C_MainCharacter.cpp">
+      <Filter>Source\Social_Distance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Social_Distance\C_MainCharacter.h">
       <Filter>Source\Social_Distance</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Social_Distance\MainCharacter.cpp">

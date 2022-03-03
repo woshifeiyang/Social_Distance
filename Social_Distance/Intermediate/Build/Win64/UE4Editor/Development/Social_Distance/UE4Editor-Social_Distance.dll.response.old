@@ -34,7 +34,7 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\InteractableNPCController.cpp.obj"
+"E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\C_InteractableNPC.cpp.obj"
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\MainCharacter.cpp.obj"
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\MovableNPCController.cpp.obj"
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\MyBlueprintFunctionLibrary.cpp.obj"
@@ -43,7 +43,7 @@
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Social_Distance.cpp.obj"
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Social_DistanceCharacter.cpp.obj"
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Social_DistanceGameMode.cpp.obj"
-"E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\InteractableNPCController.gen.cpp.obj"
+"E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\C_InteractableNPC.gen.cpp.obj"
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\MainCharacter.gen.cpp.obj"
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\MovableNPCController.gen.cpp.obj"
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\MyBlueprintFunctionLibrary.gen.cpp.obj"

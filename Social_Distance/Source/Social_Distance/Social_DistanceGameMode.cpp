@@ -2,6 +2,7 @@
 
 #include "Social_DistanceGameMode.h"
 #include "Social_DistanceCharacter.h"
+#include "C_MainCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
 ASocial_DistanceGameMode::ASocial_DistanceGameMode()
@@ -12,4 +13,5 @@ ASocial_DistanceGameMode::ASocial_DistanceGameMode()
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+	PlayerControllerClass = AC_MainCharacter::StaticClass();
 }
