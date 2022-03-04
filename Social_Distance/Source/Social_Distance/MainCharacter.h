@@ -39,7 +39,7 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 		TArray<float> DistanceList;
 
-	UPROPERTY()
+	UPROPERTY(BlueprintReadOnly)
 		FVector SelfLocation;
 
 	UPROPERTY()
@@ -47,7 +47,12 @@ public:
 
 	UPROPERTY()
 		TArray<AActor*> MovableNPCList;
-
+	/** Camera boom positioning the camera behind the character */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+		class USpringArmComponent* CameraBoom;
+	/** Follow camera */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+		class UCameraComponent* FollowCamera;
 	
 	FTimerHandle TimerHandle_1;
 
@@ -65,9 +70,6 @@ protected:
 
 	UFUNCTION()
 		void UpdateState();
-
-	UFUNCTION()
-		void UpdateSelfLocation();
 	
 	UFUNCTION()
 		void PrintLog(FString String);
@@ -78,6 +80,11 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	/** Returns CameraBoom subobject **/
+	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+	/** Returns FollowCamera subobject **/
+	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 	
 };
 

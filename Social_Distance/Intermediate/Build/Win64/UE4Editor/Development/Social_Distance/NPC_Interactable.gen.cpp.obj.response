@@ -31,33 +31,54 @@
 /wd4244
 /wd4838
 /I .
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
+/I ..\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4Editor\Inc\Niagara
+/I ..\Plugins\FX\Niagara\Source
+/I ..\Plugins\FX\Niagara\Source\Niagara\Classes
+/I ..\Plugins\FX\Niagara\Source\Niagara\Public
+/I ..\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4Editor\Inc\NiagaraCore
+/I ..\Plugins\FX\Niagara\Source\NiagaraCore\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime
-/I Runtime\Engine\Classes
-/I Runtime\Engine\Public
+/I Runtime\CoreUObject\Public
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
-/I Runtime\CoreUObject\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\VectorVM
+/I Runtime\VectorVM\Public
+/I ..\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4Editor\Inc\NiagaraShader
+/I ..\Plugins\FX\Niagara\Source\NiagaraShader\Public
+/I Runtime\RenderCore\Public
+/I Runtime\RHI\Public
+/I Runtime\Projects\Public
+/I Runtime\Json\Public
+/I Developer
+/I Developer\DerivedDataCache\Public
+/I Developer\TargetPlatform\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AudioPlatformConfiguration
+/I Runtime\AudioPlatformConfiguration\Public
+/I Developer\DesktopPlatform\Public
+/I Runtime\Portal
+/I Runtime\Portal\LauncherPlatform\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene
+/I Runtime\MovieScene\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\InputCore
+/I Runtime\InputCore\Classes
+/I Runtime\InputCore\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
+/I Runtime\Engine\Classes
+/I Runtime\Engine\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\NetCore
 /I Runtime\Net
 /I Runtime\Net\Core\Classes
 /I Runtime\Net\Core\Public
 /I Runtime\ApplicationCore\Public
-/I Runtime\RHI\Public
-/I Runtime\Json\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore
 /I Runtime\SlateCore\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\InputCore
-/I Runtime\InputCore\Classes
-/I Runtime\InputCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Slate
 /I Runtime\Slate\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper
 /I Runtime\ImageWrapper\Public
 /I Runtime\Messaging\Public
 /I Runtime\MessagingCommon\Public
-/I Runtime\RenderCore\Public
 /I Runtime\Analytics
 /I Runtime\Analytics\AnalyticsET\Public
 /I Runtime\Analytics\Analytics\Public
@@ -81,8 +102,6 @@
 /I Runtime\PacketHandlers\PacketHandler\Classes
 /I Runtime\PacketHandlers\PacketHandler\Public
 /I Runtime\PacketHandlers\ReliabilityHandlerComponent\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AudioPlatformConfiguration
-/I Runtime\AudioPlatformConfiguration\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescription
 /I Runtime\MeshDescription\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\StaticMeshDescription
@@ -114,10 +133,8 @@
 /I Developer\Android\AndroidDeviceDetection\Public\Interfaces
 /I Editor\UnrealEd\Classes
 /I Editor\UnrealEd\Public
-/I Developer
 /I Developer\DirectoryWatcher\Public
 /I Editor\Documentation\Public
-/I Runtime\Projects\Public
 /I Runtime\SandboxFile\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle
 /I Editor\EditorStyle\Public
@@ -149,7 +166,6 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer
 /I Runtime\AudioMixer\Classes
 /I Runtime\AudioMixer\Public
-/I Developer\TargetPlatform\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor
 /I Editor\LevelEditor\Public
 /I Developer\Settings\Public
@@ -185,12 +201,10 @@
 /I Runtime\NetworkFileSystem\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\UMG
 /I Runtime\UMG\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene
-/I Runtime\MovieScene\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\TimeManagement
-/I Runtime\TimeManagement\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks
 /I Runtime\MovieSceneTracks\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\TimeManagement
+/I Runtime\TimeManagement\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AnimationCore
 /I Runtime\AnimationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath
@@ -230,8 +244,9 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance
-/I E:\SocialDistance\Social_Distance\Social_Distance\Source
+/I ..\Plugins\FX\Niagara\Source\NiagaraVertexFactories\Public
+/I E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance
+/I E:\Github\Group5\Social_Distance\Source
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MRMesh
@@ -259,18 +274,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30037\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\NPC_Interactable.gen.cpp"
-/FI"E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h"
-/Fo"E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\NPC_Interactable.gen.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/FI"E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\NPC_Interactable.gen.cpp"
+/FI"E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h"
+/Fo"E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\NPC_Interactable.gen.cpp.obj"
 /TP
 /GR-
 /W4

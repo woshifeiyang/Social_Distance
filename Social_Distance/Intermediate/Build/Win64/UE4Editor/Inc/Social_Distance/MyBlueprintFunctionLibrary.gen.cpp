@@ -18,8 +18,53 @@ void EmptyLinkFunctionForGeneratedCodeMyBlueprintFunctionLibrary() {}
 	ENGINE_API UClass* Z_Construct_UClass_UBlueprintFunctionLibrary();
 	UPackage* Z_Construct_UPackage__Script_Social_Distance();
 // End Cross Module References
+	DEFINE_FUNCTION(UMyBlueprintFunctionLibrary::execPrintLog)
+	{
+		P_GET_PROPERTY(FStrProperty,Z_Param_String);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		UMyBlueprintFunctionLibrary::PrintLog(Z_Param_String);
+		P_NATIVE_END;
+	}
 	void UMyBlueprintFunctionLibrary::StaticRegisterNativesUMyBlueprintFunctionLibrary()
 	{
+		UClass* Class = UMyBlueprintFunctionLibrary::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "PrintLog", &UMyBlueprintFunctionLibrary::execPrintLog },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UMyBlueprintFunctionLibrary_PrintLog_Statics
+	{
+		struct MyBlueprintFunctionLibrary_eventPrintLog_Parms
+		{
+			FString String;
+		};
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_String;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UMyBlueprintFunctionLibrary_PrintLog_Statics::NewProp_String = { "String", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyBlueprintFunctionLibrary_eventPrintLog_Parms, String), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMyBlueprintFunctionLibrary_PrintLog_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyBlueprintFunctionLibrary_PrintLog_Statics::NewProp_String,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyBlueprintFunctionLibrary_PrintLog_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MyBlueprintFunctionLibrary.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyBlueprintFunctionLibrary_PrintLog_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyBlueprintFunctionLibrary, nullptr, "PrintLog", nullptr, nullptr, sizeof(MyBlueprintFunctionLibrary_eventPrintLog_Parms), Z_Construct_UFunction_UMyBlueprintFunctionLibrary_PrintLog_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyBlueprintFunctionLibrary_PrintLog_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04042401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyBlueprintFunctionLibrary_PrintLog_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyBlueprintFunctionLibrary_PrintLog_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyBlueprintFunctionLibrary_PrintLog()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyBlueprintFunctionLibrary_PrintLog_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_UMyBlueprintFunctionLibrary_NoRegister()
 	{
@@ -28,6 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeMyBlueprintFunctionLibrary() {}
 	struct Z_Construct_UClass_UMyBlueprintFunctionLibrary_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -37,6 +83,9 @@ void EmptyLinkFunctionForGeneratedCodeMyBlueprintFunctionLibrary() {}
 	UObject* (*const Z_Construct_UClass_UMyBlueprintFunctionLibrary_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_UBlueprintFunctionLibrary,
 		(UObject* (*)())Z_Construct_UPackage__Script_Social_Distance,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_UMyBlueprintFunctionLibrary_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UMyBlueprintFunctionLibrary_PrintLog, "PrintLog" }, // 825384326
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyBlueprintFunctionLibrary_Statics::Class_MetaDataParams[] = {
@@ -53,11 +102,11 @@ void EmptyLinkFunctionForGeneratedCodeMyBlueprintFunctionLibrary() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		nullptr,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		0,
 		0,
 		0x001000A0u,
@@ -72,7 +121,7 @@ void EmptyLinkFunctionForGeneratedCodeMyBlueprintFunctionLibrary() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyBlueprintFunctionLibrary, 3102092950);
+	IMPLEMENT_CLASS(UMyBlueprintFunctionLibrary, 1613739768);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<UMyBlueprintFunctionLibrary>()
 	{
 		return UMyBlueprintFunctionLibrary::StaticClass();

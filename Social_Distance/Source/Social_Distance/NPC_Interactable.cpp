@@ -29,8 +29,7 @@ void ANPC_Interactable::BeginPlay()
 		//PrintLog("Main Character Loneliness is" + FString::SanitizeFloat(MainCharacter->Loneliness));
 		GetWorldTimerManager().SetTimer(TimerHandle_1, this, &ANPC_Interactable::UpdateState, 0.5f, true);
 	}
-	// 设定定时器，每隔0.5秒更新一次SelfLocation
-	GetWorldTimerManager().SetTimer(TimerHandle_2, this, &ANPC_Interactable::UpdateSelfLocation, 0.5f, true);
+	UpdateSelfLocation();
 }
 
 // Called every frame

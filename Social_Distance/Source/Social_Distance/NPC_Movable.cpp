@@ -23,6 +23,7 @@ void ANPC_Movable::BeginPlay()
 // Called every frame
 void ANPC_Movable::Tick(float DeltaTime)
 {
+	SelfLocation = GetActorLocation();
 	Super::Tick(DeltaTime);
 }
 

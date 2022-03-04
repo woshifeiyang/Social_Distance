@@ -17,14 +17,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Social_Distance_Source_Social_Distance_MainCharacter_h_12_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execPrintLog); \
-	DECLARE_FUNCTION(execUpdateSelfLocation); \
 	DECLARE_FUNCTION(execUpdateState);
 
 
 #define Social_Distance_Source_Social_Distance_MainCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execPrintLog); \
-	DECLARE_FUNCTION(execUpdateSelfLocation); \
 	DECLARE_FUNCTION(execUpdateState);
 
 

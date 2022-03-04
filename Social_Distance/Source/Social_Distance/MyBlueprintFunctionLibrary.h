@@ -14,5 +14,7 @@ UCLASS()
 class SOCIAL_DISTANCE_API UMyBlueprintFunctionLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
-	
+
+	UFUNCTION(BlueprintCallable)
+		static void PrintLog(FString String);
 };

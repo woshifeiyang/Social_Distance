@@ -6,6 +6,9 @@
 AC_MainCharacter::AC_MainCharacter()
 {
 	bShowMouseCursor = true;
+	bEnableClickEvents = true;
+	bEnableMouseOverEvents = true;
+	
 }
 
 void AC_MainCharacter::BeginPlay()
