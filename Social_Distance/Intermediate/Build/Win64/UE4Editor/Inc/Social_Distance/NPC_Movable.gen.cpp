@@ -17,17 +17,11 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Movable() {}
 	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_ANPC_Movable();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Social_Distance();
+	ENGINE_API UClass* Z_Construct_UClass_UFXSystemComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
-	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FTimerHandle();
+	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_AMainCharacter_NoRegister();
 // End Cross Module References
-	DEFINE_FUNCTION(ANPC_Movable::execGetLocation)
-	{
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->GetLocation();
-		P_NATIVE_END;
-	}
 	DEFINE_FUNCTION(ANPC_Movable::execPrintLog)
 	{
 		P_GET_PROPERTY(FStrProperty,Z_Param_String);
@@ -36,36 +30,22 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Movable() {}
 		P_THIS->PrintLog(Z_Param_String);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(ANPC_Movable::execSetNiagaraEffect)
+	{
+		P_GET_OBJECT(UFXSystemComponent,Z_Param_UFXComponent);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetNiagaraEffect(Z_Param_UFXComponent);
+		P_NATIVE_END;
+	}
 	void ANPC_Movable::StaticRegisterNativesANPC_Movable()
 	{
 		UClass* Class = ANPC_Movable::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "GetLocation", &ANPC_Movable::execGetLocation },
 			{ "PrintLog", &ANPC_Movable::execPrintLog },
+			{ "SetNiagaraEffect", &ANPC_Movable::execSetNiagaraEffect },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_ANPC_Movable_GetLocation_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ANPC_Movable_GetLocation_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "NPC_Movable.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ANPC_Movable_GetLocation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ANPC_Movable, nullptr, "GetLocation", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ANPC_Movable_GetLocation_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ANPC_Movable_GetLocation_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ANPC_Movable_GetLocation()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ANPC_Movable_GetLocation_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ANPC_Movable_PrintLog_Statics
 	{
@@ -99,6 +79,46 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Movable() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ANPC_Movable_SetNiagaraEffect_Statics
+	{
+		struct NPC_Movable_eventSetNiagaraEffect_Parms
+		{
+			UFXSystemComponent* UFXComponent;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_UFXComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_UFXComponent;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ANPC_Movable_SetNiagaraEffect_Statics::NewProp_UFXComponent_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ANPC_Movable_SetNiagaraEffect_Statics::NewProp_UFXComponent = { "UFXComponent", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(NPC_Movable_eventSetNiagaraEffect_Parms, UFXComponent), Z_Construct_UClass_UFXSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ANPC_Movable_SetNiagaraEffect_Statics::NewProp_UFXComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ANPC_Movable_SetNiagaraEffect_Statics::NewProp_UFXComponent_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ANPC_Movable_SetNiagaraEffect_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ANPC_Movable_SetNiagaraEffect_Statics::NewProp_UFXComponent,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ANPC_Movable_SetNiagaraEffect_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "NPC_Movable.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ANPC_Movable_SetNiagaraEffect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ANPC_Movable, nullptr, "SetNiagaraEffect", nullptr, nullptr, sizeof(NPC_Movable_eventSetNiagaraEffect_Parms), Z_Construct_UFunction_ANPC_Movable_SetNiagaraEffect_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ANPC_Movable_SetNiagaraEffect_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ANPC_Movable_SetNiagaraEffect_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ANPC_Movable_SetNiagaraEffect_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ANPC_Movable_SetNiagaraEffect()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ANPC_Movable_SetNiagaraEffect_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ANPC_Movable_NoRegister()
 	{
 		return ANPC_Movable::StaticClass();
@@ -124,13 +144,17 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Movable() {}
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_WalkingSpeed;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EffectDisappearingRange_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_EffectDisappearingRange;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SelfLocation_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_SelfLocation;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TimerHandle_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MainCharacter_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_TimerHandle;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MainCharacter;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -140,8 +164,8 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Movable() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Social_Distance,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ANPC_Movable_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ANPC_Movable_GetLocation, "GetLocation" }, // 3280369959
 		{ &Z_Construct_UFunction_ANPC_Movable_PrintLog, "PrintLog" }, // 4059485821
+		{ &Z_Construct_UFunction_ANPC_Movable_SetNiagaraEffect, "SetNiagaraEffect" }, // 3765847512
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Movable_Statics::Class_MetaDataParams[] = {
@@ -173,6 +197,13 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Movable() {}
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ANPC_Movable_Statics::NewProp_WalkingSpeed = { "WalkingSpeed", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Movable, WalkingSpeed), METADATA_PARAMS(Z_Construct_UClass_ANPC_Movable_Statics::NewProp_WalkingSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Movable_Statics::NewProp_WalkingSpeed_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Movable_Statics::NewProp_EffectDisappearingRange_MetaData[] = {
+		{ "Category", "WalkingProperty" },
+		{ "ModuleRelativePath", "NPC_Movable.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANPC_Movable_Statics::NewProp_EffectDisappearingRange = { "EffectDisappearingRange", nullptr, (EPropertyFlags)0x0010000000030015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Movable, EffectDisappearingRange), METADATA_PARAMS(Z_Construct_UClass_ANPC_Movable_Statics::NewProp_EffectDisappearingRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Movable_Statics::NewProp_EffectDisappearingRange_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Movable_Statics::NewProp_SelfLocation_MetaData[] = {
 		{ "Category", "NPC_Movable" },
 		{ "ModuleRelativePath", "NPC_Movable.h" },
@@ -180,18 +211,19 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Movable() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ANPC_Movable_Statics::NewProp_SelfLocation = { "SelfLocation", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Movable, SelfLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ANPC_Movable_Statics::NewProp_SelfLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Movable_Statics::NewProp_SelfLocation_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Movable_Statics::NewProp_TimerHandle_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Movable_Statics::NewProp_MainCharacter_MetaData[] = {
 		{ "ModuleRelativePath", "NPC_Movable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ANPC_Movable_Statics::NewProp_TimerHandle = { "TimerHandle", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Movable, TimerHandle), Z_Construct_UScriptStruct_FTimerHandle, METADATA_PARAMS(Z_Construct_UClass_ANPC_Movable_Statics::NewProp_TimerHandle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Movable_Statics::NewProp_TimerHandle_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPC_Movable_Statics::NewProp_MainCharacter = { "MainCharacter", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Movable, MainCharacter), Z_Construct_UClass_AMainCharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANPC_Movable_Statics::NewProp_MainCharacter_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Movable_Statics::NewProp_MainCharacter_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANPC_Movable_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Movable_Statics::NewProp_Waypoints_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Movable_Statics::NewProp_Waypoints,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Movable_Statics::NewProp_WaitTime,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Movable_Statics::NewProp_WalkingSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Movable_Statics::NewProp_EffectDisappearingRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Movable_Statics::NewProp_SelfLocation,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Movable_Statics::NewProp_TimerHandle,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Movable_Statics::NewProp_MainCharacter,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANPC_Movable_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ANPC_Movable>::IsAbstract,
@@ -220,7 +252,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Movable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANPC_Movable, 3265996182);
+	IMPLEMENT_CLASS(ANPC_Movable, 2188471273);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<ANPC_Movable>()
 	{
 		return ANPC_Movable::StaticClass();

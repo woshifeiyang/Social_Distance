@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "MainCharacter.h"
+#include "Particles/ParticleSystemComponent.h"
 #include "NPC_Interactable.generated.h"
 
 UCLASS()
@@ -49,6 +50,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
 		float RiskIncreaseRate;
 
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = WalkingProperty)
+		float EffectDisappearingRange;
+
 	UPROPERTY()
 		AMainCharacter* MainCharacter;
 
@@ -76,6 +80,9 @@ public:
 
 	UFUNCTION()
 		void UpdateSelfLocation();
+
+	UFUNCTION(BlueprintCallable)
+		void SetNiagaraEffect(UFXSystemComponent* UFXComponent);
 	
 	UFUNCTION()
 		void PrintLog(FString String);

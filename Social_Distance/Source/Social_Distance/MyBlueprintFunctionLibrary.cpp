@@ -3,7 +3,9 @@
 
 #include "MyBlueprintFunctionLibrary.h"
 #include "MainCharacter.h"
+#include "NiagaraSystem.h"
 #include "Kismet/GameplayStatics.h"
+#include "Particles/ParticleSystemComponent.h"
 
 void UMyBlueprintFunctionLibrary::PrintLog(FString String)
 {
@@ -12,3 +14,11 @@ void UMyBlueprintFunctionLibrary::PrintLog(FString String)
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, String);
 	}
 }
+
+void UMyBlueprintFunctionLibrary::SetNiagaraEffect(UFXSystemComponent* UFXComponent, FVector NPCVector, FVector PlayerVector)
+{
+	//UWorld* World = GEngine->GameViewport->GetWorld();
+	//AMainCharacter* MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(World, AMainCharacter::StaticClass()));
+	//FVector NPCPostion(MainCharacter -> SelfLocation.X, MainCharacter -> SelfLocation.Y, MainCharacter -> SelfLocation.Z - 80);
+}
+

@@ -39,7 +39,7 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 		TArray<float> DistanceList;
 
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FVector SelfLocation;
 
 	UPROPERTY()

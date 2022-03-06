@@ -48,7 +48,6 @@ void AMainCharacter::BeginPlay()
 	// 获取所有NPC对象
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ANPC_Interactable::StaticClass(), InteractableNPCList);
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ANPC_Movable::StaticClass(), MovableNPCList);
-	
 	// 设定定时器，每隔0.5秒更新一次孤单值和风险值
 	GetWorldTimerManager().SetTimer(TimerHandle_1, this, &AMainCharacter::UpdateState, 0.5f, true);
 

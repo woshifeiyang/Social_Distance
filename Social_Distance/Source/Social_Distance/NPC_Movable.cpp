@@ -2,6 +2,7 @@
 
 
 #include "NPC_Movable.h"
+#include "Kismet/GameplayStatics.h"
 #include "Components/CapsuleComponent.h"
 
 // Sets default values
@@ -16,15 +17,15 @@ ANPC_Movable::ANPC_Movable()
 void ANPC_Movable::BeginPlay()
 {
 	Super::BeginPlay();
-
-	GetWorldTimerManager().SetTimer(TimerHandle, this, &ANPC_Movable::GetLocation, 0.5f, false);
+	EffectDisappearingRange = 1500.0f;
+	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
 }
 
 // Called every frame
 void ANPC_Movable::Tick(float DeltaTime)
 {
-	SelfLocation = GetActorLocation();
 	Super::Tick(DeltaTime);
+	SelfLocation = GetActorLocation();
 }
 
 // Called to bind functionality to input
@@ -34,9 +35,18 @@ void ANPC_Movable::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 }
 
-void ANPC_Movable::GetLocation()
+void ANPC_Movable::SetNiagaraEffect(UFXSystemComponent* UFXComponent)
 {
-	SelfLocation = GetActorLocation();
+	if(MainCharacter)
+	{
+		if(GetDistanceTo(MainCharacter) < EffectDisappearingRange)
+		{
+			FVector NPCPosition(SelfLocation.X, SelfLocation.Y, SelfLocation.Z - 80);
+			FVector MCPosition(MainCharacter -> SelfLocation.X, MainCharacter -> SelfLocation.Y, MainCharacter -> SelfLocation.Z - 80);
+			UFXComponent -> SetVectorParameter("NPC_POS", NPCPosition);
+			UFXComponent -> SetVectorParameter("Player_POS", MCPosition);
+		}
+	}
 }
 
 void ANPC_Movable::PrintLog(FString String)
@@ -46,5 +56,7 @@ void ANPC_Movable::PrintLog(FString String)
 		GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Red, String);
 	}
 }
+
+
 
 

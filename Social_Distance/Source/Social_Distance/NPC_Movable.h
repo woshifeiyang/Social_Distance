@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Particles/ParticleSystemComponent.h"
+#include "MainCharacter.h"
 #include "NPC_Movable.generated.h"
 
 UCLASS()
@@ -24,10 +26,15 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = WalkingProperty)
 		int32 WalkingSpeed;
 
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = WalkingProperty)
+		float EffectDisappearingRange;
+
 	UPROPERTY(BlueprintReadOnly)
 		FVector SelfLocation;
 	
 	UPROPERTY()
+		AMainCharacter* MainCharacter;
+	
 		FTimerHandle TimerHandle;
 	
 protected:
@@ -41,9 +48,9 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	UFUNCTION()
-		void PrintLog(FString String);
+	UFUNCTION(BlueprintCallable)
+		void SetNiagaraEffect(UFXSystemComponent* UFXComponent);
 
 	UFUNCTION()
-		void GetLocation();
+		void PrintLog(FString String);
 };

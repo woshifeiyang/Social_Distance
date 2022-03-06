@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_ANPC_Interactable();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Social_Distance();
+	ENGINE_API UClass* Z_Construct_UClass_UFXSystemComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_AMainCharacter_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
@@ -27,6 +28,14 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		P_THIS->PrintLog(Z_Param_String);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ANPC_Interactable::execSetNiagaraEffect)
+	{
+		P_GET_OBJECT(UFXSystemComponent,Z_Param_UFXComponent);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetNiagaraEffect(Z_Param_UFXComponent);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(ANPC_Interactable::execUpdateSelfLocation)
@@ -48,6 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		UClass* Class = ANPC_Interactable::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "PrintLog", &ANPC_Interactable::execPrintLog },
+			{ "SetNiagaraEffect", &ANPC_Interactable::execSetNiagaraEffect },
 			{ "UpdateSelfLocation", &ANPC_Interactable::execUpdateSelfLocation },
 			{ "UpdateState", &ANPC_Interactable::execUpdateState },
 		};
@@ -82,6 +92,46 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ANPC_Interactable_PrintLog_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics
+	{
+		struct NPC_Interactable_eventSetNiagaraEffect_Parms
+		{
+			UFXSystemComponent* UFXComponent;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_UFXComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_UFXComponent;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::NewProp_UFXComponent_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::NewProp_UFXComponent = { "UFXComponent", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(NPC_Interactable_eventSetNiagaraEffect_Parms, UFXComponent), Z_Construct_UClass_UFXSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::NewProp_UFXComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::NewProp_UFXComponent_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::NewProp_UFXComponent,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "NPC_Interactable.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ANPC_Interactable, nullptr, "SetNiagaraEffect", nullptr, nullptr, sizeof(NPC_Interactable_eventSetNiagaraEffect_Parms), Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -187,6 +237,10 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RiskIncreaseRate;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EffectDisappearingRange_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_EffectDisappearingRange;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MainCharacter_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MainCharacter;
@@ -205,6 +259,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ANPC_Interactable_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ANPC_Interactable_PrintLog, "PrintLog" }, // 3365130430
+		{ &Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect, "SetNiagaraEffect" }, // 3402058150
 		{ &Z_Construct_UFunction_ANPC_Interactable_UpdateSelfLocation, "UpdateSelfLocation" }, // 3560911303
 		{ &Z_Construct_UFunction_ANPC_Interactable_UpdateState, "UpdateState" }, // 3250076958
 	};
@@ -299,6 +354,13 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_RiskIncreaseRate = { "RiskIncreaseRate", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, RiskIncreaseRate), METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_RiskIncreaseRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_RiskIncreaseRate_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_EffectDisappearingRange_MetaData[] = {
+		{ "Category", "WalkingProperty" },
+		{ "ModuleRelativePath", "NPC_Interactable.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_EffectDisappearingRange = { "EffectDisappearingRange", nullptr, (EPropertyFlags)0x0010000000030015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, EffectDisappearingRange), METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_EffectDisappearingRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_EffectDisappearingRange_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainCharacter_MetaData[] = {
 		{ "ModuleRelativePath", "NPC_Interactable.h" },
 	};
@@ -323,6 +385,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_RiskRangeValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_LonelinessDeclineRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_RiskIncreaseRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_EffectDisappearingRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainCharacter,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors,
@@ -354,7 +417,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANPC_Interactable, 1588854819);
+	IMPLEMENT_CLASS(ANPC_Interactable, 1681186542);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<ANPC_Interactable>()
 	{
 		return ANPC_Interactable::StaticClass();
