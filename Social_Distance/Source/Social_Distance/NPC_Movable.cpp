@@ -41,10 +41,14 @@ void ANPC_Movable::SetNiagaraEffect(UFXSystemComponent* UFXComponent)
 	{
 		if(GetDistanceTo(MainCharacter) < EffectDisappearingRange)
 		{
+			UFXComponent->SetVisibility(true);
 			FVector NPCPosition(SelfLocation.X, SelfLocation.Y, SelfLocation.Z - 80);
 			FVector MCPosition(MainCharacter -> SelfLocation.X, MainCharacter -> SelfLocation.Y, MainCharacter -> SelfLocation.Z - 80);
 			UFXComponent -> SetVectorParameter("NPC_POS", NPCPosition);
 			UFXComponent -> SetVectorParameter("Player_POS", MCPosition);
+		} else
+		{
+			UFXComponent->SetVisibility(false);
 		}
 	}
 }

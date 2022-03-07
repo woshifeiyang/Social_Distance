@@ -46,6 +46,18 @@ void ANPC_Interactable::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 
 }
 
+void ANPC_Interactable::NotifyActorOnClicked(FKey ButtonPressed)
+{
+	Super::NotifyActorOnClicked(ButtonPressed);
+	PrintLog("Click successfully");
+}
+
+void ANPC_Interactable::NotifyActorBeginCursorOver()
+{
+	Super::NotifyActorBeginCursorOver();
+	PrintLog("Cursor Over");
+}
+
 void ANPC_Interactable::UpdateState()
 {
 	Distance = GetDistanceTo(MainCharacter);
@@ -80,10 +92,14 @@ void ANPC_Interactable::SetNiagaraEffect(UFXSystemComponent* UFXComponent)
 	{
 		if(GetDistanceTo(MainCharacter) < EffectDisappearingRange)
 		{
+			UFXComponent->SetVisibility(true);
 			FVector NPCPosition(SelfLocation.X, SelfLocation.Y, SelfLocation.Z - 80);
 			FVector MCPosition(MainCharacter -> SelfLocation.X, MainCharacter -> SelfLocation.Y, MainCharacter -> SelfLocation.Z - 80);
 			UFXComponent -> SetVectorParameter("NPC_POS", NPCPosition);
 			UFXComponent -> SetVectorParameter("Player_POS", MCPosition);
+		}else
+		{
+			UFXComponent->SetVisibility(false);
 		}
 	}
 }

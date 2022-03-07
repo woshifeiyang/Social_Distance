@@ -75,6 +75,10 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	virtual void NotifyActorOnClicked(FKey ButtonPressed = EKeys::LeftMouseButton) override;
+
+	virtual void NotifyActorBeginCursorOver() override;
+	
 	UFUNCTION()
 		void UpdateState();
 
