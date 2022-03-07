@@ -22,7 +22,7 @@ void ANPC_Interactable::BeginPlay()
 	Loneliness = InitLoneliness;
 	Risk = InitRisk;
 	IsIndoor = false;
-	EffectDisappearingRange = 1500.0f;
+	EffectDisappearingDistance = 1000.0f;
 	
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
 	if(MainCharacter)
@@ -78,7 +78,7 @@ void ANPC_Interactable::SetNiagaraEffect(UFXSystemComponent* UFXComponent)
 {
 	if(MainCharacter)
 	{
-		if(GetDistanceTo(MainCharacter) < EffectDisappearingRange)
+		if(GetDistanceTo(MainCharacter) < EffectDisappearingDistance)
 		{
 			FVector NPCPosition(SelfLocation.X, SelfLocation.Y, SelfLocation.Z - 80);
 			FVector MCPosition(MainCharacter -> SelfLocation.X, MainCharacter -> SelfLocation.Y, MainCharacter -> SelfLocation.Z - 80);

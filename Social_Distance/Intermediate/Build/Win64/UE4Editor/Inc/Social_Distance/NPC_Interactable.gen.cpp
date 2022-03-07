@@ -237,9 +237,9 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RiskIncreaseRate;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EffectDisappearingRange_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EffectDisappearingDistance_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_EffectDisappearingRange;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_EffectDisappearingDistance;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MainCharacter_MetaData[];
 #endif
@@ -354,12 +354,12 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_RiskIncreaseRate = { "RiskIncreaseRate", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, RiskIncreaseRate), METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_RiskIncreaseRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_RiskIncreaseRate_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_EffectDisappearingRange_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_EffectDisappearingDistance_MetaData[] = {
 		{ "Category", "WalkingProperty" },
 		{ "ModuleRelativePath", "NPC_Interactable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_EffectDisappearingRange = { "EffectDisappearingRange", nullptr, (EPropertyFlags)0x0010000000030015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, EffectDisappearingRange), METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_EffectDisappearingRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_EffectDisappearingRange_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_EffectDisappearingDistance = { "EffectDisappearingDistance", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, EffectDisappearingDistance), METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_EffectDisappearingDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_EffectDisappearingDistance_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainCharacter_MetaData[] = {
 		{ "ModuleRelativePath", "NPC_Interactable.h" },
@@ -385,7 +385,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_RiskRangeValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_LonelinessDeclineRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_RiskIncreaseRate,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_EffectDisappearingRange,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_EffectDisappearingDistance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainCharacter,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors,
@@ -417,7 +417,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANPC_Interactable, 1681186542);
+	IMPLEMENT_CLASS(ANPC_Interactable, 45069046);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<ANPC_Interactable>()
 	{
 		return ANPC_Interactable::StaticClass();

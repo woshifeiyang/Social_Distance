@@ -17,7 +17,7 @@ ANPC_Movable::ANPC_Movable()
 void ANPC_Movable::BeginPlay()
 {
 	Super::BeginPlay();
-	EffectDisappearingRange = 1500.0f;
+	EffectDisappearingDistance = 1000.0f;
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
 }
 
@@ -39,7 +39,7 @@ void ANPC_Movable::SetNiagaraEffect(UFXSystemComponent* UFXComponent)
 {
 	if(MainCharacter)
 	{
-		if(GetDistanceTo(MainCharacter) < EffectDisappearingRange)
+		if(GetDistanceTo(MainCharacter) < EffectDisappearingDistance)
 		{
 			FVector NPCPosition(SelfLocation.X, SelfLocation.Y, SelfLocation.Z - 80);
 			FVector MCPosition(MainCharacter -> SelfLocation.X, MainCharacter -> SelfLocation.Y, MainCharacter -> SelfLocation.Z - 80);
