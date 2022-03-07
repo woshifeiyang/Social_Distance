@@ -50,8 +50,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
 		float RiskIncreaseRate;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = WalkingProperty)
-		float EffectDisappearingDistance;
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = WalkingProperty)
+		float EffectDisappearingRange;
 
 	UPROPERTY()
 		AMainCharacter* MainCharacter;
