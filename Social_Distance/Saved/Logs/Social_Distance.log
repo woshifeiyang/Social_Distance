@@ -1928,3 +1928,755 @@ Make sure 'WB_InGameInterface' has been compiled for  Get Risk
 [2022.03.08-13.58.20:791][173]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Rachel_Art_sceneE08D7C8A420D2327485B3BBB1399A4D4.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/StarterContent/Maps/Rachel_Art_scene.umap'
 [2022.03.08-13.58.20:843][173]AssetCheck: New page: Asset Save: Rachel_Art_scene
 [2022.03.08-13.58.20:843][173]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Rachel_Art_scene.Rachel_Art_scene
+[2022.03.08-14.05.29:341][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sam)
+[2022.03.08-14.05.32:193][ 27]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.05.46:599][586]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 \\StuHomeOdd\HomeDrive3$\1700843\Cassandro\509\stall2.fbx)
+[2022.03.08-14.05.46:623][586]LogFbx: Loading FBX Scene from \\StuHomeOdd\HomeDrive3$\1700843\Cassandro\509\stall2.fbx
+[2022.03.08-14.05.46:640][586]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.08-14.05.48:620][586]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.03.08-14.05.48:735][586]LogFbx: Display: Triangulating static mesh pCube116
+[2022.03.08-14.05.48:827][586]LogStaticMesh: Building static mesh stall2...
+[2022.03.08-14.05.48:880][586]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/Enviorment/stall2.stall2
+[2022.03.08-14.05.48:901][586]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.03.08-14.05.50:495][720]LogActorFactory: Actor Factory created stall2
+[2022.03.08-14.05.52:027][889]LogActorFactory: Actor Factory created stall2
+[2022.03.08-14.05.53:269][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.05.58:481][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sarah)
+[2022.03.08-14.06.04:480][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.06.05:775][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.06.06:253][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall7)
+[2022.03.08-14.06.11:619][105]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Enviorment/stall2.stall2
+[2022.03.08-14.06.12:086][106]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:1).
+[2022.03.08-14.06.41:793][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Enviorment/stall2" FILE="//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/stall2.uasset" SILENT=true
+[2022.03.08-14.06.41:878][ 76]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/stall22016D1614CF90B55AC730695E52085DB.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/stall2.uasset'
+[2022.03.08-14.06.41:907][ 76]AssetCheck: New page: Asset Save: stall2
+[2022.03.08-14.06.41:907][ 76]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Enviorment/stall2.stall2
+[2022.03.08-14.06.43:433][214]LogActorFactory: Actor Factory created stall2
+[2022.03.08-14.06.46:181][461]LogActorFactory: Actor Factory created stall2
+[2022.03.08-14.06.49:482][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall7)
+[2022.03.08-14.06.50:332][874]Cmd: DELETE
+[2022.03.08-14.06.50:332][874]Cmd: ACTOR DELETE
+[2022.03.08-14.06.50:347][874]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.08-14.06.50:353][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.03.08-14.06.50:356][874]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2022.03.08-14.06.51:502][  8]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall8)
+[2022.03.08-14.06.57:514][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.07.05:273][302]LogEditorFactories: Performing atomic reimport of [//StuHomeOdd/HomeDrive3$/1700843/Cassandro/509/stall2.fbx]
+[2022.03.08-14.07.05:319][302]LogFbx: Loading FBX Scene from //StuHomeOdd/HomeDrive3$/1700843/Cassandro/509/stall2.fbx
+[2022.03.08-14.07.05:329][302]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.08-14.07.05:369][302]LogFbx: Display: Triangulating static mesh pCube116
+[2022.03.08-14.07.05:485][302]LogStaticMesh: Building static mesh stall2...
+[2022.03.08-14.07.05:534][302]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/Enviorment/stall2.stall2
+[2022.03.08-14.07.05:558][302]LogEditorFactories: -- imported successfully
+[2022.03.08-14.07.05:561][302]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.03.08-14.07.08:827][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall8)
+[2022.03.08-14.07.13:960][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Enviorment/stall2" FILE="//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/stall2.uasset" SILENT=true
+[2022.03.08-14.07.14:063][992]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/stall2214B0C784487C79D3073C8B13187DC7C.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/stall2.uasset'
+[2022.03.08-14.07.14:097][992]AssetCheck: New page: Asset Save: stall2
+[2022.03.08-14.07.14:097][992]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Enviorment/stall2.stall2
+[2022.03.08-14.07.17:419][271]LogEditorFactories: Performing atomic reimport of [//StuHomeOdd/HomeDrive3$/1700843/Cassandro/509/stall2.fbx]
+[2022.03.08-14.07.17:462][271]LogFbx: Loading FBX Scene from //StuHomeOdd/HomeDrive3$/1700843/Cassandro/509/stall2.fbx
+[2022.03.08-14.07.17:473][271]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.08-14.07.17:501][271]LogFbx: Display: Triangulating static mesh pCube116
+[2022.03.08-14.07.17:599][271]LogStaticMesh: Building static mesh stall2...
+[2022.03.08-14.07.17:649][271]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/Enviorment/stall2.stall2
+[2022.03.08-14.07.17:673][271]LogEditorFactories: -- imported successfully
+[2022.03.08-14.07.17:675][271]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.03.08-14.07.18:369][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.07.19:772][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall8)
+[2022.03.08-14.07.23:668][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bench)
+[2022.03.08-14.07.28:381][258]Cmd: TRANSACTION UNDO
+[2022.03.08-14.07.28:381][258]LogEditorTransaction: Undo Move Actors
+[2022.03.08-14.07.28:387][258]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2022.03.08-14.07.28:437][258]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.08-14.07.28:437][258]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.08-14.07.28:437][258]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.08-14.07.28:437][258]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.08-14.07.28:437][258]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.08-14.07.28:437][258]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.08-14.07.28:437][258]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.08-14.07.28:438][258]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.08-14.07.28:487][258]LogMaterial: Display: Missing cached shader map for material lambert10, compiling. 
+[2022.03.08-14.07.28:497][258]LogMaterial: Display: Missing cached shader map for material lambert14, compiling. 
+[2022.03.08-14.07.28:513][258]LogMaterial: Display: Missing cached shader map for material Black, compiling. 
+[2022.03.08-14.07.28:761][261]Cmd: TRANSACTION UNDO
+[2022.03.08-14.07.28:761][261]LogEditorTransaction: Undo Move Actors
+[2022.03.08-14.07.28:763][261]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2022.03.08-14.07.28:863][261]LogMaterial: Display: Missing cached shader map for material lambert10, compiling. 
+[2022.03.08-14.07.28:872][261]LogMaterial: Display: Missing cached shader map for material lambert14, compiling. 
+[2022.03.08-14.07.28:881][261]LogMaterial: Display: Missing cached shader map for material Black, compiling. 
+[2022.03.08-14.07.29:359][282]Cmd: TRANSACTION UNDO
+[2022.03.08-14.07.29:359][282]LogEditorTransaction: Undo Clicking on Actors
+[2022.03.08-14.07.29:381][282]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2022.03.08-14.07.29:484][282]LogMaterial: Display: Missing cached shader map for material lambert10, compiling. 
+[2022.03.08-14.07.29:493][282]LogMaterial: Display: Missing cached shader map for material lambert14, compiling. 
+[2022.03.08-14.07.29:501][282]LogMaterial: Display: Missing cached shader map for material Black, compiling. 
+[2022.03.08-14.07.30:104][315]Cmd: TRANSACTION UNDO
+[2022.03.08-14.07.30:104][315]LogEditorTransaction: Undo Scale Actors
+[2022.03.08-14.07.30:108][315]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2022.03.08-14.07.30:204][315]LogMaterial: Display: Missing cached shader map for material lambert10, compiling. 
+[2022.03.08-14.07.30:211][315]LogMaterial: Display: Missing cached shader map for material lambert14, compiling. 
+[2022.03.08-14.07.30:219][315]LogMaterial: Display: Missing cached shader map for material Black, compiling. 
+[2022.03.08-14.07.31:432][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.07.32:098][429]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 36
+[2022.03.08-14.07.32:098][429]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 35
+[2022.03.08-14.07.32:230][436]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 34
+[2022.03.08-14.07.32:288][439]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 33
+[2022.03.08-14.07.32:333][441]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 32
+[2022.03.08-14.07.32:334][441]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 31
+[2022.03.08-14.07.32:354][442]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 30
+[2022.03.08-14.07.32:374][443]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 29
+[2022.03.08-14.07.32:665][457]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 28
+[2022.03.08-14.07.32:665][457]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 27
+[2022.03.08-14.07.32:724][460]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 26
+[2022.03.08-14.07.32:760][462]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 25
+[2022.03.08-14.07.32:947][471]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 24
+[2022.03.08-14.07.33:013][474]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 23
+[2022.03.08-14.07.33:031][475]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 22
+[2022.03.08-14.07.33:031][475]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 21
+[2022.03.08-14.07.33:051][476]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 20
+[2022.03.08-14.07.33:077][477]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.07.33:077][477]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.07.33:077][477]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.07.33:077][477]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.07.33:157][481]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 19
+[2022.03.08-14.07.33:305][488]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 18
+[2022.03.08-14.07.33:329][489]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 17
+[2022.03.08-14.07.33:452][495]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 16
+[2022.03.08-14.07.33:588][502]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 15
+[2022.03.08-14.07.33:589][502]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 14
+[2022.03.08-14.07.33:662][506]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 13
+[2022.03.08-14.07.33:716][509]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2022.03.08-14.07.33:716][509]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 11
+[2022.03.08-14.07.33:740][510]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.07.33:740][510]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.07.33:740][510]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.07.33:740][510]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.07.33:869][517]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2022.03.08-14.07.33:870][517]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2022.03.08-14.07.33:953][521]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2022.03.08-14.07.34:161][531]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.08-14.07.34:225][534]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2022.03.08-14.07.34:282][537]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2022.03.08-14.07.34:283][537]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2022.03.08-14.07.34:336][540]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2022.03.08-14.07.34:373][542]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.03.08-14.07.34:398][543]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.07.34:398][543]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.07.34:398][543]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.07.34:398][543]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.07.34:520][549]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.03.08-14.07.34:938][575]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.07.34:938][575]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.07.34:938][575]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.07.34:938][575]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.07.35:727][631]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.07.44:317][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.07.45:579][525]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.07.54:119][361]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.08.24:711][132]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2022.03.08-14.08.24:966][132]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Rachel_Art_scene_Auto10A37CD854E1D006040E28B98C23AE4C0.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Autosaves/Game/StarterContent/Maps/Rachel_Art_scene_Auto1.umap'
+[2022.03.08-14.08.24:981][132]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Rachel_Art_scene' took 0.277
+[2022.03.08-14.08.24:981][132]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.277
+[2022.03.08-14.08.24:983][132]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Enviorment/stall2] ([1] browsable assets)...
+[2022.03.08-14.08.24:991][132]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Enviorment/stall2.stall2]
+[2022.03.08-14.08.24:991][132]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enviorment/stall2]
+[2022.03.08-14.08.25:063][132]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/stall2_Auto10B48154D42EBFCE4A7DAF287E5D4B115.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Autosaves/Game/Assets/Enviorment/stall2_Auto1.uasset'
+[2022.03.08-14.08.25:070][132]LogFileHelpers: Auto-saving content packages took 0.089
+[2022.03.08-14.10.58:094][386]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 \\StuHomeOdd\HomeDrive3$\1700843\Cassandro\509\stall3.fbx)
+[2022.03.08-14.10.58:107][386]LogFbx: Loading FBX Scene from \\StuHomeOdd\HomeDrive3$\1700843\Cassandro\509\stall3.fbx
+[2022.03.08-14.10.58:132][386]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.08-14.11.05:221][386]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.03.08-14.11.05:250][386]LogFbx: Display: Triangulating static mesh polySurface200
+[2022.03.08-14.11.05:470][386]LogStaticMesh: Building static mesh stall3...
+[2022.03.08-14.11.05:572][386]LogStaticMesh: Built static mesh [0.10s] /Game/Assets/Enviorment/stall3.stall3
+[2022.03.08-14.11.05:615][386]FBXImport: FBX File Loading: Found name clash, node 'polySurface164' was renamed to 'polySurface1641' 
+[2022.03.08-14.11.05:616][386]FBXImport: FBX File Loading: Found name clash, node 'polySurface196' was renamed to 'polySurface1962' 
+[2022.03.08-14.11.05:616][386]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.03.08-14.11.06:636][460]LogActorFactory: Actor Factory created stall3
+[2022.03.08-14.11.07:558][565]LogActorFactory: Actor Factory created stall3
+[2022.03.08-14.11.18:930][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.11.20:689][ 90]Cmd: TRANSACTION UNDO
+[2022.03.08-14.11.20:689][ 90]LogEditorTransaction: Undo Move Actors
+[2022.03.08-14.11.20:690][ 90]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2022.03.08-14.11.20:745][ 90]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.08-14.11.20:745][ 90]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.08-14.11.20:745][ 90]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.08-14.11.20:745][ 90]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.08-14.11.20:745][ 90]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.08-14.11.20:745][ 90]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.08-14.11.20:745][ 90]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.08-14.11.20:745][ 90]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.08-14.11.20:783][ 90]LogMaterial: Display: Missing cached shader map for material lambert10, compiling. 
+[2022.03.08-14.11.20:791][ 90]LogMaterial: Display: Missing cached shader map for material lambert14, compiling. 
+[2022.03.08-14.11.20:799][ 90]LogMaterial: Display: Missing cached shader map for material Black, compiling. 
+[2022.03.08-14.11.21:355][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sarah)
+[2022.03.08-14.11.24:666][450]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 28
+[2022.03.08-14.11.24:666][450]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 27
+[2022.03.08-14.11.24:806][461]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 26
+[2022.03.08-14.11.24:849][464]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 25
+[2022.03.08-14.11.24:911][469]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 24
+[2022.03.08-14.11.24:911][469]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 23
+[2022.03.08-14.11.24:935][471]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 22
+[2022.03.08-14.11.24:947][472]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 21
+[2022.03.08-14.11.25:052][481]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 20
+[2022.03.08-14.11.25:070][482]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.11.25:070][482]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.11.25:070][482]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.11.25:070][482]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.11.25:258][495]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 19
+[2022.03.08-14.11.25:369][503]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 18
+[2022.03.08-14.11.25:396][505]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 17
+[2022.03.08-14.11.25:408][506]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 16
+[2022.03.08-14.11.25:551][517]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 15
+[2022.03.08-14.11.25:626][520]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 14
+[2022.03.08-14.11.25:651][521]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 13
+[2022.03.08-14.11.25:664][521]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 12
+[2022.03.08-14.11.25:675][522]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2022.03.08-14.11.25:696][523]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.11.25:696][523]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.11.25:696][523]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.11.25:696][523]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.11.25:804][528]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2022.03.08-14.11.25:960][535]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 9
+[2022.03.08-14.11.26:033][540]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2022.03.08-14.11.26:073][543]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2022.03.08-14.11.26:216][555]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.08-14.11.26:245][557]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2022.03.08-14.11.26:287][560]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.03.08-14.11.26:311][562]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.08-14.11.26:327][563]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.03.08-14.11.26:328][563]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.11.26:328][563]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.11.26:328][563]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.11.26:328][563]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.11.26:513][577]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.03.08-14.11.26:908][600]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.11.26:908][600]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.11.26:908][600]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.11.26:908][600]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.11.27:169][627]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.11.34:729][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall6)
+[2022.03.08-14.11.35:501][580]Cmd: DELETE
+[2022.03.08-14.11.35:501][580]Cmd: ACTOR DELETE
+[2022.03.08-14.11.35:504][580]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.08-14.11.35:509][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.03.08-14.11.35:512][580]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.03.08-14.11.36:202][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall2)
+[2022.03.08-14.11.36:448][688]Cmd: DELETE
+[2022.03.08-14.11.36:448][688]Cmd: ACTOR DELETE
+[2022.03.08-14.11.36:449][688]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.08-14.11.36:454][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.03.08-14.11.36:454][688]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.03.08-14.11.36:871][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall3)
+[2022.03.08-14.11.36:974][746]Cmd: DELETE
+[2022.03.08-14.11.36:974][746]Cmd: ACTOR DELETE
+[2022.03.08-14.11.36:976][746]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.08-14.11.36:980][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.03.08-14.11.36:981][746]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2022.03.08-14.11.37:423][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall4)
+[2022.03.08-14.11.37:702][829]Cmd: DELETE
+[2022.03.08-14.11.37:702][829]Cmd: ACTOR DELETE
+[2022.03.08-14.11.37:703][829]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.08-14.11.37:708][829]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.03.08-14.11.37:708][829]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.03.08-14.16.29:725][959]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 \\StuHomeOdd\HomeDrive3$\1700843\Cassandro\509\case.fbx)
+[2022.03.08-14.16.29:737][959]LogFbx: Loading FBX Scene from \\StuHomeOdd\HomeDrive3$\1700843\Cassandro\509\case.fbx
+[2022.03.08-14.16.29:746][959]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.08-14.16.34:560][959]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.03.08-14.16.34:586][959]LogFbx: Display: Triangulating static mesh pCube122
+[2022.03.08-14.16.34:634][959]LogStaticMesh: Building static mesh case...
+[2022.03.08-14.16.34:659][959]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Enviorment/case.case
+[2022.03.08-14.16.34:672][959]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.03.08-14.16.36:168][ 81]LogActorFactory: Actor Factory created case
+[2022.03.08-14.16.37:483][237]LogActorFactory: Actor Factory created case
+[2022.03.08-14.16.42:673][773]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Enviorment/bench.bench
+[2022.03.08-14.17.06:895][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Enviorment/bench" FILE="//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/bench.uasset" SILENT=true
+[2022.03.08-14.17.06:970][897]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/bench1C5F3317402A5A8EC2560A910357B9BE.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/bench.uasset'
+[2022.03.08-14.17.07:027][897]AssetCheck: New page: Asset Save: bench
+[2022.03.08-14.17.07:027][897]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Enviorment/bench.bench
+[2022.03.08-14.17.15:579][580]LogEditorFactories: Performing atomic reimport of [M:/Cassandro/509/bench.fbx]
+[2022.03.08-14.17.15:777][580]LogFbx: Loading FBX Scene from M:/Cassandro/509/bench.fbx
+[2022.03.08-14.17.15:784][580]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.08-14.17.15:790][580]LogStaticMesh: Building static mesh bench...
+[2022.03.08-14.17.15:824][580]LogStaticMesh: Built static mesh [0.03s] /Engine/Transient.bench
+[2022.03.08-14.17.15:853][580]LogFbx: Display: Triangulating static mesh pCube79
+[2022.03.08-14.17.15:904][580]LogStaticMesh: Building static mesh bench...
+[2022.03.08-14.17.15:925][580]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Enviorment/bench.bench
+[2022.03.08-14.17.15:939][580]LogEditorFactories: -- imported successfully
+[2022.03.08-14.17.15:942][580]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.03.08-14.17.16:767][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.17.17:235][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bench)
+[2022.03.08-14.17.18:839][818]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (case)
+[2022.03.08-14.17.32:764][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.17.34:473][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (case)
+[2022.03.08-14.17.39:559][708]Cmd: TRANSACTION UNDO
+[2022.03.08-14.17.39:559][708]LogEditorTransaction: Undo Move Actors
+[2022.03.08-14.17.39:561][708]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2022.03.08-14.17.39:595][708]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.08-14.17.39:595][708]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.08-14.17.39:595][708]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.08-14.17.39:595][708]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.08-14.17.39:595][708]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.08-14.17.39:595][708]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.08-14.17.39:595][708]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.08-14.17.39:595][708]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.08-14.17.39:728][708]LogMaterial: Display: Missing cached shader map for material lambert10, compiling. 
+[2022.03.08-14.17.39:738][708]LogMaterial: Display: Missing cached shader map for material lambert14, compiling. 
+[2022.03.08-14.17.39:747][708]LogMaterial: Display: Missing cached shader map for material Black, compiling. 
+[2022.03.08-14.17.40:812][765]Cmd: EDIT COPY
+[2022.03.08-14.17.41:050][781]Cmd: EDIT PASTE
+[2022.03.08-14.17.43:248][919]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 28
+[2022.03.08-14.17.43:248][919]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 27
+[2022.03.08-14.17.43:433][928]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 26
+[2022.03.08-14.17.43:455][929]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 25
+[2022.03.08-14.17.43:477][930]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2022.03.08-14.17.43:477][930]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 23
+[2022.03.08-14.17.43:516][932]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 22
+[2022.03.08-14.17.43:552][934]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 21
+[2022.03.08-14.17.43:651][939]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 20
+[2022.03.08-14.17.43:652][939]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.17.43:652][939]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.17.43:652][939]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.17.43:652][939]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.17.43:875][949]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 19
+[2022.03.08-14.17.43:897][950]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 18
+[2022.03.08-14.17.43:958][953]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 17
+[2022.03.08-14.17.44:090][960]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 16
+[2022.03.08-14.17.44:128][962]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2022.03.08-14.17.44:184][965]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 14
+[2022.03.08-14.17.44:246][968]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 13
+[2022.03.08-14.17.44:246][968]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 12
+[2022.03.08-14.17.44:304][970]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 11
+[2022.03.08-14.17.44:333][971]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.17.44:333][971]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.17.44:333][971]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.17.44:333][971]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.17.44:516][979]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2022.03.08-14.17.44:541][980]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 9
+[2022.03.08-14.17.44:586][982]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2022.03.08-14.17.44:663][986]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.08-14.17.44:850][995]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2022.03.08-14.17.44:893][997]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.08-14.17.44:915][998]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2022.03.08-14.17.44:934][999]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2022.03.08-14.17.44:934][999]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2022.03.08-14.17.44:960][  0]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.17.44:960][  0]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.17.44:960][  0]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.17.44:960][  0]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.17.45:071][  6]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2022.03.08-14.17.45:531][ 30]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.17.45:531][ 30]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.17.45:531][ 30]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.17.45:531][ 30]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.17.59:580][307]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.18.03:714][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (case)
+[2022.03.08-14.18.06:269][921]Cmd: EDIT COPY
+[2022.03.08-14.18.06:499][943]Cmd: EDIT PASTE
+[2022.03.08-14.18.23:375][510]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.18.26:123][754]Cmd: MODE GRID=0
+[2022.03.08-14.18.26:489][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (case3)
+[2022.03.08-14.18.30:205][150]Cmd: MODE GRID=1
+[2022.03.08-14.18.30:667][187]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.18.38:327][877]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (case)
+[2022.03.08-14.18.38:968][918]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.18.47:147][703]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2022.03.08-14.18.48:001][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.18.48:794][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.18.52:399][205]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2022.03.08-14.18.53:122][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.18.58:524][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall7)
+[2022.03.08-14.19.07:249][632]Cmd: TRANSACTION UNDO
+[2022.03.08-14.19.07:249][632]LogEditorTransaction: Undo Move Actors
+[2022.03.08-14.19.07:255][632]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2022.03.08-14.19.07:289][632]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.08-14.19.07:289][632]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.08-14.19.07:289][632]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.08-14.19.07:289][632]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.08-14.19.07:289][632]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.08-14.19.07:289][632]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.08-14.19.07:289][632]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.08-14.19.07:289][632]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.08-14.19.07:423][632]LogMaterial: Display: Missing cached shader map for material lambert10, compiling. 
+[2022.03.08-14.19.07:432][632]LogMaterial: Display: Missing cached shader map for material lambert14, compiling. 
+[2022.03.08-14.19.07:441][632]LogMaterial: Display: Missing cached shader map for material Black, compiling. 
+[2022.03.08-14.19.10:878][825]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 28
+[2022.03.08-14.19.10:900][826]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 27
+[2022.03.08-14.19.11:033][832]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 26
+[2022.03.08-14.19.11:130][836]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 25
+[2022.03.08-14.19.11:153][837]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2022.03.08-14.19.11:153][837]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 23
+[2022.03.08-14.19.11:175][838]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 22
+[2022.03.08-14.19.11:175][838]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 21
+[2022.03.08-14.19.11:256][842]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 20
+[2022.03.08-14.19.11:284][843]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.19.11:284][843]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.19.11:284][843]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.19.11:284][843]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.19.11:539][854]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 19
+[2022.03.08-14.19.11:561][855]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 18
+[2022.03.08-14.19.11:602][857]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 17
+[2022.03.08-14.19.11:622][858]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 16
+[2022.03.08-14.19.11:823][867]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2022.03.08-14.19.11:823][867]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 14
+[2022.03.08-14.19.11:846][868]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 13
+[2022.03.08-14.19.11:870][869]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 12
+[2022.03.08-14.19.11:910][871]Cmd: TRANSACTION UNDO
+[2022.03.08-14.19.11:910][871]LogEditorTransaction: Undo Move Actors
+[2022.03.08-14.19.11:920][871]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2022.03.08-14.19.11:966][871]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 20
+[2022.03.08-14.19.12:012][871]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 19
+[2022.03.08-14.19.12:105][871]LogMaterial: Display: Missing cached shader map for material lambert10, compiling. 
+[2022.03.08-14.19.12:115][871]LogMaterial: Display: Missing cached shader map for material lambert14, compiling. 
+[2022.03.08-14.19.12:125][871]LogMaterial: Display: Missing cached shader map for material Black, compiling. 
+[2022.03.08-14.19.12:180][871]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 36
+[2022.03.08-14.19.12:252][871]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 35
+[2022.03.08-14.19.12:252][871]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 34
+[2022.03.08-14.19.12:448][872]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 33
+[2022.03.08-14.19.12:448][872]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 32
+[2022.03.08-14.19.12:448][872]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 31
+[2022.03.08-14.19.12:475][874]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 30
+[2022.03.08-14.19.12:517][876]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 29
+[2022.03.08-14.19.12:589][880]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 28
+[2022.03.08-14.19.12:650][883]Cmd: TRANSACTION UNDO
+[2022.03.08-14.19.12:650][883]LogEditorTransaction: Undo Clicking on Actors
+[2022.03.08-14.19.12:672][883]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2022.03.08-14.19.12:726][883]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 36
+[2022.03.08-14.19.12:771][883]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 35
+[2022.03.08-14.19.12:853][883]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 34
+[2022.03.08-14.19.12:854][883]LogMaterial: Display: Missing cached shader map for material lambert10, compiling. 
+[2022.03.08-14.19.12:864][883]LogMaterial: Display: Missing cached shader map for material lambert14, compiling. 
+[2022.03.08-14.19.12:875][883]LogMaterial: Display: Missing cached shader map for material Black, compiling. 
+[2022.03.08-14.19.13:087][883]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 36
+[2022.03.08-14.19.13:087][883]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 35
+[2022.03.08-14.19.13:087][883]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 34
+[2022.03.08-14.19.13:087][883]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 33
+[2022.03.08-14.19.13:087][883]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 32
+[2022.03.08-14.19.13:211][889]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 31
+[2022.03.08-14.19.13:279][892]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 30
+[2022.03.08-14.19.13:344][895]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 29
+[2022.03.08-14.19.13:446][900]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 28
+[2022.03.08-14.19.13:589][907]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 27
+[2022.03.08-14.19.13:631][909]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 26
+[2022.03.08-14.19.13:652][910]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 25
+[2022.03.08-14.19.13:711][913]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 24
+[2022.03.08-14.19.13:843][920]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 23
+[2022.03.08-14.19.13:866][921]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 22
+[2022.03.08-14.19.13:953][925]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 21
+[2022.03.08-14.19.13:994][927]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 20
+[2022.03.08-14.19.14:020][928]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.19.14:020][928]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.19.14:020][928]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.19.14:020][928]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.19.14:073][930]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 19
+[2022.03.08-14.19.14:219][937]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
+[2022.03.08-14.19.14:285][940]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 17
+[2022.03.08-14.19.14:313][941]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 16
+[2022.03.08-14.19.14:375][943]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 15
+[2022.03.08-14.19.14:532][950]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 14
+[2022.03.08-14.19.14:532][950]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 13
+[2022.03.08-14.19.14:615][954]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 12
+[2022.03.08-14.19.14:635][955]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2022.03.08-14.19.14:662][956]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.19.14:662][956]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.19.14:662][956]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.19.14:662][956]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.19.14:723][959]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2022.03.08-14.19.14:876][966]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.08-14.19.14:939][969]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.03.08-14.19.14:961][970]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2022.03.08-14.19.15:046][974]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2022.03.08-14.19.15:191][981]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2022.03.08-14.19.15:222][983]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2022.03.08-14.19.15:308][985]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.08-14.19.15:309][985]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.08-14.19.15:309][985]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.19.15:309][985]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.19.15:309][985]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.19.15:309][985]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.19.15:370][988]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2022.03.08-14.19.15:839][ 13]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.19.15:839][ 13]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.19.15:839][ 13]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.19.15:839][ 13]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.19.24:960][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall5)
+[2022.03.08-14.19.29:470][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.19.31:904][487]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.19.33:788][634]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lil_lad1)
+[2022.03.08-14.19.39:168][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (puppet2)
+[2022.03.08-14.19.42:489][419]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.20.05:489][425]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.20.14:394][290]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.20.14:976][334]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.20.20:644][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.20.25:149][300]Cmd: EDIT CUT
+[2022.03.08-14.20.25:153][300]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.08-14.20.25:159][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.03.08-14.20.25:165][300]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2022.03.08-14.20.27:539][579]Cmd: TRANSACTION UNDO
+[2022.03.08-14.20.27:539][579]LogEditorTransaction: Undo Cut
+[2022.03.08-14.20.27:553][579]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2022.03.08-14.20.27:591][579]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.08-14.20.27:592][579]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.08-14.20.27:592][579]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.08-14.20.27:592][579]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.08-14.20.27:592][579]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.08-14.20.27:592][579]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.08-14.20.27:592][579]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.08-14.20.27:592][579]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.08-14.20.27:728][579]LogMaterial: Display: Missing cached shader map for material lambert10, compiling. 
+[2022.03.08-14.20.27:736][579]LogMaterial: Display: Missing cached shader map for material lambert14, compiling. 
+[2022.03.08-14.20.27:744][579]LogMaterial: Display: Missing cached shader map for material Black, compiling. 
+[2022.03.08-14.20.29:671][697]Cmd: TRANSACTION UNDO
+[2022.03.08-14.20.29:671][697]LogEditorTransaction: Undo Rotate Actors
+[2022.03.08-14.20.29:675][697]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2022.03.08-14.20.29:852][697]LogMaterial: Display: Missing cached shader map for material lambert10, compiling. 
+[2022.03.08-14.20.29:859][697]LogMaterial: Display: Missing cached shader map for material lambert14, compiling. 
+[2022.03.08-14.20.29:867][697]LogMaterial: Display: Missing cached shader map for material Black, compiling. 
+[2022.03.08-14.20.30:078][701]Cmd: TRANSACTION UNDO
+[2022.03.08-14.20.30:078][701]LogEditorTransaction: Undo Clicking on Actors
+[2022.03.08-14.20.30:088][701]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2022.03.08-14.20.30:262][701]LogMaterial: Display: Missing cached shader map for material lambert10, compiling. 
+[2022.03.08-14.20.30:269][701]LogMaterial: Display: Missing cached shader map for material lambert14, compiling. 
+[2022.03.08-14.20.30:276][701]LogMaterial: Display: Missing cached shader map for material Black, compiling. 
+[2022.03.08-14.20.30:737][715]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.20.31:158][732]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 36
+[2022.03.08-14.20.31:221][735]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 35
+[2022.03.08-14.20.31:321][740]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 34
+[2022.03.08-14.20.31:422][745]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 33
+[2022.03.08-14.20.31:441][746]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 32
+[2022.03.08-14.20.31:441][746]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 31
+[2022.03.08-14.20.31:484][748]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 30
+[2022.03.08-14.20.31:484][748]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 29
+[2022.03.08-14.20.31:546][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.20.31:756][760]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 28
+[2022.03.08-14.20.31:780][761]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 27
+[2022.03.08-14.20.31:800][762]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 26
+[2022.03.08-14.20.31:875][766]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 25
+[2022.03.08-14.20.32:095][777]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 24
+[2022.03.08-14.20.32:096][777]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 23
+[2022.03.08-14.20.32:118][778]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 22
+[2022.03.08-14.20.32:137][779]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 21
+[2022.03.08-14.20.32:174][781]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 20
+[2022.03.08-14.20.32:197][782]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.20.32:197][782]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.20.32:197][782]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.20.32:197][782]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.20.32:358][790]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2022.03.08-14.20.32:358][790]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
+[2022.03.08-14.20.32:484][796]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2022.03.08-14.20.32:527][798]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 16
+[2022.03.08-14.20.32:594][801]Cmd: EDIT COPY
+[2022.03.08-14.20.32:777][810]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 15
+[2022.03.08-14.20.32:799][811]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 14
+[2022.03.08-14.20.32:799][811]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 13
+[2022.03.08-14.20.32:819][812]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2022.03.08-14.20.32:819][812]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 11
+[2022.03.08-14.20.32:820][812]Cmd: EDIT PASTE
+[2022.03.08-14.20.32:892][813]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.20.32:893][813]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.20.32:893][813]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.20.32:893][813]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.20.32:943][815]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 10
+[2022.03.08-14.20.33:057][820]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2022.03.08-14.20.33:079][821]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2022.03.08-14.20.33:282][830]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
+[2022.03.08-14.20.33:491][840]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2022.03.08-14.20.33:511][841]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2022.03.08-14.20.33:511][841]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2022.03.08-14.20.33:573][844]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2022.03.08-14.20.33:615][846]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.03.08-14.20.33:616][846]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.20.33:616][846]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.20.33:616][846]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.20.33:616][846]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.20.33:714][851]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.03.08-14.20.34:160][878]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.20.34:160][878]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.20.34:160][878]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.20.34:160][878]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.20.46:161][987]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.20.46:788][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2022.03.08-14.21.00:401][341]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.21.40:237][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.03.08-14.21.40:583][ 81]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Rachel_Art_scene_Auto223CAE92940D3865472529987AA8FC223.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Autosaves/Game/StarterContent/Maps/Rachel_Art_scene_Auto2.umap'
+[2022.03.08-14.21.40:599][ 81]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Rachel_Art_scene' took 0.367
+[2022.03.08-14.21.40:599][ 81]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.367
+[2022.03.08-14.21.40:602][ 81]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Enviorment/bench] ([1] browsable assets)...
+[2022.03.08-14.21.40:611][ 81]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Enviorment/bench.bench]
+[2022.03.08-14.21.40:611][ 81]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enviorment/bench]
+[2022.03.08-14.21.40:737][ 81]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/bench_Auto2EF95ED024FC4889D8CE595B0626978D5.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Autosaves/Game/Assets/Enviorment/bench_Auto2.uasset'
+[2022.03.08-14.21.40:767][ 81]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Enviorment/stall3] ([1] browsable assets)...
+[2022.03.08-14.21.40:783][ 81]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Enviorment/stall3.stall3]
+[2022.03.08-14.21.40:783][ 81]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enviorment/stall3]
+[2022.03.08-14.21.40:895][ 81]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/stall3_Auto247221B48414B8918CC5EC5B0C224A247.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Autosaves/Game/Assets/Enviorment/stall3_Auto2.uasset'
+[2022.03.08-14.21.40:949][ 81]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Enviorment/case] ([1] browsable assets)...
+[2022.03.08-14.21.40:961][ 81]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Enviorment/case.case]
+[2022.03.08-14.21.40:961][ 81]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enviorment/case]
+[2022.03.08-14.21.41:068][ 81]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/case_Auto2CDFACF8745EDF6BDDA303ABED4AEA95F.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Autosaves/Game/Assets/Enviorment/case_Auto2.uasset'
+[2022.03.08-14.21.41:078][ 81]LogFileHelpers: Auto-saving content packages took 0.478
+[2022.03.08-14.26.14:062][175]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 \\StuHomeOdd\HomeDrive3$\1700843\Cassandro\509\apples.fbx)
+[2022.03.08-14.26.14:076][175]LogFbx: Loading FBX Scene from \\StuHomeOdd\HomeDrive3$\1700843\Cassandro\509\apples.fbx
+[2022.03.08-14.26.14:086][175]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.08-14.26.16:223][175]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.03.08-14.26.16:244][175]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2022.03.08-14.26.16:251][175]LogFbx: Display: Triangulating static mesh pCube133
+[2022.03.08-14.26.16:442][175]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2022.03.08-14.26.16:442][175]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2022.03.08-14.26.16:442][175]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.03.08-14.26.16:442][175]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.08-14.26.16:442][175]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.03.08-14.26.16:442][175]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.03.08-14.26.16:446][175]LogStaticMesh: Building static mesh apples...
+[2022.03.08-14.26.16:545][175]LogStaticMesh: Built static mesh [0.10s] /Game/Assets/Enviorment/apples.apples
+[2022.03.08-14.26.16:582][175]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.03.08-14.26.21:153][573]LogActorFactory: Actor Factory created apples
+[2022.03.08-14.26.23:325][827]LogActorFactory: Actor Factory created apples
+[2022.03.08-14.26.23:826][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.26.25:531][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apples)
+[2022.03.08-14.26.28:203][273]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Enviorment/case.case
+[2022.03.08-14.26.36:284][918]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Enviorment/apples.apples
+[2022.03.08-14.26.50:299][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.26.56:227][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apples)
+[2022.03.08-14.27.00:567][517]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.03.08-14.27.01:678][517]LogSlate: Window 'Delete Assets' being destroyed
+[2022.03.08-14.27.02:407][517]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.03.08-14.27.02:407][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.08-14.27.02:474][517]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assets/Enviorment/lambert2.lambert2
+[2022.03.08-14.27.05:877][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.03.08-14.27.24:603][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.27.25:137][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.27.30:035][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apples)
+[2022.03.08-14.27.32:266][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (case)
+[2022.03.08-14.27.35:294][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apples)
+[2022.03.08-14.27.38:158][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.27.40:766][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.27.44:917][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.28.02:730][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apples)
+[2022.03.08-14.28.04:127][671]Cmd: EDIT COPY
+[2022.03.08-14.28.04:334][690]Cmd: EDIT PASTE
+[2022.03.08-14.28.58:292][481]Cmd: MODE GRID=0
+[2022.03.08-14.29.01:215][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall1_1)
+[2022.03.08-14.29.03:143][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apples2)
+[2022.03.08-14.29.04:211][966]Cmd: EDIT COPY
+[2022.03.08-14.29.04:447][987]Cmd: EDIT PASTE
+[2022.03.08-14.29.08:604][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall1_1)
+[2022.03.08-14.29.26:456][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apples3)
+[2022.03.08-14.29.58:319][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.30.14:623][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apples3)
+[2022.03.08-14.30.29:885][684]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.30.31:614][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.31.41:216][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2022.03.08-14.31.41:616][477]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Rachel_Art_scene_Auto344046765459B45B3EB2BFE80252C681F.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Autosaves/Game/StarterContent/Maps/Rachel_Art_scene_Auto3.umap'
+[2022.03.08-14.31.41:632][477]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Rachel_Art_scene' took 0.421
+[2022.03.08-14.31.41:632][477]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.421
+[2022.03.08-14.31.41:634][477]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Enviorment/apples] ([1] browsable assets)...
+[2022.03.08-14.31.41:641][477]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Enviorment/apples.apples]
+[2022.03.08-14.31.41:641][477]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enviorment/apples]
+[2022.03.08-14.31.41:739][477]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/apples_Auto31B1D0C124D9E451CBA43EF8BDC65B91B.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Autosaves/Game/Assets/Enviorment/apples_Auto3.uasset'
+[2022.03.08-14.31.41:746][477]LogFileHelpers: Auto-saving content packages took 0.114
+[2022.03.08-14.35.19:304][940]LogActorFactory: Actor Factory created puppet2
+[2022.03.08-14.35.21:268][132]Cmd: TRANSACTION UNDO
+[2022.03.08-14.35.21:269][132]LogEditorTransaction: Undo Create Actors
+[2022.03.08-14.35.21:270][132]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2022.03.08-14.35.21:305][132]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.08-14.35.21:305][132]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.08-14.35.21:305][132]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.08-14.35.21:305][132]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.08-14.35.21:305][132]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.08-14.35.21:305][132]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.08-14.35.21:305][132]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.08-14.35.21:305][132]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.08-14.35.21:520][132]LogMaterial: Display: Missing cached shader map for material lambert10, compiling. 
+[2022.03.08-14.35.21:528][132]LogMaterial: Display: Missing cached shader map for material lambert14, compiling. 
+[2022.03.08-14.35.21:537][132]LogMaterial: Display: Missing cached shader map for material Black, compiling. 
+[2022.03.08-14.35.24:923][328]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 28
+[2022.03.08-14.35.25:010][332]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 27
+[2022.03.08-14.35.25:075][335]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 26
+[2022.03.08-14.35.25:197][341]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 25
+[2022.03.08-14.35.25:215][342]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2022.03.08-14.35.25:237][343]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 23
+[2022.03.08-14.35.25:257][344]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 22
+[2022.03.08-14.35.25:257][344]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 21
+[2022.03.08-14.35.25:334][348]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 20
+[2022.03.08-14.35.25:361][349]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.35.25:361][349]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.35.25:361][349]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.35.25:361][349]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.35.25:656][362]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 19
+[2022.03.08-14.35.25:678][363]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 18
+[2022.03.08-14.35.25:700][364]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 17
+[2022.03.08-14.35.25:721][365]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 16
+[2022.03.08-14.35.25:898][374]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2022.03.08-14.35.25:962][377]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 14
+[2022.03.08-14.35.25:992][378]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 13
+[2022.03.08-14.35.26:008][378]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 12
+[2022.03.08-14.35.26:044][379]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 11
+[2022.03.08-14.35.26:104][381]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.35.26:104][381]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.35.26:104][381]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.35.26:104][381]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.35.26:252][388]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 10
+[2022.03.08-14.35.26:319][391]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 9
+[2022.03.08-14.35.26:364][393]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.08-14.35.26:448][397]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2022.03.08-14.35.26:629][403]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2022.03.08-14.35.26:709][404]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2022.03.08-14.35.26:709][404]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.03.08-14.35.26:709][404]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2022.03.08-14.35.26:734][406]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2022.03.08-14.35.26:742][406]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.35.26:742][406]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.35.26:742][406]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.35.26:742][406]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.35.26:894][413]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2022.03.08-14.35.27:512][453]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.03.08-14.35.27:512][453]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.03.08-14.35.27:512][453]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.03.08-14.35.27:512][453]MaterialEditorStats: Texture samplers: 2/16
+[2022.03.08-14.35.29:699][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.35.42:768][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apples2)
+[2022.03.08-14.36.10:022][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall1_1)
+[2022.03.08-14.36.14:092][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apples2)
+[2022.03.08-14.36.25:806][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall1_1)
+[2022.03.08-14.36.29:018][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apples3)
+[2022.03.08-14.37.00:923][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (case2)
+[2022.03.08-14.37.01:570][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.37.05:489][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (case3)
+[2022.03.08-14.37.06:925][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall7)
+[2022.03.08-14.37.07:672][299]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2022.03.08-14.37.08:582][397]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.39.20:291][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apples3)
+[2022.03.08-14.39.26:627][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall1_1)
+[2022.03.08-14.39.27:429][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apples3)
+[2022.03.08-14.39.33:715][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall1_1)
+[2022.03.08-14.39.35:558][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.39.43:391][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.39.44:441][888]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.39.52:538][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stall1_1)
+[2022.03.08-14.39.57:999][ 76]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.08-14.39.59:814][231]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-14.41.42:058][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2022.03.08-14.41.42:379][497]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Rachel_Art_scene_Auto4E147D431484A27C66D18C59D2E84C617.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Autosaves/Game/StarterContent/Maps/Rachel_Art_scene_Auto4.umap'
+[2022.03.08-14.41.42:394][497]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Rachel_Art_scene' took 0.341
+[2022.03.08-14.41.42:394][497]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.341
+[2022.03.08-15.06.24:342][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2022.03.08-15.06.25:225][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.03.08-15.06.26:057][981]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Rachel_Art_sceneC7070AE943E64793FF5203B9FA5DBCEF.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/StarterContent/Maps/Rachel_Art_scene.umap'
+[2022.03.08-15.06.26:167][981]AssetCheck: New page: Asset Save: Rachel_Art_scene
+[2022.03.08-15.06.26:167][981]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Rachel_Art_scene.Rachel_Art_scene
+[2022.03.08-15.06.39:428][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bench)
+[2022.03.08-15.06.46:552][733]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/characters/sam.sam
+[2022.03.08-15.06.53:515][153]LogStaticMesh: Building static mesh sam...
+[2022.03.08-15.06.54:070][153]LogStaticMesh: Built static mesh [0.56s] /Game/Assets/characters/sam.sam
+[2022.03.08-15.07.29:043][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/characters/sam" FILE="//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/characters/sam.uasset" SILENT=true
+[2022.03.08-15.07.29:264][219]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/sam75AD1D904C58FF970E1C2FAB3B972FF1.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/characters/sam.uasset'
+[2022.03.08-15.07.29:298][219]AssetCheck: New page: Asset Save: sam
+[2022.03.08-15.07.29:298][219]LogContentValidation: Display: Validating StaticMesh /Game/Assets/characters/sam.sam
+[2022.03.08-15.07.30:488][297]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.08-15.07.31:440][355]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2022.03.08-15.07.31:790][355]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Rachel_Art_sceneACB93BDE47D4D8F2F8D7FFA73F441D40.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/StarterContent/Maps/Rachel_Art_scene.umap'
+[2022.03.08-15.07.31:844][355]AssetCheck: New page: Asset Save: Rachel_Art_scene
+[2022.03.08-15.07.31:844][355]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Rachel_Art_scene.Rachel_Art_scene
