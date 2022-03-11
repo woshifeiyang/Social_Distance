@@ -12,6 +12,22 @@ ANPC_Interactable::ANPC_Interactable()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
+	// 创建Niagara组件并绑定距离线效果
+	LineEffect = CreateDefaultSubobject<UNiagaraComponent>(TEXT("LineEffect"));
+	LineEffect->SetupAttachment(RootComponent);
+	ConstructorHelpers::FObjectFinder<UNiagaraSystem> NiagaraSystemObj(TEXT("NiagaraSystem'/Game/StarterContent/VFX/NS_Prototype_Line.NS_Prototype_Line'"));
+	if(NiagaraSystemObj.Succeeded())
+	{
+		LineEffect->SetAsset(NiagaraSystemObj.Object);
+	}
+	// 创建Niagara组件并绑定聊天气泡特效
+	Bubble = CreateDefaultSubobject<UNiagaraComponent>(TEXT("Bubble"));
+	Bubble->SetupAttachment(RootComponent);
+	ConstructorHelpers::FObjectFinder<UNiagaraSystem> BubbleObj(TEXT("NiagaraSystem'/Game/StarterContent/VFX/Icons/NE_bubble2.NE_bubble2'"));
+	if(BubbleObj.Succeeded())
+	{
+		Bubble->SetAsset(BubbleObj.Object);
+	}
 	
 }
 
@@ -37,6 +53,8 @@ void ANPC_Interactable::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	SelfLocation = GetActorLocation();
+
+	SetLineEffect();
 }
 
 // Called to bind functionality to input
@@ -86,29 +104,29 @@ void ANPC_Interactable::DestroyNiagaraComponent(UNiagaraComponent* NiagaraCompon
 	NiagaraComponent->DestroyComponent();
 }
 
-void ANPC_Interactable::SetNiagaraEffect(UFXSystemComponent* UFXComponent)
+void ANPC_Interactable::SetLineEffect()
 {
 	if(MainCharacter)
 	{
 		if(GetDistanceTo(MainCharacter) < EffectDisappearingRange)
 		{
-			UFXComponent->SetVisibility(true);
+			LineEffect->SetVisibility(true);
 			FVector NPCPosition(SelfLocation.X, SelfLocation.Y, SelfLocation.Z - 80);
 			FVector MCPosition(MainCharacter -> SelfLocation.X, MainCharacter -> SelfLocation.Y, MainCharacter -> SelfLocation.Z - 80);
-			UFXComponent -> SetVectorParameter("NPC_POS", NPCPosition);
-			UFXComponent -> SetVectorParameter("Player_POS", MCPosition);
+			LineEffect -> SetVectorParameter("NPC_POS", NPCPosition);
+			LineEffect -> SetVectorParameter("Player_POS", MCPosition);
 		}else
 		{
-			UFXComponent->SetVisibility(false);
+			LineEffect->SetVisibility(false);
 		}
 	}
 }
 
-void ANPC_Interactable::SetBubbleEffect(UFXSystemComponent* UFXComponent, TArray<UNiagaraSystem*> NiagaraSystems)
+void ANPC_Interactable::SetBubbleEffect(TArray<UNiagaraSystem*> NiagaraSystems)
 {
-	FVector Location = UFXComponent->GetComponentLocation();
-	FRotator Rotator = UFXComponent->GetComponentRotation();
-	FVector Scale = UFXComponent->GetComponentScale();
+	FVector Location = Bubble->GetComponentLocation();
+	FRotator Rotator = Bubble->GetComponentRotation();
+	FVector Scale = Bubble->GetComponentScale();
 	FTimerHandle TimerHandle;
 	FTimerDelegate TimerDel;
 	int32 Index = FMath::RandRange(0, NiagaraSystems.Num() - 1);

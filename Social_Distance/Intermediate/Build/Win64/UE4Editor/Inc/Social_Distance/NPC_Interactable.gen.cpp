@@ -18,7 +18,6 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Social_Distance();
 	NIAGARA_API UClass* Z_Construct_UClass_UNiagaraComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UFXSystemComponent_NoRegister();
 	NIAGARA_API UClass* Z_Construct_UClass_UNiagaraSystem_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_AMainCharacter_NoRegister();
@@ -34,19 +33,17 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 	}
 	DEFINE_FUNCTION(ANPC_Interactable::execSetBubbleEffect)
 	{
-		P_GET_OBJECT(UFXSystemComponent,Z_Param_UFXComponent);
 		P_GET_TARRAY(UNiagaraSystem*,Z_Param_NiagaraSystems);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->SetBubbleEffect(Z_Param_UFXComponent,Z_Param_NiagaraSystems);
+		P_THIS->SetBubbleEffect(Z_Param_NiagaraSystems);
 		P_NATIVE_END;
 	}
-	DEFINE_FUNCTION(ANPC_Interactable::execSetNiagaraEffect)
+	DEFINE_FUNCTION(ANPC_Interactable::execSetLineEffect)
 	{
-		P_GET_OBJECT(UFXSystemComponent,Z_Param_UFXComponent);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->SetNiagaraEffect(Z_Param_UFXComponent);
+		P_THIS->SetLineEffect();
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(ANPC_Interactable::execDestroyNiagaraComponent)
@@ -71,7 +68,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 			{ "DestroyNiagaraComponent", &ANPC_Interactable::execDestroyNiagaraComponent },
 			{ "PrintLog", &ANPC_Interactable::execPrintLog },
 			{ "SetBubbleEffect", &ANPC_Interactable::execSetBubbleEffect },
-			{ "SetNiagaraEffect", &ANPC_Interactable::execSetNiagaraEffect },
+			{ "SetLineEffect", &ANPC_Interactable::execSetLineEffect },
 			{ "UpdateState", &ANPC_Interactable::execUpdateState },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -152,13 +149,8 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 	{
 		struct NPC_Interactable_eventSetBubbleEffect_Parms
 		{
-			UFXSystemComponent* UFXComponent;
 			TArray<UNiagaraSystem*> NiagaraSystems;
 		};
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_UFXComponent_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_UFXComponent;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_NiagaraSystems_Inner;
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_NiagaraSystems;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -167,16 +159,9 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ANPC_Interactable_SetBubbleEffect_Statics::NewProp_UFXComponent_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ANPC_Interactable_SetBubbleEffect_Statics::NewProp_UFXComponent = { "UFXComponent", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(NPC_Interactable_eventSetBubbleEffect_Parms, UFXComponent), Z_Construct_UClass_UFXSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ANPC_Interactable_SetBubbleEffect_Statics::NewProp_UFXComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ANPC_Interactable_SetBubbleEffect_Statics::NewProp_UFXComponent_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ANPC_Interactable_SetBubbleEffect_Statics::NewProp_NiagaraSystems_Inner = { "NiagaraSystems", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UNiagaraSystem_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_ANPC_Interactable_SetBubbleEffect_Statics::NewProp_NiagaraSystems = { "NiagaraSystems", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(NPC_Interactable_eventSetBubbleEffect_Parms, NiagaraSystems), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ANPC_Interactable_SetBubbleEffect_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ANPC_Interactable_SetBubbleEffect_Statics::NewProp_UFXComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ANPC_Interactable_SetBubbleEffect_Statics::NewProp_NiagaraSystems_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ANPC_Interactable_SetBubbleEffect_Statics::NewProp_NiagaraSystems,
 	};
@@ -195,43 +180,25 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics
+	struct Z_Construct_UFunction_ANPC_Interactable_SetLineEffect_Statics
 	{
-		struct NPC_Interactable_eventSetNiagaraEffect_Parms
-		{
-			UFXSystemComponent* UFXComponent;
-		};
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_UFXComponent_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_UFXComponent;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::NewProp_UFXComponent_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::NewProp_UFXComponent = { "UFXComponent", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(NPC_Interactable_eventSetNiagaraEffect_Parms, UFXComponent), Z_Construct_UClass_UFXSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::NewProp_UFXComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::NewProp_UFXComponent_MetaData)) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::NewProp_UFXComponent,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::Function_MetaDataParams[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ANPC_Interactable_SetLineEffect_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "NPC_Interactable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ANPC_Interactable, nullptr, "SetNiagaraEffect", nullptr, nullptr, sizeof(NPC_Interactable_eventSetNiagaraEffect_Parms), Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect()
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ANPC_Interactable_SetLineEffect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ANPC_Interactable, nullptr, "SetLineEffect", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ANPC_Interactable_SetLineEffect_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ANPC_Interactable_SetLineEffect_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ANPC_Interactable_SetLineEffect()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect_Statics::FuncParams);
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ANPC_Interactable_SetLineEffect_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -327,6 +294,14 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Actors_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Actors;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LineEffect_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_LineEffect;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Bubble_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Bubble;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -338,8 +313,8 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_ANPC_Interactable_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ANPC_Interactable_DestroyNiagaraComponent, "DestroyNiagaraComponent" }, // 2728721672
 		{ &Z_Construct_UFunction_ANPC_Interactable_PrintLog, "PrintLog" }, // 3365130430
-		{ &Z_Construct_UFunction_ANPC_Interactable_SetBubbleEffect, "SetBubbleEffect" }, // 1342688065
-		{ &Z_Construct_UFunction_ANPC_Interactable_SetNiagaraEffect, "SetNiagaraEffect" }, // 3402058150
+		{ &Z_Construct_UFunction_ANPC_Interactable_SetBubbleEffect, "SetBubbleEffect" }, // 2200345421
+		{ &Z_Construct_UFunction_ANPC_Interactable_SetLineEffect, "SetLineEffect" }, // 1636702698
 		{ &Z_Construct_UFunction_ANPC_Interactable_UpdateState, "UpdateState" }, // 3250076958
 	};
 #if WITH_METADATA
@@ -452,6 +427,22 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 	};
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors = { "Actors", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, Actors), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_LineEffect_MetaData[] = {
+		{ "Category", "NPC_Interactable" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "NPC_Interactable.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_LineEffect = { "LineEffect", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, LineEffect), Z_Construct_UClass_UNiagaraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_LineEffect_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_LineEffect_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Bubble_MetaData[] = {
+		{ "Category", "NPC_Interactable" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "NPC_Interactable.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Bubble = { "Bubble", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, Bubble), Z_Construct_UClass_UNiagaraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Bubble_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Bubble_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANPC_Interactable_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Loneliness,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_InitLoneliness,
@@ -468,6 +459,8 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainCharacter,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_LineEffect,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Bubble,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANPC_Interactable_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ANPC_Interactable>::IsAbstract,
@@ -496,7 +489,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANPC_Interactable, 3497088975);
+	IMPLEMENT_CLASS(ANPC_Interactable, 1376239904);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<ANPC_Interactable>()
 	{
 		return ANPC_Interactable::StaticClass();

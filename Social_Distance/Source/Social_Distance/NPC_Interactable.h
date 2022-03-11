@@ -7,7 +7,6 @@
 #include "MainCharacter.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "NiagaraComponent.h"
-#include "Components/ActorComponent.h"
 #include "NPC_Interactable.generated.h"
 
 UCLASS()
@@ -61,6 +60,12 @@ public:
 	UPROPERTY()
 		TArray<AActor*> Actors;
 	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		class UNiagaraComponent* LineEffect;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		class UNiagaraComponent* Bubble;
+	
 	FTimerHandle TimerHandle_1;
 
 	FTimerHandle TimerHandle_2;
@@ -87,10 +92,10 @@ public:
 		void DestroyNiagaraComponent(UNiagaraComponent* NiagaraComponent);
 
 	UFUNCTION(BlueprintCallable)
-		void SetNiagaraEffect(UFXSystemComponent* UFXComponent);
+		void SetLineEffect();
 
 	UFUNCTION(BlueprintCallable)
-		void SetBubbleEffect(UFXSystemComponent* UFXComponent, TArray<UNiagaraSystem*> NiagaraSystems);
+		void SetBubbleEffect(TArray<UNiagaraSystem*> NiagaraSystems);
 	
 	UFUNCTION()
 		void PrintLog(FString String);
