@@ -1,13 +1,13 @@
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\NPC_Interactable.h
+\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
+\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\NPC_Interactable.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\MainCharacter.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacter.generated.h
+\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\MainCharacter.h
+\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacter.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystemComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystem.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Particles/ParticlePerfStats.h
@@ -105,7 +105,7 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\FX\Niagara\Source\Niagara\Pub
 C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\FX\Niagara\Source\Niagara\Public\NiagaraVariant.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4Editor\Inc\Niagara\NiagaraVariant.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4Editor\Inc\Niagara\NiagaraComponent.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\NPC_Interactable.generated.h
+\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\NPC_Interactable.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
