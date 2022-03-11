@@ -36,7 +36,7 @@ AMainCharacter::AMainCharacter()
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
-	
+
 }
 
 // Called when the game starts or when spawned
@@ -49,7 +49,7 @@ void AMainCharacter::BeginPlay()
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ANPC_Interactable::StaticClass(), InteractableNPCList);
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ANPC_Movable::StaticClass(), MovableNPCList);
 	// 设定定时器，每隔0.5秒更新一次孤单值和风险值
-	GetWorldTimerManager().SetTimer(TimerHandle_1, this, &AMainCharacter::UpdateState, 0.5f, true);
+	GetWorldTimerManager().SetTimer(TimerHandle_1, this, &AMainCharacter::UpdateState, 0.1f, true);
 
 }
 

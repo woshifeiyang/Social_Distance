@@ -4,6 +4,7 @@
 #include "NPC_Interactable.h"
 #include "Components/CapsuleComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "NiagaraFunctionLibrary.h"
 
 // Sets default values
 ANPC_Interactable::ANPC_Interactable()
@@ -27,16 +28,15 @@ void ANPC_Interactable::BeginPlay()
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
 	if(MainCharacter)
 	{
-		//PrintLog("Main Character Loneliness is" + FString::SanitizeFloat(MainCharacter->Loneliness));
-		GetWorldTimerManager().SetTimer(TimerHandle_1, this, &ANPC_Interactable::UpdateState, 0.5f, true);
+		GetWorldTimerManager().SetTimer(TimerHandle_1, this, &ANPC_Interactable::UpdateState, 0.1f, true);
 	}
-	UpdateSelfLocation();
 }
 
 // Called every frame
 void ANPC_Interactable::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	SelfLocation = GetActorLocation();
 }
 
 // Called to bind functionality to input
@@ -81,9 +81,9 @@ void ANPC_Interactable::UpdateState()
 	}
 }
 
-void ANPC_Interactable::UpdateSelfLocation()
+void ANPC_Interactable::DestroyNiagaraComponent(UNiagaraComponent* NiagaraComponent)
 {
-	SelfLocation = GetActorLocation();
+	NiagaraComponent->DestroyComponent();
 }
 
 void ANPC_Interactable::SetNiagaraEffect(UFXSystemComponent* UFXComponent)
@@ -101,6 +101,22 @@ void ANPC_Interactable::SetNiagaraEffect(UFXSystemComponent* UFXComponent)
 		{
 			UFXComponent->SetVisibility(false);
 		}
+	}
+}
+
+void ANPC_Interactable::SetBubbleEffect(UFXSystemComponent* UFXComponent, TArray<UNiagaraSystem*> NiagaraSystems)
+{
+	FVector Location = UFXComponent->GetComponentLocation();
+	FRotator Rotator = UFXComponent->GetComponentRotation();
+	FVector Scale = UFXComponent->GetComponentScale();
+	FTimerHandle TimerHandle;
+	FTimerDelegate TimerDel;
+	int32 Index = FMath::RandRange(0, NiagaraSystems.Num() - 1);
+	UNiagaraComponent* NiagaraComponent = UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), NiagaraSystems[Index], Location, Rotator, Scale);
+	TimerDel.BindUFunction(this, FName(TEXT("DestroyNiagaraComponent")), NiagaraComponent);
+	if(NiagaraComponent)
+	{
+		GetWorldTimerManager().SetTimer(TimerHandle, TimerDel, 2.0f, false);
 	}
 }
 

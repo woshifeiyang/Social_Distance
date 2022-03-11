@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "MainCharacter.h"
 #include "Particles/ParticleSystemComponent.h"
+#include "NiagaraComponent.h"
+#include "Components/ActorComponent.h"
 #include "NPC_Interactable.generated.h"
 
 UCLASS()
@@ -35,10 +37,10 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 		float Distance;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CharacterProperty)
+	UPROPERTY(BlueprintReadOnly)
 		bool IsIndoor;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CharacterProperty)
+	UPROPERTY(BlueprintReadOnly)
 		bool HaveMask;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
@@ -58,7 +60,6 @@ public:
 
 	UPROPERTY()
 		TArray<AActor*> Actors;
-
 	
 	FTimerHandle TimerHandle_1;
 
@@ -83,10 +84,13 @@ public:
 		void UpdateState();
 
 	UFUNCTION()
-		void UpdateSelfLocation();
+		void DestroyNiagaraComponent(UNiagaraComponent* NiagaraComponent);
 
 	UFUNCTION(BlueprintCallable)
 		void SetNiagaraEffect(UFXSystemComponent* UFXComponent);
+
+	UFUNCTION(BlueprintCallable)
+		void SetBubbleEffect(UFXSystemComponent* UFXComponent, TArray<UNiagaraSystem*> NiagaraSystems);
 	
 	UFUNCTION()
 		void PrintLog(FString String);
