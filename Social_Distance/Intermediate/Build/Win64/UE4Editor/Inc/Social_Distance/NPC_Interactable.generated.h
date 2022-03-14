@@ -8,7 +8,6 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UNiagaraSystem;
 class UNiagaraComponent;
 #ifdef SOCIAL_DISTANCE_NPC_Interactable_generated_h
 #error "NPC_Interactable.generated.h already included, missing '#pragma once' in NPC_Interactable.h"
@@ -19,7 +18,6 @@ class UNiagaraComponent;
 #define Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execPrintLog); \
-	DECLARE_FUNCTION(execSetBubbleEffect); \
 	DECLARE_FUNCTION(execSetLineEffect); \
 	DECLARE_FUNCTION(execDestroyNiagaraComponent); \
 	DECLARE_FUNCTION(execUpdateState);
@@ -28,7 +26,6 @@ class UNiagaraComponent;
 #define Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execPrintLog); \
-	DECLARE_FUNCTION(execSetBubbleEffect); \
 	DECLARE_FUNCTION(execSetLineEffect); \
 	DECLARE_FUNCTION(execDestroyNiagaraComponent); \
 	DECLARE_FUNCTION(execUpdateState);

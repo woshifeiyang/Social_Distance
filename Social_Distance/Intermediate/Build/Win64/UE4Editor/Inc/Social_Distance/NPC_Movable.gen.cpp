@@ -144,9 +144,9 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Movable() {}
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_WalkingSpeed;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EffectDisappearingRange_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LineDisappearingRange_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_EffectDisappearingRange;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LineDisappearingRange;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SelfLocation_MetaData[];
 #endif
@@ -197,12 +197,12 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Movable() {}
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ANPC_Movable_Statics::NewProp_WalkingSpeed = { "WalkingSpeed", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Movable, WalkingSpeed), METADATA_PARAMS(Z_Construct_UClass_ANPC_Movable_Statics::NewProp_WalkingSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Movable_Statics::NewProp_WalkingSpeed_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Movable_Statics::NewProp_EffectDisappearingRange_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Movable_Statics::NewProp_LineDisappearingRange_MetaData[] = {
 		{ "Category", "WalkingProperty" },
 		{ "ModuleRelativePath", "NPC_Movable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANPC_Movable_Statics::NewProp_EffectDisappearingRange = { "EffectDisappearingRange", nullptr, (EPropertyFlags)0x0010000000030015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Movable, EffectDisappearingRange), METADATA_PARAMS(Z_Construct_UClass_ANPC_Movable_Statics::NewProp_EffectDisappearingRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Movable_Statics::NewProp_EffectDisappearingRange_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANPC_Movable_Statics::NewProp_LineDisappearingRange = { "LineDisappearingRange", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Movable, LineDisappearingRange), METADATA_PARAMS(Z_Construct_UClass_ANPC_Movable_Statics::NewProp_LineDisappearingRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Movable_Statics::NewProp_LineDisappearingRange_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Movable_Statics::NewProp_SelfLocation_MetaData[] = {
 		{ "Category", "NPC_Movable" },
@@ -221,7 +221,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Movable() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Movable_Statics::NewProp_Waypoints,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Movable_Statics::NewProp_WaitTime,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Movable_Statics::NewProp_WalkingSpeed,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Movable_Statics::NewProp_EffectDisappearingRange,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Movable_Statics::NewProp_LineDisappearingRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Movable_Statics::NewProp_SelfLocation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Movable_Statics::NewProp_MainCharacter,
 	};
@@ -252,7 +252,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Movable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANPC_Movable, 2188471273);
+	IMPLEMENT_CLASS(ANPC_Movable, 368711905);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<ANPC_Movable>()
 	{
 		return ANPC_Movable::StaticClass();

@@ -5,8 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "MainCharacter.h"
-#include "Particles/ParticleSystemComponent.h"
 #include "NiagaraComponent.h"
+#include "Components/WidgetComponent.h"
 #include "NPC_Interactable.generated.h"
 
 UCLASS()
@@ -51,8 +51,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
 		float RiskIncreaseRate;
 
-	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = WalkingProperty)
-		float EffectDisappearingRange;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
+		float LineDisappearingRange;
 
 	UPROPERTY()
 		AMainCharacter* MainCharacter;
@@ -64,7 +64,7 @@ public:
 		class UNiagaraComponent* LineEffect;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		class UNiagaraComponent* Bubble;
+		class UWidgetComponent* Bubble;
 	
 	FTimerHandle TimerHandle_1;
 
@@ -93,9 +93,6 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		void SetLineEffect();
-
-	UFUNCTION(BlueprintCallable)
-		void SetBubbleEffect(TArray<UNiagaraSystem*> NiagaraSystems);
 	
 	UFUNCTION()
 		void PrintLog(FString String);

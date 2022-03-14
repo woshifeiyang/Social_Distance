@@ -26,8 +26,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = WalkingProperty)
 		int32 WalkingSpeed;
 
-	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = WalkingProperty)
-		float EffectDisappearingRange;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = WalkingProperty)
+		float LineDisappearingRange;
 
 	UPROPERTY(BlueprintReadOnly)
 		FVector SelfLocation;

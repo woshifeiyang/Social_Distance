@@ -4,6 +4,7 @@
 #include "NPC_Movable.h"
 #include "Kismet/GameplayStatics.h"
 #include "Components/CapsuleComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
 ANPC_Movable::ANPC_Movable()
@@ -11,13 +12,13 @@ ANPC_Movable::ANPC_Movable()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
+	GetCharacterMovement()->MaxWalkSpeed = WalkingSpeed;
 }
 
 // Called when the game starts or when spawned
 void ANPC_Movable::BeginPlay()
 {
 	Super::BeginPlay();
-	EffectDisappearingRange = 1500.0f;
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
 }
 
@@ -39,7 +40,7 @@ void ANPC_Movable::SetNiagaraEffect(UFXSystemComponent* UFXComponent)
 {
 	if(MainCharacter)
 	{
-		if(GetDistanceTo(MainCharacter) < EffectDisappearingRange)
+		if(GetDistanceTo(MainCharacter) < LineDisappearingRange)
 		{
 			UFXComponent->SetVisibility(true);
 			FVector NPCPosition(SelfLocation.X, SelfLocation.Y, SelfLocation.Z - 80);

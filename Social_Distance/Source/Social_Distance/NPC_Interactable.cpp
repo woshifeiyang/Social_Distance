@@ -19,16 +19,23 @@ ANPC_Interactable::ANPC_Interactable()
 	if(NiagaraSystemObj.Succeeded())
 	{
 		LineEffect->SetAsset(NiagaraSystemObj.Object);
-	}
-	// 创建Niagara组件并绑定聊天气泡特效
-	Bubble = CreateDefaultSubobject<UNiagaraComponent>(TEXT("Bubble"));
-	Bubble->SetupAttachment(RootComponent);
-	ConstructorHelpers::FObjectFinder<UNiagaraSystem> BubbleObj(TEXT("NiagaraSystem'/Game/StarterContent/VFX/Icons/NE_bubble2.NE_bubble2'"));
-	if(BubbleObj.Succeeded())
+	}else
 	{
-		Bubble->SetAsset(BubbleObj.Object);
+		PrintLog("Can not find NiagaraSystemObj");
 	}
-	
+	// 创建Widget组件并绑定控件蓝图
+	Bubble = CreateDefaultSubobject<UWidgetComponent>(TEXT("Bubble"));
+	Bubble->SetupAttachment(GetMesh());
+	ConstructorHelpers::FClassFinder<UUserWidget> BubbleClass(TEXT("UserWidget'/Game/UI/WB_NPCName.WB_NPCName_C'"));
+	if(BubbleClass.Succeeded())
+	{
+		Bubble->SetWidgetClass(BubbleClass.Class);
+		Bubble->SetWidgetSpace(EWidgetSpace::Screen);
+		Bubble->SetDrawAtDesiredSize(true);
+	}else
+	{
+		PrintLog("Can not find BubbleClass");
+	}
 }
 
 // Called when the game starts or when spawned
@@ -39,12 +46,11 @@ void ANPC_Interactable::BeginPlay()
 	Loneliness = InitLoneliness;
 	Risk = InitRisk;
 	IsIndoor = false;
-	EffectDisappearingRange = 1500.0f;
 	
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
 	if(MainCharacter)
 	{
-		GetWorldTimerManager().SetTimer(TimerHandle_1, this, &ANPC_Interactable::UpdateState, 0.1f, true);
+		GetWorldTimerManager().SetTimer(TimerHandle_1, this, &ANPC_Interactable::UpdateState, 0.5f, true);
 	}
 }
 
@@ -108,7 +114,7 @@ void ANPC_Interactable::SetLineEffect()
 {
 	if(MainCharacter)
 	{
-		if(GetDistanceTo(MainCharacter) < EffectDisappearingRange)
+		if(GetDistanceTo(MainCharacter) < LineDisappearingRange)
 		{
 			LineEffect->SetVisibility(true);
 			FVector NPCPosition(SelfLocation.X, SelfLocation.Y, SelfLocation.Z - 80);
@@ -119,22 +125,6 @@ void ANPC_Interactable::SetLineEffect()
 		{
 			LineEffect->SetVisibility(false);
 		}
-	}
-}
-
-void ANPC_Interactable::SetBubbleEffect(TArray<UNiagaraSystem*> NiagaraSystems)
-{
-	FVector Location = Bubble->GetComponentLocation();
-	FRotator Rotator = Bubble->GetComponentRotation();
-	FVector Scale = Bubble->GetComponentScale();
-	FTimerHandle TimerHandle;
-	FTimerDelegate TimerDel;
-	int32 Index = FMath::RandRange(0, NiagaraSystems.Num() - 1);
-	UNiagaraComponent* NiagaraComponent = UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), NiagaraSystems[Index], Location, Rotator, Scale);
-	TimerDel.BindUFunction(this, FName(TEXT("DestroyNiagaraComponent")), NiagaraComponent);
-	if(NiagaraComponent)
-	{
-		GetWorldTimerManager().SetTimer(TimerHandle, TimerDel, 2.0f, false);
 	}
 }
 
