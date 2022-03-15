@@ -36,7 +36,19 @@ AMainCharacter::AMainCharacter()
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
-
+	// 创建Widget组件并绑定控件蓝图
+	Bubble = CreateDefaultSubobject<UWidgetComponent>(TEXT("Bubble"));
+	Bubble->SetupAttachment(GetMesh());
+	ConstructorHelpers::FClassFinder<UUserWidget> BubbleClass(TEXT("UserWidget'/Game/UI/WB_NPCName.WB_NPCName_C'"));
+	if(BubbleClass.Succeeded())
+	{
+		Bubble->SetWidgetClass(BubbleClass.Class);
+	}else
+	{
+		PrintLog("Can not find BubbleClass");
+	}
+	Bubble->SetWidgetSpace(EWidgetSpace::Screen);
+	Bubble->SetDrawAtDesiredSize(true);
 }
 
 // Called when the game starts or when spawned
@@ -45,6 +57,7 @@ void AMainCharacter::BeginPlay()
 	Super::BeginPlay();
 	Loneliness = InitLoneliness;
 	Risk = InitRisk;
+	Bubble->SetVisibility(false);				// 初始化默认气泡不显示
 	// 获取所有NPC对象
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ANPC_Interactable::StaticClass(), InteractableNPCList);
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ANPC_Movable::StaticClass(), MovableNPCList);
@@ -81,7 +94,7 @@ void AMainCharacter::MoveRight(float Value)
 		AddMovementInput(Direction, Value);
 	}
 }
-/* 更新风险值和孤单值
+/* 更新风险值和孤单值, 是否处在与NPC交流状态
  * Loneliness = Loneliness - 处在风险圈内NPC的数量 * 孤单下降系数
  * Risk = Risk + 处在风险圈内NPC的数量 * 风险上升系数
  */

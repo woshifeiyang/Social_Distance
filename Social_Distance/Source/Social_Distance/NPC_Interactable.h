@@ -53,9 +53,15 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
 		float LineDisappearingRange;
-
+	
+	UPROPERTY()
+		float ConversationalDistance;
+	
 	UPROPERTY()
 		AMainCharacter* MainCharacter;
+
+	UPROPERTY()
+		UWidgetComponent* MainBubble;
 
 	UPROPERTY()
 		TArray<AActor*> Actors;
@@ -65,6 +71,8 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		class UWidgetComponent* Bubble;
+
+		bool DoOnce;
 	
 	FTimerHandle TimerHandle_1;
 
@@ -93,6 +101,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		void SetLineEffect();
+
+	UFUNCTION()
+		void CloseMCBubble();
 	
 	UFUNCTION()
 		void PrintLog(FString String);

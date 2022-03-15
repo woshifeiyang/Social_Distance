@@ -30,12 +30,12 @@ ANPC_Interactable::ANPC_Interactable()
 	if(BubbleClass.Succeeded())
 	{
 		Bubble->SetWidgetClass(BubbleClass.Class);
-		Bubble->SetWidgetSpace(EWidgetSpace::Screen);
-		Bubble->SetDrawAtDesiredSize(true);
 	}else
 	{
 		PrintLog("Can not find BubbleClass");
 	}
+	Bubble->SetWidgetSpace(EWidgetSpace::Screen);
+	Bubble->SetDrawAtDesiredSize(true);
 }
 
 // Called when the game starts or when spawned
@@ -46,12 +46,19 @@ void ANPC_Interactable::BeginPlay()
 	Loneliness = InitLoneliness;
 	Risk = InitRisk;
 	IsIndoor = false;
+	DoOnce = true;
+	ConversationalDistance = 500.0f;				// 可触发点击事件距离
+	Bubble->SetVisibility(false);					// 初始化默认气泡不显示
+	Bubble->SetRelativeLocation(FVector(0, 0, 250));
 	
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
 	if(MainCharacter)
 	{
 		GetWorldTimerManager().SetTimer(TimerHandle_1, this, &ANPC_Interactable::UpdateState, 0.5f, true);
 	}
+	// 获取Main character对象的Bubble控件引用
+	TArray<UActorComponent*> FoundComponents = MainCharacter->GetComponentsByTag(UWidgetComponent::StaticClass(),"Bubble");
+	MainBubble = Cast<UWidgetComponent>(FoundComponents[0]);
 }
 
 // Called every frame
@@ -67,13 +74,21 @@ void ANPC_Interactable::Tick(float DeltaTime)
 void ANPC_Interactable::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
 }
 
 void ANPC_Interactable::NotifyActorOnClicked(FKey ButtonPressed)
 {
 	Super::NotifyActorOnClicked(ButtonPressed);
-	PrintLog("Click successfully");
+	if(Distance <= ConversationalDistance)
+	{
+		Bubble->SetVisibility(true);
+		MainBubble->SetVisibility(true);
+		if(DoOnce)
+		{
+			GetWorldTimerManager().SetTimer(TimerHandle_2, this, &ANPC_Interactable::CloseMCBubble, 0.5f, true);
+			DoOnce = false;
+		}
+	}
 }
 
 void ANPC_Interactable::NotifyActorBeginCursorOver()
@@ -81,7 +96,11 @@ void ANPC_Interactable::NotifyActorBeginCursorOver()
 	Super::NotifyActorBeginCursorOver();
 	PrintLog("Cursor Over");
 }
-
+/* 更新风险值和孤单值，更新对话框是否可视
+ * Loneliness = Loneliness - 孤单下降系数
+ * Risk = Risk + 风险上升系数
+ * 当距离超过一定范围对话框消失
+ */
 void ANPC_Interactable::UpdateState()
 {
 	Distance = GetDistanceTo(MainCharacter);
@@ -102,6 +121,10 @@ void ANPC_Interactable::UpdateState()
 		{
 			Risk = 100.0f;
 		}
+	}
+	if(Distance > ConversationalDistance)
+	{
+		Bubble->SetVisibility(false);
 	}
 }
 
@@ -127,6 +150,17 @@ void ANPC_Interactable::SetLineEffect()
 		}
 	}
 }
+
+void ANPC_Interactable::CloseMCBubble()
+{
+	if(Distance > ConversationalDistance)
+	{
+		MainBubble->SetVisibility(false);
+		GetWorld()->GetTimerManager().ClearTimer(TimerHandle_2);
+		DoOnce = true;
+	}
+}
+
 
 void ANPC_Interactable::PrintLog(FString String)
 {
