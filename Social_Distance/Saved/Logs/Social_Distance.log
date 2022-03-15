@@ -1873,3 +1873,1361 @@ Please see Output Log for details.
 [2022.03.15-14.55.34:695][100]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Rachel_Art_sceneFF394D7C463953D39CF02FBF3AEFF42E.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/StarterContent/Maps/Rachel_Art_scene.umap'
 [2022.03.15-14.55.34:753][100]AssetCheck: New page: Asset Save: Rachel_Art_scene
 [2022.03.15-14.55.34:753][100]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Rachel_Art_scene.Rachel_Art_scene
+[2022.03.15-15.01.21:681][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (half-wall3)
+[2022.03.15-15.01.30:532][246]Cmd: TRANSACTION UNDO
+[2022.03.15-15.01.30:532][246]LogEditorTransaction: Undo Scale Actors
+[2022.03.15-15.01.30:534][246]LogMaterial: Display: Missing cached shader map for material M_cobble, compiling. 
+[2022.03.15-15.01.30:544][246]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.01.30:549][246]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.01.30:549][246]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.01.30:549][246]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.01.30:549][246]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.01.30:549][246]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.01.30:549][246]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.01.30:549][246]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.01.30:549][246]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.01.34:876][492]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2022.03.15-15.01.34:980][498]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2022.03.15-15.01.35:030][499]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Enviorment/half-wall.half-wall
+[2022.03.15-15.01.35:071][499]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.01.35:224][499]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2022.03.15-15.01.35:224][499]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.01.35:224][499]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2022.03.15-15.01.35:224][499]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.03.15-15.01.35:224][499]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2022.03.15-15.01.35:325][499]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.03.15-15.01.35:541][499]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.03.15-15.01.35:541][499]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.03.15-15.01.35:541][499]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.03.15-15.01.35:541][499]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.01.35:541][499]MaterialEditorStats: Texture samplers: 3/16
+[2022.03.15-15.01.35:541][499]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.03.15-15.01.35:541][499]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.01.35:863][513]MaterialEditorStats: Base pass shader: 121 instructions
+[2022.03.15-15.01.35:863][513]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2022.03.15-15.01.35:863][513]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.01.35:863][513]MaterialEditorStats: Texture samplers: 3/16
+[2022.03.15-15.01.35:863][513]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.03.15-15.01.35:863][513]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.02.15:444][607]LogEditorTransaction: Undo Set Vector Property
+[2022.03.15-15.02.15:525][607]LogMaterial: Display: Missing cached shader map for material M_cobble, compiling. 
+[2022.03.15-15.02.15:533][607]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.02.15:533][607]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.02.15:533][607]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.02.15:533][607]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.02.15:533][607]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.02.15:533][607]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.02.15:533][607]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.02.15:533][607]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.02.15:533][607]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.02.19:291][843]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2022.03.15-15.02.19:291][843]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2022.03.15-15.02.19:433][850]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.02.19:527][855]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2022.03.15-15.02.19:546][856]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.02.19:546][856]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2022.03.15-15.02.19:546][856]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2022.03.15-15.02.19:582][858]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2022.03.15-15.02.19:698][865]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.03.15-15.02.19:720][866]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.03.15-15.02.19:720][866]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.03.15-15.02.19:721][866]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.02.19:721][866]MaterialEditorStats: Texture samplers: 3/16
+[2022.03.15-15.02.19:721][866]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.03.15-15.02.19:721][866]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.02.19:958][878]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.03.15-15.02.20:302][902]MaterialEditorStats: Base pass shader: 121 instructions
+[2022.03.15-15.02.20:302][902]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2022.03.15-15.02.20:302][902]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.02.20:302][902]MaterialEditorStats: Texture samplers: 3/16
+[2022.03.15-15.02.20:302][902]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.03.15-15.02.20:302][902]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.03.02:396][753]LogEditorFactories: Performing atomic reimport of [//StuHomeOdd/HomeDrive3$/1700843/Cassandro/509/half-wall.fbx]
+[2022.03.15-15.03.03:120][753]LogFbx: Loading FBX Scene from //StuHomeOdd/HomeDrive3$/1700843/Cassandro/509/half-wall.fbx
+[2022.03.15-15.03.03:130][753]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.15-15.03.03:160][753]LogFbx: Display: Triangulating static mesh pCube167
+[2022.03.15-15.03.03:244][753]LogStaticMesh: Building static mesh half-wall...
+[2022.03.15-15.03.03:279][753]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/Enviorment/half-wall.half-wall
+[2022.03.15-15.03.03:298][753]LogEditorFactories: -- imported successfully
+[2022.03.15-15.03.03:301][753]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.03.15-15.03.19:059][466]LogActorFactory: Actor Factory created half-wall
+[2022.03.15-15.03.19:775][527]LogActorFactory: Actor Factory created half-wall
+[2022.03.15-15.03.34:171][873]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.03.15-15.03.34:172][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.15-15.03.35:494][978]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Enviorment/half-wall.half-wall
+[2022.03.15-15.03.46:927][671]LogActorFactory: Actor Factory created half-wall
+[2022.03.15-15.03.47:825][749]LogActorFactory: Actor Factory created half-wall
+[2022.03.15-15.03.58:984][920]Cmd: DELETE
+[2022.03.15-15.03.58:984][920]Cmd: ACTOR DELETE
+[2022.03.15-15.03.58:986][920]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.15-15.03.58:993][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.03.15-15.03.58:997][920]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2022.03.15-15.03.59:390][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (half-wall4)
+[2022.03.15-15.03.59:535][969]Cmd: DELETE
+[2022.03.15-15.03.59:535][969]Cmd: ACTOR DELETE
+[2022.03.15-15.03.59:536][969]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.15-15.03.59:542][969]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.03.15-15.03.59:543][969]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.03.15-15.04.05:865][666]Cmd: DELETE
+[2022.03.15-15.04.05:865][666]Cmd: ACTOR DELETE
+[2022.03.15-15.04.05:869][666]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.15-15.04.05:869][666]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.15-15.04.05:869][666]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.15-15.04.05:874][666]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.03.15-15.04.05:876][666]LogEditorActor: Deleted 3 Actors (0.010 secs)
+[2022.03.15-15.04.07:456][812]LogActorFactory: Actor Factory created half-wall
+[2022.03.15-15.04.07:958][854]LogActorFactory: Actor Factory created half-wall
+[2022.03.15-15.04.13:061][398]Cmd: TRANSACTION UNDO
+[2022.03.15-15.04.13:061][398]LogEditorTransaction: Undo Move Actors
+[2022.03.15-15.04.13:126][398]LogMaterial: Display: Missing cached shader map for material M_cobble, compiling. 
+[2022.03.15-15.04.13:132][398]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.04.13:150][398]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 18
+[2022.03.15-15.04.13:150][398]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 17
+[2022.03.15-15.04.13:150][398]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2022.03.15-15.04.13:150][398]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 15
+[2022.03.15-15.04.13:150][398]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 14
+[2022.03.15-15.04.13:150][398]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 13
+[2022.03.15-15.04.13:151][398]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 12
+[2022.03.15-15.04.13:151][398]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 11
+[2022.03.15-15.04.15:229][517]Cmd: DELETE
+[2022.03.15-15.04.15:229][517]Cmd: ACTOR DELETE
+[2022.03.15-15.04.15:262][517]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.15-15.04.15:268][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.03.15-15.04.15:269][517]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2022.03.15-15.04.17:145][675]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2022.03.15-15.04.17:161][676]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2022.03.15-15.04.17:308][683]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.04.17:354][686]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2022.03.15-15.04.17:372][687]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.04.17:393][688]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2022.03.15-15.04.17:420][690]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2022.03.15-15.04.17:435][691]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2022.03.15-15.04.17:463][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.15-15.04.17:539][694]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.03.15-15.04.17:545][694]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.03.15-15.04.17:546][694]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.03.15-15.04.17:546][694]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.04.17:546][694]MaterialEditorStats: Texture samplers: 3/16
+[2022.03.15-15.04.17:546][694]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.03.15-15.04.17:546][694]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.04.17:796][705]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.03.15-15.04.18:118][723]MaterialEditorStats: Base pass shader: 121 instructions
+[2022.03.15-15.04.18:118][723]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2022.03.15-15.04.18:118][723]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.04.18:118][723]MaterialEditorStats: Texture samplers: 3/16
+[2022.03.15-15.04.18:118][723]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.03.15-15.04.18:118][723]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.04.22:137][147]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.15-15.04.26:442][558]LogActorFactory: Actor Factory created half-wall
+[2022.03.15-15.04.28:143][702]LogActorFactory: Actor Factory created half-wall
+[2022.03.15-15.04.28:719][756]LogActorFactory: Actor Factory created half-wall
+[2022.03.15-15.04.33:038][224]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.03.15-15.04.39:253][887]Cmd: DELETE
+[2022.03.15-15.04.39:253][887]Cmd: ACTOR DELETE
+[2022.03.15-15.04.39:256][887]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.15-15.04.39:261][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2022.03.15-15.04.39:264][887]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2022.03.15-15.04.53:417][523]LogEditorFactories: Performing atomic reimport of [//StuHomeOdd/HomeDrive3$/1700843/Cassandro/509/half-wall.fbx]
+[2022.03.15-15.04.53:455][523]LogFbx: Loading FBX Scene from //StuHomeOdd/HomeDrive3$/1700843/Cassandro/509/half-wall.fbx
+[2022.03.15-15.04.53:464][523]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.15-15.04.53:494][523]LogFbx: Display: Triangulating static mesh pCube167
+[2022.03.15-15.04.53:579][523]LogStaticMesh: Building static mesh half-wall...
+[2022.03.15-15.04.53:616][523]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/Enviorment/half-wall.half-wall
+[2022.03.15-15.04.53:634][523]LogEditorFactories: -- imported successfully
+[2022.03.15-15.04.53:637][523]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.03.15-15.04.54:427][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Enviorment/half-wall" FILE="//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/half-wall.uasset" SILENT=true
+[2022.03.15-15.04.54:509][544]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/half-wall1B90B6EF40AABDA4A69D71B5BABB3F7A.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/half-wall.uasset'
+[2022.03.15-15.04.54:537][544]AssetCheck: New page: Asset Save: half-wall
+[2022.03.15-15.04.54:537][544]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Enviorment/half-wall.half-wall
+[2022.03.15-15.04.56:014][670]LogActorFactory: Actor Factory created half-wall
+[2022.03.15-15.04.57:357][809]LogActorFactory: Actor Factory created half-wall
+[2022.03.15-15.05.03:070][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.15-15.05.05:544][624]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.15-15.05.06:592][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (half-wall)
+[2022.03.15-15.05.07:344][763]Cmd: EDIT COPY
+[2022.03.15-15.05.07:550][784]Cmd: EDIT PASTE
+[2022.03.15-15.05.10:436][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.15-15.05.11:697][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (half-wall2)
+[2022.03.15-15.05.13:309][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.15-15.05.16:013][652]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.15-15.05.50:044][757]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.03.15-15.05.50:413][757]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Rachel_Art_scene_Auto88D732B0F4E7C38A4A8CBABB65D64F263.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Autosaves/Game/StarterContent/Maps/Rachel_Art_scene_Auto8.umap'
+[2022.03.15-15.05.50:429][757]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Rachel_Art_scene' took 0.390
+[2022.03.15-15.05.50:429][757]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.390
+[2022.03.15-15.06.04:798][218]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.03.15-15.06.05:146][218]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Rachel_Art_sceneB7174A6E4E834DE2EA519D8C80A3E025.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/StarterContent/Maps/Rachel_Art_scene.umap'
+[2022.03.15-15.06.05:198][218]AssetCheck: New page: Asset Save: Rachel_Art_scene
+[2022.03.15-15.06.05:198][218]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Rachel_Art_scene.Rachel_Art_scene
+[2022.03.15-15.08.16:981][847]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\1700843\Downloads\NormalMap.png)
+[2022.03.15-15.08.17:005][847]LogTexture: Display: Building textures: NormalMap (BC5, 1024X1024)
+[2022.03.15-15.08.22:044][ 96]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.08.22:049][ 96]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.08.22:049][ 96]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.08.22:049][ 96]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.08.22:049][ 96]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.08.22:049][ 96]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.08.22:049][ 96]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.08.22:049][ 96]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.08.22:049][ 96]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.08.22:049][ 96]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2022.03.15-15.08.22:058][ 96]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.03.15-15.08.22:061][ 96]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2022.03.15-15.08.25:954][361]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2022.03.15-15.08.25:954][361]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2022.03.15-15.08.26:149][373]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2022.03.15-15.08.26:149][373]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 6
+[2022.03.15-15.08.26:167][374]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
+[2022.03.15-15.08.26:185][375]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2022.03.15-15.08.26:199][376]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2022.03.15-15.08.26:228][378]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.03.15-15.08.26:327][385]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2022.03.15-15.08.26:492][392]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.08.26:503][392]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2022.03.15-15.08.26:506][392]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2022.03.15-15.08.26:560][394]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2022.03.15-15.08.26:614][396]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2022.03.15-15.08.26:647][397]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2022.03.15-15.08.26:700][400]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 9
+[2022.03.15-15.08.26:766][404]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 8
+[2022.03.15-15.08.26:766][404]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.08.26:767][404]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2022.03.15-15.08.27:071][419]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2022.03.15-15.08.27:124][422]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2022.03.15-15.08.27:189][426]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2022.03.15-15.08.27:223][428]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.03.15-15.08.27:386][437]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.03.15-15.08.27:510][443]MaterialEditorStats: Base pass shader: 121 instructions
+[2022.03.15-15.08.27:510][443]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2022.03.15-15.08.27:510][443]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.08.27:510][443]MaterialEditorStats: Texture samplers: 3/16
+[2022.03.15-15.08.27:510][443]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.03.15-15.08.27:510][443]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.08.28:748][572]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.08.28:760][572]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2022.03.15-15.08.28:765][572]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 13
+[2022.03.15-15.08.28:765][572]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 12
+[2022.03.15-15.08.28:765][572]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2022.03.15-15.08.28:765][572]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2022.03.15-15.08.28:765][572]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 9
+[2022.03.15-15.08.28:765][572]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2022.03.15-15.08.28:765][572]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2022.03.15-15.08.28:765][572]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2022.03.15-15.08.29:258][595]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2022.03.15-15.08.29:258][595]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.08.29:476][604]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2022.03.15-15.08.29:476][604]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.08.29:516][606]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2022.03.15-15.08.29:686][615]MaterialEditorStats: Base pass shader: 127 instructions
+[2022.03.15-15.08.29:686][615]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 201 instructions
+[2022.03.15-15.08.29:686][615]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.08.29:686][615]MaterialEditorStats: Texture samplers: 4/16
+[2022.03.15-15.08.29:686][615]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.03.15-15.08.29:686][615]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.08.30:137][649]LogMaterialEditor: Saving and Compiling material M_cobble1
+[2022.03.15-15.08.30:814][649]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.08.30:857][649]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.08.30:857][649]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.08.30:857][649]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.08.30:857][649]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.08.30:857][649]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.08.30:857][649]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.08.30:857][649]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.08.30:857][649]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.08.30:862][649]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.08.30:881][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2022.03.15-15.08.30:890][649]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.03.15-15.08.31:456][649]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 15
+[2022.03.15-15.08.31:456][649]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2022.03.15-15.08.31:456][649]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2022.03.15-15.08.31:456][649]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 12
+[2022.03.15-15.08.31:710][649]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2022.03.15-15.08.31:710][649]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2022.03.15-15.08.31:710][649]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2022.03.15-15.08.31:710][649]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.08.31:710][649]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.03.15-15.08.31:710][649]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2022.03.15-15.08.31:710][649]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2022.03.15-15.08.31:712][649]TextureStreamingBuild: Display: Compiling optional shaders took 0.826 seconds.
+[2022.03.15-15.08.31:732][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.03.15-15.08.32:388][649]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2022.03.15-15.08.32:476][649]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/M_cobble1517830BA42CE1F1DC4D7CDA5D73F7392.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/maps/M_cobble1.uasset'
+[2022.03.15-15.08.32:536][649]AssetCheck: New page: Asset Save: M_cobble1
+[2022.03.15-15.08.32:536][649]LogContentValidation: Display: Validating Material /Game/Assets/Enviorment/maps/M_cobble1.M_cobble1
+[2022.03.15-15.08.32:536][649]MaterialEditorStats: Base pass shader: 127 instructions
+[2022.03.15-15.08.32:536][649]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 201 instructions
+[2022.03.15-15.08.32:536][649]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.08.32:536][649]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.15-15.08.32:536][649]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.03.15-15.08.32:536][649]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.09.22:097][795]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.09.22:125][796]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.09.22:125][796]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.09.22:125][796]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.09.22:125][796]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.09.22:126][796]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.09.22:126][796]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.09.22:126][796]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.09.22:126][796]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.09.24:376][962]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.09.24:391][962]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2022.03.15-15.09.25:472][ 38]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.09.25:972][ 62]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 13
+[2022.03.15-15.09.25:993][ 63]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 12
+[2022.03.15-15.09.26:176][ 72]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 11
+[2022.03.15-15.09.26:196][ 73]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2022.03.15-15.09.26:238][ 75]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2022.03.15-15.09.26:238][ 75]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2022.03.15-15.09.26:277][ 77]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 7
+[2022.03.15-15.09.26:294][ 78]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2022.03.15-15.09.26:427][ 85]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2022.03.15-15.09.26:496][ 88]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.09.26:625][ 94]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2022.03.15-15.09.26:750][100]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.03.15-15.09.26:750][100]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.03.15-15.09.27:303][135]MaterialEditorStats: Base pass shader: 127 instructions
+[2022.03.15-15.09.27:303][135]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 201 instructions
+[2022.03.15-15.09.27:303][135]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.09.27:303][135]MaterialEditorStats: Texture samplers: 4/16
+[2022.03.15-15.09.27:303][135]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.03.15-15.09.27:303][135]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.09.29:967][403]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.09.29:973][403]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.09.29:989][404]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.09.29:989][404]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.09.29:989][404]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.09.29:989][404]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.09.29:989][404]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.09.29:989][404]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.09.29:989][404]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.09.29:989][404]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.09.30:484][430]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.03.15-15.09.30:857][452]MaterialEditorStats: Base pass shader: 127 instructions
+[2022.03.15-15.09.30:857][452]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 201 instructions
+[2022.03.15-15.09.30:857][452]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.09.30:857][452]MaterialEditorStats: Texture samplers: 4/16
+[2022.03.15-15.09.30:857][452]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.03.15-15.09.30:857][452]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.09.31:991][568]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.09.32:008][569]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.09.32:008][569]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.09.32:008][569]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.09.32:008][569]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.09.32:008][569]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.09.32:008][569]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.09.32:008][569]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.09.32:008][569]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.09.32:490][592]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2022.03.15-15.09.33:273][647]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.09.33:291][648]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.09.33:291][648]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.09.33:291][648]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.09.33:291][648]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.09.33:291][648]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.09.33:291][648]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.09.33:291][648]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.09.33:291][648]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.09.33:783][670]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2022.03.15-15.09.34:237][689]MaterialEditorStats: Base pass shader: 128 instructions
+[2022.03.15-15.09.34:237][689]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 202 instructions
+[2022.03.15-15.09.34:237][689]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.09.34:238][689]MaterialEditorStats: Texture samplers: 4/16
+[2022.03.15-15.09.34:238][689]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.03.15-15.09.34:238][689]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.09.34:376][702]LogMaterialEditor: Saving and Compiling material M_cobble1
+[2022.03.15-15.09.35:042][702]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.09.35:073][702]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.09.35:073][702]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.09.35:073][702]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.09.35:073][702]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.09.35:073][702]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.09.35:073][702]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.09.35:073][702]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.09.35:074][702]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.09.35:079][702]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.09.35:096][702]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.03.15-15.09.35:105][702]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.03.15-15.09.35:668][702]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 15
+[2022.03.15-15.09.35:668][702]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2022.03.15-15.09.35:668][702]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2022.03.15-15.09.35:941][702]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 12
+[2022.03.15-15.09.35:941][702]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2022.03.15-15.09.35:941][702]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2022.03.15-15.09.35:941][702]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2022.03.15-15.09.35:941][702]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2022.03.15-15.09.35:941][702]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.03.15-15.09.35:941][702]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2022.03.15-15.09.35:941][702]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2022.03.15-15.09.35:943][702]TextureStreamingBuild: Display: Compiling optional shaders took 0.844 seconds.
+[2022.03.15-15.09.35:951][702]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.03.15-15.09.36:568][702]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.03.15-15.09.36:837][702]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/M_cobble1C6FAB6CD48AE74594408F4BAE21EE3D6.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/maps/M_cobble1.uasset'
+[2022.03.15-15.09.36:978][702]AssetCheck: New page: Asset Save: M_cobble1
+[2022.03.15-15.09.36:978][702]LogContentValidation: Display: Validating Material /Game/Assets/Enviorment/maps/M_cobble1.M_cobble1
+[2022.03.15-15.09.36:978][702]MaterialEditorStats: Base pass shader: 128 instructions
+[2022.03.15-15.09.36:978][702]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 202 instructions
+[2022.03.15-15.09.36:978][702]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.09.36:978][702]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.15-15.09.36:978][702]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.03.15-15.09.36:979][702]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.09.44:201][364]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.09.44:207][364]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.09.44:227][365]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.09.44:227][365]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.09.44:227][365]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.09.44:227][365]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.09.44:227][365]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.09.44:227][365]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.09.44:227][365]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.09.44:227][365]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.09.44:706][385]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.03.15-15.09.44:936][397]LogMaterialEditor: Applying material M_cobble1
+[2022.03.15-15.09.45:591][397]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.09.45:613][397]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.09.45:613][397]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.09.45:613][397]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.09.45:613][397]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.09.45:613][397]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.09.45:613][397]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.09.45:613][397]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.09.45:613][397]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.09.45:630][397]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.09.45:650][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.03.15-15.09.45:658][397]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.03.15-15.09.46:221][397]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 15
+[2022.03.15-15.09.46:221][397]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2022.03.15-15.09.46:221][397]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2022.03.15-15.09.46:463][397]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 12
+[2022.03.15-15.09.46:463][397]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2022.03.15-15.09.46:463][397]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2022.03.15-15.09.46:463][397]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2022.03.15-15.09.46:463][397]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2022.03.15-15.09.46:463][397]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.03.15-15.09.46:463][397]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2022.03.15-15.09.46:463][397]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2022.03.15-15.09.46:465][397]TextureStreamingBuild: Display: Compiling optional shaders took 0.813 seconds.
+[2022.03.15-15.09.46:473][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.03.15-15.09.46:992][419]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.03.15-15.09.47:350][442]MaterialEditorStats: Base pass shader: 128 instructions
+[2022.03.15-15.09.47:350][442]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 202 instructions
+[2022.03.15-15.09.47:350][442]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.09.47:350][442]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.15-15.09.47:350][442]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.03.15-15.09.47:350][442]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.10.02:128][891]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\1700843\Downloads\NormalMap (1).png)
+[2022.03.15-15.10.02:153][891]LogTexture: Display: Building textures: NormalMap__1_ (BC5, 1024X1024)
+[2022.03.15-15.10.12:274][527]LogSlate: Took 0.481142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.03.15-15.10.12:702][531]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.10.12:714][531]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2022.03.15-15.10.12:721][531]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.10.12:721][531]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.10.12:721][531]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.10.12:721][531]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.10.12:721][531]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.10.12:721][531]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.10.12:721][531]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.10.12:721][531]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.10.12:724][531]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.10.15:413][700]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.10.15:424][700]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2022.03.15-15.10.16:544][761]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 13
+[2022.03.15-15.10.16:562][762]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 12
+[2022.03.15-15.10.16:580][763]LogMaterialEditor: Saving and Compiling material M_cobble1
+[2022.03.15-15.10.17:525][763]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 11
+[2022.03.15-15.10.17:525][763]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2022.03.15-15.10.17:525][763]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2022.03.15-15.10.17:525][763]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2022.03.15-15.10.17:525][763]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 7
+[2022.03.15-15.10.17:525][763]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2022.03.15-15.10.17:525][763]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2022.03.15-15.10.17:525][763]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2022.03.15-15.10.17:525][763]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2022.03.15-15.10.17:525][763]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2022.03.15-15.10.17:525][763]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.03.15-15.10.17:536][763]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.10.17:568][763]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.10.17:568][763]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.10.17:568][763]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.10.17:568][763]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.10.17:568][763]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.10.17:578][763]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.10.17:596][763]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.10.17:603][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.03.15-15.10.17:613][763]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.03.15-15.10.18:176][763]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 17
+[2022.03.15-15.10.18:176][763]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 16
+[2022.03.15-15.10.18:176][763]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 15
+[2022.03.15-15.10.18:176][763]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2022.03.15-15.10.18:176][763]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2022.03.15-15.10.18:396][763]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2022.03.15-15.10.18:396][763]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 10
+[2022.03.15-15.10.18:396][763]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2022.03.15-15.10.18:396][763]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2022.03.15-15.10.18:396][763]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2022.03.15-15.10.18:396][763]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.10.18:396][763]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2022.03.15-15.10.18:396][763]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2022.03.15-15.10.18:399][763]TextureStreamingBuild: Display: Compiling optional shaders took 0.792 seconds.
+[2022.03.15-15.10.18:406][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.03.15-15.10.19:038][763]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.03.15-15.10.19:186][763]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/M_cobble1580A066F4A5063D7D8D4DE9FD271525F.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/maps/M_cobble1.uasset'
+[2022.03.15-15.10.19:234][763]AssetCheck: New page: Asset Save: M_cobble1
+[2022.03.15-15.10.19:234][763]LogContentValidation: Display: Validating Material /Game/Assets/Enviorment/maps/M_cobble1.M_cobble1
+[2022.03.15-15.10.19:235][763]MaterialEditorStats: Base pass shader: 127 instructions
+[2022.03.15-15.10.19:235][763]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 201 instructions
+[2022.03.15-15.10.19:235][763]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.10.19:235][763]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.15-15.10.19:235][763]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.03.15-15.10.19:235][763]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.10.23:512][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.03.15-15.10.24:798][103]LogSlate: Window 'Delete Assets' being destroyed
+[2022.03.15-15.10.24:812][103]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assets/Enviorment/maps/NormalMap.NormalMap
+[2022.03.15-15.10.24:972][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2022.03.15-15.10.27:093][285]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.10.27:115][286]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.10.27:115][286]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.10.27:115][286]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.10.27:115][286]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.10.27:115][286]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.10.27:115][286]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.10.27:115][286]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.10.27:115][286]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.10.27:583][309]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2022.03.15-15.10.27:635][311]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.10.27:675][312]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2022.03.15-15.10.27:749][316]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.10.27:805][319]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2022.03.15-15.10.27:869][322]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.10.27:889][323]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2022.03.15-15.10.27:928][325]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2022.03.15-15.10.27:928][325]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2022.03.15-15.10.28:019][329]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.03.15-15.10.28:248][336]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.03.15-15.10.28:475][348]LogMaterialEditor: Saving and Compiling material M_cobble1
+[2022.03.15-15.10.29:136][348]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.10.29:158][348]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.10.29:158][348]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.10.29:158][348]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.10.29:158][348]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.10.29:158][348]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.10.29:158][348]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.10.29:158][348]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.10.29:158][348]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.10.29:179][348]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.10.29:199][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.03.15-15.10.29:205][348]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.03.15-15.10.29:765][348]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 15
+[2022.03.15-15.10.29:765][348]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2022.03.15-15.10.29:765][348]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2022.03.15-15.10.29:765][348]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 12
+[2022.03.15-15.10.30:072][348]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 10
+[2022.03.15-15.10.30:072][348]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2022.03.15-15.10.30:072][348]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.10.30:072][348]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.10.30:072][348]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.10.30:073][348]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2022.03.15-15.10.30:073][348]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2022.03.15-15.10.30:075][348]TextureStreamingBuild: Display: Compiling optional shaders took 0.874 seconds.
+[2022.03.15-15.10.30:082][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.03.15-15.10.30:701][348]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2022.03.15-15.10.30:801][348]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/M_cobble145B5E7AE438A437B45834289B206643E.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/maps/M_cobble1.uasset'
+[2022.03.15-15.10.30:881][348]AssetCheck: New page: Asset Save: M_cobble1
+[2022.03.15-15.10.30:881][348]LogContentValidation: Display: Validating Material /Game/Assets/Enviorment/maps/M_cobble1.M_cobble1
+[2022.03.15-15.10.30:882][348]MaterialEditorStats: Base pass shader: 127 instructions
+[2022.03.15-15.10.30:882][348]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 201 instructions
+[2022.03.15-15.10.30:882][348]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.10.30:882][348]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.15-15.10.30:882][348]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.03.15-15.10.30:882][348]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.10.57:778][994]LogActorFactory: Actor Factory created Plane
+[2022.03.15-15.10.58:587][ 68]LogActorFactory: Actor Factory created Plane
+[2022.03.15-15.11.01:700][382]Cmd: TRANSACTION UNDO
+[2022.03.15-15.11.01:700][382]LogEditorTransaction: Undo Scale Actors
+[2022.03.15-15.11.01:759][382]LogMaterial: Display: Missing cached shader map for material M_cobble, compiling. 
+[2022.03.15-15.11.01:765][382]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.11.01:770][382]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.11.01:770][382]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.11.01:770][382]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.11.01:770][382]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.11.01:770][382]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.11.01:770][382]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.11.01:770][382]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.11.01:770][382]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.11.05:395][552]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2022.03.15-15.11.05:535][559]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2022.03.15-15.11.05:554][560]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 8
+[2022.03.15-15.11.05:615][563]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 7
+[2022.03.15-15.11.05:615][563]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.11.05:668][566]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.11.05:718][569]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2022.03.15-15.11.05:770][572]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.11.05:810][574]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.03.15-15.11.05:837][575]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.03.15-15.11.05:838][575]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.03.15-15.11.05:838][575]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.11.05:838][575]MaterialEditorStats: Texture samplers: 3/16
+[2022.03.15-15.11.05:838][575]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.03.15-15.11.05:838][575]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.11.06:114][588]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.03.15-15.11.06:447][603]MaterialEditorStats: Base pass shader: 127 instructions
+[2022.03.15-15.11.06:447][603]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 201 instructions
+[2022.03.15-15.11.06:447][603]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.11.06:447][603]MaterialEditorStats: Texture samplers: 4/16
+[2022.03.15-15.11.06:447][603]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.03.15-15.11.06:447][603]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.11.09:198][798]Cmd: TRANSACTION UNDO
+[2022.03.15-15.11.09:198][798]LogEditorTransaction: Undo Create Actors
+[2022.03.15-15.11.09:256][798]LogMaterial: Display: Missing cached shader map for material M_cobble, compiling. 
+[2022.03.15-15.11.09:261][798]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.11.09:266][798]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-15.11.09:266][798]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.11.09:266][798]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-15.11.09:266][798]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-15.11.09:266][798]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.11.09:266][798]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-15.11.09:266][798]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-15.11.09:266][798]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-15.11.09:751][804]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2022.03.15-15.11.09:751][804]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2022.03.15-15.11.09:842][809]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-15.11.09:941][811]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2022.03.15-15.11.09:949][811]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2022.03.15-15.11.09:966][812]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-15.11.09:966][812]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2022.03.15-15.11.09:966][812]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2022.03.15-15.11.10:069][816]Cmd: TRANSACTION UNDO
+[2022.03.15-15.11.10:069][816]LogEditorTransaction: Undo Create Actors
+[2022.03.15-15.11.10:172][816]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.03.15-15.11.10:174][816]LogMaterial: Display: Missing cached shader map for material M_cobble, compiling. 
+[2022.03.15-15.11.10:181][816]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-15.11.10:371][820]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 18
+[2022.03.15-15.11.10:412][822]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 17
+[2022.03.15-15.11.10:412][822]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 16
+[2022.03.15-15.11.10:431][823]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 15
+[2022.03.15-15.11.10:600][831]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 14
+[2022.03.15-15.11.10:640][833]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 13
+[2022.03.15-15.11.10:661][834]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 12
+[2022.03.15-15.11.10:781][840]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2022.03.15-15.11.10:881][845]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 10
+[2022.03.15-15.11.11:088][855]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2022.03.15-15.11.11:088][855]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 8
+[2022.03.15-15.11.11:181][860]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2022.03.15-15.11.11:197][860]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 6
+[2022.03.15-15.11.11:323][866]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2022.03.15-15.11.11:340][867]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2022.03.15-15.11.11:357][868]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2022.03.15-15.11.11:414][871]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.03.15-15.11.11:439][872]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.03.15-15.11.11:439][872]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.03.15-15.11.11:439][872]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.11.11:439][872]MaterialEditorStats: Texture samplers: 3/16
+[2022.03.15-15.11.11:439][872]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.03.15-15.11.11:440][872]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.11.11:690][884]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2022.03.15-15.11.11:785][889]Cmd: DELETE
+[2022.03.15-15.11.11:785][889]Cmd: ACTOR DELETE
+[2022.03.15-15.11.11:790][889]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.15-15.11.11:796][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2022.03.15-15.11.11:798][889]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.03.15-15.11.12:059][909]MaterialEditorStats: Base pass shader: 127 instructions
+[2022.03.15-15.11.12:059][909]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 201 instructions
+[2022.03.15-15.11.12:059][909]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-15.11.12:059][909]MaterialEditorStats: Texture samplers: 4/16
+[2022.03.15-15.11.12:059][909]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.03.15-15.11.12:059][909]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-15.16.05:076][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.03.15-15.16.05:478][ 66]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Rachel_Art_scene_Auto92B03DB564900799670E2FB8EDD72DA1B.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Autosaves/Game/StarterContent/Maps/Rachel_Art_scene_Auto9.umap'
+[2022.03.15-15.16.05:493][ 66]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Rachel_Art_scene' took 0.420
+[2022.03.15-15.16.05:493][ 66]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.420
+[2022.03.15-15.16.05:494][ 66]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Enviorment/maps/NormalMap__1_] ([1] browsable assets)...
+[2022.03.15-15.16.05:500][ 66]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Enviorment/maps/NormalMap__1_.NormalMap__1_]
+[2022.03.15-15.16.05:500][ 66]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enviorment/maps/NormalMap__1_]
+[2022.03.15-15.16.05:563][ 66]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/NormalMap__1__Auto971C34A8B405CC4B312A381AE21C827FF.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Autosaves/Game/Assets/Enviorment/maps/NormalMap__1__Auto9.uasset'
+[2022.03.15-15.16.05:569][ 66]LogFileHelpers: Auto-saving content packages took 0.076
+[2022.03.15-16.07.00:241][179]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 \\StuHomeOdd\HomeDrive3$\1700843\Cassandro\509\fountain.fbx)
+[2022.03.15-16.07.00:274][179]LogFbx: Loading FBX Scene from \\StuHomeOdd\HomeDrive3$\1700843\Cassandro\509\fountain.fbx
+[2022.03.15-16.07.00:288][179]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.15-16.07.03:167][179]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.03.15-16.07.03:209][179]LogFbx: Display: Triangulating static mesh pCylinder6
+[2022.03.15-16.07.03:415][179]LogStaticMesh: Building static mesh fountain...
+[2022.03.15-16.07.03:506][179]LogStaticMesh: Built static mesh [0.09s] /Game/Assets/Enviorment/fountain.fountain
+[2022.03.15-16.07.03:549][179]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.03.15-16.07.06:111][309]LogSlate: Window 'Message Log' being destroyed
+[2022.03.15-16.07.06:116][309]LogSlate: Window 'Message Log' being destroyed
+[2022.03.15-16.07.07:371][411]LogActorFactory: Actor Factory created fountain
+[2022.03.15-16.07.08:667][526]LogActorFactory: Actor Factory created fountain
+[2022.03.15-16.07.09:244][580]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.15-16.07.17:472][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fountain)
+[2022.03.15-16.07.19:926][569]Cmd: TRANSACTION UNDO
+[2022.03.15-16.07.19:926][569]LogEditorTransaction: Undo Scale Actors
+[2022.03.15-16.07.19:988][569]LogMaterial: Display: Missing cached shader map for material M_cobble, compiling. 
+[2022.03.15-16.07.19:994][569]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-16.07.20:017][569]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 18
+[2022.03.15-16.07.20:017][569]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 17
+[2022.03.15-16.07.20:017][569]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2022.03.15-16.07.20:017][569]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 15
+[2022.03.15-16.07.20:017][569]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 14
+[2022.03.15-16.07.20:017][569]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 13
+[2022.03.15-16.07.20:017][569]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 12
+[2022.03.15-16.07.20:017][569]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 11
+[2022.03.15-16.07.21:856][665]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.15-16.07.22:424][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fountain)
+[2022.03.15-16.07.23:559][751]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2022.03.15-16.07.23:686][757]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 9
+[2022.03.15-16.07.23:730][759]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2022.03.15-16.07.23:808][763]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 7
+[2022.03.15-16.07.23:887][767]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2022.03.15-16.07.23:966][771]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
+[2022.03.15-16.07.23:966][771]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2022.03.15-16.07.23:966][771]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2022.03.15-16.07.23:966][771]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.03.15-16.07.23:990][772]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.03.15-16.07.23:990][772]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.03.15-16.07.23:990][772]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-16.07.23:990][772]MaterialEditorStats: Texture samplers: 3/16
+[2022.03.15-16.07.23:990][772]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.03.15-16.07.23:990][772]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-16.07.24:240][784]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2022.03.15-16.07.24:630][807]MaterialEditorStats: Base pass shader: 127 instructions
+[2022.03.15-16.07.24:630][807]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 201 instructions
+[2022.03.15-16.07.24:631][807]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.03.15-16.07.24:631][807]MaterialEditorStats: Texture samplers: 4/16
+[2022.03.15-16.07.24:631][807]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.03.15-16.07.24:631][807]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.15-16.07.25:417][884]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.15-16.07.29:315][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.15-16.07.29:905][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fountain)
+[2022.03.15-16.07.33:416][631]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.15-16.07.35:139][793]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.03.15-16.07.35:609][793]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Rachel_Art_scene49CBAAE648645FF1EB6D33A1ED41A0A4.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/StarterContent/Maps/Rachel_Art_scene.umap'
+[2022.03.15-16.07.35:670][793]AssetCheck: New page: Asset Save: Rachel_Art_scene
+[2022.03.15-16.07.35:670][793]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Rachel_Art_scene.Rachel_Art_scene
+[2022.03.15-16.07.45:423][280]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.03.15-16.07.45:973][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2022.03.15-16.07.46:609][319]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/Rachel_Art_sceneAA37EF26472570526E8656BF34B0CB01.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/StarterContent/Maps/Rachel_Art_scene.umap'
+[2022.03.15-16.07.46:672][319]AssetCheck: New page: Asset Save: Rachel_Art_scene
+[2022.03.15-16.07.46:672][319]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Rachel_Art_scene.Rachel_Art_scene
+[2022.03.15-16.07.50:971][452]LogSlate: Window 'Message' being destroyed
+[2022.03.15-16.07.50:983][452]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Assets/Enviorment/maps/M_cobble.M_cobble
+(Selecting 'No' will cause all changes to be lost!)
+[2022.03.15-16.07.51:654][452]LogMaterial: Display: Missing cached shader map for material M_cobble, compiling. 
+[2022.03.15-16.07.51:680][452]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-16.07.51:680][452]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-16.07.51:680][452]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-16.07.51:680][452]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-16.07.51:680][452]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-16.07.51:680][452]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-16.07.51:680][452]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-16.07.51:680][452]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-16.07.51:683][452]LogMaterial: Display: Missing cached shader map for material M_cobble, compiling. 
+[2022.03.15-16.07.51:699][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.03.15-16.07.51:704][452]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.03.15-16.07.55:620][452]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 15
+[2022.03.15-16.07.55:620][452]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2022.03.15-16.07.55:620][452]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 13
+[2022.03.15-16.07.55:620][452]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2022.03.15-16.07.55:620][452]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2022.03.15-16.07.55:620][452]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2022.03.15-16.07.55:620][452]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 6
+[2022.03.15-16.07.55:620][452]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2022.03.15-16.07.55:620][452]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2022.03.15-16.07.55:620][452]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2022.03.15-16.07.55:632][452]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.03.15-16.07.55:635][452]TextureStreamingBuild: Display: Compiling optional shaders took 3.934 seconds.
+[2022.03.15-16.07.55:642][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.03.15-16.07.56:104][452]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.03.15-16.07.58:500][452]LogSlate: Window 'Message' being destroyed
+[2022.03.15-16.07.58:505][452]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Assets/Enviorment/maps/M_cobble1.M_cobble1
+(Selecting 'No' will cause all changes to be lost!)
+[2022.03.15-16.07.59:257][452]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-16.07.59:296][452]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.03.15-16.07.59:296][452]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.03.15-16.07.59:296][452]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.03.15-16.07.59:296][452]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.03.15-16.07.59:296][452]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.03.15-16.07.59:296][452]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-16.07.59:296][452]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.03.15-16.07.59:296][452]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.03.15-16.07.59:300][452]LogMaterial: Display: Missing cached shader map for material M_cobble1, compiling. 
+[2022.03.15-16.07.59:322][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.03.15-16.07.59:327][452]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.03.15-16.07.59:893][452]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 15
+[2022.03.15-16.07.59:893][452]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2022.03.15-16.07.59:893][452]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2022.03.15-16.08.00:200][452]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2022.03.15-16.08.00:200][452]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2022.03.15-16.08.00:200][452]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 8
+[2022.03.15-16.08.00:200][452]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2022.03.15-16.08.00:200][452]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2022.03.15-16.08.00:200][452]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.03.15-16.08.00:200][452]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2022.03.15-16.08.00:200][452]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2022.03.15-16.08.00:202][452]TextureStreamingBuild: Display: Compiling optional shaders took 0.879 seconds.
+[2022.03.15-16.08.00:210][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.03.15-16.08.00:253][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.03.15-16.08.00:658][452]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.03.15-16.08.04:181][452]LogSlate: Window 'Save Content' being destroyed
+[2022.03.15-16.08.04:233][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Enviorment/bush" FILE="//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/bush.uasset" SILENT=true
+[2022.03.15-16.08.04:341][452]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/bushE7A7F1624B67692CA30EC5AA6B07DC27.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/bush.uasset'
+[2022.03.15-16.08.04:409][452]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/cobble_mat25D65C9E4D4A9D78BC5E948AA66692EB.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/maps/cobble_mat.uasset'
+[2022.03.15-16.08.04:458][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Enviorment/fountain" FILE="//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/fountain.uasset" SILENT=true
+[2022.03.15-16.08.04:599][452]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/fountain32A85B5B41D3FBDD5F62A9A53D37810C.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/fountain.uasset'
+[2022.03.15-16.08.04:662][452]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/M_cobbleE30A50E549113A2C148BDDA0FE043D31.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/maps/M_cobble.uasset'
+[2022.03.15-16.08.04:780][452]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/M_cobble13CB0531040ABB15B69269680FCEC8BC4.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/maps/M_cobble1.uasset'
+[2022.03.15-16.08.04:890][452]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/NormalMap__1_23C6B4394631FDA16213DF92566B3FB6.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/maps/NormalMap__1_.uasset'
+[2022.03.15-16.08.04:919][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/characters/PC" FILE="//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/characters/PC.uasset" SILENT=true
+[2022.03.15-16.08.05:429][452]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/PC9272FB244B17F3DC888255B6984B73A5.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/characters/PC.uasset'
+[2022.03.15-16.08.05:593][452]LogSavePackage: Moving '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Saved/wooden_barrierC6B65D134B2286EF2952BAA4714E0771.tmp' to '//StuHomeOdd/HomeDrive3$/1700843/GitHub/Social_Distance/Social_Distance/Content/Assets/Enviorment/wooden_barrier.uasset'
+[2022.03.15-16.08.05:696][452]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.03.15-16.08.05:696][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.15-16.08.05:746][452]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.03.15-16.08.05:746][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.15-16.08.05:755][452]LogSlate: Window 'half-wall' being destroyed
+[2022.03.15-16.08.05:898][452]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.03.15-16.08.05:898][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.15-16.08.05:949][452]LogSlate: Window 'Social_Distance - Unreal Editor' being destroyed
+[2022.03.15-16.08.06:135][452]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.15-16.08.06:135][452]LogContentValidation: Display: Validating StaticMesh /Game/Assets/characters/PC.PC
+[2022.03.15-16.08.06:135][452]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Enviorment/bush.bush
+[2022.03.15-16.08.06:135][452]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Enviorment/wooden_barrier.wooden_barrier
+[2022.03.15-16.08.06:135][452]LogContentValidation: Display: Validating Material /Game/Assets/Enviorment/maps/M_cobble.M_cobble
+[2022.03.15-16.08.06:135][452]LogContentValidation: Display: Validating Texture2D /Game/Assets/Enviorment/maps/cobble_mat.cobble_mat
+[2022.03.15-16.08.06:135][452]LogContentValidation: Display: Validating Material /Game/Assets/Enviorment/maps/M_cobble1.M_cobble1
+[2022.03.15-16.08.06:135][452]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Enviorment/fountain.fountain
+[2022.03.15-16.08.06:135][452]LogContentValidation: Display: Validating Texture2D /Game/Assets/Enviorment/maps/NormalMap__1_.NormalMap__1_
+[2022.03.15-16.08.06:136][453]Cmd: QUIT_EDITOR
+[2022.03.15-16.08.06:136][453]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.03.15-16.08.06:159][453]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.03.15-16.08.06:180][453]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.03.15-16.08.06:180][453]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.03.15-16.08.06:181][453]LogAudio: Display: Audio Device unregistered from world 'Rachel_Art_scene'.
+[2022.03.15-16.08.06:181][453]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.15-16.08.06:182][453]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.15-16.08.06:211][453]LogAudio: Display: Audio Device Manager Shutdown
+[2022.03.15-16.08.06:211][453]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.03.15-16.08.06:219][453]LogExit: Preparing to exit.
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67802B00] Windows
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67802A00] Default__DeviceProfile
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CD700] WindowsNoEditor
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67801700] WindowsServer
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CEB00] WindowsClient
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67802D00] IOS
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CF700] iPadAir
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67801400] iPadAir2
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67777E00] IPadPro
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67777F00] iPadAir3
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67802C00] iPadAir4
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67775C00] iPadMini2
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67801600] iPadMini3
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67777A00] iPadMini4
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67800B00] iPadMini5
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CB700] iPhone6
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CB800] iPodTouch6
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67775B00] iPhone7
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67775A00] iPodTouch7
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C9B00] iPhone5S
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67776000] iPhone6Plus
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CBD00] iPhone6S
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67775600] iPhone6SPlus
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C9700] iPhone7Plus
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67774500] iPhoneSE
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CA000] iPhone8
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67777D00] iPhone8Plus
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CBB00] iPhoneX
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67776200] iPhoneXS
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CA200] iPhoneXSMax
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67775F00] iPhoneXR
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CAA00] iPhone11
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67777B00] iPhone11Pro
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C9300] iPhone11ProMax
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67775700] iPhoneSE2
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CAB00] iPhone12Mini
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67775100] iPhone12
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C8900] iPhone12Pro
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67777900] iPhone12ProMax
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CAD00] iPadPro105
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67774A00] iPadPro129
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C9C00] iPadPro97
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67775800] iPadPro2_129
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CBE00] iPad5
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67774400] iPad6
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CA700] iPad7
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67775900] iPad8
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CB600] iPadPro11
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67776E00] iPadPro2_11
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CBC00] iPadPro3_129
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67776900] iPadPro4_129
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CBA00] AppleTV
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67776C00] AppleTV4K
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CFB00] TVOS
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C9000] Mac
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CDF00] MacClient
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CB900] MacNoEditor
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB6784CA00] MacServer
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C8800] Linux
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67777000] LinuxAArch64
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C8200] LinuxNoEditor
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67774E00] LinuxAArch64NoEditor
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CA300] LinuxClient
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB67775200] LinuxAArch64Client
+[2022.03.15-16.08.06:957][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C9200] LinuxServer
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67777200] LinuxAArch64Server
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CA900] Android
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67777600] Android_Low
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C9100] Android_Mid
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67776A00] Android_High
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C8A00] Android_Default
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67774200] Android_Adreno4xx
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CB100] Android_Adreno5xx_Low
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67777400] Android_Adreno5xx
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C9A00] Android_Adreno6xx
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67776500] Android_Adreno6xx_Vulkan
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C8100] Android_Mali_T6xx
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67774900] Android_Mali_T7xx
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CA400] Android_Mali_T8xx
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67776100] Android_Mali_G71
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CAC00] Android_Mali_G72
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67777100] Android_Mali_G72_Vulkan
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C8400] Android_Mali_G76
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67775000] Android_Mali_G76_Vulkan
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C9900] Android_Mali_G77
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67776300] Android_Mali_G77_Vulkan
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C9400] Android_Vulkan_SM5
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67775500] Android_PowerVR_G6xxx
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CBF00] Android_PowerVR_GT7xxx
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67777500] Android_PowerVR_GE8xxx
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB677C9500] Android_PowerVR_GM9xxx
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67775E00] Android_PowerVR_GM9xxx_Vulkan
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CA100] Android_TegraK1
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67776600] Android_Unknown_Vulkan
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67801800] Lumin
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB677CC400] Lumin_Desktop
+[2022.03.15-16.08.06:958][453]LogDeviceProfile: Device profile begin destroy: [000001EB67803B00] HoloLens
+[2022.03.15-16.08.06:966][453]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.03.15-16.08.06:966][453]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.03.15-16.08.06:985][453]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.03.15-16.08.06:999][453]LogExit: Editor shut down
+[2022.03.15-16.08.06:999][453]LogExit: Transaction tracking system shut down
+[2022.03.15-16.08.08:070][453]LogExit: Object subsystem successfully closed.
+[2022.03.15-16.08.08:100][453]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.03.15-16.08.08:144][453]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (820)
+[2022.03.15-16.08.08:144][453]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (818)
+[2022.03.15-16.08.08:144][453]LogModuleManager: Shutting down and abandoning module SceneOutliner (816)
+[2022.03.15-16.08.08:144][453]LogModuleManager: Shutting down and abandoning module AddContentDialog (814)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module WidgetCarousel (813)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module EditorWidgets (810)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module StatsViewer (808)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (806)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (804)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module AutomationWorker (802)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module SteamVREditor (800)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module OculusMR (798)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module GooglePADEditor (796)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (794)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module PlanarCut (792)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module CharacterAI (790)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (788)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module SequenceRecorder (787)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (784)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (782)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (780)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (778)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module WebMMedia (776)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (774)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (772)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (770)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (768)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (766)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (764)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (762)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (760)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (758)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (756)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (754)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module TextureAlignMode (752)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module BspMode (750)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module GeometryMode (748)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (746)
+[2022.03.15-16.08.08:145][453]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (744)
+[2022.03.15-16.08.08:146][453]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (742)
+[2022.03.15-16.08.08:146][453]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (740)
+[2022.03.15-16.08.08:146][453]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (738)
+[2022.03.15-16.08.08:146][453]LogModuleManager: Shutting down and abandoning module SmartSnapping (736)
+[2022.03.15-16.08.08:146][453]LogModuleManager: Shutting down and abandoning module SessionServices (734)
+[2022.03.15-16.08.08:146][453]LogModuleManager: Shutting down and abandoning module MeshPaint (732)
+[2022.03.15-16.08.08:146][453]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (730)
+[2022.03.15-16.08.08:146][453]LogModuleManager: Shutting down and abandoning module FoliageEdit (728)
+[2022.03.15-16.08.08:147][453]LogModuleManager: Shutting down and abandoning module LandscapeEditor (726)
+[2022.03.15-16.08.08:148][453]LogModuleManager: Shutting down and abandoning module MeshPaintMode (724)
+[2022.03.15-16.08.08:148][453]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (722)
+[2022.03.15-16.08.08:148][453]LogModuleManager: Shutting down and abandoning module ActorPickerMode (720)
+[2022.03.15-16.08.08:148][453]LogModuleManager: Shutting down and abandoning module PlacementMode (718)
+[2022.03.15-16.08.08:148][453]LogModuleManager: Shutting down and abandoning module ViewportSnapping (716)
+[2022.03.15-16.08.08:148][453]LogModuleManager: Shutting down and abandoning module ViewportInteraction (714)
+[2022.03.15-16.08.08:148][453]LogModuleManager: Shutting down and abandoning module ClothPainter (712)
+[2022.03.15-16.08.08:148][453]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (711)
+[2022.03.15-16.08.08:148][453]LogModuleManager: Shutting down and abandoning module LogVisualizer (708)
+[2022.03.15-16.08.08:149][453]LogModuleManager: Shutting down and abandoning module IntroTutorials (706)
+[2022.03.15-16.08.08:149][453]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (705)
+[2022.03.15-16.08.08:149][453]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (702)
+[2022.03.15-16.08.08:149][453]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (700)
+[2022.03.15-16.08.08:149][453]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (698)
+[2022.03.15-16.08.08:149][453]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (697)
+[2022.03.15-16.08.08:417][453]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (694)
+[2022.03.15-16.08.08:417][453]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (692)
+[2022.03.15-16.08.08:417][453]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (690)
+[2022.03.15-16.08.08:417][453]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (688)
+[2022.03.15-16.08.08:417][453]LogModuleManager: Shutting down and abandoning module TraceInsights (686)
+[2022.03.15-16.08.08:422][453]MemoryProfiler: Shutdown
+[2022.03.15-16.08.08:422][453]NetworkingProfiler: Shutdown
+[2022.03.15-16.08.08:422][453]LoadingProfiler: Shutdown
+[2022.03.15-16.08.08:424][453]TimingProfiler: Shutdown
+[2022.03.15-16.08.08:429][453]LogModuleManager: Shutting down and abandoning module TraceServices (685)
+[2022.03.15-16.08.08:432][453]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (682)
+[2022.03.15-16.08.08:433][453]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (680)
+[2022.03.15-16.08.08:433][453]LogModuleManager: Shutting down and abandoning module InputBindingEditor (678)
+[2022.03.15-16.08.08:433][453]LogModuleManager: Shutting down and abandoning module MergeActors (676)
+[2022.03.15-16.08.08:434][453]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (674)
+[2022.03.15-16.08.08:434][453]LogModuleManager: Shutting down and abandoning module LocalizationService (673)
+[2022.03.15-16.08.08:434][453]LogModuleManager: Shutting down and abandoning module HardwareTargeting (670)
+[2022.03.15-16.08.08:435][453]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (668)
+[2022.03.15-16.08.08:435][453]LogModuleManager: Shutting down and abandoning module UndoHistory (666)
+[2022.03.15-16.08.08:435][453]LogModuleManager: Shutting down and abandoning module XmlParser (664)
+[2022.03.15-16.08.08:435][453]LogModuleManager: Shutting down and abandoning module Blutility (662)
+[2022.03.15-16.08.08:435][453]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (660)
+[2022.03.15-16.08.08:435][453]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (659)
+[2022.03.15-16.08.08:435][453]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (656)
+[2022.03.15-16.08.08:435][453]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (655)
+[2022.03.15-16.08.08:435][453]LogModuleManager: Shutting down and abandoning module SettingsEditor (652)
+[2022.03.15-16.08.08:436][453]LogModuleManager: Shutting down and abandoning module ProjectLauncher (650)
+[2022.03.15-16.08.08:436][453]LogModuleManager: Shutting down and abandoning module SessionFrontend (648)
+[2022.03.15-16.08.08:436][453]LogModuleManager: Shutting down and abandoning module ProfilerClient (646)
+[2022.03.15-16.08.08:438][453]LogModuleManager: Shutting down and abandoning module DeviceManager (644)
+[2022.03.15-16.08.08:439][453]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (643)
+[2022.03.15-16.08.08:471][453]LogModuleManager: Shutting down and abandoning module AutomationController (640)
+[2022.03.15-16.08.08:471][453]LogModuleManager: Shutting down and abandoning module AutomationWindow (638)
+[2022.03.15-16.08.08:474][453]LogModuleManager: Shutting down and abandoning module Layers (636)
+[2022.03.15-16.08.08:480][453]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (634)
+[2022.03.15-16.08.08:480][453]LogModuleManager: Shutting down and abandoning module DetailCustomizations (632)
+[2022.03.15-16.08.08:480][453]LogModuleManager: Shutting down and abandoning module PackagesDialog (630)
+[2022.03.15-16.08.08:481][453]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (628)
+[2022.03.15-16.08.08:483][453]LogModuleManager: Shutting down and abandoning module Persona (626)
+[2022.03.15-16.08.08:486][453]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (625)
+[2022.03.15-16.08.08:486][453]LogModuleManager: Shutting down and abandoning module Kismet (622)
+[2022.03.15-16.08.08:488][453]LogModuleManager: Shutting down and abandoning module KismetWidgets (621)
+[2022.03.15-16.08.08:488][453]LogModuleManager: Shutting down and abandoning module GraphEditor (618)
+[2022.03.15-16.08.08:488][453]LogModuleManager: Shutting down and abandoning module StructViewer (616)
+[2022.03.15-16.08.08:488][453]LogModuleManager: Shutting down and abandoning module ClassViewer (614)
+[2022.03.15-16.08.08:488][453]LogModuleManager: Shutting down and abandoning module Toolbox (612)
+[2022.03.15-16.08.08:489][453]LogModuleManager: Shutting down and abandoning module ModuleUI (610)
+[2022.03.15-16.08.08:490][453]LogModuleManager: Shutting down and abandoning module OutputLog (608)
+[2022.03.15-16.08.08:493][453]LogModuleManager: Shutting down and abandoning module GammaUI (606)
+[2022.03.15-16.08.08:493][453]LogModuleManager: Shutting down and abandoning module Documentation (604)
+[2022.03.15-16.08.08:494][453]LogModuleManager: Shutting down and abandoning module LiveCoding (602)
+[2022.03.15-16.08.08:494][453]LogModuleManager: Shutting down and abandoning module LevelSequence (600)
+[2022.03.15-16.08.08:494][453]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (598)
+[2022.03.15-16.08.08:494][453]LogModuleManager: Shutting down and abandoning module MovieScene (596)
+[2022.03.15-16.08.08:494][453]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (594)
+[2022.03.15-16.08.08:494][453]LogModuleManager: Shutting down and abandoning module LauncherPlatform (592)
+[2022.03.15-16.08.08:494][453]LogModuleManager: Shutting down and abandoning module AnalyticsET (590)
+[2022.03.15-16.08.08:494][453]LogModuleManager: Shutting down and abandoning module PortalServices (588)
+[2022.03.15-16.08.08:494][453]LogModuleManager: Shutting down and abandoning module PortalRpc (586)
+[2022.03.15-16.08.08:494][453]LogModuleManager: Shutting down and abandoning module MessagingRpc (584)
+[2022.03.15-16.08.08:495][453]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (582)
+[2022.03.15-16.08.08:495][453]LogModuleManager: Shutting down and abandoning module AudioMixerCore (581)
+[2022.03.15-16.08.08:495][453]LogModuleManager: Shutting down and abandoning module AIModule (578)
+[2022.03.15-16.08.08:495][453]LogModuleManager: Shutting down and abandoning module GameplayDebugger (577)
+[2022.03.15-16.08.08:495][453]LogModuleManager: Shutting down and abandoning module AITestSuite (575)
+[2022.03.15-16.08.08:495][453]LogModuleManager: Shutting down and abandoning module NavigationSystem (573)
+[2022.03.15-16.08.08:495][453]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (570)
+[2022.03.15-16.08.08:506][453]LogModuleManager: Shutting down and abandoning module ProfilerService (568)
+[2022.03.15-16.08.08:525][453]LogModuleManager: Shutting down and abandoning module TaskGraph (566)
+[2022.03.15-16.08.08:526][453]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (564)
+[2022.03.15-16.08.08:526][453]LogModuleManager: Shutting down and abandoning module OculusEditor (562)
+[2022.03.15-16.08.08:526][453]LogModuleManager: Shutting down and abandoning module OculusInput (560)
+[2022.03.15-16.08.08:526][453]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (558)
+[2022.03.15-16.08.08:526][453]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (556)
+[2022.03.15-16.08.08:526][453]LogModuleManager: Shutting down and abandoning module CollectionManager (555)
+[2022.03.15-16.08.08:526][453]LogModuleManager: Shutting down and abandoning module SynthesisEditor (552)
+[2022.03.15-16.08.08:526][453]LogModuleManager: Shutting down and abandoning module Synthesis (550)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (548)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (546)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (544)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module GooglePAD (542)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module EditableMesh (540)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (538)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module CableComponent (536)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module AudioCapture (534)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (533)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module AssetTags (530)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (528)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (526)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module AppleImageUtils (524)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module AndroidPermission (522)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (520)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (518)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (516)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module MotoSynth (514)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (512)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (511)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (508)
+[2022.03.15-16.08.08:528][453]LogModuleManager: Shutting down and abandoning module MeshConversion (506)
+[2022.03.15-16.08.08:529][453]LogModuleManager: Shutting down and abandoning module DynamicMesh (504)
+[2022.03.15-16.08.08:529][453]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (502)
+[2022.03.15-16.08.08:530][453]LogModuleManager: Shutting down and abandoning module GeometricObjects (500)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (498)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (496)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (494)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (492)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module ChaosNiagara (490)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module FractureEditor (488)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (487)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (484)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module BackChannel (482)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (480)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module AutomationUtils (478)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module AlembicImporter (476)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module AlembicLibrary (475)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module GeometryCache (474)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (473)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module ScreenshotTools (468)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module MediaCompositing (466)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module ImgMedia (464)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (462)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (460)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (458)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (456)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (454)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (452)
+[2022.03.15-16.08.08:531][453]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (450)
+[2022.03.15-16.08.08:532][453]LogModuleManager: Shutting down and abandoning module UObjectPlugin (448)
+[2022.03.15-16.08.08:532][453]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (446)
+[2022.03.15-16.08.08:532][453]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (444)
+[2022.03.15-16.08.08:532][453]LogModuleManager: Shutting down and abandoning module PluginUtils (442)
+[2022.03.15-16.08.08:532][453]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (440)
+[2022.03.15-16.08.08:532][453]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (438)
+[2022.03.15-16.08.08:532][453]LogModuleManager: Shutting down and abandoning module GitSourceControl (436)
+[2022.03.15-16.08.08:532][453]LogModuleManager: Shutting down and abandoning module SourceControl (435)
+[2022.03.15-16.08.08:533][453]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (432)
+[2022.03.15-16.08.08:533][453]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (430)
+[2022.03.15-16.08.08:533][453]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (428)
+[2022.03.15-16.08.08:533][453]LogModuleManager: Shutting down and abandoning module PluginBrowser (426)
+[2022.03.15-16.08.08:533][453]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (424)
+[2022.03.15-16.08.08:533][453]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (422)
+[2022.03.15-16.08.08:533][453]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (420)
+[2022.03.15-16.08.08:533][453]LogModuleManager: Shutting down and abandoning module CryptoKeys (418)
+[2022.03.15-16.08.08:533][453]LogModuleManager: Shutting down and abandoning module CurveEditorTools (416)
+[2022.03.15-16.08.08:533][453]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (414)
+[2022.03.15-16.08.08:533][453]LogModuleManager: Shutting down and abandoning module TemplateSequence (412)
+[2022.03.15-16.08.08:533][453]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (410)
+[2022.03.15-16.08.08:533][453]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (408)
+[2022.03.15-16.08.08:534][453]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (406)
+[2022.03.15-16.08.08:534][453]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (404)
+[2022.03.15-16.08.08:534][453]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (402)
+[2022.03.15-16.08.08:534][453]LogModuleManager: Shutting down and abandoning module Paper2DEditor (400)
+[2022.03.15-16.08.08:534][453]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (398)
+[2022.03.15-16.08.08:535][453]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (396)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module Social_Distance (394)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module AnimGraph (393)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (390)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module SoundFields (388)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module SignificanceManager (386)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (384)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (382)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (378)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (376)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (374)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (372)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (370)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (368)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (366)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (364)
+[2022.03.15-16.08.08:536][453]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (362)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (360)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (358)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (356)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module MagicLeapController (354)
+[2022.03.15-16.08.08:536][453]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (352)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module MagicLeapAR (350)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module AugmentedReality (349)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (346)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module AnimationSharing (344)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (342)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (340)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module FacialAnimation (338)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module DataValidation (336)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (334)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module LevelEditor (333)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (332)
+[2022.03.15-16.08.08:536][453]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (330)
+[2022.03.15-16.08.08:537][453]LogModuleManager: Shutting down and abandoning module MainFrame (328)
+[2022.03.15-16.08.08:537][453]LogModuleManager: Shutting down and abandoning module HotReload (327)
+[2022.03.15-16.08.08:537][453]LogModuleManager: Shutting down and abandoning module ToolMenus (323)
+[2022.03.15-16.08.08:537][453]LogModuleManager: Shutting down and abandoning module ContentBrowser (321)
+[2022.03.15-16.08.08:537][453]LogModuleManager: Shutting down and abandoning module ContentBrowserData (320)
+[2022.03.15-16.08.08:537][453]LogModuleManager: Shutting down and abandoning module TreeMap (317)
+[2022.03.15-16.08.08:537][453]LogModuleManager: Shutting down and abandoning module ActorSequence (314)
+[2022.03.15-16.08.08:537][453]LogModuleManager: Shutting down and abandoning module TcpMessaging (312)
+[2022.03.15-16.08.08:639][453]LogModuleManager: Shutting down and abandoning module UdpMessaging (310)
+[2022.03.15-16.08.08:739][453]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (308)
+[2022.03.15-16.08.08:739][453]LogModuleManager: Shutting down and abandoning module Niagara (306)
+[2022.03.15-16.08.08:739][453]LogModuleManager: Shutting down and abandoning module SignalProcessing (305)
+[2022.03.15-16.08.08:739][453]LogModuleManager: Shutting down and abandoning module NiagaraEditor (303)
+[2022.03.15-16.08.08:739][453]LogModuleManager: Shutting down and abandoning module NiagaraCore (300)
+[2022.03.15-16.08.08:739][453]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (298)
+[2022.03.15-16.08.08:740][453]LogModuleManager: Shutting down and abandoning module Paper2D (296)
+[2022.03.15-16.08.08:740][453]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (294)
+[2022.03.15-16.08.08:741][453]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (292)
+[2022.03.15-16.08.08:742][453]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (290)
+[2022.03.15-16.08.08:742][453]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (288)
+[2022.03.15-16.08.08:743][453]LogModuleManager: Shutting down and abandoning module PacketHandler (286)
+[2022.03.15-16.08.08:743][453]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (284)
+[2022.03.15-16.08.08:743][453]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (282)
+[2022.03.15-16.08.08:745][453]LogModuleManager: Shutting down and abandoning module MediaAssets (280)
+[2022.03.15-16.08.08:746][453]LogModuleManager: Shutting down and abandoning module Overlay (278)
+[2022.03.15-16.08.08:746][453]LogModuleManager: Shutting down and abandoning module OverlayEditor (277)
+[2022.03.15-16.08.08:746][453]LogModuleManager: Shutting down and abandoning module VREditor (274)
+[2022.03.15-16.08.08:746][453]LogModuleManager: Shutting down and abandoning module StringTableEditor (272)
+[2022.03.15-16.08.08:748][453]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (270)
+[2022.03.15-16.08.08:748][453]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (268)
+[2022.03.15-16.08.08:748][453]LogModuleManager: Shutting down and abandoning module FunctionalTesting (266)
+[2022.03.15-16.08.08:748][453]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (264)
+[2022.03.15-16.08.08:748][453]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (263)
+[2022.03.15-16.08.08:748][453]LogModuleManager: Shutting down and abandoning module UMG (260)
+[2022.03.15-16.08.08:749][453]LogModuleManager: Shutting down and abandoning module UMGEditor (259)
+[2022.03.15-16.08.08:749][453]LogModuleManager: Shutting down and abandoning module MessageLog (257)
+[2022.03.15-16.08.08:749][453]LogModuleManager: Shutting down and abandoning module SlateReflector (252)
+[2022.03.15-16.08.08:750][453]LogModuleManager: Shutting down and abandoning module Slate (250)
+[2022.03.15-16.08.08:750][453]LogModuleManager: Shutting down and abandoning module SlateCore (248)
+[2022.03.15-16.08.08:750][453]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (246)
+[2022.03.15-16.08.08:750][453]LogModuleManager: Shutting down and abandoning module UnrealEd (244)
+[2022.03.15-16.08.08:750][453]LogModuleManager: Shutting down and abandoning module MRMesh (242)
+[2022.03.15-16.08.08:750][453]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (240)
+[2022.03.15-16.08.08:750][453]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (238)
+[2022.03.15-16.08.08:750][453]LogModuleManager: Shutting down and abandoning module XAudio2 (236)
+[2022.03.15-16.08.08:750][453]LogModuleManager: Shutting down and abandoning module Networking (234)
+[2022.03.15-16.08.08:750][453]LogModuleManager: Shutting down and abandoning module Core (232)
+[2022.03.15-16.08.08:751][453]LogModuleManager: Shutting down and abandoning module MaterialEditor (230)
+[2022.03.15-16.08.08:751][453]LogModuleManager: Shutting down and abandoning module MovieSceneTools (228)
+[2022.03.15-16.08.08:751][453]LogModuleManager: Shutting down and abandoning module CurveEditor (227)
+[2022.03.15-16.08.08:751][453]LogModuleManager: Shutting down and abandoning module Sequencer (225)
+[2022.03.15-16.08.08:751][453]LogModuleManager: Shutting down and abandoning module EditorStyle (224)
+[2022.03.15-16.08.08:751][453]LogModuleManager: Shutting down and abandoning module KismetCompiler (220)
+[2022.03.15-16.08.08:751][453]LogModuleManager: Shutting down and abandoning module MeshBuilder (218)
+[2022.03.15-16.08.08:751][453]LogModuleManager: Shutting down and abandoning module MeshUtilities (216)
+[2022.03.15-16.08.08:751][453]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (215)
+[2022.03.15-16.08.08:751][453]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (214)
+[2022.03.15-16.08.08:751][453]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (213)
+[2022.03.15-16.08.08:752][453]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (211)
+[2022.03.15-16.08.08:752][453]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (209)
+[2022.03.15-16.08.08:752][453]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (207)
+[2022.03.15-16.08.08:753][453]LogModuleManager: Shutting down and abandoning module MaterialBaking (203)
+[2022.03.15-16.08.08:753][453]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (198)
+[2022.03.15-16.08.08:753][453]LogModuleManager: Shutting down and abandoning module DerivedDataCache (196)
+[2022.03.15-16.08.08:753][453]LogModuleManager: Shutting down and abandoning module TargetPlatform (194)
+[2022.03.15-16.08.08:753][453]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (193)
+[2022.03.15-16.08.08:753][453]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (191)
+[2022.03.15-16.08.08:753][453]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (189)
+[2022.03.15-16.08.08:753][453]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (187)
+[2022.03.15-16.08.08:753][453]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (185)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (183)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (181)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (179)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (177)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (175)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (173)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module ImageWrapper (172)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (169)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (167)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (165)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (163)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (161)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (159)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (157)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (155)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (153)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (151)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (149)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (147)
+[2022.03.15-16.08.08:754][453]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (145)
+[2022.03.15-16.08.08:755][453]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (143)
+[2022.03.15-16.08.08:755][453]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (141)
+[2022.03.15-16.08.08:755][453]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (139)
+[2022.03.15-16.08.08:755][453]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (137)
+[2022.03.15-16.08.08:755][453]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (135)
+[2022.03.15-16.08.08:755][453]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (133)
+[2022.03.15-16.08.08:755][453]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (131)
+[2022.03.15-16.08.08:755][453]LogModuleManager: Shutting down and abandoning module Messaging (129)
+[2022.03.15-16.08.08:755][453]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (127)
+[2022.03.15-16.08.08:756][453]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (125)
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (123)
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module InputCore (120)
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module Settings (118)
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (116)
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module PhysXCooking (114)
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module Chaos (112)
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (110)
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (109)
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module AVEncoder (108)
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (104)
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module SteamVRInput (102)
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module SteamVR (100)
+[2022.03.15-16.08.08:759][453]LogHMD: Freeing OpenVRDLLHandle.
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module OculusHMD (98)
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (96)
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module ChunkDownloader (94)
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module ChaosCloth (92)
+[2022.03.15-16.08.08:759][453]LogModuleManager: Shutting down and abandoning module WmfMedia (90)
+[2022.03.15-16.08.08:761][453]LogModuleManager: Shutting down and abandoning module Media (89)
+[2022.03.15-16.08.08:762][453]LogModuleManager: Shutting down and abandoning module MediaInfo (88)
+[2022.03.15-16.08.08:762][453]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (84)
+[2022.03.15-16.08.08:762][453]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (82)
+[2022.03.15-16.08.08:762][453]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (78)
+[2022.03.15-16.08.08:764][453]LogModuleManager: Shutting down and abandoning module XMPP (73)
+[2022.03.15-16.08.08:764][453]LogModuleManager: Shutting down and abandoning module WebSockets (72)
+[2022.03.15-16.08.08:788][453]LogModuleManager: Shutting down and abandoning module HTTP (69)
+[2022.03.15-16.08.08:788][453]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.03.15-16.08.08:788][453]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7000AE64-4A15-A157-CEF6-BB91A92EE4BD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=609ee3ef47d4df66610298a515634a2f%7C7fd838923b864970942198983942fdc9%7Cb214b826-6303-46ef-ab50-c1979f297ed7&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.03.15-16.08.08:788][453]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2022.03.15-16.08.08:800][453]LogModuleManager: Shutting down and abandoning module SSL (68)
+[2022.03.15-16.08.08:800][453]LogModuleManager: Shutting down and abandoning module MLSDK (64)
+[2022.03.15-16.08.08:800][453]LogModuleManager: Shutting down and abandoning module MagicLeap (62)
+[2022.03.15-16.08.08:801][453]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (60)
+[2022.03.15-16.08.08:801][453]LogModuleManager: Shutting down and abandoning module VariantManagerContent (58)
+[2022.03.15-16.08.08:801][453]LogModuleManager: Shutting down and abandoning module DatasmithContent (56)
+[2022.03.15-16.08.08:809][453]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (54)
+[2022.03.15-16.08.08:809][453]LogModuleManager: Shutting down and abandoning module NiagaraShader (52)
+[2022.03.15-16.08.08:809][453]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2022.03.15-16.08.08:809][453]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2022.03.15-16.08.08:809][453]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (46)
+[2022.03.15-16.08.08:809][453]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (44)
+[2022.03.15-16.08.08:809][453]LogModuleManager: Shutting down and abandoning module PlatformCrypto (42)
+[2022.03.15-16.08.08:809][453]LogModuleManager: Shutting down and abandoning module XGEController (40)
+[2022.03.15-16.08.08:809][453]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.03.15-16.08.08:810][453]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2022.03.15-16.08.08:810][453]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.03.15-16.08.08:811][453]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2022.03.15-16.08.08:811][453]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2022.03.15-16.08.08:811][453]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2022.03.15-16.08.08:811][453]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2022.03.15-16.08.08:811][453]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2022.03.15-16.08.08:811][453]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2022.03.15-16.08.08:811][453]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.03.15-16.08.08:812][453]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.03.15-16.08.08:812][453]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.03.15-16.08.08:812][453]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.03.15-16.08.08:812][453]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.03.15-16.08.08:812][453]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.03.15-16.08.08:812][453]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.03.15-16.08.08:812][453]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.03.15-16.08.08:812][453]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.03.15-16.08.08:812][453]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.03.15-16.08.08:812][453]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.03.15-16.08.08:814][453]LogD3D11RHI: Shutdown
+[2022.03.15-16.08.08:814][453]LogD3D11RHI: CleanupD3DDevice
+[2022.03.15-16.08.08:831][453]LogExit: Exiting.
+[2022.03.15-16.08.08:844][453]Log file closed, 03/15/22 16:08:08
