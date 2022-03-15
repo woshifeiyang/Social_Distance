@@ -18,6 +18,7 @@ class UNiagaraComponent;
 #define Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execPrintLog); \
+	DECLARE_FUNCTION(execShowTaskRequestUI); \
 	DECLARE_FUNCTION(execCloseMCBubble); \
 	DECLARE_FUNCTION(execSetLineEffect); \
 	DECLARE_FUNCTION(execDestroyNiagaraComponent); \
@@ -27,6 +28,7 @@ class UNiagaraComponent;
 #define Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execPrintLog); \
+	DECLARE_FUNCTION(execShowTaskRequestUI); \
 	DECLARE_FUNCTION(execCloseMCBubble); \
 	DECLARE_FUNCTION(execSetLineEffect); \
 	DECLARE_FUNCTION(execDestroyNiagaraComponent); \

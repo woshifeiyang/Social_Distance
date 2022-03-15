@@ -2,9 +2,11 @@
 
 
 #include "NPC_Interactable.h"
+
 #include "Components/CapsuleComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "NiagaraFunctionLibrary.h"
+#include "TaskRequestFrame.h"
 
 // Sets default values
 ANPC_Interactable::ANPC_Interactable()
@@ -26,16 +28,23 @@ ANPC_Interactable::ANPC_Interactable()
 	// 创建Widget组件并绑定控件蓝图
 	Bubble = CreateDefaultSubobject<UWidgetComponent>(TEXT("Bubble"));
 	Bubble->SetupAttachment(GetMesh());
-	ConstructorHelpers::FClassFinder<UUserWidget> BubbleClass(TEXT("UserWidget'/Game/UI/WB_NPCName.WB_NPCName_C'"));
-	if(BubbleClass.Succeeded())
+	ConstructorHelpers::FClassFinder<UUserWidget> BubbleBPClass(TEXT("UserWidget'/Game/UI/WB_NPCName.WB_NPCName_C'"));
+	if(BubbleBPClass.Succeeded())
 	{
-		Bubble->SetWidgetClass(BubbleClass.Class);
+		Bubble->SetWidgetClass(BubbleBPClass.Class);
 	}else
 	{
 		PrintLog("Can not find BubbleClass");
 	}
 	Bubble->SetWidgetSpace(EWidgetSpace::Screen);
 	Bubble->SetDrawAtDesiredSize(true);
+	// 绑定任务弹出框蓝图
+	ConstructorHelpers::FClassFinder<UUserWidget> TaskRequestBPClass(TEXT("UserWidget'/Game/UI/WB_TaskRequestFrame.WB_TaskRequestFrame_C'"));
+	if(TaskRequestBPClass.Succeeded())
+	{
+		PrintLog("Have found TaskRequestBPClass");
+		TaskFrameUI = TaskRequestBPClass.Class;
+	}
 }
 
 // Called when the game starts or when spawned
@@ -85,7 +94,8 @@ void ANPC_Interactable::NotifyActorOnClicked(FKey ButtonPressed)
 		MainBubble->SetVisibility(true);
 		if(DoOnce)
 		{
-			GetWorldTimerManager().SetTimer(TimerHandle_2, this, &ANPC_Interactable::CloseMCBubble, 0.5f, true);
+			GetWorldTimerManager().SetTimer(TimerHandle_2, this, &ANPC_Interactable::CloseMCBubble, 0.1f, true);
+			GetWorldTimerManager().SetTimer(TimerHandle_3, this, &ANPC_Interactable::ShowTaskRequestUI, 2.0f, true);
 			DoOnce = false;
 		}
 	}
@@ -158,6 +168,20 @@ void ANPC_Interactable::CloseMCBubble()
 		MainBubble->SetVisibility(false);
 		GetWorld()->GetTimerManager().ClearTimer(TimerHandle_2);
 		DoOnce = true;
+	}
+}
+
+void ANPC_Interactable::ShowTaskRequestUI()
+{
+	int32 num = FMath::RandRange(1,100);
+	if(num <= 30)
+	{
+		if(TaskFrameUI != nullptr)
+		{
+			CreateWidget(GetWorld(), TaskFrameUI)->AddToViewport();
+			GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
+			UGameplayStatics::SetGamePaused(GetWorld(),true);
+		}
 	}
 }
 

@@ -224,3 +224,5 @@ D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Ga
 D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 D:\Unreal Engine\UE_4.26\Engine\Plugins\FX\Niagara\Source\Niagara\Public\NiagaraFunctionLibrary.h
 D:\Unreal Engine\UE_4.26\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4Editor\Inc\Niagara\NiagaraFunctionLibrary.generated.h
+E:\Github\Group5\Social_Distance\Source\Social_Distance\TaskRequestFrame.h
+E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\TaskRequestFrame.generated.h

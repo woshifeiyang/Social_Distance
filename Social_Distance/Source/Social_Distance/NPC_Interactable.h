@@ -71,12 +71,17 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		class UWidgetComponent* Bubble;
-
+	
+	UPROPERTY()
+		TSubclassOf<class UUserWidget> TaskFrameUI;
+	
 		bool DoOnce;
 	
-	FTimerHandle TimerHandle_1;
+		FTimerHandle TimerHandle_1;
 
-	FTimerHandle TimerHandle_2;
+		FTimerHandle TimerHandle_2;
+
+		FTimerHandle TimerHandle_3;
 
 protected:
 	// Called when the game starts or when spawned
@@ -104,6 +109,9 @@ public:
 
 	UFUNCTION()
 		void CloseMCBubble();
+
+	UFUNCTION()
+		void ShowTaskRequestUI();
 	
 	UFUNCTION()
 		void PrintLog(FString String);
