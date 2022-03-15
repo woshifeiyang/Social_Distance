@@ -59,6 +59,7 @@ void ANPC_Interactable::BeginPlay()
 	ConversationalDistance = 500.0f;				// 可触发点击事件距离
 	Bubble->SetVisibility(false);					// 初始化默认气泡不显示
 	Bubble->SetRelativeLocation(FVector(0, 0, 250));
+	LineEffect->SetRenderCustomDepth(true);
 	
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
 	if(MainCharacter)
@@ -173,15 +174,21 @@ void ANPC_Interactable::CloseMCBubble()
 
 void ANPC_Interactable::ShowTaskRequestUI()
 {
-	int32 num = FMath::RandRange(1,100);
-	if(num <= 30)
+	if(Distance <= ConversationalDistance)
 	{
-		if(TaskFrameUI != nullptr)
+		int32 num = FMath::RandRange(1,100);
+		if(num <= 20)
 		{
-			CreateWidget(GetWorld(), TaskFrameUI)->AddToViewport();
-			GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
-			UGameplayStatics::SetGamePaused(GetWorld(),true);
+			if(TaskFrameUI != nullptr)
+			{
+				CreateWidget(GetWorld(), TaskFrameUI)->AddToViewport();
+				GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
+				UGameplayStatics::SetGamePaused(GetWorld(),true);
+			}
 		}
+	}else
+	{
+		GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
 	}
 }
 

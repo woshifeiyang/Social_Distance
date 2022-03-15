@@ -5,6 +5,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "NiagaraFunctionLibrary.h"
 
 // Sets default values
 ANPC_Movable::ANPC_Movable()
@@ -13,6 +14,17 @@ ANPC_Movable::ANPC_Movable()
 	PrimaryActorTick.bCanEverTick = true;
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 	GetCharacterMovement()->MaxWalkSpeed = WalkingSpeed;
+	// 创建Niagara组件并绑定距离线效果
+	LineEffect = CreateDefaultSubobject<UNiagaraComponent>(TEXT("LineEffect"));
+	LineEffect->SetupAttachment(RootComponent);
+	ConstructorHelpers::FObjectFinder<UNiagaraSystem> NiagaraSystemObj(TEXT("NiagaraSystem'/Game/StarterContent/VFX/NS_Prototype_Line.NS_Prototype_Line'"));
+	if(NiagaraSystemObj.Succeeded())
+	{
+		LineEffect->SetAsset(NiagaraSystemObj.Object);
+	}else
+	{
+		PrintLog("Can not find NiagaraSystemObj");
+	}
 }
 
 // Called when the game starts or when spawned
@@ -20,6 +32,7 @@ void ANPC_Movable::BeginPlay()
 {
 	Super::BeginPlay();
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
+	LineEffect->SetRenderCustomDepth(true);
 }
 
 // Called every frame
@@ -27,6 +40,7 @@ void ANPC_Movable::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	SelfLocation = GetActorLocation();
+	SetLineEffect();
 }
 
 // Called to bind functionality to input
@@ -36,20 +50,20 @@ void ANPC_Movable::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 }
 
-void ANPC_Movable::SetNiagaraEffect(UFXSystemComponent* UFXComponent)
+void ANPC_Movable::SetLineEffect()
 {
 	if(MainCharacter)
 	{
 		if(GetDistanceTo(MainCharacter) < LineDisappearingRange)
 		{
-			UFXComponent->SetVisibility(true);
+			LineEffect->SetVisibility(true);
 			FVector NPCPosition(SelfLocation.X, SelfLocation.Y, SelfLocation.Z - 80);
 			FVector MCPosition(MainCharacter -> SelfLocation.X, MainCharacter -> SelfLocation.Y, MainCharacter -> SelfLocation.Z - 80);
-			UFXComponent -> SetVectorParameter("NPC_POS", NPCPosition);
-			UFXComponent -> SetVectorParameter("Player_POS", MCPosition);
-		} else
+			LineEffect -> SetVectorParameter("NPC_POS", NPCPosition);
+			LineEffect -> SetVectorParameter("Player_POS", MCPosition);
+		}else
 		{
-			UFXComponent->SetVisibility(false);
+			LineEffect->SetVisibility(false);
 		}
 	}
 }

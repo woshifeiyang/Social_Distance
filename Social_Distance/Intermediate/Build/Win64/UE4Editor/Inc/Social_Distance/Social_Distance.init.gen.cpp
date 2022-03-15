@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeSocial_Distance_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xEFD9CDF9,
+				0xFCF33723,
 				0x0E93A64E,
 				METADATA_PARAMS(nullptr, 0)
 			};
