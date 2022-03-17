@@ -17,7 +17,10 @@
 "\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Social_Distance.cpp.obj"
 "\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Social_DistanceCharacter.cpp.obj"
 "\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Social_DistanceGameMode.cpp.obj"
+<<<<<<< HEAD
 "\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\TaskRequestFrame.cpp.obj"
+=======
+>>>>>>> parent of aece2e6 (TaskRequestUI)
 "\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\C_InteractableNPC.gen.cpp.obj"
 "\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\C_MainCharacter.gen.cpp.obj"
 "\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\MainCharacter.gen.cpp.obj"
@@ -28,7 +31,10 @@
 "\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Social_Distance.init.gen.cpp.obj"
 "\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Social_DistanceCharacter.gen.cpp.obj"
 "\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Social_DistanceGameMode.gen.cpp.obj"
+<<<<<<< HEAD
 "\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\TaskRequestFrame.gen.cpp.obj"
+=======
+>>>>>>> parent of aece2e6 (TaskRequestUI)
 "\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Default.rc2.res"
 /OUT:"\\StuHomeOdd\HomeDrive1$\2001861\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\UE4Editor-Social_Distance.lib"
 /INCLUDE:IMPLEMENT_MODULE_Social_Distance

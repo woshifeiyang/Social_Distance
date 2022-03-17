@@ -2,6 +2,10 @@
 	"BuildId": "14830424",
 	"Modules": 
 	{
+<<<<<<< HEAD
 		"Social_Distance": "UE4Editor-Social_Distance-0008.dll"
+=======
+		"Social_Distance": "UE4Editor-Social_Distance-0092.dll"
+>>>>>>> parent of aece2e6 (TaskRequestUI)
 	}
 }

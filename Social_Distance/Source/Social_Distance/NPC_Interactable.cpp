@@ -2,13 +2,15 @@
 
 
 #include "NPC_Interactable.h"
-
 #include "Components/CapsuleComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "NiagaraFunctionLibrary.h"
+<<<<<<< HEAD
 #include "TaskRequestFrame.h"
 #include "Components/ProgressBar.h"
 #include "Components/RichTextBlock.h"
+=======
+>>>>>>> parent of aece2e6 (TaskRequestUI)
 
 // Sets default values
 ANPC_Interactable::ANPC_Interactable()
@@ -30,22 +32,25 @@ ANPC_Interactable::ANPC_Interactable()
 	// 创建Widget组件并绑定控件蓝图
 	Bubble = CreateDefaultSubobject<UWidgetComponent>(TEXT("Bubble"));
 	Bubble->SetupAttachment(GetMesh());
-	ConstructorHelpers::FClassFinder<UUserWidget> BubbleBPClass(TEXT("UserWidget'/Game/UI/WB_NPCName.WB_NPCName_C'"));
-	if(BubbleBPClass.Succeeded())
+	ConstructorHelpers::FClassFinder<UUserWidget> BubbleClass(TEXT("UserWidget'/Game/UI/WB_NPCName.WB_NPCName_C'"));
+	if(BubbleClass.Succeeded())
 	{
-		Bubble->SetWidgetClass(BubbleBPClass.Class);
+		Bubble->SetWidgetClass(BubbleClass.Class);
 	}else
 	{
 		PrintLog("Can not find BubbleClass");
 	}
 	Bubble->SetWidgetSpace(EWidgetSpace::Screen);
 	Bubble->SetDrawAtDesiredSize(true);
+<<<<<<< HEAD
 	// 绑定任务弹出框蓝图
 	ConstructorHelpers::FClassFinder<UUserWidget> TaskRequestBPClass(TEXT("UserWidget'/Game/UI/WB_TaskRequestFrame.WB_TaskRequestFrame_C'"));
 	if(TaskRequestBPClass.Succeeded())
 	{
 		TaskFrameUI = TaskRequestBPClass.Class;
 	}
+=======
+>>>>>>> parent of aece2e6 (TaskRequestUI)
 }
 
 // Called when the game starts or when spawned
@@ -97,8 +102,7 @@ void ANPC_Interactable::NotifyActorOnClicked(FKey ButtonPressed)
 		MainBubble->SetVisibility(true);
 		if(DoOnce)
 		{
-			GetWorldTimerManager().SetTimer(TimerHandle_2, this, &ANPC_Interactable::CloseMCBubble, 0.1f, true);
-			GetWorldTimerManager().SetTimer(TimerHandle_3, this, &ANPC_Interactable::ShowTaskRequestUI, 2.0f, true);
+			GetWorldTimerManager().SetTimer(TimerHandle_2, this, &ANPC_Interactable::CloseMCBubble, 0.5f, true);
 			DoOnce = false;
 		}
 	}
@@ -177,6 +181,7 @@ void ANPC_Interactable::CloseMCBubble()
 	}
 }
 
+<<<<<<< HEAD
 void ANPC_Interactable::ShowTaskRequestUI()
 {
 	if(Distance <= ConversationalDistance)
@@ -218,6 +223,8 @@ void ANPC_Interactable::InitClickBubbleBlueprint()
 	}
 	
 }
+=======
+>>>>>>> parent of aece2e6 (TaskRequestUI)
 
 void ANPC_Interactable::PrintLog(FString String)
 {
