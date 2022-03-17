@@ -1,13 +1,11 @@
 E:\Github\Group5\Social_Distance\Source\Social_Distance\C_InteractableNPC.h
 <<<<<<< HEAD
 E:\Github\Group5\Social_Distance\Source\Social_Distance\MovableNPCController.h
-E:\Github\Group5\Social_Distance\Source\Social_Distance\NPC_Movable.h
-E:\Github\Group5\Social_Distance\Source\Social_Distance\Social_DistanceCharacter.h
-E:\Github\Group5\Social_Distance\Source\Social_Distance\Social_DistanceGameMode.h
-E:\Github\Group5\Social_Distance\Source\Social_Distance\C_MainCharacter.h
+E:\Github\Group5\Social_Distance\Source\Social_Distance\NPC_Interactable.h
 E:\Github\Group5\Social_Distance\Source\Social_Distance\MyBlueprintFunctionLibrary.h
-E:\Github\Group5\Social_Distance\Source\Social_Distance\TaskRequestFrame.h
+E:\Github\Group5\Social_Distance\Source\Social_Distance\NPC_Movable.h
 E:\Github\Group5\Social_Distance\Source\Social_Distance\MainCharacter.h
+<<<<<<< HEAD
 E:\Github\Group5\Social_Distance\Source\Social_Distance\NPC_Interactable.h
 =======
 E:\Github\Group5\Social_Distance\Source\Social_Distance\C_MainCharacter.h
@@ -19,3 +17,9 @@ E:\Github\Group5\Social_Distance\Source\Social_Distance\MyBlueprintFunctionLibra
 E:\Github\Group5\Social_Distance\Source\Social_Distance\Social_DistanceGameMode.h
 E:\Github\Group5\Social_Distance\Source\Social_Distance\MovableNPCController.h
 >>>>>>> parent of aece2e6 (TaskRequestUI)
+=======
+E:\Github\Group5\Social_Distance\Source\Social_Distance\TaskRequestFrame.h
+E:\Github\Group5\Social_Distance\Source\Social_Distance\C_MainCharacter.h
+E:\Github\Group5\Social_Distance\Source\Social_Distance\Social_DistanceGameMode.h
+E:\Github\Group5\Social_Distance\Source\Social_Distance\Social_DistanceCharacter.h
+>>>>>>> parent of 1616322 (Loneliness & Name will change)

@@ -3,9 +3,13 @@
 	"Modules": 
 	{
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"Social_Distance": "UE4Editor-Social_Distance-0008.dll"
 =======
 		"Social_Distance": "UE4Editor-Social_Distance-0092.dll"
 >>>>>>> parent of aece2e6 (TaskRequestUI)
+=======
+		"Social_Distance": "UE4Editor-Social_Distance-7207.dll"
+>>>>>>> parent of 1616322 (Loneliness & Name will change)
 	}
 }

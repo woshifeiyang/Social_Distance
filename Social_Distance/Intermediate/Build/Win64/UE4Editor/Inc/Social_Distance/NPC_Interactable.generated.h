@@ -19,7 +19,10 @@ class UNiagaraComponent;
  \
 	DECLARE_FUNCTION(execPrintLog); \
 <<<<<<< HEAD
+<<<<<<< HEAD
 	DECLARE_FUNCTION(execInitClickBubbleBlueprint); \
+=======
+>>>>>>> parent of 1616322 (Loneliness & Name will change)
 	DECLARE_FUNCTION(execShowTaskRequestUI); \
 =======
 >>>>>>> parent of aece2e6 (TaskRequestUI)
@@ -33,7 +36,10 @@ class UNiagaraComponent;
  \
 	DECLARE_FUNCTION(execPrintLog); \
 <<<<<<< HEAD
+<<<<<<< HEAD
 	DECLARE_FUNCTION(execInitClickBubbleBlueprint); \
+=======
+>>>>>>> parent of 1616322 (Loneliness & Name will change)
 	DECLARE_FUNCTION(execShowTaskRequestUI); \
 =======
 >>>>>>> parent of aece2e6 (TaskRequestUI)

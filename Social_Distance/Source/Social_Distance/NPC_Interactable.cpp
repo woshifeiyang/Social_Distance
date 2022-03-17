@@ -7,10 +7,13 @@
 #include "NiagaraFunctionLibrary.h"
 <<<<<<< HEAD
 #include "TaskRequestFrame.h"
+<<<<<<< HEAD
 #include "Components/ProgressBar.h"
 #include "Components/RichTextBlock.h"
 =======
 >>>>>>> parent of aece2e6 (TaskRequestUI)
+=======
+>>>>>>> parent of 1616322 (Loneliness & Name will change)
 
 // Sets default values
 ANPC_Interactable::ANPC_Interactable()
@@ -47,6 +50,7 @@ ANPC_Interactable::ANPC_Interactable()
 	ConstructorHelpers::FClassFinder<UUserWidget> TaskRequestBPClass(TEXT("UserWidget'/Game/UI/WB_TaskRequestFrame.WB_TaskRequestFrame_C'"));
 	if(TaskRequestBPClass.Succeeded())
 	{
+		PrintLog("Have found TaskRequestBPClass");
 		TaskFrameUI = TaskRequestBPClass.Class;
 	}
 =======
@@ -75,7 +79,6 @@ void ANPC_Interactable::BeginPlay()
 	// 获取Main character对象的Bubble控件引用
 	TArray<UActorComponent*> FoundComponents = MainCharacter->GetComponentsByTag(UWidgetComponent::StaticClass(),"Bubble");
 	MainBubble = Cast<UWidgetComponent>(FoundComponents[0]);
-	
 }
 
 // Called every frame
@@ -113,16 +116,13 @@ void ANPC_Interactable::NotifyActorBeginCursorOver()
 	Super::NotifyActorBeginCursorOver();
 	PrintLog("Cursor Over");
 }
-/* 更新风险值和孤单值，以及对话框是否消失
+/* 更新风险值和孤单值，更新对话框是否可视
  * Loneliness = Loneliness - 孤单下降系数
  * Risk = Risk + 风险上升系数
  * 当距离超过一定范围对话框消失
  */
 void ANPC_Interactable::UpdateState()
 {
-	// 更新NPC的对话框信息
-	InitClickBubbleBlueprint();
-	
 	Distance = GetDistanceTo(MainCharacter);
 	if(Distance <= RiskRangeValue)
 	{
@@ -202,6 +202,7 @@ void ANPC_Interactable::ShowTaskRequestUI()
 	}
 }
 
+<<<<<<< HEAD
 void ANPC_Interactable::InitClickBubbleBlueprint()
 {
 	UProgressBar* ProgressBar = Cast<UProgressBar>(Bubble->GetWidget()->GetWidgetFromName(TEXT("LonelinessBar")));
@@ -225,6 +226,8 @@ void ANPC_Interactable::InitClickBubbleBlueprint()
 }
 =======
 >>>>>>> parent of aece2e6 (TaskRequestUI)
+=======
+>>>>>>> parent of 1616322 (Loneliness & Name will change)
 
 void ANPC_Interactable::PrintLog(FString String)
 {

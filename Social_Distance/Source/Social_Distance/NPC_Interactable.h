@@ -18,9 +18,6 @@ public:
 	// Sets default values for this character's properties
 	ANPC_Interactable();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CharacterProperty)
-		FString Name;
-	
 	UPROPERTY()
 		float Loneliness;
 
@@ -111,11 +108,14 @@ public:
 
 	UFUNCTION()
 		void ShowTaskRequestUI();
+<<<<<<< HEAD
 
 	UFUNCTION()
 		void InitClickBubbleBlueprint();
 =======
 >>>>>>> parent of aece2e6 (TaskRequestUI)
+=======
+>>>>>>> parent of 1616322 (Loneliness & Name will change)
 	
 	UFUNCTION()
 		void PrintLog(FString String);
