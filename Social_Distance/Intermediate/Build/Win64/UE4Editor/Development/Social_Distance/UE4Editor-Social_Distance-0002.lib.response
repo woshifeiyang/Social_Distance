@@ -17,6 +17,7 @@
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Social_Distance.cpp.obj"
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Social_DistanceCharacter.cpp.obj"
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Social_DistanceGameMode.cpp.obj"
+"E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\TaskRequestFrame.cpp.obj"
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\C_InteractableNPC.gen.cpp.obj"
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\C_MainCharacter.gen.cpp.obj"
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\MainCharacter.gen.cpp.obj"
@@ -27,6 +28,7 @@
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Social_Distance.init.gen.cpp.obj"
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Social_DistanceCharacter.gen.cpp.obj"
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Social_DistanceGameMode.gen.cpp.obj"
+"E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\TaskRequestFrame.gen.cpp.obj"
 "E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Default.rc2.res"
 /OUT:"E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\UE4Editor-Social_Distance-0002.lib"
 /INCLUDE:IMPLEMENT_MODULE_Social_Distance

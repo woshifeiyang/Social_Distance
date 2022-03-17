@@ -226,3 +226,14 @@ D:\Unreal Engine\UE_4.26\Engine\Plugins\FX\Niagara\Source\Niagara\Public\Niagara
 D:\Unreal Engine\UE_4.26\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4Editor\Inc\Niagara\NiagaraFunctionLibrary.generated.h
 E:\Github\Group5\Social_Distance\Source\Social_Distance\TaskRequestFrame.h
 E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\TaskRequestFrame.generated.h
+D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\UMG\Public\Components/ProgressBar.h
+D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Slate\Public\Widgets/Notifications/SProgressBar.h
+D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate\SProgressBar.generated.h
+D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\ProgressBar.generated.h
+D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\UMG\Public\Components/RichTextBlock.h
+D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\UMG\Public\Components/TextWidgetTypes.h
+D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextWidgetTypes.generated.h
+D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
+D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
+D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
+D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\RichTextBlock.generated.h
