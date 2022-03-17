@@ -6,7 +6,6 @@
 #include "GameFramework/Character.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "MainCharacter.h"
-#include "NiagaraComponent.h"
 #include "NPC_Movable.generated.h"
 
 UCLASS()
@@ -32,9 +31,6 @@ public:
 
 	UPROPERTY(BlueprintReadOnly)
 		FVector SelfLocation;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		class UNiagaraComponent* LineEffect;
 	
 	UPROPERTY()
 		AMainCharacter* MainCharacter;
@@ -53,7 +49,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	UFUNCTION(BlueprintCallable)
-		void SetLineEffect();
+		void SetNiagaraEffect(UFXSystemComponent* UFXComponent);
 
 	UFUNCTION()
 		void PrintLog(FString String);
