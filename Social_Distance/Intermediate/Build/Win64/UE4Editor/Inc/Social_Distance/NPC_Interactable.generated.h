@@ -18,8 +18,14 @@ class UNiagaraComponent;
 #define Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execPrintLog); \
+<<<<<<< HEAD
+<<<<<<< HEAD
 	DECLARE_FUNCTION(execInitClickBubbleBlueprint); \
+=======
+>>>>>>> parent of 1616322 (Loneliness & Name will change)
 	DECLARE_FUNCTION(execShowTaskRequestUI); \
+=======
+>>>>>>> parent of aece2e6 (TaskRequestUI)
 	DECLARE_FUNCTION(execCloseMCBubble); \
 	DECLARE_FUNCTION(execSetLineEffect); \
 	DECLARE_FUNCTION(execDestroyNiagaraComponent); \
@@ -29,8 +35,14 @@ class UNiagaraComponent;
 #define Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execPrintLog); \
+<<<<<<< HEAD
+<<<<<<< HEAD
 	DECLARE_FUNCTION(execInitClickBubbleBlueprint); \
+=======
+>>>>>>> parent of 1616322 (Loneliness & Name will change)
 	DECLARE_FUNCTION(execShowTaskRequestUI); \
+=======
+>>>>>>> parent of aece2e6 (TaskRequestUI)
 	DECLARE_FUNCTION(execCloseMCBubble); \
 	DECLARE_FUNCTION(execSetLineEffect); \
 	DECLARE_FUNCTION(execDestroyNiagaraComponent); \

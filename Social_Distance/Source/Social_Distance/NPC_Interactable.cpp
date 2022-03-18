@@ -2,13 +2,18 @@
 
 
 #include "NPC_Interactable.h"
-
 #include "Components/CapsuleComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "NiagaraFunctionLibrary.h"
+<<<<<<< HEAD
 #include "TaskRequestFrame.h"
+<<<<<<< HEAD
 #include "Components/ProgressBar.h"
 #include "Components/RichTextBlock.h"
+=======
+>>>>>>> parent of aece2e6 (TaskRequestUI)
+=======
+>>>>>>> parent of 1616322 (Loneliness & Name will change)
 
 // Sets default values
 ANPC_Interactable::ANPC_Interactable()
@@ -30,22 +35,26 @@ ANPC_Interactable::ANPC_Interactable()
 	// 创建Widget组件并绑定控件蓝图
 	Bubble = CreateDefaultSubobject<UWidgetComponent>(TEXT("Bubble"));
 	Bubble->SetupAttachment(GetMesh());
-	ConstructorHelpers::FClassFinder<UUserWidget> BubbleBPClass(TEXT("UserWidget'/Game/UI/WB_NPCName.WB_NPCName_C'"));
-	if(BubbleBPClass.Succeeded())
+	ConstructorHelpers::FClassFinder<UUserWidget> BubbleClass(TEXT("UserWidget'/Game/UI/WB_NPCName.WB_NPCName_C'"));
+	if(BubbleClass.Succeeded())
 	{
-		Bubble->SetWidgetClass(BubbleBPClass.Class);
+		Bubble->SetWidgetClass(BubbleClass.Class);
 	}else
 	{
 		PrintLog("Can not find BubbleClass");
 	}
 	Bubble->SetWidgetSpace(EWidgetSpace::Screen);
 	Bubble->SetDrawAtDesiredSize(true);
+<<<<<<< HEAD
 	// 绑定任务弹出框蓝图
 	ConstructorHelpers::FClassFinder<UUserWidget> TaskRequestBPClass(TEXT("UserWidget'/Game/UI/WB_TaskRequestFrame.WB_TaskRequestFrame_C'"));
 	if(TaskRequestBPClass.Succeeded())
 	{
+		PrintLog("Have found TaskRequestBPClass");
 		TaskFrameUI = TaskRequestBPClass.Class;
 	}
+=======
+>>>>>>> parent of aece2e6 (TaskRequestUI)
 }
 
 // Called when the game starts or when spawned
@@ -60,7 +69,6 @@ void ANPC_Interactable::BeginPlay()
 	ConversationalDistance = 500.0f;				// 可触发点击事件距离
 	Bubble->SetVisibility(false);					// 初始化默认气泡不显示
 	Bubble->SetRelativeLocation(FVector(0, 0, 250));
-	LineEffect->SetRenderCustomDepth(true);
 	
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
 	if(MainCharacter)
@@ -70,7 +78,6 @@ void ANPC_Interactable::BeginPlay()
 	// 获取Main character对象的Bubble控件引用
 	TArray<UActorComponent*> FoundComponents = MainCharacter->GetComponentsByTag(UWidgetComponent::StaticClass(),"Bubble");
 	MainBubble = Cast<UWidgetComponent>(FoundComponents[0]);
-	
 }
 
 // Called every frame
@@ -97,8 +104,7 @@ void ANPC_Interactable::NotifyActorOnClicked(FKey ButtonPressed)
 		MainBubble->SetVisibility(true);
 		if(DoOnce)
 		{
-			GetWorldTimerManager().SetTimer(TimerHandle_2, this, &ANPC_Interactable::CloseMCBubble, 0.1f, true);
-			GetWorldTimerManager().SetTimer(TimerHandle_3, this, &ANPC_Interactable::ShowTaskRequestUI, 2.0f, true);
+			GetWorldTimerManager().SetTimer(TimerHandle_2, this, &ANPC_Interactable::CloseMCBubble, 0.5f, true);
 			DoOnce = false;
 		}
 	}
@@ -109,16 +115,13 @@ void ANPC_Interactable::NotifyActorBeginCursorOver()
 	Super::NotifyActorBeginCursorOver();
 	PrintLog("Cursor Over");
 }
-/* 更新风险值和孤单值，以及对话框是否消失
+/* 更新风险值和孤单值，更新对话框是否可视
  * Loneliness = Loneliness - 孤单下降系数
  * Risk = Risk + 风险上升系数
  * 当距离超过一定范围对话框消失
  */
 void ANPC_Interactable::UpdateState()
 {
-	// 更新NPC的对话框信息
-	InitClickBubbleBlueprint();
-	
 	Distance = GetDistanceTo(MainCharacter);
 	if(Distance <= RiskRangeValue)
 	{
@@ -177,26 +180,22 @@ void ANPC_Interactable::CloseMCBubble()
 	}
 }
 
+<<<<<<< HEAD
 void ANPC_Interactable::ShowTaskRequestUI()
 {
-	if(Distance <= ConversationalDistance)
+	int32 num = FMath::RandRange(1,100);
+	if(num <= 30)
 	{
-		int32 num = FMath::RandRange(1,100);
-		if(num <= 20)
+		if(TaskFrameUI != nullptr)
 		{
-			if(TaskFrameUI != nullptr)
-			{
-				CreateWidget(GetWorld(), TaskFrameUI)->AddToViewport();
-				GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
-				UGameplayStatics::SetGamePaused(GetWorld(),true);
-			}
+			CreateWidget(GetWorld(), TaskFrameUI)->AddToViewport();
+			GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
+			UGameplayStatics::SetGamePaused(GetWorld(),true);
 		}
-	}else
-	{
-		GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
 	}
 }
 
+<<<<<<< HEAD
 void ANPC_Interactable::InitClickBubbleBlueprint()
 {
 	UProgressBar* ProgressBar = Cast<UProgressBar>(Bubble->GetWidget()->GetWidgetFromName(TEXT("LonelinessBar")));
@@ -218,6 +217,10 @@ void ANPC_Interactable::InitClickBubbleBlueprint()
 	}
 	
 }
+=======
+>>>>>>> parent of aece2e6 (TaskRequestUI)
+=======
+>>>>>>> parent of 1616322 (Loneliness & Name will change)
 
 void ANPC_Interactable::PrintLog(FString String)
 {

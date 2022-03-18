@@ -21,8 +21,17 @@ void EmptyLinkFunctionForGeneratedCodeSocial_Distance_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
+<<<<<<< HEAD
+<<<<<<< HEAD
 				0x3A09DE26,
+=======
+				0xFCF33723,
+>>>>>>> parent of 1616322 (Loneliness & Name will change)
 				0x0E93A64E,
+=======
+				0x295514D1,
+				0xFD967B0F,
+>>>>>>> parent of aece2e6 (TaskRequestUI)
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
