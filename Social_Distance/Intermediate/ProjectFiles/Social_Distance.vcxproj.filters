@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Social_Distance.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E3810E2D-A7FA-4056-844E-2E4287D3F9AB}</UniqueIdentifier>
+      <UniqueIdentifier>{C7AD58C4-B860-47EE-8975-DBB6DAFFF096}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Social_Distance.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D58579AE-1DD2-443D-85BF-51950DE9C32C}</UniqueIdentifier>
+      <UniqueIdentifier>{B65D8A45-D68F-4BFD-A479-070511780149}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Social_Distance">
-      <UniqueIdentifier>{84AB96A6-2A9F-4603-BE92-6DFDBD463E25}</UniqueIdentifier>
+      <UniqueIdentifier>{7C69EA86-A960-4F04-9B8D-966F729D1CB4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Social_Distance\C_InteractableNPC.cpp">
       <Filter>Source\Social_Distance</Filter>
@@ -60,6 +60,12 @@
       <Filter>Source\Social_Distance</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Social_Distance\MyBlueprintFunctionLibrary.h">
+      <Filter>Source\Social_Distance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Social_Distance\MyClass.cpp">
+      <Filter>Source\Social_Distance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Social_Distance\MyClass.h">
       <Filter>Source\Social_Distance</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Social_Distance\NPC_Interactable.cpp">
