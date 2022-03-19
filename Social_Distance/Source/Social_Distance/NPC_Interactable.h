@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "MainCharacter.h"
+#include "MainCharacterAnimInstance.h"
 #include "NiagaraComponent.h"
 #include "Components/WidgetComponent.h"
 #include "NPC_Interactable.generated.h"
@@ -65,6 +66,9 @@ public:
 
 	UPROPERTY()
 		UWidgetComponent* MainBubble;
+	
+	UPROPERTY()
+		UMainCharacterAnimInstance*  AnimInstance;
 
 	UPROPERTY()
 		TArray<AActor*> Actors;
@@ -74,6 +78,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		class UWidgetComponent* Bubble;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		class UWidgetComponent* SimpleName;
 	
 	UPROPERTY()
 		TSubclassOf<class UUserWidget> TaskFrameUI;
@@ -100,6 +107,8 @@ public:
 	virtual void NotifyActorOnClicked(FKey ButtonPressed = EKeys::LeftMouseButton) override;
 
 	virtual void NotifyActorBeginCursorOver() override;
+
+	virtual void NotifyActorEndCursorOver() override;
 	
 	UFUNCTION()
 		void UpdateState();
@@ -118,6 +127,9 @@ public:
 
 	UFUNCTION()
 		void InitClickBubbleBlueprint();
+
+	UFUNCTION()
+		void InitSimpleNameBlueprint();
 	
 	UFUNCTION()
 		void PrintLog(FString String);

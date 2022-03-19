@@ -109,6 +109,8 @@ D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Widge
 D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
 D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetComponent.generated.h
 E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacter.generated.h
+E:\Github\Group5\Social_Distance\Source\Social_Distance\MainCharacterAnimInstance.h
+E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacterAnimInstance.generated.h
 D:\Unreal Engine\UE_4.26\Engine\Plugins\FX\Niagara\Source\Niagara\Public\NiagaraComponent.h
 D:\Unreal Engine\UE_4.26\Engine\Plugins\FX\Niagara\Source\Niagara\Public\NiagaraCommon.h
 D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/TextureRenderTarget2D.h

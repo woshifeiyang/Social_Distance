@@ -14,10 +14,11 @@ class UNiagaraComponent;
 #endif
 #define SOCIAL_DISTANCE_NPC_Interactable_generated_h
 
-#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_SPARSE_DATA
-#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_RPC_WRAPPERS \
+#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_SPARSE_DATA
+#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execPrintLog); \
+	DECLARE_FUNCTION(execInitSimpleNameBlueprint); \
 	DECLARE_FUNCTION(execInitClickBubbleBlueprint); \
 	DECLARE_FUNCTION(execShowTaskRequestUI); \
 	DECLARE_FUNCTION(execCloseMCBubble); \
@@ -26,9 +27,10 @@ class UNiagaraComponent;
 	DECLARE_FUNCTION(execUpdateState);
 
 
-#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execPrintLog); \
+	DECLARE_FUNCTION(execInitSimpleNameBlueprint); \
 	DECLARE_FUNCTION(execInitClickBubbleBlueprint); \
 	DECLARE_FUNCTION(execShowTaskRequestUI); \
 	DECLARE_FUNCTION(execCloseMCBubble); \
@@ -37,7 +39,7 @@ class UNiagaraComponent;
 	DECLARE_FUNCTION(execUpdateState);
 
 
-#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_INCLASS_NO_PURE_DECLS \
+#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesANPC_Interactable(); \
 	friend struct Z_Construct_UClass_ANPC_Interactable_Statics; \
@@ -46,7 +48,7 @@ public: \
 	DECLARE_SERIALIZER(ANPC_Interactable)
 
 
-#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_INCLASS \
+#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesANPC_Interactable(); \
 	friend struct Z_Construct_UClass_ANPC_Interactable_Statics; \
@@ -55,7 +57,7 @@ public: \
 	DECLARE_SERIALIZER(ANPC_Interactable)
 
 
-#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_STANDARD_CONSTRUCTORS \
+#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ANPC_Interactable(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANPC_Interactable) \
@@ -68,7 +70,7 @@ private: \
 public:
 
 
-#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_ENHANCED_CONSTRUCTORS \
+#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ANPC_Interactable(ANPC_Interactable&&); \
@@ -79,28 +81,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANPC_Interactable); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ANPC_Interactable)
 
 
-#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_PRIVATE_PROPERTY_OFFSET
-#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_12_PROLOG
-#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_GENERATED_BODY_LEGACY \
+#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_PRIVATE_PROPERTY_OFFSET
+#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_13_PROLOG
+#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_PRIVATE_PROPERTY_OFFSET \
-	Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_SPARSE_DATA \
-	Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_RPC_WRAPPERS \
-	Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_INCLASS \
-	Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_STANDARD_CONSTRUCTORS \
+	Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_PRIVATE_PROPERTY_OFFSET \
+	Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_SPARSE_DATA \
+	Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_RPC_WRAPPERS \
+	Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_INCLASS \
+	Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_GENERATED_BODY \
+#define Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_PRIVATE_PROPERTY_OFFSET \
-	Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_SPARSE_DATA \
-	Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_INCLASS_NO_PURE_DECLS \
-	Social_Distance_Source_Social_Distance_NPC_Interactable_h_15_ENHANCED_CONSTRUCTORS \
+	Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_PRIVATE_PROPERTY_OFFSET \
+	Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_SPARSE_DATA \
+	Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_INCLASS_NO_PURE_DECLS \
+	Social_Distance_Source_Social_Distance_NPC_Interactable_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

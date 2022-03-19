@@ -3,6 +3,7 @@
 
 #include "NPC_Interactable.h"
 
+#include "MainCharacterAnimInstance.h"
 #include "Components/CapsuleComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "NiagaraFunctionLibrary.h"
@@ -27,7 +28,7 @@ ANPC_Interactable::ANPC_Interactable()
 	{
 		PrintLog("Can not find NiagaraSystemObj");
 	}
-	// 创建Widget组件并绑定控件蓝图
+	// 创建Widget组件并绑定Bubble UI控件蓝图
 	Bubble = CreateDefaultSubobject<UWidgetComponent>(TEXT("Bubble"));
 	Bubble->SetupAttachment(GetMesh());
 	ConstructorHelpers::FClassFinder<UUserWidget> BubbleBPClass(TEXT("UserWidget'/Game/UI/WB_NPCName.WB_NPCName_C'"));
@@ -40,6 +41,19 @@ ANPC_Interactable::ANPC_Interactable()
 	}
 	Bubble->SetWidgetSpace(EWidgetSpace::Screen);
 	Bubble->SetDrawAtDesiredSize(true);
+	// 创建Widget组件并绑定CursorOverNPC UI控件蓝图
+	SimpleName = CreateDefaultSubobject<UWidgetComponent>(TEXT("SimpleName"));
+	SimpleName->SetupAttachment(GetMesh());
+	ConstructorHelpers::FClassFinder<UUserWidget> SimpleNameBPClass(TEXT("UserWidget'/Game/UI/WB_CursorOnNPCName.WB_CursorOnNPCName_C'"));
+	if(SimpleNameBPClass.Succeeded())
+	{
+		SimpleName->SetWidgetClass(SimpleNameBPClass.Class);
+	}else
+	{
+		PrintLog("Can not find SimpleNameBPClass");
+	}
+	SimpleName->SetWidgetSpace(EWidgetSpace::Screen);
+	SimpleName->SetDrawAtDesiredSize(true);
 	// 绑定任务弹出框蓝图
 	ConstructorHelpers::FClassFinder<UUserWidget> TaskRequestBPClass(TEXT("UserWidget'/Game/UI/WB_TaskRequestFrame.WB_TaskRequestFrame_C'"));
 	if(TaskRequestBPClass.Succeeded())
@@ -57,20 +71,23 @@ void ANPC_Interactable::BeginPlay()
 	Risk = InitRisk;
 	IsIndoor = false;
 	DoOnce = true;
-	ConversationalDistance = 500.0f;				// 可触发点击事件距离
+	ConversationalDistance = 300.0f;				// 可触发点击事件距离
 	Bubble->SetVisibility(false);					// 初始化默认气泡不显示
+	SimpleName->SetVisibility(false);
 	Bubble->SetRelativeLocation(FVector(0, 0, 250));
+	SimpleName->SetRelativeLocation(FVector(0, 0, 250));
 	LineEffect->SetRenderCustomDepth(true);
 	
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
 	if(MainCharacter)
 	{
 		GetWorldTimerManager().SetTimer(TimerHandle_1, this, &ANPC_Interactable::UpdateState, 0.5f, true);
+		// 获取Maincharacter的动画蓝图对象
+		AnimInstance = Cast<UMainCharacterAnimInstance>(MainCharacter->GetMesh()->GetAnimInstance());
+		// 获取Main character对象的Bubble控件引用
+		TArray<UActorComponent*> FoundComponents = MainCharacter->GetComponentsByTag(UWidgetComponent::StaticClass(),"Bubble");
+		MainBubble = Cast<UWidgetComponent>(FoundComponents[0]);
 	}
-	// 获取Main character对象的Bubble控件引用
-	TArray<UActorComponent*> FoundComponents = MainCharacter->GetComponentsByTag(UWidgetComponent::StaticClass(),"Bubble");
-	MainBubble = Cast<UWidgetComponent>(FoundComponents[0]);
-	
 }
 
 // Called every frame
@@ -93,22 +110,42 @@ void ANPC_Interactable::NotifyActorOnClicked(FKey ButtonPressed)
 	Super::NotifyActorOnClicked(ButtonPressed);
 	if(Distance <= ConversationalDistance)
 	{
+		SimpleName->SetVisibility(false);
 		Bubble->SetVisibility(true);
 		MainBubble->SetVisibility(true);
 		if(DoOnce)
 		{
+			if(AnimInstance)
+			{
+				AnimInstance->IsTalking = true;
+			}
 			GetWorldTimerManager().SetTimer(TimerHandle_2, this, &ANPC_Interactable::CloseMCBubble, 0.1f, true);
 			GetWorldTimerManager().SetTimer(TimerHandle_3, this, &ANPC_Interactable::ShowTaskRequestUI, 2.0f, true);
 			DoOnce = false;
 		}
+		
 	}
 }
 
 void ANPC_Interactable::NotifyActorBeginCursorOver()
 {
 	Super::NotifyActorBeginCursorOver();
-	PrintLog("Cursor Over");
+	if(Bubble->IsVisible() == true)
+	{
+		SimpleName->SetVisibility(false);
+	}
+	else
+	{
+		SimpleName->SetVisibility(true);
+	}
 }
+
+void ANPC_Interactable::NotifyActorEndCursorOver()
+{
+	Super::NotifyActorEndCursorOver();
+	SimpleName->SetVisibility(false);
+}
+
 /* 更新风险值和孤单值，以及对话框是否消失
  * Loneliness = Loneliness - 孤单下降系数
  * Risk = Risk + 风险上升系数
@@ -118,6 +155,8 @@ void ANPC_Interactable::UpdateState()
 {
 	// 更新NPC的对话框信息
 	InitClickBubbleBlueprint();
+	// 更新鼠标悬停时NPC名字信息
+	InitSimpleNameBlueprint();
 	
 	Distance = GetDistanceTo(MainCharacter);
 	if(Distance <= RiskRangeValue)
@@ -171,6 +210,10 @@ void ANPC_Interactable::CloseMCBubble()
 {
 	if(Distance > ConversationalDistance)
 	{
+		if(AnimInstance)
+		{
+			AnimInstance->IsTalking = false;
+		}
 		MainBubble->SetVisibility(false);
 		GetWorld()->GetTimerManager().ClearTimer(TimerHandle_2);
 		DoOnce = true;
@@ -217,6 +260,27 @@ void ANPC_Interactable::InitClickBubbleBlueprint()
 		PrintLog("RichTextBlock pointer is nullptr");
 	}
 	
+}
+
+void ANPC_Interactable::InitSimpleNameBlueprint()
+{
+	UProgressBar* ProgressBar = Cast<UProgressBar>(SimpleName->GetWidget()->GetWidgetFromName(TEXT("LonelinessBar")));
+	URichTextBlock* RichTextBlock = Cast<URichTextBlock>(SimpleName->GetWidget()->GetWidgetFromName(TEXT("NPCName")));
+	if(ProgressBar != nullptr)
+	{
+		ProgressBar->SetPercent(Loneliness / 100.0f);
+	}else
+	{
+		PrintLog("ProgressBar pointer is nullptr");
+	}
+	if(RichTextBlock != nullptr)
+	{
+		FString String = "<TitleText>" + Name + "</>";
+		RichTextBlock->SetText(FText::FromString(String));
+	}else
+	{
+		PrintLog("RichTextBlock pointer is nullptr");
+	}
 }
 
 void ANPC_Interactable::PrintLog(FString String)
