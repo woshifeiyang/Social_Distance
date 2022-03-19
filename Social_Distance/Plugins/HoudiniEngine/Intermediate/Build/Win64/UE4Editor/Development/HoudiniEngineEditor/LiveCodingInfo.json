@@ -1,33 +1,33 @@
 {
 	"RemapUnityFiles": 
 	{
-		"Module.HoudiniEngineEditor.1_of_4.cpp.obj": [
+		"Module.HoudiniEngineEditor.1_of_5.cpp.obj": [
 			"AssetTypeActions_HoudiniAsset.cpp.obj",
 			"HoudiniAssetActorFactory.cpp.obj",
 			"HoudiniAssetBroker.cpp.obj",
 			"HoudiniAssetComponentDetails.cpp.obj",
 			"HoudiniAssetFactory.cpp.obj",
 			"HoudiniEngineBakeUtils.cpp.obj",
-			"HoudiniEngineCommands.cpp.obj",
-			"HoudiniEngineDetails.cpp.obj"
+			"HoudiniEngineCommands.cpp.obj"
 		],
-		"Module.HoudiniEngineEditor.2_of_4.cpp.obj": [
+		"Module.HoudiniEngineEditor.2_of_5.cpp.obj": [
+			"HoudiniEngineDetails.cpp.obj",
 			"HoudiniEngineEditor.cpp.obj",
 			"HoudiniEngineEditorUtils.cpp.obj",
 			"HoudiniEngineStyle.cpp.obj",
 			"HoudiniGeoFactory.cpp.obj",
 			"HoudiniHandleComponentVisualizer.cpp.obj",
 			"HoudiniHandleDetails.cpp.obj",
-			"HoudiniInputDetails.cpp.obj",
-			"HoudiniOutputDetails.cpp.obj"
+			"HoudiniInputDetails.cpp.obj"
 		],
-		"Module.HoudiniEngineEditor.3_of_4.cpp.obj": [
+		"Module.HoudiniEngineEditor.3_of_5.cpp.obj": [
+			"HoudiniOutputDetails.cpp.obj",
 			"HoudiniParameterDetails.cpp.obj",
-			"HoudiniPDGDetails.cpp.obj",
-			"HoudiniPublicAPI.cpp.obj",
-			"HoudiniPublicAPIAssetWrapper.cpp.obj"
+			"HoudiniPDGDetails.cpp.obj"
 		],
-		"Module.HoudiniEngineEditor.4_of_4.cpp.obj": [
+		"Module.HoudiniEngineEditor.4_of_5.cpp.obj": [
+			"HoudiniPublicAPI.cpp.obj",
+			"HoudiniPublicAPIAssetWrapper.cpp.obj",
 			"HoudiniPublicAPIBlueprintLib.cpp.obj",
 			"HoudiniPublicAPIInputTypes.cpp.obj",
 			"HoudiniPublicAPIObjectBase.cpp.obj",
@@ -41,7 +41,9 @@
 			"HoudiniEditorEquivalenceUtils.cpp.obj",
 			"HoudiniEditorHeightfieldTests.cpp.obj",
 			"HoudiniEditorInputTests.cpp.obj",
-			"HoudiniEditorInstancerTests.cpp.obj",
+			"HoudiniEditorInstancerTests.cpp.obj"
+		],
+		"Module.HoudiniEngineEditor.5_of_5.cpp.obj": [
 			"HoudiniEditorMaterialTests.cpp.obj",
 			"HoudiniEditorMeshTests.cpp.obj",
 			"HoudiniEditorParametersTests.cpp.obj",
