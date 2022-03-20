@@ -1,3 +1,3 @@
-C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
-C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\MainCharacterAnimInstance.h
-C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacterAnimInstance.generated.h
+E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
+E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\MainCharacterAnimInstance.h
+E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacterAnimInstance.generated.h
