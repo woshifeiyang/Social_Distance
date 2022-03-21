@@ -1,5 +1,5 @@
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
+M:\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance/C_InteractableNPC.h
-e:\socialdistance\social_distance\social_distance\intermediate\build\win64\ue4editor\inc\social_distance\C_InteractableNPC.generated.h
+M:\GitHub\Social_Distance\Social_Distance\Source\Social_Distance/C_InteractableNPC.h
+M:\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\C_InteractableNPC.generated.h
