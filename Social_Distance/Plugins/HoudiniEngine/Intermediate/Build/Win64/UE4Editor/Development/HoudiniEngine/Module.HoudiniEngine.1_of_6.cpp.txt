@@ -1,69 +1,66 @@
-M:/GitHub/Social_Distance/Social_Distance/Plugins/HoudiniEngine/Source/HoudiniEngine/Private/GeometryToolsEngine.cpp
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\GeometryToolsEngine.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\algorithm
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xmemory
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\limits
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\cfloat
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\climits
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\cwchar
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\cstdio
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\isa_availability.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xatomic.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xutility
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\cstring
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\utility
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\array
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\cmath
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\map
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\tuple
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xtree
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\memory
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\iosfwd
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\typeinfo
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\vcruntime_typeinfo.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\mutex
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\chrono
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\ctime
-C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\time.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\ratio
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\sstream
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\istream
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\ostream
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\ios
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xlocnum
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\iterator
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\streambuf
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xiosbase
-C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\share.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\system_error
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\__msvc_system_error_abi.hpp
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\cerrno
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\stdexcept
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xstring
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xcall_once.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xerrc.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\atomic
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xthreads.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xtimec.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xlocale
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xfacet
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xlocinfo
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xlocinfo.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\cctype
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\clocale
-C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\locale.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\string
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\thread
-C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\process.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_startup.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\vcruntime_startup.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\random
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\vector
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xbit_ops.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\set
-M:/GitHub/Social_Distance/Social_Distance/Plugins/HoudiniEngine/Source/HoudiniEngine/Private/HBSPOps.cpp
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HBSPOps.h
+E:/SocialDistance/Social_Distance/Social_Distance/Plugins/HoudiniEngine/Source/HoudiniEngine/Private/GeometryToolsEngine.cpp
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\GeometryToolsEngine.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\algorithm
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xmemory
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xmemory0
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\cstdint
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\limits
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\ymath.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\cfloat
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\climits
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\cmath
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xtgmath.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\cwchar
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xutility
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\utility
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\iosfwd
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\cstdio
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\cstring
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xatomic0.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\array
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\iterator
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\istream
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\ostream
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\ios
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xlocnum
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\streambuf
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xiosbase
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xlocale
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\stdexcept
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xstring
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\typeinfo
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\vcruntime_typeinfo.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xlocinfo
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xlocinfo.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\locale.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\memory
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xfacet
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\system_error
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\cerrno
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xcall_once.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xerrc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\share.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\tuple
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\map
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xtree
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\mutex
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\chrono
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\ratio
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\time.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\thr/xtimec.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\thr/xthrcommon.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\functional
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\thread
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\thr/xthread
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\thr/xtime
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\thr/xthreads.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\random
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\vector
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\set
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\string
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xstring_insert.h
+E:/SocialDistance/Social_Distance/Social_Distance/Plugins/HoudiniEngine/Source/HoudiniEngine/Private/HBSPOps.cpp
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HBSPOps.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Brush.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/ObjectMacros.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/Script.h
@@ -73,7 +70,7 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Stats/Stat
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformTime.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformTime.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformTime.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Stats\StatsCommon.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\core\public\stats\StatsCommon.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Stats/Stats2.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/LowLevelMemTracker.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/ScopeLock.h
@@ -85,7 +82,7 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPla
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ChunkedArray.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/IndirectArray.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\ProfilingDebugging/MiscTrace.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Stats\StatsTrace.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\core\public\stats\StatsTrace.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CoreMisc.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectBaseUtility.h
@@ -94,7 +91,7 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UOb
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/PrimaryAssetId.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/StringBuilder.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/StringView.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Containers\StringView.inl
+c:\program files\epic games\ue_4.26\engine\source\runtime\core\public\containers\StringView.inl
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/LinkerInstancingContext.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceRedirector.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveUObject.h
@@ -208,7 +205,7 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ChildActorComponent.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\RenderCommandFence.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/ITransaction.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc\Change.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\core\public\misc\Change.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Level.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/ScopedCallback.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/MaterialMerging.h
@@ -218,20 +215,20 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Brush.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Polys.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Polys.generated.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngine\HBSPOps.generated.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngine\HBSPOps.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\EngineDefines.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Model.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\RenderResource.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RHI\Public\RHI.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/StaticArray.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RHI\Public\MultiGPU.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RHI\Public\RHIValidationCommon.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RHI\Public\RHIResources.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RHI\Public\DynamicRHI.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RHI\Public\RHIContext.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rhi\public\MultiGPU.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rhi\public\RHIValidationCommon.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rhi\public\RHIResources.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rhi\public\DynamicRHI.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rhi\public\RHIContext.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Modules/ModuleInterface.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RHI\Public\RHIUtilities.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RHI\Public\RHICommandList.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rhi\public\RHIUtilities.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rhi\public\RHICommandList.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/App.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CommandLine.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
@@ -240,41 +237,59 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Frame
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/ExpressionParserTypes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/ValueOrError.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/TVariant.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc\TVariantMeta.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\core\public\misc\TVariantMeta.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/ExpressionParserTypes.inl
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Timecode.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\ProfilingDebugging/CsvProfiler.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/Queue.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\ProfilingDebugging/CsvProfilerTrace.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RHI\Public\RHICommandList.inl
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\RenderCore.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\atomic
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xatomic.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xxatomic
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xxatomic
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xxatomic
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xxatomic
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xxatomic
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xxatomic
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xxatomic
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xxatomic
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xxatomic
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xxatomic
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xxatomic
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xxatomic
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xxatomic
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xxatomic
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xxatomic
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xxatomic
+c:\program files\epic games\ue_4.26\engine\source\runtime\rhi\public\RHICommandList.inl
+c:\program files\epic games\ue_4.26\engine\source\runtime\rendercore\public\RenderCore.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/DynamicRHIResourceArray.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ResourceArray.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\PackedNormal.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\RawIndexBuffer.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\LocalVertexFactory.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\RawIndexBuffer.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\LocalVertexFactory.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\ShaderParameters.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Components.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Components.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\VertexFactory.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\ShaderCore.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rendercore\public\ShaderCore.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Paths.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CoreStats.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\UniformBuffer.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\ShaderParameterMacros.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\ShaderParameterMetadata.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\RenderingThread.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\Shader.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rendercore\public\UniformBuffer.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rendercore\public\ShaderParameterMacros.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rendercore\public\ShaderParameterMetadata.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rendercore\public\RenderingThread.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rendercore\public\Shader.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/HashTable.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\ShaderPermutation.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\ShaderCodeLibrary.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rendercore\public\ShaderPermutation.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rendercore\public\ShaderCodeLibrary.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/RenderingObjectVersion.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/DebugSerializationFlags.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Components.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\StaticMeshResources.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\StaticMeshResources.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectIterator.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectHash.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Materials/MaterialInterface.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\SceneTypes.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\SceneTypes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SceneTypes.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/BlendableInterface.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BlendableInterface.generated.h
@@ -287,20 +302,20 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UOb
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\AssetRegistry/AssetDataTagMap.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/SortedMap.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialLayersFunctions.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\MaterialSceneTextureId.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\MaterialSceneTextureId.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialSceneTextureId.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Materials/MaterialRelevance.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialInterface.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\PrimitiveViewRelevance.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\PrimitiveSceneProxy.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\PrimitiveViewRelevance.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\PrimitiveSceneProxy.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Scene.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\SceneUtils.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\SceneUtils.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\ProfilingDebugging/RealtimeGPUProfiler.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RHI\Public\GpuProfilerTrace.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Scene.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\SceneView.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\SceneView.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/World.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\CollisionQueryParams.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\CollisionQueryParams.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\PhysicsCore\Public\Chaos/ChaosEngineInterface.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos/Declares.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos/ParticleHandleFwd.h
@@ -309,12 +324,12 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\PhysicsCore\Public\Phy
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\PhysicsCore\Public\PhysicsInterfaceWrapperShared.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\PhysicsCore\Public\PhysicsInterfaceTypesCore.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos/CollisionFilterData.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ChaosArchive.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Serializable.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\experimental\chaos\public\chaos\ChaosArchive.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\experimental\chaos\public\chaos\Serializable.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/DestructionObjectVersion.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/ExternalPhysicsCustomObjectVersion.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsCore\ChaosEngineInterface.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\WorldCollision.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\WorldCollision.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\PhysicsCore\Public\CollisionShape.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavAgentInterface.h
@@ -332,16 +347,16 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UOb
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\Blueprint/BlueprintSupport.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Blueprint.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/PendingNetGame.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine\NetworkDelegates.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\classes\engine\NetworkDelegates.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PendingNetGame.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/LatentActionManager.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LatentActionManager.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/GameInstance.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Subsystems/GameInstanceSubsystem.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Subsystems/Subsystem.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Subsystems/GameInstanceSubsystem.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Subsystems/Subsystem.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Subsystem.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameInstanceSubsystem.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Subsystems/SubsystemCollection.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Subsystems/SubsystemCollection.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GCObject.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Classes\Settings/LevelEditorPlaySettings.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Layout/Margin.h
@@ -367,11 +382,11 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Brush
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Styling/SlateBrush.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Textures/SlateShaderResource.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\SlateGlobals.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Debugging/SlateDebugging.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\FastUpdate/WidgetUpdateFlags.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Input/Reply.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Input/ReplyBase.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Input/Events.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\Debugging/SlateDebugging.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\FastUpdate/WidgetUpdateFlags.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\Input/Reply.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\Input/ReplyBase.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\Input/Events.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/GenericApplication.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/Accessibility/GenericAccessibleInterfaces.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Variant.h
@@ -381,23 +396,23 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Serializat
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/GenericApplicationMessageHandler.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/GenericWindowDefinition.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/GenericWindow.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Layout/Geometry.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\Layout/Geometry.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Math/TransformCalculus2D.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Math/TransformCalculus.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Layout/SlateRect.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Layout/SlateRotatedRect.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Rendering/SlateLayoutTransform.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Rendering/SlateRenderTransform.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Layout/PaintGeometry.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\Layout/SlateRect.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\Layout/SlateRotatedRect.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\Rendering/SlateLayoutTransform.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\Rendering/SlateRenderTransform.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\Layout/PaintGeometry.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\Geometry.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\Events.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Input/DragAndDrop.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Input/CursorReply.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\Input/DragAndDrop.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\Input/CursorReply.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/ICursor.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Input/DragAndDrop.inl
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Widgets/InvalidateWidgetReason.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\Input/DragAndDrop.inl
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\Widgets/InvalidateWidgetReason.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateDebugging.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Trace/SlateTrace.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\Trace/SlateTrace.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateBrush.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Styling/ISlateStyle.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\PropertyEditor\Public\PropertyHandle.h
@@ -427,11 +442,11 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Fonts
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontCache.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Rendering/ShaderResourceManager.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Textures/SlateTextureData.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Rendering\DrawElementPayloads.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Rendering\SlateRenderBatch.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Rendering\ElementBatcher.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\rendering\DrawElementPayloads.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\rendering\SlateRenderBatch.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\slatecore\public\rendering\ElementBatcher.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Widgets/Accessibility/SlateWidgetAccessibleTypes.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\PropertyEditor\Public\PropertyEditorModule.h
+c:\program files\epic games\ue_4.26\engine\source\editor\propertyeditor\public\PropertyEditorModule.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Widgets/SWindow.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CoreDelegates.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/AES.h
@@ -467,8 +482,8 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Framework
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Textures/SlateIcon.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Framework/Docking/TabManager.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\SlateFwd.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\PropertyEditor\Public\IDetailsView.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\PropertyEditor\Public\PropertyEditorDelegates.h
+c:\program files\epic games\ue_4.26\engine\source\editor\propertyeditor\public\IDetailsView.h
+c:\program files\epic games\ue_4.26\engine\source\editor\propertyeditor\public\PropertyEditorDelegates.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Framework/Commands/UICommandList.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Framework/Commands/UIAction.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Framework/Commands/UICommandInfo.h
@@ -527,49 +542,49 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\ToolMenus\Public\Too
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenus\ToolMenuContext.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\LevelEditorPlaySettings.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameInstance.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Physics/PhysicsInterfaceDeclares.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Physics/PhysicsInterfaceDeclares.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Particles/WorldPSCPool.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\WorldPSCPool.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\AudioDeviceManager.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\AudioDeviceManager.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\AudioMixerCore\Public\AudioDefines.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\AudioThread.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\AudioThread.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Runnable.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Subsystems/WorldSubsystem.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Subsystems/WorldSubsystem.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\WorldSubsystem.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\World.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\ShowFlags.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\ConvexVolume.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\ShowFlags.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\ShowFlagsValues.inl
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\ShowFlagsValues.inl
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\ShowFlagsValues.inl
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\ShowFlagsValues.inl
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\ShowFlagsValues.inl
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\ConvexVolume.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/GameViewportClient.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ScriptViewportClient.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\UnrealClient.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\HitProxies.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\UnrealClient.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\HitProxies.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ScriptViewportClient.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ViewportSplitScreen.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/TitleSafeZone.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/GameViewportDelegates.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/DebugDisplayProperty.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugDisplayProperty.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\StereoRendering.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\StereoRendering.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameViewportClient.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\SceneInterface.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\SceneInterface.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Math/SHMath.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\RenderGraphDefinitions.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\RendererInterface.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\RenderUtils.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\VirtualTexturing.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\FinalPostProcessSettings.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\BlendableManager.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rendercore\public\RendererInterface.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rendercore\public\RenderUtils.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\rendercore\public\VirtualTexturing.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\FinalPostProcessSettings.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\BlendableManager.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Renderer\Public\GlobalDistanceFieldParameters.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RHI\Public\RHIStaticStates.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/ScopedEvent.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\DebugViewModeHelpers.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\PrimitiveUniformShaderParameters.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\LightmapUniformShaderParameters.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\DebugViewModeHelpers.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\PrimitiveUniformShaderParameters.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\LightmapUniformShaderParameters.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\UnifiedBuffer.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/MeshMerging.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/InstancedStaticMeshComponent.h
@@ -579,75 +594,75 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Compone
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/MeshComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/PrimitiveComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/BodyInstance.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\PhysxUserData.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Physics/PhysicsInterfaceCore.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\PhysxUserData.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Physics/PhysicsInterfaceCore.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\PhysicsCore\Public\PhysicsCore.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Physics/PhysicsInterfacePhysX.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\EngineGlobals.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Physics/PhysicsInterfacePhysX.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\EngineGlobals.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/ConstraintTypes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ConstraintTypes.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Physics\PhysicsInterfaceTypes.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\physics\PhysicsInterfaceTypes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\PhysicsCore\Public\BodySetupEnums.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsCore\BodySetupEnums.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Physics\GenericPhysicsInterface.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Physics/PhysScene_PhysX.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\PhysicsPublic.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\DynamicMeshBuilder.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\SceneManagement.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\physics\GenericPhysicsInterface.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Physics/PhysScene_PhysX.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\PhysicsPublic.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\DynamicMeshBuilder.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\SceneManagement.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/TextureLightProfile.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Texture2D.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Texture.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\Serialization/BulkData.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Async/AsyncFileHandle.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\Serialization\BulkDataCommon.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\Serialization\BulkData2.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\Serialization\BulkDataBuffer.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\coreuobject\public\serialization\BulkDataCommon.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\coreuobject\public\serialization\BulkData2.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\coreuobject\public\serialization\BulkDataBuffer.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\IO/IoDispatcher.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\IO/IoContainerId.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/IEngineCrypto.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Features/IModularFeatures.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/TextureDefines.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureDefines.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\MaterialShared.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\StaticParameterSet.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\MaterialShared.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\StaticParameterSet.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/FortniteMainBranchObjectVersion.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/ReleaseObjectVersion.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticParameterSet.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\TextureResource.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\TextureResource.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/StreamableRenderAsset.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\RenderAssetUpdate.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Streaming/StreamableRenderResourceState.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\RenderAssetUpdate.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Streaming/StreamableRenderResourceState.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StreamableRenderAsset.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\PerPlatformProperties.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\PerPlatformProperties.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Find.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Impl/RangePointerType.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Engine.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/BufferedOutputDevice.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Subsystems/EngineSubsystem.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Subsystems/EngineSubsystem.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\EngineSubsystem.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Engine.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PerPlatformProperties.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Texture.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Texture2D.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureLightProfile.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\BatchedElements.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\BatchedElements.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\StaticBoundShaderState.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RHI\Public\PipelineStateCache.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\MeshBatch.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\VT/RuntimeVirtualTextureEnum.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\MeshBatch.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\VT/RuntimeVirtualTextureEnum.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RuntimeVirtualTextureEnum.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\DynamicBufferAllocator.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Rendering/SkyAtmosphereCommonData.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Rendering/SkyLightImportanceSampling.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Rendering/SkyAtmosphereCommonData.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Rendering/SkyLightImportanceSampling.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\PhysicsCore\Public\PhysicsPublicCore.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/RigidBodyIndexPair.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Physics/Experimental/PhysScene_ImmediatePhysX.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Physics/Experimental/PhysicsInterfaceImmediatePhysX.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Physics/Experimental/PhysScene_ImmediatePhysX.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Physics/Experimental/PhysicsInterfaceImmediatePhysX.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\PhysicsCore\Public\BodyInstanceCore.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsCore\BodyInstanceCore.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BodyInstance.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavRelevantInterface.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\AI/NavigationModifier.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\AI/NavigationModifier.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavLinkDefinition.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavLinkDefinition.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavRelevantInterface.generated.h
@@ -657,12 +672,12 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime/Launch/Resources/Versi
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshComponent.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\InstancedStaticMeshComponent.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MeshMerging.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Rendering/ColorVertexBuffer.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\StaticMeshVertexData.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Rendering/StaticMeshVertexDataInterface.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Rendering/StaticMeshVertexBuffer.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Rendering/PositionVertexBuffer.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\WeightedRandomSampler.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Rendering/ColorVertexBuffer.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\StaticMeshVertexData.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Rendering/StaticMeshVertexDataInterface.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Rendering/StaticMeshVertexBuffer.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\Rendering/PositionVertexBuffer.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\public\WeightedRandomSampler.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Materials/Material.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\MaterialCachedData.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialCachedData.generated.h
@@ -717,9 +732,9 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Compone
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BrushComponent.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Volume.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Volume.generated.h
-M:/GitHub/Social_Distance/Social_Distance/Plugins/HoudiniEngine/Source/HoudiniEngine/Private/HCsgUtils.cpp
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HCsgUtils.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngine\HCsgUtils.generated.h
+E:/SocialDistance/Social_Distance/Social_Distance/Plugins/HoudiniEngine/Source/HoudiniEngine/Private/HCsgUtils.cpp
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HCsgUtils.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngine\HCsgUtils.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Selection.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Selection.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/FeedbackContext.h
@@ -735,23 +750,23 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\MeshDescription\Public\MeshTypes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescription\MeshTypes.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMesh.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\Subsystems/ImportSubsystem.h
+c:\program files\epic games\ue_4.26\engine\source\editor\unrealed\public\Subsystems/ImportSubsystem.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ImportSubsystem.generated.h
-M:/GitHub/Social_Distance/Social_Distance/Plugins/HoudiniEngine/Source/HoudiniEngine/Private/HoudiniApi.cpp
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HoudiniApi.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI/HAPI.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI\HAPI_API.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI\HAPI_Common.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI\HAPI_Helpers.h
-M:/GitHub/Social_Distance/Social_Distance/Plugins/HoudiniEngine/Source/HoudiniEngine/Private/HoudiniEngine.cpp
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngine.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineTaskInfo.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineTask.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniRuntimeSettings.h
+E:/SocialDistance/Social_Distance/Social_Distance/Plugins/HoudiniEngine/Source/HoudiniEngine/Private/HoudiniApi.cpp
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HoudiniApi.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\public\HAPI/HAPI.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\public\hapi\HAPI_API.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\public\hapi\HAPI_Common.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\public\hapi\HAPI_Helpers.h
+E:/SocialDistance/Social_Distance/Social_Distance/Plugins/HoudiniEngine/Source/HoudiniEngine/Private/HoudiniEngine.cpp
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HoudiniEngine.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HoudiniEngineTaskInfo.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HoudiniEngineTask.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniRuntimeSettings.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/AssetUserData.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AssetUserData.generated.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\HoudiniRuntimeSettings.generated.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineUtils.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\HoudiniRuntimeSettings.generated.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HoudiniEngineUtils.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\EngineUtils.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\ProfilingDebugging/ProfilingHelpers.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/WorldSettings.h
@@ -760,7 +775,7 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Info.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Info.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Sound/AudioVolume.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Sound\ReverbSettings.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\classes\sound\ReverbSettings.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ReverbSettings.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Sound/SoundSubmixSend.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Curves/CurveFloat.h
@@ -781,24 +796,24 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AudioVolume.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/ConstructorHelpers.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\WorldSettings.generated.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniGenericAttribute.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\HoudiniGenericAttribute.generated.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniOutput.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniGeoPartObject.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Public\HoudiniEngineRuntimeCommon.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\HoudiniEngineRuntimeCommon.generated.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\HoudiniGeoPartObject.generated.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniGenericAttribute.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\HoudiniGenericAttribute.generated.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniOutput.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengineruntime\private\HoudiniGeoPartObject.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Public\HoudiniEngineRuntimeCommon.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\HoudiniEngineRuntimeCommon.generated.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\HoudiniGeoPartObject.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Landscape\Classes\LandscapeProxy.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Landscape\Classes\LandscapeComponent.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Landscape\Classes\LandscapePhysicalMaterial.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Landscape\Classes\LandscapeWeightmapUsage.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\landscape\classes\LandscapeComponent.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\landscape\classes\LandscapePhysicalMaterial.h
+c:\program files\epic games\ue_4.26\engine\source\runtime\landscape\classes\LandscapeWeightmapUsage.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape\LandscapeWeightmapUsage.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape\LandscapeComponent.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape\LandscapeProxy.generated.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\HoudiniOutput.generated.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniPackageParams.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAssetComponent.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniEngineRuntimeUtils.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\HoudiniOutput.generated.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HoudiniPackageParams.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAssetComponent.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengineruntime\private\HoudiniEngineRuntimeUtils.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Landscape\Classes\LandscapeInfo.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape\LandscapeInfo.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\Kismet\Public\SSCSEditor.h
@@ -807,7 +822,7 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/SimpleConstructionScript.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SimpleConstructionScript.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SCS_Node.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\Kismet\Public\BlueprintEditor.h
+c:\program files\epic games\ue_4.26\engine\source\editor\kismet\public\BlueprintEditor.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\PreviewScene.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\Misc/NotifyHook.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\TickableEditorObject.h
@@ -821,10 +836,10 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\UnrealE
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\Subsystems/AssetEditorSubsystem.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\Tools/Modes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\AssetEditorSubsystem.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp/WorkflowTabFactory.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp/WorkflowTabManager.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\Kismet\Public\BlueprintEditorModule.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp/WorkflowCentricApplication.h
+c:\program files\epic games\ue_4.26\engine\source\editor\kismet\public\WorkflowOrientedApp/WorkflowTabFactory.h
+c:\program files\epic games\ue_4.26\engine\source\editor\kismet\public\WorkflowOrientedApp/WorkflowTabManager.h
+c:\program files\epic games\ue_4.26\engine\source\editor\kismet\public\BlueprintEditorModule.h
+c:\program files\epic games\ue_4.26\engine\source\editor\kismet\public\WorkflowOrientedApp/WorkflowCentricApplication.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\GraphEditor.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\BlueprintUtilities.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/LevelStreaming.h
@@ -840,21 +855,21 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\ObjectT
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\CollectionManager\Public\CollectionManagerTypes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\SourceControl\Public\ISourceControlState.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\Kismet2/ComponentEditorUtils.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniPluginSerializationVersion.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAssetStateTypes.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\IHoudiniAssetStateEvents.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\IHoudiniAssetStateEvents.generated.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\HoudiniAssetComponent.generated.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniStringResolver.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngine\HoudiniStringResolver.generated.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngine\HoudiniPackageParams.generated.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineScheduler.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengineruntime\private\HoudiniPluginSerializationVersion.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengineruntime\private\HoudiniAssetStateTypes.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengineruntime\private\IHoudiniAssetStateEvents.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\IHoudiniAssetStateEvents.generated.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\HoudiniAssetComponent.generated.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HoudiniStringResolver.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngine\HoudiniStringResolver.generated.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngine\HoudiniPackageParams.generated.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HoudiniEngineScheduler.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/RunnableThread.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformAffinity.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformAffinity.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/SingleThreadRunnable.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineManager.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniPDGManager.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HoudiniEngineManager.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HoudiniPDGManager.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\MessagingCommon\Public\MessageEndpoint.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ArrayBuilder.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Messaging\Public\IMessageAttachment.h
@@ -864,49 +879,49 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Messaging\Public\IMess
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Messaging\Public\IMessageReceiver.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Messaging\Public\IMessageSender.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Messaging\Public\IMessageBusListener.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI/HAPI_Version.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI/HAPI_Version.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\Settings\Public\ISettingsModule.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformFilemanager.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Async/Async.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Widgets/Notifications/SNotificationList.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Widgets/Input/SCheckBox.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Framework/Notifications/NotificationManager.h
-M:/GitHub/Social_Distance/Social_Distance/Plugins/HoudiniEngine/Source/HoudiniEngine/Private/HoudiniEngineManager.cpp
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniEngineRuntime.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniPDGAssetLink.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniTranslatorTypes.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\HoudiniPDGAssetLink.generated.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Public\HoudiniAsset.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\HoudiniAsset.generated.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineString.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniParameterTranslator.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniInputTranslator.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniOutputTranslator.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniHandleTranslator.h
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniSplineTranslator.h
+E:/SocialDistance/Social_Distance/Social_Distance/Plugins/HoudiniEngine/Source/HoudiniEngine/Private/HoudiniEngineManager.cpp
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniEngineRuntime.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengineruntime\private\HoudiniPDGAssetLink.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengineruntime\private\HoudiniTranslatorTypes.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\HoudiniPDGAssetLink.generated.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Public\HoudiniAsset.h
+E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime\HoudiniAsset.generated.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HoudiniEngineString.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HoudiniParameterTranslator.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HoudiniInputTranslator.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HoudiniOutputTranslator.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HoudiniHandleTranslator.h
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HoudiniSplineTranslator.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/MessageDialog.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\EditorViewportClient.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Camera/CameraTypes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraTypes.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\UnrealWidget.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\EditorComponents.h
+c:\program files\epic games\ue_4.26\engine\source\editor\unrealed\public\UnrealWidget.h
+c:\program files\epic games\ue_4.26\engine\source\editor\unrealed\public\EditorComponents.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Framework/Commands/Commands.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Framework/Commands/InputBindingManager.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/BlueprintFunctionLibrary.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BlueprintFunctionLibrary.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl
+c:\program files\epic games\ue_4.26\engine\source\runtime\engine\classes\kismet\KismetMathLibrary.inl
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\UnrealEdGlobals.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Classes\Editor/UnrealEdEngine.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\IPackageAutoSaver.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\SourceControl\Public\ISourceControlProvider.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\SourceControl\Public\ISourceControlOperation.h
+c:\program files\epic games\ue_4.26\engine\source\developer\sourcecontrol\public\ISourceControlOperation.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\IDDCNotifications.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\ComponentVisualizer.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ComponentVisualizer.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\ComponentVisualizerManager.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\UnrealEdEngine.generated.h
-M:/GitHub/Social_Distance/Social_Distance/Plugins/HoudiniEngine/Source/HoudiniEngine/Private/HoudiniEngineOutputStats.cpp
-M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\HoudiniEngineOutputStats.h
-M:/GitHub/Social_Distance/Social_Distance/Plugins/HoudiniEngine/Source/HoudiniEngine/Private/HoudiniEngineScheduler.cpp
+E:/SocialDistance/Social_Distance/Social_Distance/Plugins/HoudiniEngine/Source/HoudiniEngine/Private/HoudiniEngineOutputStats.cpp
+e:\socialdistance\social_distance\social_distance\plugins\houdiniengine\source\houdiniengine\private\HoudiniEngineOutputStats.h
+E:/SocialDistance/Social_Distance/Social_Distance/Plugins/HoudiniEngine/Source/HoudiniEngine/Private/HoudiniEngineScheduler.cpp

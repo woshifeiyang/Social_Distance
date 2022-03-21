@@ -28,6 +28,7 @@
 /we4458
 /we4459
 /wd4463
+/wd4668
 /wd4244
 /wd4838
 /I .
@@ -253,17 +254,17 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/I M:\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine
-/Yc"M:\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"M:\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"M:\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
-/Fo"M:\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/I E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine
+/Yc"E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 /TP
 /GR-
 /W4
