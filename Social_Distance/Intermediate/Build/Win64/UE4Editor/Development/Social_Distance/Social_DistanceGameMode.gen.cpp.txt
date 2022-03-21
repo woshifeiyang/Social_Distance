@@ -1,9 +1,9 @@
-M:\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
+E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-M:\GitHub\Social_Distance\Social_Distance\Source\Social_Distance/Social_DistanceGameMode.h
+E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance/Social_DistanceGameMode.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-M:\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\Social_DistanceGameMode.generated.h
+e:\socialdistance\social_distance\social_distance\intermediate\build\win64\ue4editor\inc\social_distance\Social_DistanceGameMode.generated.h

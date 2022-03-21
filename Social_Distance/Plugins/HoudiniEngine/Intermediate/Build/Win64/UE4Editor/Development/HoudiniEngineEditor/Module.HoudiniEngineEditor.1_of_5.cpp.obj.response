@@ -28,12 +28,13 @@
 /we4458
 /we4459
 /wd4463
+/wd4668
 /wd4244
 /wd4838
 /I .
-/I M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private
-/I M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private
-/I M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private
+/I E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Private
+/I E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private
+/I E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private
 /I Runtime
 /I Runtime\AppFramework\Public
 /I Runtime\TraceLog\Public
@@ -249,13 +250,13 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MaterialEditor
 /I Editor\MaterialEditor\Public
 /I Editor\PlacementMode\Public
-/I M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineEditor
-/I M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source
-/I M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public
-/I M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngine
-/I M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Public
-/I M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime
-/I M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Public
+/I E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineEditor
+/I E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source
+/I E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public
+/I E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngine
+/I E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngine\Public
+/I E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Inc\HoudiniEngineRuntime
+/I E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Foliage
 /I Runtime\Foliage\Public
 /I Runtime\MeshUtilitiesCommon\Public
@@ -289,17 +290,17 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngineEditor\PCH.HoudiniEngineEditor.h"
-/Yu"M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngineEditor\PCH.HoudiniEngineEditor.h"
-/Fp"M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngineEditor\PCH.HoudiniEngineEditor.h.pch"
-"M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngineEditor\Module.HoudiniEngineEditor.1_of_5.cpp"
-/Fo"M:\GitHub\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngineEditor\Module.HoudiniEngineEditor.1_of_5.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/FI"E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngineEditor\PCH.HoudiniEngineEditor.h"
+/Yu"E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngineEditor\PCH.HoudiniEngineEditor.h"
+/Fp"E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngineEditor\PCH.HoudiniEngineEditor.h.pch"
+"E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngineEditor\Module.HoudiniEngineEditor.1_of_5.cpp"
+/Fo"E:\SocialDistance\Social_Distance\Social_Distance\Plugins\HoudiniEngine\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEngineEditor\Module.HoudiniEngineEditor.1_of_5.cpp.obj"
 /TP
 /GR-
 /W4
