@@ -44,6 +44,9 @@ public:
 		FVector SelfLocation;
 
 	UPROPERTY()
+		FVector TalkingPoint;
+
+	UPROPERTY()
 		TArray<AActor*> InteractableNPCList;
 
 	UPROPERTY()

@@ -71,7 +71,6 @@ void ANPC_Interactable::BeginPlay()
 	Risk = InitRisk;
 	IsIndoor = false;
 	DoOnce = true;
-	ConversationalDistance = 300.0f;				// 可触发点击事件距离
 	Bubble->SetVisibility(false);					// 初始化默认气泡不显示
 	SimpleName->SetVisibility(false);
 	Bubble->SetRelativeLocation(FVector(0, 0, 250));
@@ -83,11 +82,12 @@ void ANPC_Interactable::BeginPlay()
 	{
 		GetWorldTimerManager().SetTimer(TimerHandle_1, this, &ANPC_Interactable::UpdateState, 0.5f, true);
 		// 获取Maincharacter的动画蓝图对象
-		AnimInstance = Cast<UMainCharacterAnimInstance>(MainCharacter->GetMesh()->GetAnimInstance());
+		MainCharacterAnimInstance = Cast<UMainCharacterAnimInstance>(MainCharacter->GetMesh()->GetAnimInstance());
 		// 获取Main character对象的Bubble控件引用
 		TArray<UActorComponent*> FoundComponents = MainCharacter->GetComponentsByTag(UWidgetComponent::StaticClass(),"Bubble");
 		MainBubble = Cast<UWidgetComponent>(FoundComponents[0]);
 	}
+	NPCAnimInstance = Cast<UMainCharacterAnimInstance>(GetMesh()->GetAnimInstance());
 }
 
 // Called every frame
@@ -115,9 +115,17 @@ void ANPC_Interactable::NotifyActorOnClicked(FKey ButtonPressed)
 		MainBubble->SetVisibility(true);
 		if(DoOnce)
 		{
-			if(AnimInstance)
+			if(MainCharacter)
 			{
-				AnimInstance->IsTalking = true;
+				MainCharacter->TalkingPoint = MainCharacter->SelfLocation;
+			}
+			if(MainCharacterAnimInstance)
+			{
+				MainCharacterAnimInstance->IsTalking = true;
+			}
+			if(NPCAnimInstance)
+			{
+				NPCAnimInstance->IsTalking = true;
 			}
 			GetWorldTimerManager().SetTimer(TimerHandle_2, this, &ANPC_Interactable::CloseMCBubble, 0.1f, true);
 			GetWorldTimerManager().SetTimer(TimerHandle_3, this, &ANPC_Interactable::ShowTaskRequestUI, 2.0f, true);
@@ -154,7 +162,7 @@ void ANPC_Interactable::NotifyActorEndCursorOver()
 void ANPC_Interactable::UpdateState()
 {
 	// 更新NPC的对话框信息
-	InitClickBubbleBlueprint();
+	InitBubbleBlueprint();
 	// 更新鼠标悬停时NPC名字信息
 	InitSimpleNameBlueprint();
 	
@@ -176,10 +184,6 @@ void ANPC_Interactable::UpdateState()
 		{
 			Risk = 100.0f;
 		}
-	}
-	if(Distance > ConversationalDistance)
-	{
-		Bubble->SetVisibility(false);
 	}
 }
 
@@ -208,13 +212,18 @@ void ANPC_Interactable::SetLineEffect()
 
 void ANPC_Interactable::CloseMCBubble()
 {
-	if(Distance > ConversationalDistance)
+	if(FVector::Distance(MainCharacter->TalkingPoint, MainCharacter->SelfLocation) >= 50.0f)
 	{
-		if(AnimInstance)
+		if(MainCharacterAnimInstance)
 		{
-			AnimInstance->IsTalking = false;
+			MainCharacterAnimInstance->IsTalking = false;
+		}
+		if(NPCAnimInstance)
+		{
+			NPCAnimInstance->IsTalking = false;
 		}
 		MainBubble->SetVisibility(false);
+		Bubble->SetVisibility(false);
 		GetWorld()->GetTimerManager().ClearTimer(TimerHandle_2);
 		DoOnce = true;
 	}
@@ -222,10 +231,10 @@ void ANPC_Interactable::CloseMCBubble()
 
 void ANPC_Interactable::ShowTaskRequestUI()
 {
-	if(Distance <= ConversationalDistance)
+	if(FVector::Distance(MainCharacter->TalkingPoint, MainCharacter->SelfLocation) < 50.0f)
 	{
 		int32 num = FMath::RandRange(1,100);
-		if(num <= 20)
+		if(num <= 10)
 		{
 			if(TaskFrameUI != nullptr)
 			{
@@ -240,7 +249,7 @@ void ANPC_Interactable::ShowTaskRequestUI()
 	}
 }
 
-void ANPC_Interactable::InitClickBubbleBlueprint()
+void ANPC_Interactable::InitBubbleBlueprint()
 {
 	UProgressBar* ProgressBar = Cast<UProgressBar>(Bubble->GetWidget()->GetWidgetFromName(TEXT("LonelinessBar")));
 	URichTextBlock* RichTextBlock = Cast<URichTextBlock>(Bubble->GetWidget()->GetWidgetFromName(TEXT("NPCName")));

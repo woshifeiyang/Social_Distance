@@ -37,6 +37,9 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 		FVector SelfLocation;
 
+	UPROPERTY()
+		FVector TalkingPoint;
+
 	UPROPERTY(BlueprintReadOnly)
 		float Distance;
 
@@ -58,7 +61,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
 		float LineDisappearingRange;
 	
-	UPROPERTY()
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
 		float ConversationalDistance;
 	
 	UPROPERTY()
@@ -68,7 +71,10 @@ public:
 		UWidgetComponent* MainBubble;
 	
 	UPROPERTY()
-		UMainCharacterAnimInstance*  AnimInstance;
+		UMainCharacterAnimInstance*  MainCharacterAnimInstance;
+
+	UPROPERTY()
+		UMainCharacterAnimInstance*  NPCAnimInstance;
 
 	UPROPERTY()
 		TArray<AActor*> Actors;
@@ -126,7 +132,7 @@ public:
 		void ShowTaskRequestUI();
 
 	UFUNCTION()
-		void InitClickBubbleBlueprint();
+		void InitBubbleBlueprint();
 
 	UFUNCTION()
 		void InitSimpleNameBlueprint();

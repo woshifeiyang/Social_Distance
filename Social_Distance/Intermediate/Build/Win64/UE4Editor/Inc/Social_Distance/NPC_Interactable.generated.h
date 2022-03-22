@@ -19,7 +19,7 @@ class UNiagaraComponent;
  \
 	DECLARE_FUNCTION(execPrintLog); \
 	DECLARE_FUNCTION(execInitSimpleNameBlueprint); \
-	DECLARE_FUNCTION(execInitClickBubbleBlueprint); \
+	DECLARE_FUNCTION(execInitBubbleBlueprint); \
 	DECLARE_FUNCTION(execShowTaskRequestUI); \
 	DECLARE_FUNCTION(execCloseMCBubble); \
 	DECLARE_FUNCTION(execSetLineEffect); \
@@ -31,7 +31,7 @@ class UNiagaraComponent;
  \
 	DECLARE_FUNCTION(execPrintLog); \
 	DECLARE_FUNCTION(execInitSimpleNameBlueprint); \
-	DECLARE_FUNCTION(execInitClickBubbleBlueprint); \
+	DECLARE_FUNCTION(execInitBubbleBlueprint); \
 	DECLARE_FUNCTION(execShowTaskRequestUI); \
 	DECLARE_FUNCTION(execCloseMCBubble); \
 	DECLARE_FUNCTION(execSetLineEffect); \

@@ -41,11 +41,11 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		P_THIS->InitSimpleNameBlueprint();
 		P_NATIVE_END;
 	}
-	DEFINE_FUNCTION(ANPC_Interactable::execInitClickBubbleBlueprint)
+	DEFINE_FUNCTION(ANPC_Interactable::execInitBubbleBlueprint)
 	{
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->InitClickBubbleBlueprint();
+		P_THIS->InitBubbleBlueprint();
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(ANPC_Interactable::execShowTaskRequestUI)
@@ -90,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "CloseMCBubble", &ANPC_Interactable::execCloseMCBubble },
 			{ "DestroyNiagaraComponent", &ANPC_Interactable::execDestroyNiagaraComponent },
-			{ "InitClickBubbleBlueprint", &ANPC_Interactable::execInitClickBubbleBlueprint },
+			{ "InitBubbleBlueprint", &ANPC_Interactable::execInitBubbleBlueprint },
 			{ "InitSimpleNameBlueprint", &ANPC_Interactable::execInitSimpleNameBlueprint },
 			{ "PrintLog", &ANPC_Interactable::execPrintLog },
 			{ "SetLineEffect", &ANPC_Interactable::execSetLineEffect },
@@ -161,7 +161,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_ANPC_Interactable_InitClickBubbleBlueprint_Statics
+	struct Z_Construct_UFunction_ANPC_Interactable_InitBubbleBlueprint_Statics
 	{
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -169,17 +169,17 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ANPC_Interactable_InitClickBubbleBlueprint_Statics::Function_MetaDataParams[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ANPC_Interactable_InitBubbleBlueprint_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "NPC_Interactable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ANPC_Interactable_InitClickBubbleBlueprint_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ANPC_Interactable, nullptr, "InitClickBubbleBlueprint", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ANPC_Interactable_InitClickBubbleBlueprint_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ANPC_Interactable_InitClickBubbleBlueprint_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ANPC_Interactable_InitClickBubbleBlueprint()
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ANPC_Interactable_InitBubbleBlueprint_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ANPC_Interactable, nullptr, "InitBubbleBlueprint", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ANPC_Interactable_InitBubbleBlueprint_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ANPC_Interactable_InitBubbleBlueprint_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ANPC_Interactable_InitBubbleBlueprint()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ANPC_Interactable_InitClickBubbleBlueprint_Statics::FuncParams);
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ANPC_Interactable_InitBubbleBlueprint_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -339,6 +339,10 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_SelfLocation;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TalkingPoint_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_TalkingPoint;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Distance_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Distance;
@@ -381,9 +385,13 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MainBubble;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AnimInstance_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MainCharacterAnimInstance_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AnimInstance;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MainCharacterAnimInstance;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NPCAnimInstance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_NPCAnimInstance;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Actors_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Actors_MetaData[];
@@ -416,7 +424,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_ANPC_Interactable_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ANPC_Interactable_CloseMCBubble, "CloseMCBubble" }, // 1928151431
 		{ &Z_Construct_UFunction_ANPC_Interactable_DestroyNiagaraComponent, "DestroyNiagaraComponent" }, // 2728721672
-		{ &Z_Construct_UFunction_ANPC_Interactable_InitClickBubbleBlueprint, "InitClickBubbleBlueprint" }, // 664185856
+		{ &Z_Construct_UFunction_ANPC_Interactable_InitBubbleBlueprint, "InitBubbleBlueprint" }, // 4180498393
 		{ &Z_Construct_UFunction_ANPC_Interactable_InitSimpleNameBlueprint, "InitSimpleNameBlueprint" }, // 518620725
 		{ &Z_Construct_UFunction_ANPC_Interactable_PrintLog, "PrintLog" }, // 3365130430
 		{ &Z_Construct_UFunction_ANPC_Interactable_SetLineEffect, "SetLineEffect" }, // 1636702698
@@ -470,6 +478,12 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_SelfLocation = { "SelfLocation", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, SelfLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_SelfLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_SelfLocation_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TalkingPoint_MetaData[] = {
+		{ "ModuleRelativePath", "NPC_Interactable.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TalkingPoint = { "TalkingPoint", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, TalkingPoint), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TalkingPoint_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TalkingPoint_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Distance_MetaData[] = {
 		{ "Category", "NPC_Interactable" },
@@ -529,10 +543,11 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_LineDisappearingRange = { "LineDisappearingRange", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, LineDisappearingRange), METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_LineDisappearingRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_LineDisappearingRange_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_ConversationalDistance_MetaData[] = {
+		{ "Category", "CharacterProperty" },
 		{ "ModuleRelativePath", "NPC_Interactable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_ConversationalDistance = { "ConversationalDistance", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, ConversationalDistance), METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_ConversationalDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_ConversationalDistance_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_ConversationalDistance = { "ConversationalDistance", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, ConversationalDistance), METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_ConversationalDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_ConversationalDistance_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainCharacter_MetaData[] = {
 		{ "ModuleRelativePath", "NPC_Interactable.h" },
@@ -547,11 +562,17 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainBubble = { "MainBubble", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, MainBubble), Z_Construct_UClass_UWidgetComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainBubble_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainBubble_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_AnimInstance_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainCharacterAnimInstance_MetaData[] = {
 		{ "ModuleRelativePath", "NPC_Interactable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_AnimInstance = { "AnimInstance", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, AnimInstance), Z_Construct_UClass_UMainCharacterAnimInstance_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_AnimInstance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_AnimInstance_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainCharacterAnimInstance = { "MainCharacterAnimInstance", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, MainCharacterAnimInstance), Z_Construct_UClass_UMainCharacterAnimInstance_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainCharacterAnimInstance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainCharacterAnimInstance_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_NPCAnimInstance_MetaData[] = {
+		{ "ModuleRelativePath", "NPC_Interactable.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_NPCAnimInstance = { "NPCAnimInstance", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, NPCAnimInstance), Z_Construct_UClass_UMainCharacterAnimInstance_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_NPCAnimInstance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_NPCAnimInstance_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors_Inner = { "Actors", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors_MetaData[] = {
@@ -596,6 +617,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Risk,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_InitRisk,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_SelfLocation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TalkingPoint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Distance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_IsIndoor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_HaveMask,
@@ -606,7 +628,8 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_ConversationalDistance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainCharacter,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainBubble,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_AnimInstance,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainCharacterAnimInstance,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_NPCAnimInstance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_LineEffect,
@@ -641,7 +664,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANPC_Interactable, 4169020970);
+	IMPLEMENT_CLASS(ANPC_Interactable, 89801444);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<ANPC_Interactable>()
 	{
 		return ANPC_Interactable::StaticClass();

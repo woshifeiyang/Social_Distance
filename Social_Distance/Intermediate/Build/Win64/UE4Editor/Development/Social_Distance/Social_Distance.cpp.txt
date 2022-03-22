@@ -1,2 +1,2 @@
-M:\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
-M:\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\Social_Distance.h
+E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
+E:\Github\Group5\Social_Distance\Source\Social_Distance\Social_Distance.h
