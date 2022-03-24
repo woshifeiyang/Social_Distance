@@ -57,6 +57,8 @@ void AMainCharacter::BeginPlay()
 	Super::BeginPlay();
 	Loneliness = InitLoneliness;
 	Risk = InitRisk;
+	TaskIndex = 0;
+	HasFinished = true;
 	Bubble->SetVisibility(false);				// 初始化默认气泡不显示
 	// 获取所有NPC对象
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ANPC_Interactable::StaticClass(), InteractableNPCList);

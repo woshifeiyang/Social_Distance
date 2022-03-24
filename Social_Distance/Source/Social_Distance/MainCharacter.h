@@ -46,6 +46,12 @@ public:
 	UPROPERTY()
 		FVector TalkingPoint;
 
+	UPROPERTY(BlueprintReadWrite)
+		int32 TaskIndex;
+
+	UPROPERTY(BlueprintReadWrite)
+		bool HasFinished;
+
 	UPROPERTY()
 		TArray<AActor*> InteractableNPCList;
 

@@ -37,6 +37,11 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacterAnimInstance() {}
 #endif
 		static void NewProp_IsTalking_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsTalking;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsPicking_MetaData[];
+#endif
+		static void NewProp_IsPicking_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsPicking;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -64,8 +69,20 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacterAnimInstance() {}
 		((UMainCharacterAnimInstance*)Obj)->IsTalking = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMainCharacterAnimInstance_Statics::NewProp_IsTalking = { "IsTalking", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UMainCharacterAnimInstance), &Z_Construct_UClass_UMainCharacterAnimInstance_Statics::NewProp_IsTalking_SetBit, METADATA_PARAMS(Z_Construct_UClass_UMainCharacterAnimInstance_Statics::NewProp_IsTalking_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMainCharacterAnimInstance_Statics::NewProp_IsTalking_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMainCharacterAnimInstance_Statics::NewProp_IsPicking_MetaData[] = {
+		{ "Category", "MainCharacterAnimInstance" },
+		{ "ModuleRelativePath", "MainCharacterAnimInstance.h" },
+	};
+#endif
+	void Z_Construct_UClass_UMainCharacterAnimInstance_Statics::NewProp_IsPicking_SetBit(void* Obj)
+	{
+		((UMainCharacterAnimInstance*)Obj)->IsPicking = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMainCharacterAnimInstance_Statics::NewProp_IsPicking = { "IsPicking", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UMainCharacterAnimInstance), &Z_Construct_UClass_UMainCharacterAnimInstance_Statics::NewProp_IsPicking_SetBit, METADATA_PARAMS(Z_Construct_UClass_UMainCharacterAnimInstance_Statics::NewProp_IsPicking_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMainCharacterAnimInstance_Statics::NewProp_IsPicking_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMainCharacterAnimInstance_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainCharacterAnimInstance_Statics::NewProp_IsTalking,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainCharacterAnimInstance_Statics::NewProp_IsPicking,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UMainCharacterAnimInstance_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UMainCharacterAnimInstance>::IsAbstract,
@@ -94,7 +111,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacterAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMainCharacterAnimInstance, 1195146101);
+	IMPLEMENT_CLASS(UMainCharacterAnimInstance, 4065805234);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<UMainCharacterAnimInstance>()
 	{
 		return UMainCharacterAnimInstance::StaticClass();

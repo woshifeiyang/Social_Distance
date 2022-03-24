@@ -17,4 +17,7 @@ class SOCIAL_DISTANCE_API UMainCharacterAnimInstance : public UAnimInstance
 public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		bool IsTalking;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		bool IsPicking;
 };
