@@ -268,13 +268,13 @@ void ANPC_Interactable::InitBubbleBlueprint()
 	{
 		PrintLog("RichTextBlock pointer is nullptr");
 	}
-	
 }
 
 void ANPC_Interactable::InitSimpleNameBlueprint()
 {
 	UProgressBar* ProgressBar = Cast<UProgressBar>(SimpleName->GetWidget()->GetWidgetFromName(TEXT("LonelinessBar")));
 	URichTextBlock* RichTextBlock = Cast<URichTextBlock>(SimpleName->GetWidget()->GetWidgetFromName(TEXT("NPCName")));
+	
 	if(ProgressBar != nullptr)
 	{
 		ProgressBar->SetPercent(Loneliness / 100.0f);
