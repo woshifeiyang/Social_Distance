@@ -10,6 +10,7 @@
 #include "TaskRequestFrame.h"
 #include "Components/ProgressBar.h"
 #include "Components/RichTextBlock.h"
+#include "Struct_TaskProperty.h"
 
 // Sets default values
 ANPC_Interactable::ANPC_Interactable()
@@ -76,7 +77,7 @@ void ANPC_Interactable::BeginPlay()
 	Bubble->SetRelativeLocation(FVector(0, 0, 250));
 	SimpleName->SetRelativeLocation(FVector(0, 0, 250));
 	LineEffect->SetRenderCustomDepth(true);
-	
+	// 获取MainCharacter在游戏中的实例
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
 	if(MainCharacter)
 	{
@@ -87,7 +88,10 @@ void ANPC_Interactable::BeginPlay()
 		TArray<UActorComponent*> FoundComponents = MainCharacter->GetComponentsByTag(UWidgetComponent::StaticClass(),"Bubble");
 		MainBubble = Cast<UWidgetComponent>(FoundComponents[0]);
 	}
+	// 获取NPC的动画蓝图对象
 	NPCAnimInstance = Cast<UMainCharacterAnimInstance>(GetMesh()->GetAnimInstance());
+	
+	// FTaskProperty* Row = TaskPropertyDataTable->FindRow<FTaskProperty>(TEXT("1"), TEXT(""));
 }
 
 // Called every frame
@@ -239,6 +243,7 @@ void ANPC_Interactable::ShowTaskRequestUI()
 			if(TaskFrameUI != nullptr)
 			{
 				CreateWidget(GetWorld(), TaskFrameUI)->AddToViewport();
+				
 				GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
 				UGameplayStatics::SetGamePaused(GetWorld(),true);
 			}

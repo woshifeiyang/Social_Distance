@@ -32,8 +32,11 @@ struct FTaskProperty : public FTableRowBase
 	GENERATED_USTRUCT_BODY()
  
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FString NPC_Name;
- 
+		FString NPC_Name;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FString TaskContent;
+		FString TaskRequest;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FString TaskContent;
 };

@@ -8,6 +8,7 @@
 #include "MainCharacterAnimInstance.h"
 #include "NiagaraComponent.h"
 #include "Components/WidgetComponent.h"
+#include "Engine/DataTable.h"
 #include "NPC_Interactable.generated.h"
 
 UCLASS()
@@ -90,6 +91,9 @@ public:
 	
 	UPROPERTY()
 		TSubclassOf<class UUserWidget> TaskFrameUI;
+
+	UPROPERTY(EditAnywhere)
+		UDataTable* TaskPropertyDataTable;
 	
 		bool DoOnce;
 	
