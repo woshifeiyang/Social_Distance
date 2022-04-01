@@ -50,7 +50,7 @@ public:
 		int32 TaskIndex;
 
 	UPROPERTY(BlueprintReadWrite)
-		bool HasFinished;
+		bool InProcess;
 
 	UPROPERTY()
 		TArray<AActor*> InteractableNPCList;

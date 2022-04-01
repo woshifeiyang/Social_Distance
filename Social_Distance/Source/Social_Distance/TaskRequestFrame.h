@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "MainCharacter.h"
 #include "Blueprint/UserWidget.h"
 #include "Components/RichTextBlock.h"
 #include "TaskRequestFrame.generated.h"
@@ -27,6 +28,9 @@ public:
 	
 	UPROPERTY(meta = (BindWidget))
 		class UButton* NoButton;
+
+	UPROPERTY()
+		AMainCharacter* MainCharacter;
 
 	UPROPERTY()
 		FString Name;

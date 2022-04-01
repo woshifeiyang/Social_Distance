@@ -239,19 +239,31 @@ void ANPC_Interactable::ShowTaskRequestUI()
 	if(FVector::Distance(MainCharacter->TalkingPoint, MainCharacter->SelfLocation) < 50.0f)
 	{
 		int32 num = FMath::RandRange(1,100);
-		if(num <= 10)
+		if(num <= 50)
 		{
 			if(TaskFrameUI != nullptr)
 			{
 				if(TaskRequestFrameWidget)
 				{
-					URichTextBlock* RichTextBlock = TaskRequestFrameWidget->TaskRequest;
-					if(RichTextBlock)
+					URichTextBlock* TaskRequest = TaskRequestFrameWidget->TaskRequest;
+					URichTextBlock* TaskContent = TaskRequestFrameWidget->TaskContent;
+					if(TaskRequest)
 					{
-						// FTaskProperty* Row = TaskPropertyDataTable->FindRow<FTaskProperty>(TEXT("1"), TEXT(""));
-						FString String = "<BodyText>" + Name + "</>";
-						RichTextBlock->SetText(FText::FromString(String));
-						PrintLog(RichTextBlock->GetText().ToString());
+						FTaskProperty* Row = TaskPropertyDataTable->FindRow<FTaskProperty>(TEXT("0"), TEXT(""));
+						if(Row)
+						{
+							FString String = "<BodyText>" + Row->TaskRequest + "</>";
+							TaskRequest->SetText(FText::FromString(String));
+						}
+					}
+					if(TaskContent)
+					{
+						FTaskProperty* Row = TaskPropertyDataTable->FindRow<FTaskProperty>(TEXT("0"), TEXT(""));
+						if(Row)
+						{
+							FString String = "<BodyText>" + Row->TaskContent + "</>";
+							TaskContent->SetText(FText::FromString(String));
+						}
 					}
 				}
 				TaskRequestFrameWidget->AddToViewport();
@@ -264,7 +276,10 @@ void ANPC_Interactable::ShowTaskRequestUI()
 		GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
 	}
 }
-
+/*
+ * 在UpdateState函数中每隔0.5秒更新一次
+ * 更新玩家与NPC对话时，NPC身上的控件蓝图的Loneliness信息
+ */
 void ANPC_Interactable::InitBubbleBlueprint()
 {
 	UProgressBar* ProgressBar = Cast<UProgressBar>(Bubble->GetWidget()->GetWidgetFromName(TEXT("LonelinessBar")));
@@ -285,7 +300,10 @@ void ANPC_Interactable::InitBubbleBlueprint()
 		PrintLog("RichTextBlock pointer is nullptr");
 	}
 }
-
+/*
+ * 在UpdateState函数中每隔0.5秒更新一次
+ * 更新鼠标移动到NPC身上时的控件蓝图的Loneliness信息
+ */
 void ANPC_Interactable::InitSimpleNameBlueprint()
 {
 	UProgressBar* ProgressBar = Cast<UProgressBar>(SimpleName->GetWidget()->GetWidgetFromName(TEXT("LonelinessBar")));
