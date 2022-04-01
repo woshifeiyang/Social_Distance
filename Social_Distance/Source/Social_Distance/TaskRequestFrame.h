@@ -27,6 +27,9 @@ public:
 	
 	UPROPERTY(meta = (BindWidget))
 		class UButton* NoButton;
+
+	UPROPERTY()
+		FString Name;
 	
 protected:
 	UFUNCTION()

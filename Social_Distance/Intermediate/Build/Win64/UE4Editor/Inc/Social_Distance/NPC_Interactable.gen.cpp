@@ -22,9 +22,9 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_AMainCharacter_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_UMainCharacterAnimInstance_NoRegister();
+	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_UTaskRequestFrame_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UDataTable_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(ANPC_Interactable::execPrintLog)
@@ -393,6 +393,10 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NPCAnimInstance_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_NPCAnimInstance;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TaskRequestFrameWidget_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TaskRequestFrameWidget;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Actors_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Actors_MetaData[];
@@ -578,6 +582,13 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_NPCAnimInstance = { "NPCAnimInstance", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, NPCAnimInstance), Z_Construct_UClass_UMainCharacterAnimInstance_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_NPCAnimInstance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_NPCAnimInstance_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskRequestFrameWidget_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "NPC_Interactable.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskRequestFrameWidget = { "TaskRequestFrameWidget", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, TaskRequestFrameWidget), Z_Construct_UClass_UTaskRequestFrame_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskRequestFrameWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskRequestFrameWidget_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors_Inner = { "Actors", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors_MetaData[] = {
@@ -614,7 +625,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		{ "ModuleRelativePath", "NPC_Interactable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskFrameUI = { "TaskFrameUI", nullptr, (EPropertyFlags)0x0014000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, TaskFrameUI), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskFrameUI_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskFrameUI_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskFrameUI = { "TaskFrameUI", nullptr, (EPropertyFlags)0x0014000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, TaskFrameUI), Z_Construct_UClass_UTaskRequestFrame_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskFrameUI_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskFrameUI_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskPropertyDataTable_MetaData[] = {
 		{ "Category", "NPC_Interactable" },
@@ -642,6 +653,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainBubble,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_MainCharacterAnimInstance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_NPCAnimInstance,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskRequestFrameWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Actors,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_LineEffect,
@@ -677,7 +689,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANPC_Interactable, 3016149033);
+	IMPLEMENT_CLASS(ANPC_Interactable, 3593086960);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<ANPC_Interactable>()
 	{
 		return ANPC_Interactable::StaticClass();

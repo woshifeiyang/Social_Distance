@@ -9,6 +9,7 @@
 #include "NiagaraComponent.h"
 #include "Components/WidgetComponent.h"
 #include "Engine/DataTable.h"
+#include "TaskRequestFrame.h"
 #include "NPC_Interactable.generated.h"
 
 UCLASS()
@@ -76,6 +77,9 @@ public:
 
 	UPROPERTY()
 		UMainCharacterAnimInstance*  NPCAnimInstance;
+	
+	UPROPERTY()
+		UTaskRequestFrame* TaskRequestFrameWidget;
 
 	UPROPERTY()
 		TArray<AActor*> Actors;
@@ -90,10 +94,11 @@ public:
 		class UWidgetComponent* SimpleName;
 	
 	UPROPERTY()
-		TSubclassOf<class UUserWidget> TaskFrameUI;
+		TSubclassOf<class UTaskRequestFrame> TaskFrameUI;
 
 	UPROPERTY(EditAnywhere)
 		UDataTable* TaskPropertyDataTable;
+	
 	
 		bool DoOnce;
 	

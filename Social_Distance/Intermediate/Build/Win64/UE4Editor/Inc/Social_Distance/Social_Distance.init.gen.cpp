@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeSocial_Distance_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xC40511F4,
-				0x6ACED1BD,
+				0x245E74C9,
+				0xCC315755,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

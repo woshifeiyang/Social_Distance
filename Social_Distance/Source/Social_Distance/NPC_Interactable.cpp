@@ -2,7 +2,7 @@
 
 
 #include "NPC_Interactable.h"
-
+#include "Blueprint/WidgetTree.h"
 #include "MainCharacterAnimInstance.h"
 #include "Components/CapsuleComponent.h"
 #include "Kismet/GameplayStatics.h"
@@ -56,7 +56,7 @@ ANPC_Interactable::ANPC_Interactable()
 	SimpleName->SetWidgetSpace(EWidgetSpace::Screen);
 	SimpleName->SetDrawAtDesiredSize(true);
 	// 绑定任务弹出框蓝图
-	ConstructorHelpers::FClassFinder<UUserWidget> TaskRequestBPClass(TEXT("UserWidget'/Game/UI/WB_TaskRequestFrame.WB_TaskRequestFrame_C'"));
+	ConstructorHelpers::FClassFinder<UTaskRequestFrame> TaskRequestBPClass(TEXT("UserWidget'/Game/UI/WB_TaskRequestFrame.WB_TaskRequestFrame_C'"));
 	if(TaskRequestBPClass.Succeeded())
 	{
 		TaskFrameUI = TaskRequestBPClass.Class;
@@ -90,8 +90,9 @@ void ANPC_Interactable::BeginPlay()
 	}
 	// 获取NPC的动画蓝图对象
 	NPCAnimInstance = Cast<UMainCharacterAnimInstance>(GetMesh()->GetAnimInstance());
+	// 获取任务弹窗的蓝图对象
+	TaskRequestFrameWidget = Cast<UTaskRequestFrame>(CreateWidget(GetWorld(), TaskFrameUI));
 	
-	// FTaskProperty* Row = TaskPropertyDataTable->FindRow<FTaskProperty>(TEXT("1"), TEXT(""));
 }
 
 // Called every frame
@@ -99,7 +100,7 @@ void ANPC_Interactable::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	SelfLocation = GetActorLocation();
-
+	
 	SetLineEffect();
 }
 
@@ -242,8 +243,18 @@ void ANPC_Interactable::ShowTaskRequestUI()
 		{
 			if(TaskFrameUI != nullptr)
 			{
-				CreateWidget(GetWorld(), TaskFrameUI)->AddToViewport();
-				
+				if(TaskRequestFrameWidget)
+				{
+					URichTextBlock* RichTextBlock = TaskRequestFrameWidget->TaskRequest;
+					if(RichTextBlock)
+					{
+						// FTaskProperty* Row = TaskPropertyDataTable->FindRow<FTaskProperty>(TEXT("1"), TEXT(""));
+						FString String = "<BodyText>" + Name + "</>";
+						RichTextBlock->SetText(FText::FromString(String));
+						PrintLog(RichTextBlock->GetText().ToString());
+					}
+				}
+				TaskRequestFrameWidget->AddToViewport();
 				GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
 				UGameplayStatics::SetGamePaused(GetWorld(),true);
 			}
