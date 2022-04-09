@@ -30,7 +30,10 @@ USTRUCT()
 struct FTaskProperty : public FTableRowBase
 {
 	GENERATED_USTRUCT_BODY()
- 
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int32 TaskIndex;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FString NPC_Name;
 
@@ -39,4 +42,10 @@ struct FTaskProperty : public FTableRowBase
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FString TaskContent;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FString TaskTip_1;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FString TaskTip_2;
 };

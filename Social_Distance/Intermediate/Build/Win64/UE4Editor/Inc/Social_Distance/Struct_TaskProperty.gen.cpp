@@ -52,6 +52,10 @@ static struct FScriptStruct_Social_Distance_StaticRegisterNativesFTaskProperty
 #endif
 		static void* NewStructOps();
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TaskIndex_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_TaskIndex;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NPC_Name_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStrPropertyParams NewProp_NPC_Name;
@@ -63,6 +67,14 @@ static struct FScriptStruct_Social_Distance_StaticRegisterNativesFTaskProperty
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TaskContent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStrPropertyParams NewProp_TaskContent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TaskTip_1_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_TaskTip_1;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TaskTip_2_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_TaskTip_2;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
 	};
@@ -75,6 +87,13 @@ static struct FScriptStruct_Social_Distance_StaticRegisterNativesFTaskProperty
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FTaskProperty>();
 	}
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskIndex_MetaData[] = {
+		{ "Category", "TaskProperty" },
+		{ "ModuleRelativePath", "Struct_TaskProperty.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskIndex = { "TaskIndex", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTaskProperty, TaskIndex), METADATA_PARAMS(Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskIndex_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskIndex_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_NPC_Name_MetaData[] = {
 		{ "Category", "TaskProperty" },
@@ -96,10 +115,27 @@ static struct FScriptStruct_Social_Distance_StaticRegisterNativesFTaskProperty
 	};
 #endif
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskContent = { "TaskContent", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTaskProperty, TaskContent), METADATA_PARAMS(Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskContent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskContent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskTip_1_MetaData[] = {
+		{ "Category", "TaskProperty" },
+		{ "ModuleRelativePath", "Struct_TaskProperty.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskTip_1 = { "TaskTip_1", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTaskProperty, TaskTip_1), METADATA_PARAMS(Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskTip_1_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskTip_1_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskTip_2_MetaData[] = {
+		{ "Category", "TaskProperty" },
+		{ "ModuleRelativePath", "Struct_TaskProperty.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskTip_2 = { "TaskTip_2", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTaskProperty, TaskTip_2), METADATA_PARAMS(Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskTip_2_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskTip_2_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTaskProperty_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskIndex,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_NPC_Name,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskRequest,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskContent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskTip_1,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTaskProperty_Statics::NewProp_TaskTip_2,
 	};
 	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FTaskProperty_Statics::ReturnStructParams = {
 		(UObject* (*)())Z_Construct_UPackage__Script_Social_Distance,
@@ -129,7 +165,7 @@ static struct FScriptStruct_Social_Distance_StaticRegisterNativesFTaskProperty
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FTaskProperty_Hash() { return 3498998447U; }
+	uint32 Get_Z_Construct_UScriptStruct_FTaskProperty_Hash() { return 2923274072U; }
 	void AStruct_TaskProperty::StaticRegisterNativesAStruct_TaskProperty()
 	{
 	}
