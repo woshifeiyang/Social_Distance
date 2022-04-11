@@ -19,7 +19,6 @@ void UTaskRequestFrame::AcceptTask()
 	PrintLog("Accept Task Successfully");
 	if(MainCharacter)
 	{
-		MainCharacter->TaskIndex = 0;
 		MainCharacter->InProcess = true;
 	}
 	RemoveFromParent();

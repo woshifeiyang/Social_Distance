@@ -243,27 +243,41 @@ void ANPC_Interactable::ShowTaskRequestUI()
 		{
 			if(TaskFrameUI != nullptr)
 			{
-				if(TaskRequestFrameWidget)
+				if(TaskRequestFrameWidget != nullptr)
 				{
 					URichTextBlock* TaskRequest = TaskRequestFrameWidget->TaskRequest;
 					URichTextBlock* TaskContent = TaskRequestFrameWidget->TaskContent;
+					// 从数据表中提取与NPC名字匹配的行并加入数组中，从数组随机选取一个任务显示在任务请求框中
+					TArray<FTaskProperty*> TaskArray;
+					FString ContextString;
+					TArray<FName> RowNames = TaskPropertyDataTable->GetRowNames();
+					for(auto& name : RowNames)
+					{
+						FTaskProperty* Row = TaskPropertyDataTable->FindRow<FTaskProperty>(name, ContextString);
+						if(Row != nullptr && Row->NPC_Name == Name)
+						{
+							TaskArray.Add(Row);
+						}
+					}
+					int32 Index = FMath::RandRange(0, TaskArray.Num() - 1);
+					FTaskProperty* Row = TaskArray[Index];
+					MainCharacter->TaskIndex = Row->TaskIndex;
+					
 					if(TaskRequest)
 					{
-						FTaskProperty* Row = TaskPropertyDataTable->FindRow<FTaskProperty>(TEXT("0"), TEXT(""));
-						if(Row)
-						{
-							FString String = "<BodyText>" + Row->TaskRequest + "</>";
-							TaskRequest->SetText(FText::FromString(String));
-						}
+						if(Row != nullptr)
+					 	{
+					 		FString String = "<BodyText>" + Row->TaskRequest + "</>";
+					 		TaskRequest->SetText(FText::FromString(String));
+					 	}
 					}
 					if(TaskContent)
 					{
-						FTaskProperty* Row = TaskPropertyDataTable->FindRow<FTaskProperty>(TEXT("0"), TEXT(""));
-						if(Row)
-						{
-							FString String = "<BodyText>" + Row->TaskContent + "</>";
-							TaskContent->SetText(FText::FromString(String));
-						}
+					 	if(Row != nullptr)
+					 	{
+					 		FString String = "<BodyText>" + Row->TaskContent + "</>";
+					 		TaskContent->SetText(FText::FromString(String));
+					 	}
 					}
 				}
 				TaskRequestFrameWidget->AddToViewport();
