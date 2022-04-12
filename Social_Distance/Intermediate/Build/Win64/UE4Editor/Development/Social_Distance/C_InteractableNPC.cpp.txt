@@ -1,3 +1,3 @@
-\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
-\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\C_InteractableNPC.h
-\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\C_InteractableNPC.generated.h
+E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
+E:\Github\Group5\Social_Distance\Source\Social_Distance\C_InteractableNPC.h
+E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\C_InteractableNPC.generated.h

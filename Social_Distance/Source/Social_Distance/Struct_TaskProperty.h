@@ -44,6 +44,9 @@ struct FTaskProperty : public FTableRowBase
 		FString TaskContent;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FString TaskCompletedContent;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FString TaskTip_1;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

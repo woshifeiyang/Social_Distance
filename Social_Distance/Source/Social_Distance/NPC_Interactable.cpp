@@ -92,7 +92,20 @@ void ANPC_Interactable::BeginPlay()
 	NPCAnimInstance = Cast<UMainCharacterAnimInstance>(GetMesh()->GetAnimInstance());
 	// 获取任务弹窗的蓝图对象
 	TaskRequestFrameWidget = Cast<UTaskRequestFrame>(CreateWidget(GetWorld(), TaskFrameUI));
-	
+	// 从数据表中提取与NPC名字匹配的行并加入数组中
+	FString ContextString;
+	if(TaskPropertyDataTable != nullptr)
+	{
+		TArray<FName> RowNames = TaskPropertyDataTable->GetRowNames();
+		for(auto& name : RowNames)
+		{
+			FTaskProperty* Row = TaskPropertyDataTable->FindRow<FTaskProperty>(name, ContextString);
+			if(Row != nullptr && Row->NPC_Name == Name)
+			{
+				TaskArray.Add(Row);
+			}
+		}
+	}
 }
 
 // Called every frame
@@ -133,10 +146,20 @@ void ANPC_Interactable::NotifyActorOnClicked(FKey ButtonPressed)
 				NPCAnimInstance->IsTalking = true;
 			}
 			GetWorldTimerManager().SetTimer(TimerHandle_2, this, &ANPC_Interactable::CloseMCBubble, 0.1f, true);
-			GetWorldTimerManager().SetTimer(TimerHandle_3, this, &ANPC_Interactable::ShowTaskRequestUI, 2.0f, true);
+			// 检查玩家是否已经领取了该NPC的任务，如果领取了则检查任务处于第几阶段，如果没领取则可以领取
+			int32 Index;
+			if(IsTaskInList(Index) == true)
+			{
+				if(MainCharacter->TaskList[Index] == 2)
+				{
+					PrintLog(("Task Completed Frame appear"));
+				}
+			}else
+			{
+				GetWorldTimerManager().SetTimer(TimerHandle_3, this, &ANPC_Interactable::ShowTaskRequestUI, 2.0f, true);
+			}
 			DoOnce = false;
 		}
-		
 	}
 }
 
@@ -238,6 +261,7 @@ void ANPC_Interactable::ShowTaskRequestUI()
 {
 	if(FVector::Distance(MainCharacter->TalkingPoint, MainCharacter->SelfLocation) < 50.0f)
 	{
+		// 随机几率弹出任务请求框
 		int32 num = FMath::RandRange(1,100);
 		if(num <= 50)
 		{
@@ -247,18 +271,7 @@ void ANPC_Interactable::ShowTaskRequestUI()
 				{
 					URichTextBlock* TaskRequest = TaskRequestFrameWidget->TaskRequest;
 					URichTextBlock* TaskContent = TaskRequestFrameWidget->TaskContent;
-					// 从数据表中提取与NPC名字匹配的行并加入数组中，从数组随机选取一个任务显示在任务请求框中
-					TArray<FTaskProperty*> TaskArray;
-					FString ContextString;
-					TArray<FName> RowNames = TaskPropertyDataTable->GetRowNames();
-					for(auto& name : RowNames)
-					{
-						FTaskProperty* Row = TaskPropertyDataTable->FindRow<FTaskProperty>(name, ContextString);
-						if(Row != nullptr && Row->NPC_Name == Name)
-						{
-							TaskArray.Add(Row);
-						}
-					}
+					
 					int32 Index = FMath::RandRange(0, TaskArray.Num() - 1);
 					FTaskProperty* Row = TaskArray[Index];
 					MainCharacter->TaskIndex = Row->TaskIndex;
@@ -339,6 +352,19 @@ void ANPC_Interactable::InitSimpleNameBlueprint()
 	{
 		PrintLog("RichTextBlock pointer is nullptr");
 	}
+}
+
+bool ANPC_Interactable::IsTaskInList(int32& Index)
+{
+	for(auto Row : TaskArray)
+	{
+		if(MainCharacter->TaskList.Find(Row->TaskIndex) != nullptr)
+		{
+			Index = Row->TaskIndex;
+			return true;
+		}
+	}
+	return false;
 }
 
 void ANPC_Interactable::PrintLog(FString String)

@@ -7,6 +7,7 @@
 #include "MainCharacter.h"
 #include "MainCharacterAnimInstance.h"
 #include "NiagaraComponent.h"
+#include "Struct_TaskProperty.h"
 #include "Components/WidgetComponent.h"
 #include "Engine/DataTable.h"
 #include "TaskRequestFrame.h"
@@ -99,8 +100,9 @@ public:
 	UPROPERTY(EditAnywhere)
 		UDataTable* TaskPropertyDataTable;
 	
-	
 		bool DoOnce;
+
+		TArray<FTaskProperty*> TaskArray;
 	
 		FTimerHandle TimerHandle_1;
 
@@ -145,6 +147,8 @@ public:
 
 	UFUNCTION()
 		void InitSimpleNameBlueprint();
+
+		bool IsTaskInList(int32& Index);
 	
 	UFUNCTION()
 		void PrintLog(FString String);
