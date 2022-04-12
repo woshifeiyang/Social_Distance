@@ -10,16 +10,26 @@ bool UTaskRequestFrame::Initialize()
 	bool Success = Super::Initialize();
 	if (!Success) return false;
 	YesButton->OnClicked.AddDynamic(this, &UTaskRequestFrame::AcceptTask);
+	NoButton->OnClicked.AddDynamic(this, &UTaskRequestFrame::RejectTask);
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
 	return true;
 }
 
 void UTaskRequestFrame::AcceptTask()
 {
-	PrintLog("Accept Task Successfully");
-	if(MainCharacter)
+	if(MainCharacter != nullptr)
 	{
-		MainCharacter->InProcess = true;
+		MainCharacter->TaskList[MainCharacter->TaskIndex] = 1;
+	}
+	RemoveFromParent();
+	UGameplayStatics::SetGamePaused(GetWorld(),false);
+}
+
+void UTaskRequestFrame::RejectTask()
+{
+	if(MainCharacter != nullptr)
+	{
+		MainCharacter->TaskList.Remove(MainCharacter->TaskIndex);
 	}
 	RemoveFromParent();
 	UGameplayStatics::SetGamePaused(GetWorld(),false);

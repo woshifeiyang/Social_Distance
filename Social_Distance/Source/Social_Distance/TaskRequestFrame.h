@@ -40,6 +40,9 @@ protected:
 		void AcceptTask();
 
 	UFUNCTION()
+		void RejectTask();
+
+	UFUNCTION()
 		void PrintLog(FString String);
 	
 	virtual bool Initialize() override; // override this, its like beginplay but for UUserWidgets

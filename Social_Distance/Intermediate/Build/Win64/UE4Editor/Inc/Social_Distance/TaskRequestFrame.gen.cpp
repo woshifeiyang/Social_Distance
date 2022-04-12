@@ -29,6 +29,13 @@ void EmptyLinkFunctionForGeneratedCodeTaskRequestFrame() {}
 		P_THIS->PrintLog(Z_Param_String);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(UTaskRequestFrame::execRejectTask)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->RejectTask();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UTaskRequestFrame::execAcceptTask)
 	{
 		P_FINISH;
@@ -42,6 +49,7 @@ void EmptyLinkFunctionForGeneratedCodeTaskRequestFrame() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "AcceptTask", &UTaskRequestFrame::execAcceptTask },
 			{ "PrintLog", &UTaskRequestFrame::execPrintLog },
+			{ "RejectTask", &UTaskRequestFrame::execRejectTask },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -99,6 +107,28 @@ void EmptyLinkFunctionForGeneratedCodeTaskRequestFrame() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UTaskRequestFrame_RejectTask_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTaskRequestFrame_RejectTask_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "TaskRequestFrame.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTaskRequestFrame_RejectTask_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTaskRequestFrame, nullptr, "RejectTask", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTaskRequestFrame_RejectTask_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UTaskRequestFrame_RejectTask_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UTaskRequestFrame_RejectTask()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UTaskRequestFrame_RejectTask_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_UTaskRequestFrame_NoRegister()
 	{
 		return UTaskRequestFrame::StaticClass();
@@ -145,6 +175,7 @@ void EmptyLinkFunctionForGeneratedCodeTaskRequestFrame() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_UTaskRequestFrame_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UTaskRequestFrame_AcceptTask, "AcceptTask" }, // 4097747204
 		{ &Z_Construct_UFunction_UTaskRequestFrame_PrintLog, "PrintLog" }, // 2269650636
+		{ &Z_Construct_UFunction_UTaskRequestFrame_RejectTask, "RejectTask" }, // 3761675287
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTaskRequestFrame_Statics::Class_MetaDataParams[] = {
@@ -232,7 +263,7 @@ void EmptyLinkFunctionForGeneratedCodeTaskRequestFrame() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTaskRequestFrame, 3690883748);
+	IMPLEMENT_CLASS(UTaskRequestFrame, 3766438541);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<UTaskRequestFrame>()
 	{
 		return UTaskRequestFrame::StaticClass();

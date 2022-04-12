@@ -262,6 +262,7 @@ void ANPC_Interactable::ShowTaskRequestUI()
 					int32 Index = FMath::RandRange(0, TaskArray.Num() - 1);
 					FTaskProperty* Row = TaskArray[Index];
 					MainCharacter->TaskIndex = Row->TaskIndex;
+					MainCharacter->TaskList.Add(Row->TaskIndex, 0);
 					
 					if(TaskRequest)
 					{

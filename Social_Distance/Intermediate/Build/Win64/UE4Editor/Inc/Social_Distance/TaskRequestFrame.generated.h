@@ -17,12 +17,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Social_Distance_Source_Social_Distance_TaskRequestFrame_h_17_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execPrintLog); \
+	DECLARE_FUNCTION(execRejectTask); \
 	DECLARE_FUNCTION(execAcceptTask);
 
 
 #define Social_Distance_Source_Social_Distance_TaskRequestFrame_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execPrintLog); \
+	DECLARE_FUNCTION(execRejectTask); \
 	DECLARE_FUNCTION(execAcceptTask);
 
 
