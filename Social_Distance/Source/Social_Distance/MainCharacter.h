@@ -17,10 +17,10 @@ public:
 	AMainCharacter();
 	
 	UPROPERTY(BlueprintReadOnly)
-		float Loneliness;
+		float Happiness;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
-		float InitLoneliness;
+		float InitHappiness;
 
 	UPROPERTY(BlueprintReadOnly)
 		float Risk;
@@ -29,7 +29,7 @@ public:
 		float InitRisk;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
-		float LonelinessDeclineRate;
+		float HappinessIncreaseRate;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
 		float RiskIncreaseRate;

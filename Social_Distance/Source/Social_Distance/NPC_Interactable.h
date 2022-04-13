@@ -8,6 +8,7 @@
 #include "MainCharacterAnimInstance.h"
 #include "NiagaraComponent.h"
 #include "Struct_TaskProperty.h"
+#include "TaskCompletedFrame.h"
 #include "Components/WidgetComponent.h"
 #include "Engine/DataTable.h"
 #include "TaskRequestFrame.h"
@@ -80,7 +81,10 @@ public:
 		UMainCharacterAnimInstance*  NPCAnimInstance;
 	
 	UPROPERTY()
-		UTaskRequestFrame* TaskRequestFrameWidget;
+		UTaskRequestFrame* TaskRequestFrameInstance;
+
+	UPROPERTY()
+		UTaskCompletedFrame* TaskCompletedFrameInstance;
 
 	UPROPERTY()
 		TArray<AActor*> Actors;
@@ -96,6 +100,9 @@ public:
 	
 	UPROPERTY()
 		TSubclassOf<class UTaskRequestFrame> TaskFrameUI;
+
+	UPROPERTY()
+		TSubclassOf<class UTaskCompletedFrame> TaskCompletedFrameUI;
 
 	UPROPERTY(EditAnywhere)
 		UDataTable* TaskPropertyDataTable;
@@ -140,7 +147,10 @@ public:
 		void CloseMCBubble();
 
 	UFUNCTION()
-		void ShowTaskRequestUI();
+		void ShowTaskRequestFrameBP();
+
+	UFUNCTION()
+		void ShowTaskCompletedFrameBP();
 
 	UFUNCTION()
 		void InitBubbleBlueprint();

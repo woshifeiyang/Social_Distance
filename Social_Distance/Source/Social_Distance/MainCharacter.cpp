@@ -55,13 +55,13 @@ AMainCharacter::AMainCharacter()
 void AMainCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	Loneliness = InitLoneliness;
+	Happiness = InitHappiness;
 	Risk = InitRisk;
 	Bubble->SetVisibility(false);				// 初始化默认气泡不显示
 	// 获取所有NPC对象
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ANPC_Interactable::StaticClass(), InteractableNPCList);
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ANPC_Movable::StaticClass(), MovableNPCList);
-	// 设定定时器，每隔0.5秒更新一次孤单值和风险值
+	// 设定定时器，每隔0.5秒更新一次风险值
 	GetWorldTimerManager().SetTimer(TimerHandle_1, this, &AMainCharacter::UpdateState, 0.5f, true);
 
 }
@@ -94,8 +94,7 @@ void AMainCharacter::MoveRight(float Value)
 		AddMovementInput(Direction, Value);
 	}
 }
-/* 更新风险值和孤单值, 是否处在与NPC交流状态
- * Loneliness = Loneliness - 处在风险圈内NPC的数量 * 孤单下降系数
+/* 更新风险值, 是否处在与NPC交流状态
  * Risk = Risk + 处在风险圈内NPC的数量 * 风险上升系数
  */
 void AMainCharacter::UpdateState()
@@ -124,13 +123,6 @@ void AMainCharacter::UpdateState()
 				Count++;
 			}
 		}
-	}
-	if(Loneliness - LonelinessDeclineRate * Count > 0.0f)
-	{
-		Loneliness -= LonelinessDeclineRate * Count;
-	}else
-	{
-		Loneliness = 0.0f;
 	}
 	if(Risk + RiskIncreaseRate * Count < 100.0f)
 	{

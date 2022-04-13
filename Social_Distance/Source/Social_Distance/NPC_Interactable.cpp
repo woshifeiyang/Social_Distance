@@ -2,6 +2,9 @@
 
 
 #include "NPC_Interactable.h"
+
+#include <ThirdParty/CryptoPP/5.6.5/include/misc.h>
+
 #include "Blueprint/WidgetTree.h"
 #include "MainCharacterAnimInstance.h"
 #include "Components/CapsuleComponent.h"
@@ -61,6 +64,12 @@ ANPC_Interactable::ANPC_Interactable()
 	{
 		TaskFrameUI = TaskRequestBPClass.Class;
 	}
+	// 绑定任务提交框蓝图
+	ConstructorHelpers::FClassFinder<UTaskCompletedFrame> TaskCompletedBPClass(TEXT("UserWidget'/Game/UI/WB_TaskCompletedFrame.WB_TaskCompletedFrame_C'"));
+	if(TaskCompletedBPClass.Succeeded())
+	{
+		TaskCompletedFrameUI = TaskCompletedBPClass.Class;
+	}
 }
 
 // Called when the game starts or when spawned
@@ -91,7 +100,9 @@ void ANPC_Interactable::BeginPlay()
 	// 获取NPC的动画蓝图对象
 	NPCAnimInstance = Cast<UMainCharacterAnimInstance>(GetMesh()->GetAnimInstance());
 	// 获取任务弹窗的蓝图对象
-	TaskRequestFrameWidget = Cast<UTaskRequestFrame>(CreateWidget(GetWorld(), TaskFrameUI));
+	TaskRequestFrameInstance = Cast<UTaskRequestFrame>(CreateWidget(GetWorld(), TaskFrameUI));
+	// 获取提交任务弹窗的蓝图对象
+	TaskCompletedFrameInstance = Cast<UTaskCompletedFrame>(CreateWidget(GetWorld(), TaskCompletedFrameUI));
 	// 从数据表中提取与NPC名字匹配的行并加入数组中
 	FString ContextString;
 	if(TaskPropertyDataTable != nullptr)
@@ -152,11 +163,14 @@ void ANPC_Interactable::NotifyActorOnClicked(FKey ButtonPressed)
 			{
 				if(MainCharacter->TaskList[Index] == 2)
 				{
-					PrintLog(("Task Completed Frame appear"));
+					GetWorldTimerManager().SetTimer(TimerHandle_3, this, &ANPC_Interactable::ShowTaskCompletedFrameBP, 2.0f, false);
 				}
 			}else
 			{
-				GetWorldTimerManager().SetTimer(TimerHandle_3, this, &ANPC_Interactable::ShowTaskRequestUI, 2.0f, true);
+				if(MainCharacter->TaskList.Num() <= 2)
+				{
+					GetWorldTimerManager().SetTimer(TimerHandle_3, this, &ANPC_Interactable::ShowTaskRequestFrameBP, 2.0f, true);
+				}
 			}
 			DoOnce = false;
 		}
@@ -257,8 +271,9 @@ void ANPC_Interactable::CloseMCBubble()
 	}
 }
 
-void ANPC_Interactable::ShowTaskRequestUI()
+void ANPC_Interactable::ShowTaskRequestFrameBP()
 {
+	// 检查玩家是否在对话过程中移动了，如果移动则取消弹出任务请求
 	if(FVector::Distance(MainCharacter->TalkingPoint, MainCharacter->SelfLocation) < 50.0f)
 	{
 		// 随机几率弹出任务请求框
@@ -267,10 +282,10 @@ void ANPC_Interactable::ShowTaskRequestUI()
 		{
 			if(TaskFrameUI != nullptr)
 			{
-				if(TaskRequestFrameWidget != nullptr)
+				if(TaskRequestFrameInstance != nullptr)
 				{
-					URichTextBlock* TaskRequest = TaskRequestFrameWidget->TaskRequest;
-					URichTextBlock* TaskContent = TaskRequestFrameWidget->TaskContent;
+					URichTextBlock* TaskRequest = TaskRequestFrameInstance->TaskRequest;
+					URichTextBlock* TaskContent = TaskRequestFrameInstance->TaskContent;
 					
 					int32 Index = FMath::RandRange(0, TaskArray.Num() - 1);
 					FTaskProperty* Row = TaskArray[Index];
@@ -294,7 +309,7 @@ void ANPC_Interactable::ShowTaskRequestUI()
 					 	}
 					}
 				}
-				TaskRequestFrameWidget->AddToViewport();
+				TaskRequestFrameInstance->AddToViewport();
 				GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
 				UGameplayStatics::SetGamePaused(GetWorld(),true);
 			}
@@ -304,6 +319,29 @@ void ANPC_Interactable::ShowTaskRequestUI()
 		GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
 	}
 }
+
+void ANPC_Interactable::ShowTaskCompletedFrameBP()
+{
+	if(TaskCompletedFrameUI != nullptr)
+	{
+		if(TaskCompletedFrameInstance != nullptr)
+		{
+			URichTextBlock* TaskCompletedContent = TaskCompletedFrameInstance->TaskCompletedContent;
+			if(TaskCompletedContent != nullptr)
+			{
+				int32 Index;
+				IsTaskInList(Index);
+				FString String = "<BodyText>" + TaskArray[Index]->TaskCompletedContent + "</>";
+				TaskCompletedContent->SetText(FText::FromString(String));
+				TaskCompletedFrameInstance->Index = Index;
+			}
+			TaskCompletedFrameInstance->AddToViewport();
+			GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
+			UGameplayStatics::SetGamePaused(GetWorld(),true);
+		}
+	}
+}
+
 /*
  * 在UpdateState函数中每隔0.5秒更新一次
  * 更新玩家与NPC对话时，NPC身上的控件蓝图的Loneliness信息
