@@ -96,6 +96,21 @@ void ANPC_Interactable::BeginPlay()
 		// 获取Main character对象的Bubble控件引用
 		TArray<UActorComponent*> FoundComponents = MainCharacter->GetComponentsByTag(UWidgetComponent::StaticClass(),"Bubble");
 		MainBubble = Cast<UWidgetComponent>(FoundComponents[0]);
+
+		// 从数据表中提取与NPC名字匹配的行并加入数组中
+		FString ContextString;
+		if(MainCharacter->TaskPropertyDataTable != nullptr)
+		{
+			TArray<FName> RowNames = MainCharacter->TaskPropertyDataTable->GetRowNames();
+			for(auto& name : RowNames)
+			{
+				FTaskProperty* Row = MainCharacter->TaskPropertyDataTable->FindRow<FTaskProperty>(name, ContextString);
+				if(Row != nullptr && Row->NPC_Name == Name)
+				{
+					TaskArray.Add(Row);
+				}
+			}
+		}
 	}
 	// 获取NPC的动画蓝图对象
 	NPCAnimInstance = Cast<UMainCharacterAnimInstance>(GetMesh()->GetAnimInstance());
@@ -103,20 +118,7 @@ void ANPC_Interactable::BeginPlay()
 	TaskRequestFrameInstance = Cast<UTaskRequestFrame>(CreateWidget(GetWorld(), TaskFrameUI));
 	// 获取提交任务弹窗的蓝图对象
 	TaskCompletedFrameInstance = Cast<UTaskCompletedFrame>(CreateWidget(GetWorld(), TaskCompletedFrameUI));
-	// 从数据表中提取与NPC名字匹配的行并加入数组中
-	FString ContextString;
-	if(TaskPropertyDataTable != nullptr)
-	{
-		TArray<FName> RowNames = TaskPropertyDataTable->GetRowNames();
-		for(auto& name : RowNames)
-		{
-			FTaskProperty* Row = TaskPropertyDataTable->FindRow<FTaskProperty>(name, ContextString);
-			if(Row != nullptr && Row->NPC_Name == Name)
-			{
-				TaskArray.Add(Row);
-			}
-		}
-	}
+	
 }
 
 // Called every frame

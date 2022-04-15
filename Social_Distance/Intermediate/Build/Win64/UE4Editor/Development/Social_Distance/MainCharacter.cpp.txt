@@ -107,6 +107,9 @@ D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Dynam
 D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
 D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetComponent.generated.h
+D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
+D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
+D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
 E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacter.generated.h
 E:\Github\Group5\Social_Distance\Source\Social_Distance\NPC_Interactable.h
 E:\Github\Group5\Social_Distance\Source\Social_Distance\MainCharacterAnimInstance.h
@@ -209,9 +212,6 @@ D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Em
 D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
 D:\Unreal Engine\UE_4.26\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4Editor\Inc\Niagara\NiagaraComponent.generated.h
 E:\Github\Group5\Social_Distance\Source\Social_Distance\Struct_TaskProperty.h
-D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
-D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
-D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
 E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\Struct_TaskProperty.generated.h
 E:\Github\Group5\Social_Distance\Source\Social_Distance\TaskCompletedFrame.h
 E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\TaskCompletedFrame.generated.h

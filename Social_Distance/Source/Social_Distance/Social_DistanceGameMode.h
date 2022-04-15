@@ -3,9 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "MainCharacter.h"
+#include "Engine/DataTable.h"
 #include "GameFramework/GameModeBase.h"
 #include "Social_DistanceGameMode.generated.h"
 
+class UInGameInterface;
 UCLASS(minimalapi)
 class ASocial_DistanceGameMode : public AGameModeBase
 {
@@ -13,6 +16,25 @@ class ASocial_DistanceGameMode : public AGameModeBase
 
 public:
 	ASocial_DistanceGameMode();
+
+	UPROPERTY()
+		AMainCharacter* MainCharacter;
+
+	UPROPERTY()
+		UInGameInterface* InGameInterfaceInstance;
+
+	UPROPERTY(EditAnywhere)
+		UDataTable* TaskPropertyDataTable;
+	
+		TSubclassOf<class UInGameInterface> InGameInterfaceUI;
+
+		FTimerHandle TimerHandle_1;
+	
+
+protected:
+	virtual void BeginPlay() override;
+
+	void ShowTaskList();
 };
 
 

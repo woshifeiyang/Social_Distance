@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Components/WidgetComponent.h"
+#include "Engine/DataTable.h"
 #include "MainCharacter.generated.h"
 
 UCLASS()
@@ -51,6 +52,9 @@ public:
 
 	UPROPERTY(BlueprintReadOnly)
 		int32 TaskIndex;
+
+	UPROPERTY(EditAnywhere)
+		UDataTable* TaskPropertyDataTable;
 
 	UPROPERTY()
 		TArray<AActor*> InteractableNPCList;

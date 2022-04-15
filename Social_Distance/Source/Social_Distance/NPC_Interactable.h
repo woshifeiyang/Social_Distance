@@ -103,9 +103,6 @@ public:
 
 	UPROPERTY()
 		TSubclassOf<class UTaskCompletedFrame> TaskCompletedFrameUI;
-
-	UPROPERTY(EditAnywhere)
-		UDataTable* TaskPropertyDataTable;
 	
 		bool DoOnce;
 

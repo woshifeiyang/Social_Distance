@@ -26,7 +26,6 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_UTaskCompletedFrame_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	ENGINE_API UClass* Z_Construct_UClass_UDataTable_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(ANPC_Interactable::execPrintLog)
 	{
@@ -457,10 +456,6 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TaskCompletedFrameUI_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_TaskCompletedFrameUI;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TaskPropertyDataTable_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TaskPropertyDataTable;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -679,13 +674,6 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskCompletedFrameUI = { "TaskCompletedFrameUI", nullptr, (EPropertyFlags)0x0014000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, TaskCompletedFrameUI), Z_Construct_UClass_UTaskCompletedFrame_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskCompletedFrameUI_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskCompletedFrameUI_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskPropertyDataTable_MetaData[] = {
-		{ "Category", "NPC_Interactable" },
-		{ "ModuleRelativePath", "NPC_Interactable.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskPropertyDataTable = { "TaskPropertyDataTable", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPC_Interactable, TaskPropertyDataTable), Z_Construct_UClass_UDataTable_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskPropertyDataTable_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskPropertyDataTable_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANPC_Interactable_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Name,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_Loneliness,
@@ -715,7 +703,6 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_SimpleName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskFrameUI,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskCompletedFrameUI,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Interactable_Statics::NewProp_TaskPropertyDataTable,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANPC_Interactable_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ANPC_Interactable>::IsAbstract,
@@ -744,7 +731,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC_Interactable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANPC_Interactable, 3607282861);
+	IMPLEMENT_CLASS(ANPC_Interactable, 1764609646);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<ANPC_Interactable>()
 	{
 		return ANPC_Interactable::StaticClass();
