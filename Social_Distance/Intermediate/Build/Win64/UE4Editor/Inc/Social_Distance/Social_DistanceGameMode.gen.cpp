@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeSocial_DistanceGameMode() {}
 	UPackage* Z_Construct_UPackage__Script_Social_Distance();
 	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_AMainCharacter_NoRegister();
 	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_UInGameInterface_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_URichTextBlock_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UDataTable_NoRegister();
 // End Cross Module References
 	void ASocial_DistanceGameMode::StaticRegisterNativesASocial_DistanceGameMode()
@@ -42,6 +43,11 @@ void EmptyLinkFunctionForGeneratedCodeSocial_DistanceGameMode() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InGameInterfaceInstance_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InGameInterfaceInstance;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_RichTextArray_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RichTextArray_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_RichTextArray;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TaskPropertyDataTable_MetaData[];
 #endif
@@ -75,6 +81,14 @@ void EmptyLinkFunctionForGeneratedCodeSocial_DistanceGameMode() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASocial_DistanceGameMode_Statics::NewProp_InGameInterfaceInstance = { "InGameInterfaceInstance", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASocial_DistanceGameMode, InGameInterfaceInstance), Z_Construct_UClass_UInGameInterface_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASocial_DistanceGameMode_Statics::NewProp_InGameInterfaceInstance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASocial_DistanceGameMode_Statics::NewProp_InGameInterfaceInstance_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASocial_DistanceGameMode_Statics::NewProp_RichTextArray_Inner = { "RichTextArray", nullptr, (EPropertyFlags)0x0000000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_URichTextBlock_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASocial_DistanceGameMode_Statics::NewProp_RichTextArray_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Social_DistanceGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ASocial_DistanceGameMode_Statics::NewProp_RichTextArray = { "RichTextArray", nullptr, (EPropertyFlags)0x0010008000000008, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASocial_DistanceGameMode, RichTextArray), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_ASocial_DistanceGameMode_Statics::NewProp_RichTextArray_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASocial_DistanceGameMode_Statics::NewProp_RichTextArray_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASocial_DistanceGameMode_Statics::NewProp_TaskPropertyDataTable_MetaData[] = {
 		{ "Category", "Social_DistanceGameMode" },
@@ -85,6 +99,8 @@ void EmptyLinkFunctionForGeneratedCodeSocial_DistanceGameMode() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASocial_DistanceGameMode_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASocial_DistanceGameMode_Statics::NewProp_MainCharacter,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASocial_DistanceGameMode_Statics::NewProp_InGameInterfaceInstance,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASocial_DistanceGameMode_Statics::NewProp_RichTextArray_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASocial_DistanceGameMode_Statics::NewProp_RichTextArray,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASocial_DistanceGameMode_Statics::NewProp_TaskPropertyDataTable,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASocial_DistanceGameMode_Statics::StaticCppClassTypeInfo = {
@@ -114,7 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeSocial_DistanceGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASocial_DistanceGameMode, 2553436299);
+	IMPLEMENT_CLASS(ASocial_DistanceGameMode, 879080902);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<ASocial_DistanceGameMode>()
 	{
 		return ASocial_DistanceGameMode::StaticClass();
