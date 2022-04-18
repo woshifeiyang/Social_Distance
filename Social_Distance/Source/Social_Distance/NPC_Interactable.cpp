@@ -14,6 +14,7 @@
 #include "Components/ProgressBar.h"
 #include "Components/RichTextBlock.h"
 #include "Struct_TaskProperty.h"
+#include "Kismet/KismetMathLibrary.h"
 
 // Sets default values
 ANPC_Interactable::ANPC_Interactable()
@@ -127,7 +128,6 @@ void ANPC_Interactable::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	SelfLocation = GetActorLocation();
-	
 	SetLineEffect();
 }
 
@@ -154,6 +154,9 @@ void ANPC_Interactable::NotifyActorOnClicked(FKey ButtonPressed)
 			if(MainCharacter)
 			{
 				MainCharacter->TalkingPoint = MainCharacter->SelfLocation;
+				FRotator LookAtYaw = GetLookAtRotationYaw(MainCharacter->GetActorLocation());
+				FRotator InterpRotation = FMath::RInterpTo(GetActorRotation(), LookAtYaw, 0.1f, 5.0f);
+				SetActorRotation(InterpRotation);
 			}
 			if(MainCharacterAnimInstance)
 			{
@@ -314,7 +317,7 @@ void ANPC_Interactable::ShowTaskRequestFrameBP()
 {
 	// 随机几率弹出任务请求框
 	int32 num = FMath::RandRange(1,100);
-	if(num <= 50)
+	if(num <= 30)
 	{
 		if(TaskFrameUI != nullptr)
 		{
@@ -435,6 +438,14 @@ bool ANPC_Interactable::IsTaskInList(int32& Index)
 		}
 	}
 	return false;
+}
+
+FRotator ANPC_Interactable::GetLookAtRotationYaw(FVector Target)
+{
+	//获取两个目标之间的偏移量
+	const FRotator LookAtRotation = UKismetMathLibrary::FindLookAtRotation(SelfLocation, Target);
+	const FRotator LookAtRotationYaw(0.f,LookAtRotation.Yaw,0.f);
+	return LookAtRotationYaw;
 }
 
 void ANPC_Interactable::PrintLog(FString String)

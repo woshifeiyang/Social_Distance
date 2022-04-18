@@ -169,6 +169,8 @@ public:
 		void InitSimpleNameBlueprint();
 
 		bool IsTaskInList(int32& Index);
+
+		FRotator GetLookAtRotationYaw(FVector Target);
 	
 	UFUNCTION()
 		void PrintLog(FString String);
