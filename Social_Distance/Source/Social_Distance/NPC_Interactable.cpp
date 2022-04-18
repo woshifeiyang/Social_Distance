@@ -77,7 +77,7 @@ void ANPC_Interactable::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	Loneliness = InitLoneliness;
+	Happiness = InitHappiness;
 	Risk = InitRisk;
 	IsIndoor = false;
 	DoOnce = true;
@@ -86,6 +86,7 @@ void ANPC_Interactable::BeginPlay()
 	Bubble->SetRelativeLocation(FVector(0, 0, 250));
 	SimpleName->SetRelativeLocation(FVector(0, 0, 250));
 	LineEffect->SetRenderCustomDepth(true);
+	GetWorldTimerManager().SetTimer(TimerHandle_5, this, &ANPC_Interactable::AutoDecreaseHappiness, 5.0f, true);
 	// 获取MainCharacter在游戏中的实例
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
 	if(MainCharacter)
@@ -98,12 +99,12 @@ void ANPC_Interactable::BeginPlay()
 		MainBubble = Cast<UWidgetComponent>(FoundComponents[0]);
 
 		// 从数据表中提取与NPC名字匹配的行并加入数组中
-		FString ContextString;
 		if(MainCharacter->TaskPropertyDataTable != nullptr)
 		{
 			TArray<FName> RowNames = MainCharacter->TaskPropertyDataTable->GetRowNames();
 			for(auto& name : RowNames)
 			{
+				FString ContextString;
 				FTaskProperty* Row = MainCharacter->TaskPropertyDataTable->FindRow<FTaskProperty>(name, ContextString);
 				if(Row != nullptr && Row->NPC_Name == Name)
 				{
@@ -135,7 +136,11 @@ void ANPC_Interactable::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 }
-
+/*
+ *	点击NPC时如果在可交谈距离内，则弹出聊天气泡
+ *	如果没有领取过该NPC任务，概率弹出任务请求框
+ *	如果领取过，则判断是否处于第二阶段，如果是则弹出提交任务框
+ */
 void ANPC_Interactable::NotifyActorOnClicked(FKey ButtonPressed)
 {
 	Super::NotifyActorOnClicked(ButtonPressed);
@@ -158,7 +163,10 @@ void ANPC_Interactable::NotifyActorOnClicked(FKey ButtonPressed)
 			{
 				NPCAnimInstance->IsTalking = true;
 			}
-			GetWorldTimerManager().SetTimer(TimerHandle_2, this, &ANPC_Interactable::CloseMCBubble, 0.1f, true);
+			// 处于对话过程中时，增加MainCharacter和NPC的Happiness值
+			GetWorldTimerManager().SetTimer(TimerHandle_4, this, &ANPC_Interactable::IncreaseHappiness, 0.5f, true);
+			//	如果玩家在对话过程中移动了则中断对话逻辑
+			GetWorldTimerManager().SetTimer(TimerHandle_2, this, &ANPC_Interactable::IsMoving, 0.1f, true);
 			// 检查玩家是否已经领取了该NPC的任务，如果领取了则检查任务处于第几阶段，如果没领取则可以领取
 			int32 Index;
 			if(IsTaskInList(Index) == true)
@@ -200,7 +208,6 @@ void ANPC_Interactable::NotifyActorEndCursorOver()
 
 /* 更新风险值和孤单值，以及对话框是否消失
  * Loneliness = Loneliness - 孤单下降系数
- * Risk = Risk + 风险上升系数
  * 当距离超过一定范围对话框消失
  */
 void ANPC_Interactable::UpdateState()
@@ -213,14 +220,6 @@ void ANPC_Interactable::UpdateState()
 	Distance = GetDistanceTo(MainCharacter);
 	if(Distance <= RiskRangeValue)
 	{
-		if(Loneliness - LonelinessDeclineRate > 0.0f)
-		{
-			// PrintLog("Interactable Character Loneliness is" + FString::SanitizeFloat(Loneliness));
-			Loneliness -= LonelinessDeclineRate;
-		}else
-		{
-			Loneliness = 0.0f;
-		}
 		if(Risk + RiskIncreaseRate < 100.0f)
 		{
 			Risk += RiskIncreaseRate;
@@ -228,6 +227,38 @@ void ANPC_Interactable::UpdateState()
 		{
 			Risk = 100.0f;
 		}
+	}
+}
+
+void ANPC_Interactable::IncreaseHappiness()
+{
+	if(Happiness + HappinessIncreaseRate < 100.0f)
+	{
+		Happiness += HappinessIncreaseRate;
+	}else
+	{
+		Happiness = 100.0f;
+	}
+	if(MainCharacter != nullptr)
+	{
+		if(MainCharacter->Happiness + MainCharacter->HappinessIncreaseRate < 100.0f)
+		{
+			MainCharacter->Happiness += MainCharacter->HappinessIncreaseRate;
+		}else
+		{
+			MainCharacter->Happiness = 100.0f;
+		}
+	}
+}
+
+void ANPC_Interactable::AutoDecreaseHappiness()
+{
+	if(Happiness - HappinessAutoDecreaseRate > 0.0f)
+	{
+		Happiness -= HappinessAutoDecreaseRate;
+	}else
+	{
+		Happiness = 0.0f;
 	}
 }
 
@@ -253,8 +284,12 @@ void ANPC_Interactable::SetLineEffect()
 		}
 	}
 }
-
-void ANPC_Interactable::CloseMCBubble()
+/*
+ * 如果玩家在对话过程中移动了则中断对话气泡
+ * 中断任务弹出框定时器
+ * 中断Happiness增加
+ */
+void ANPC_Interactable::IsMoving()
 {
 	if(FVector::Distance(MainCharacter->TalkingPoint, MainCharacter->SelfLocation) >= 50.0f)
 	{
@@ -269,56 +304,51 @@ void ANPC_Interactable::CloseMCBubble()
 		MainBubble->SetVisibility(false);
 		Bubble->SetVisibility(false);
 		GetWorld()->GetTimerManager().ClearTimer(TimerHandle_2);
+		GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
+		GetWorld()->GetTimerManager().ClearTimer(TimerHandle_4);	
 		DoOnce = true;
 	}
 }
 
 void ANPC_Interactable::ShowTaskRequestFrameBP()
 {
-	// 检查玩家是否在对话过程中移动了，如果移动则取消弹出任务请求
-	if(FVector::Distance(MainCharacter->TalkingPoint, MainCharacter->SelfLocation) < 50.0f)
+	// 随机几率弹出任务请求框
+	int32 num = FMath::RandRange(1,100);
+	if(num <= 50)
 	{
-		// 随机几率弹出任务请求框
-		int32 num = FMath::RandRange(1,100);
-		if(num <= 50)
+		if(TaskFrameUI != nullptr)
 		{
-			if(TaskFrameUI != nullptr)
+			if(TaskRequestFrameInstance != nullptr)
 			{
-				if(TaskRequestFrameInstance != nullptr)
+				URichTextBlock* TaskRequest = TaskRequestFrameInstance->TaskRequest;
+				URichTextBlock* TaskContent = TaskRequestFrameInstance->TaskContent;
+					
+				int32 Index = FMath::RandRange(0, TaskArray.Num() - 1);
+				FTaskProperty* Row = TaskArray[Index];
+				MainCharacter->TaskIndex = Row->TaskIndex;
+				MainCharacter->TaskList.Add(Row->TaskIndex, 0);
+					
+				if(TaskRequest)
 				{
-					URichTextBlock* TaskRequest = TaskRequestFrameInstance->TaskRequest;
-					URichTextBlock* TaskContent = TaskRequestFrameInstance->TaskContent;
-					
-					int32 Index = FMath::RandRange(0, TaskArray.Num() - 1);
-					FTaskProperty* Row = TaskArray[Index];
-					MainCharacter->TaskIndex = Row->TaskIndex;
-					MainCharacter->TaskList.Add(Row->TaskIndex, 0);
-					
-					if(TaskRequest)
+					if(Row != nullptr)
 					{
-						if(Row != nullptr)
-					 	{
-					 		FString String = "<BodyText>" + Row->TaskRequest + "</>";
-					 		TaskRequest->SetText(FText::FromString(String));
-					 	}
-					}
-					if(TaskContent)
-					{
-					 	if(Row != nullptr)
-					 	{
-					 		FString String = "<BodyText>" + Row->TaskContent + "</>";
-					 		TaskContent->SetText(FText::FromString(String));
-					 	}
+						FString String = "<BodyText>" + Row->TaskRequest + "</>";
+						TaskRequest->SetText(FText::FromString(String));
 					}
 				}
-				TaskRequestFrameInstance->AddToViewport();
-				GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
-				UGameplayStatics::SetGamePaused(GetWorld(),true);
+				if(TaskContent)
+				{
+					if(Row != nullptr)
+					{
+						FString String = "<BodyText>" + Row->TaskContent + "</>";
+						TaskContent->SetText(FText::FromString(String));
+					}
+				}
 			}
+			TaskRequestFrameInstance->AddToViewport();
+			GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
+			UGameplayStatics::SetGamePaused(GetWorld(),true);
 		}
-	}else
-	{
-		GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
 	}
 }
 
@@ -354,7 +384,7 @@ void ANPC_Interactable::InitBubbleBlueprint()
 	URichTextBlock* RichTextBlock = Cast<URichTextBlock>(Bubble->GetWidget()->GetWidgetFromName(TEXT("NPCName")));
 	if(ProgressBar != nullptr)
 	{
-		ProgressBar->SetPercent(Loneliness / 100.0f);
+		ProgressBar->SetPercent(Happiness / 100.0f);
 	}else
 	{
 		PrintLog("ProgressBar pointer is nullptr");
@@ -379,7 +409,7 @@ void ANPC_Interactable::InitSimpleNameBlueprint()
 	
 	if(ProgressBar != nullptr)
 	{
-		ProgressBar->SetPercent(Loneliness / 100.0f);
+		ProgressBar->SetPercent(Happiness / 100.0f);
 	}else
 	{
 		PrintLog("ProgressBar pointer is nullptr");

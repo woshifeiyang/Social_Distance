@@ -27,10 +27,10 @@ public:
 		FString Name;
 	
 	UPROPERTY()
-		float Loneliness;
+		float Happiness;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CharacterProperty)
-		float InitLoneliness;
+		float InitHappiness;
 
 	UPROPERTY()
 		float Risk;
@@ -57,7 +57,7 @@ public:
 		float RiskRangeValue;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
-		float LonelinessDeclineRate;
+		float HappinessIncreaseRate;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
 		float RiskIncreaseRate;
@@ -67,6 +67,9 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
 		float ConversationalDistance;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = CharacterProperty)
+		float HappinessAutoDecreaseRate;
 	
 	UPROPERTY()
 		AMainCharacter* MainCharacter;
@@ -114,6 +117,10 @@ public:
 
 		FTimerHandle TimerHandle_3;
 
+		FTimerHandle TimerHandle_4;
+
+		FTimerHandle TimerHandle_5;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -135,13 +142,19 @@ public:
 		void UpdateState();
 
 	UFUNCTION()
+		void IncreaseHappiness();
+
+	UFUNCTION()
+		void AutoDecreaseHappiness();
+
+	UFUNCTION()
 		void DestroyNiagaraComponent(UNiagaraComponent* NiagaraComponent);
 
 	UFUNCTION(BlueprintCallable)
 		void SetLineEffect();
 
 	UFUNCTION()
-		void CloseMCBubble();
+		void IsMoving();
 
 	UFUNCTION()
 		void ShowTaskRequestFrameBP();

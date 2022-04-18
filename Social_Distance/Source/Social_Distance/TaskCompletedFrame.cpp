@@ -2,7 +2,7 @@
 
 
 #include "TaskCompletedFrame.h"
-
+#include "Struct_TaskProperty.h"
 #include "Components/Button.h"
 #include "Kismet/GameplayStatics.h"
 
@@ -21,6 +21,26 @@ void UTaskCompletedFrame::AcceptSubmitTask()
 	if(MainCharacter != nullptr)
 	{
 		MainCharacter->TaskList.Remove(Index);
+		// 从数据表中提取与NPC名字匹配的行并加入数组中
+		if(MainCharacter->TaskPropertyDataTable != nullptr)
+		{
+			TArray<FName> RowNames = MainCharacter->TaskPropertyDataTable->GetRowNames();
+			for(auto& Name : RowNames)
+			{
+				FString ContextString;
+				FTaskProperty* Row = MainCharacter->TaskPropertyDataTable->FindRow<FTaskProperty>(Name, ContextString);
+				if(Row != nullptr && Row->TaskIndex == Index)
+				{
+					if(MainCharacter->Risk - Row->MCReward_Risk > 0.0f)
+					{
+						MainCharacter->Risk -= Row->MCReward_Risk;
+					}else
+					{
+						MainCharacter->Risk = 0;
+					}
+				}
+			}
+		}
 	}
 	RemoveFromParent();
 	UGameplayStatics::SetGamePaused(GetWorld(),false);

@@ -22,9 +22,11 @@ class UNiagaraComponent;
 	DECLARE_FUNCTION(execInitBubbleBlueprint); \
 	DECLARE_FUNCTION(execShowTaskCompletedFrameBP); \
 	DECLARE_FUNCTION(execShowTaskRequestFrameBP); \
-	DECLARE_FUNCTION(execCloseMCBubble); \
+	DECLARE_FUNCTION(execIsMoving); \
 	DECLARE_FUNCTION(execSetLineEffect); \
 	DECLARE_FUNCTION(execDestroyNiagaraComponent); \
+	DECLARE_FUNCTION(execAutoDecreaseHappiness); \
+	DECLARE_FUNCTION(execIncreaseHappiness); \
 	DECLARE_FUNCTION(execUpdateState);
 
 
@@ -35,9 +37,11 @@ class UNiagaraComponent;
 	DECLARE_FUNCTION(execInitBubbleBlueprint); \
 	DECLARE_FUNCTION(execShowTaskCompletedFrameBP); \
 	DECLARE_FUNCTION(execShowTaskRequestFrameBP); \
-	DECLARE_FUNCTION(execCloseMCBubble); \
+	DECLARE_FUNCTION(execIsMoving); \
 	DECLARE_FUNCTION(execSetLineEffect); \
 	DECLARE_FUNCTION(execDestroyNiagaraComponent); \
+	DECLARE_FUNCTION(execAutoDecreaseHappiness); \
+	DECLARE_FUNCTION(execIncreaseHappiness); \
 	DECLARE_FUNCTION(execUpdateState);
 
 

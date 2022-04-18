@@ -1,0 +1,14 @@
+{
+	"ColumnWidths":
+	{
+		"TaskIndex": 63,
+		"NPC_Name": 112,
+		"TaskRequest": 182,
+		"TaskContent": 318,
+		"TaskCompletedContent": 385,
+		"TaskTip_1": 202,
+		"TaskTip_2": 180,
+		"MCReward_Risk": 124,
+		"NPCReward_Risk": 146
+	}
+}

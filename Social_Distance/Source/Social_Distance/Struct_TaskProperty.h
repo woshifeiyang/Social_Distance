@@ -51,4 +51,10 @@ struct FTaskProperty : public FTableRowBase
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FString TaskTip_2;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float MCReward_Risk;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float NPCReward_Risk;
 };

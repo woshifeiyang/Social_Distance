@@ -39,8 +39,9 @@ void ASocial_DistanceGameMode::ShowTaskList()
 {
 	if(MainCharacter != nullptr)
 	{
-		const FString ContentFormat_1 = "<BodyText>";
-		const FString TipFormat_1 = "<BodyText>     ";
+		const FString ContentFormat_1 = "<BodyText>- ";
+		const FString TipFormat_1 = " <BodyText>- ";
+		const FString TipDeletedFormat_1 = " <DeletedText>- ";
 		const FString Format_2 = "</>";
 		FString TaskContent;	
 		FString TaskTip_1;
@@ -67,7 +68,14 @@ void ASocial_DistanceGameMode::ShowTaskList()
 				{
 					GetInfoFromDataTable(KeysArray[i], TaskContent, TaskTip_1, TaskTip_2);
 					RichTextArray[Count]->SetText(FText::FromString(ContentFormat_1 + TaskContent + Format_2));
-					RichTextArray[Count + 1]->SetText(FText::FromString(TipFormat_1 + TaskTip_1 + Format_2));
+					if(MainCharacter->TaskList[KeysArray[i]] == 1)
+					{
+						RichTextArray[Count + 1]->SetText(FText::FromString(TipFormat_1 + TaskTip_1 + Format_2));
+					}
+					else if(MainCharacter->TaskList[KeysArray[i]] == 2)
+					{
+						RichTextArray[Count + 1]->SetText(FText::FromString(TipDeletedFormat_1 + TaskTip_1 + Format_2));
+					}
 					RichTextArray[Count + 2]->SetText(FText::FromString(TipFormat_1 + TaskTip_2 + Format_2));
 				}
 				else
