@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "InGameInterface.h"
 #include "GameFramework/Character.h"
 #include "Components/WidgetComponent.h"
 #include "Engine/DataTable.h"
@@ -71,10 +72,20 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		class UWidgetComponent* Bubble;
+
+	UPROPERTY()
+		UInGameInterface* InGameInterfaceInstance;
+
+	UPROPERTY()
+		TArray<URichTextBlock*> RichTextArray;
+	
+		TSubclassOf<class UInGameInterface> InGameInterfaceUI;
 	
 	FTimerHandle TimerHandle_1;
 
 	FTimerHandle TimerHandle_2;
+
+	FTimerHandle TimerHandle_3;
 	
 protected:
 	// Called when the game starts or when spawned
@@ -88,6 +99,12 @@ protected:
 
 	UFUNCTION()
 		void UpdateState();
+
+		void ShowTaskList();
+
+		void InitRickTextArray();
+
+		void GetInfoFromDataTable(int32 TaskIndex, FString& TaskContent, FString& TaskTip_1, FString& TaskTip_2);
 	
 	UFUNCTION()
 		void PrintLog(FString String);
