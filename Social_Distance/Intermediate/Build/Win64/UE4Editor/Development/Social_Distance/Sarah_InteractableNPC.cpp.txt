@@ -1,14 +1,14 @@
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\Sarah_InteractableNPC.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\NPC_Interactable.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\Sarah_InteractableNPC.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\NPC_Interactable.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\MainCharacter.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\InGameInterface.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\MainCharacter.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\InGameInterface.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -108,15 +108,15 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\InGameInterface.generated.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\InGameInterface.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\UMG\Public\Components/WidgetComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetComponent.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacter.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\MainCharacterAnimInstance.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacterAnimInstance.generated.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacter.generated.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\MainCharacterAnimInstance.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacterAnimInstance.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\FX\Niagara\Source\Niagara\Public\NiagaraComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\FX\Niagara\Source\Niagara\Public\NiagaraCommon.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/TextureRenderTarget2D.h
@@ -214,15 +214,15 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Particl
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4Editor\Inc\Niagara\NiagaraComponent.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\Struct_TaskProperty.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\Struct_TaskProperty.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\TaskCompletedFrame.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\TaskCompletedFrame.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\TaskRequestFrame.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\Struct_TaskProperty.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\Struct_TaskProperty.generated.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\TaskCompletedFrame.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\TaskCompletedFrame.generated.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\TaskRequestFrame.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\UMG\Public\Components/RichTextBlock.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\UMG\Public\Components/TextWidgetTypes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextWidgetTypes.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\RichTextBlock.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\TaskRequestFrame.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\NPC_Interactable.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\Sarah_InteractableNPC.generated.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\TaskRequestFrame.generated.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\NPC_Interactable.generated.h
+C:\Users\johnv\Documents\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\Sarah_InteractableNPC.generated.h
