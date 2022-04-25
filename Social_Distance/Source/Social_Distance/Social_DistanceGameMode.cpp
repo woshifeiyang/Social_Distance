@@ -1,6 +1,8 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "Social_DistanceGameMode.h"
+
+#include "C_MainCharacter.h"
 #include "Kismet/GameplayStatics.h"
 #include "UObject/ConstructorHelpers.h"
 
@@ -12,6 +14,7 @@ ASocial_DistanceGameMode::ASocial_DistanceGameMode()
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+	PlayerControllerClass = AC_MainCharacter::StaticClass();
 }
 
 void ASocial_DistanceGameMode::BeginPlay()
