@@ -1,13 +1,13 @@
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\NPC_Interactable.h
+\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
+\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\NPC_Interactable.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\MainCharacter.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\InGameInterface.h
+\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\MainCharacter.h
+\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\InGameInterface.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -107,15 +107,15 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\InGameInterface.generated.h
+\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\InGameInterface.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\UMG\Public\Components/WidgetComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetComponent.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacter.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\MainCharacterAnimInstance.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacterAnimInstance.generated.h
+\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacter.generated.h
+\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\MainCharacterAnimInstance.h
+\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacterAnimInstance.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\FX\Niagara\Source\Niagara\Public\NiagaraComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\FX\Niagara\Source\Niagara\Public\NiagaraCommon.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/TextureRenderTarget2D.h
@@ -213,57 +213,72 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Particl
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4Editor\Inc\Niagara\NiagaraComponent.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\Struct_TaskProperty.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\Struct_TaskProperty.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\TaskCompletedFrame.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\TaskCompletedFrame.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\TaskRequestFrame.h
+\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\Struct_TaskProperty.h
+\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\Struct_TaskProperty.generated.h
+\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\TaskCompletedFrame.h
+\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\TaskCompletedFrame.generated.h
+\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Source\Social_Distance\TaskRequestFrame.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\UMG\Public\Components/RichTextBlock.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\UMG\Public\Components/TextWidgetTypes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextWidgetTypes.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\RichTextBlock.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\TaskRequestFrame.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\NPC_Interactable.generated.h
+\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\TaskRequestFrame.generated.h
+\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\NPC_Interactable.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\ThirdParty/CryptoPP/5.6.5/include/misc.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\ThirdParty\CryptoPP\5.6.5\include\config.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\ThirdParty\CryptoPP\5.6.5\include\cryptlib.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\ThirdParty\CryptoPP\5.6.5\include\stdcpp.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\string
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\xstring
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\iosfwd
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\cstdio
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\cwchar
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\xmemory
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\limits
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\cfloat
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\isa_availability.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\xutility
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\utility
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\cctype
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\memory
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\algorithm
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\functional
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\tuple
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\vector
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\deque
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\map
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\xtree
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\iterator
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\mutex
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\chrono
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\ratio
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\system_error
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\__msvc_system_error_abi.hpp
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\cerrno
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\stdexcept
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\xcall_once.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\xerrc.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\thread
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\string
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xstring
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\iosfwd
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\cstdio
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\cwchar
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xmemory
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\limits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\cfloat
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\isa_availability.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xutility
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\utility
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\cctype
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\memory
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\algorithm
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\functional
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\tuple
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\vector
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\deque
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\map
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xtree
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\iterator
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\mutex
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\chrono
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\ratio
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\sstream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\istream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\ostream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\ios
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xlocnum
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\cmath
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\streambuf
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xiosbase
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\share.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\system_error
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\__msvc_system_error_abi.hpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\cerrno
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\stdexcept
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xcall_once.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xerrc.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xlocale
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xfacet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xlocinfo
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\xlocinfo.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\clocale
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\locale.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\thread
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\process.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_startup.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_startup.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE\vcruntime_startup.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\ThirdParty\CryptoPP\5.6.5\include\trap.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\ThirdParty\CryptoPP\5.6.5\include\smartptr.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetTree.h
