@@ -245,8 +245,8 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Plugins\FX\Niagara\Source\NiagaraVertexFactories\Public
-/I E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance
-/I E:\SocialDistance\Social_Distance\Social_Distance\Source
+/I \\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance
+/I \\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Source
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MRMesh
@@ -274,18 +274,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacter.gen.cpp"
-/FI"E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h"
-/Fo"E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\MainCharacter.gen.cpp.obj"
+/FI"\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\Social_DistanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacter.gen.cpp"
+/FI"\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h"
+/Fo"\\StuHomeOdd\HomeDrive3$\1700843\GitHub\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\MainCharacter.gen.cpp.obj"
 /TP
 /GR-
 /W4
