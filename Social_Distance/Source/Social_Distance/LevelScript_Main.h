@@ -20,7 +20,7 @@ public:
 protected:
 	ALevelScript_Main();
 
-	void BeginPlay() override;
+	virtual void BeginPlay() override;
 
 	void SwitchLevel();
 };

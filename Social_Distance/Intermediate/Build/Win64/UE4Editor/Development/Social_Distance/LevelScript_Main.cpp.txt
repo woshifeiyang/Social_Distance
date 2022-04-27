@@ -3,6 +3,8 @@ E:\Github\Group5\Social_Distance\Source\Social_Distance\LevelScript_Main.h
 D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/LevelScriptActor.h
 D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LevelScriptActor.generated.h
 E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\LevelScript_Main.generated.h
+E:\Github\Group5\Social_Distance\Source\Social_Distance\MyGameInstance.h
+E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MyGameInstance.generated.h
 D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
