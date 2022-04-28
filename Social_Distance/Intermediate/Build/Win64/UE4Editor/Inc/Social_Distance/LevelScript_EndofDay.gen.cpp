@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeLevelScript_EndofDay() {}
 	UPackage* Z_Construct_UPackage__Script_Social_Distance();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_UEndOfDayInterface_NoRegister();
+	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_UMyGameInstance_NoRegister();
 // End Cross Module References
 	void ALevelScript_EndofDay::StaticRegisterNativesALevelScript_EndofDay()
 	{
@@ -41,6 +42,10 @@ void EmptyLinkFunctionForGeneratedCodeLevelScript_EndofDay() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EndOfDayUIInstance_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_EndOfDayUIInstance;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GameInstance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GameInstance;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -70,9 +75,16 @@ void EmptyLinkFunctionForGeneratedCodeLevelScript_EndofDay() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALevelScript_EndofDay_Statics::NewProp_EndOfDayUIInstance = { "EndOfDayUIInstance", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALevelScript_EndofDay, EndOfDayUIInstance), Z_Construct_UClass_UEndOfDayInterface_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALevelScript_EndofDay_Statics::NewProp_EndOfDayUIInstance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALevelScript_EndofDay_Statics::NewProp_EndOfDayUIInstance_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALevelScript_EndofDay_Statics::NewProp_GameInstance_MetaData[] = {
+		{ "ModuleRelativePath", "LevelScript_EndofDay.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALevelScript_EndofDay_Statics::NewProp_GameInstance = { "GameInstance", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALevelScript_EndofDay, GameInstance), Z_Construct_UClass_UMyGameInstance_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALevelScript_EndofDay_Statics::NewProp_GameInstance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALevelScript_EndofDay_Statics::NewProp_GameInstance_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALevelScript_EndofDay_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_EndofDay_Statics::NewProp_EndOfDayInterfaceUI,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_EndofDay_Statics::NewProp_EndOfDayUIInstance,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_EndofDay_Statics::NewProp_GameInstance,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ALevelScript_EndofDay_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ALevelScript_EndofDay>::IsAbstract,
@@ -101,7 +113,7 @@ void EmptyLinkFunctionForGeneratedCodeLevelScript_EndofDay() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALevelScript_EndofDay, 3875267964);
+	IMPLEMENT_CLASS(ALevelScript_EndofDay, 2850727737);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<ALevelScript_EndofDay>()
 	{
 		return ALevelScript_EndofDay::StaticClass();

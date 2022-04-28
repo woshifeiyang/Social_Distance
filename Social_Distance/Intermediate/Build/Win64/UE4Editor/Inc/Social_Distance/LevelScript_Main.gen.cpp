@@ -17,6 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeLevelScript_Main() {}
 	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_ALevelScript_Main();
 	ENGINE_API UClass* Z_Construct_UClass_ALevelScriptActor();
 	UPackage* Z_Construct_UPackage__Script_Social_Distance();
+	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_UMyGameInstance_NoRegister();
+	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_AMainCharacter_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	void ALevelScript_Main::StaticRegisterNativesALevelScript_Main()
 	{
@@ -31,6 +34,20 @@ void EmptyLinkFunctionForGeneratedCodeLevelScript_Main() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GameInstance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GameInstance;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MainCharacter_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MainCharacter;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InteractableNPCList_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InteractableNPCList_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_InteractableNPCList;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +63,31 @@ void EmptyLinkFunctionForGeneratedCodeLevelScript_Main() {}
 		{ "ModuleRelativePath", "LevelScript_Main.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_GameInstance_MetaData[] = {
+		{ "ModuleRelativePath", "LevelScript_Main.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_GameInstance = { "GameInstance", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALevelScript_Main, GameInstance), Z_Construct_UClass_UMyGameInstance_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_GameInstance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_GameInstance_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_MainCharacter_MetaData[] = {
+		{ "ModuleRelativePath", "LevelScript_Main.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_MainCharacter = { "MainCharacter", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALevelScript_Main, MainCharacter), Z_Construct_UClass_AMainCharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_MainCharacter_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_MainCharacter_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_InteractableNPCList_Inner = { "InteractableNPCList", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_InteractableNPCList_MetaData[] = {
+		{ "ModuleRelativePath", "LevelScript_Main.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_InteractableNPCList = { "InteractableNPCList", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALevelScript_Main, InteractableNPCList), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_InteractableNPCList_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_InteractableNPCList_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALevelScript_Main_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_GameInstance,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_MainCharacter,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_InteractableNPCList_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_InteractableNPCList,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ALevelScript_Main_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ALevelScript_Main>::IsAbstract,
 	};
@@ -55,11 +97,11 @@ void EmptyLinkFunctionForGeneratedCodeLevelScript_Main() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ALevelScript_Main_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ALevelScript_Main_Statics::PropPointers),
 		0,
 		0x009002A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ALevelScript_Main_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ALevelScript_Main_Statics::Class_MetaDataParams))
@@ -73,7 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeLevelScript_Main() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALevelScript_Main, 773480919);
+	IMPLEMENT_CLASS(ALevelScript_Main, 301670199);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<ALevelScript_Main>()
 	{
 		return ALevelScript_Main::StaticClass();

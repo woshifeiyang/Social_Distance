@@ -18,4 +18,17 @@ void ALevelScript_EndofDay::BeginPlay()
 	Super::BeginPlay();
 	EndOfDayUIInstance = Cast<UEndOfDayInterface>(CreateWidget(GetWorld(), EndOfDayInterfaceUI));
 	EndOfDayUIInstance->AddToViewport();
+	GameInstance = Cast<UMyGameInstance>(GetGameInstance());
+	if(GameInstance != nullptr)
+	{
+		PrintLog("Game Instance number is:" + FString::FromInt(GameInstance->InteractableNPCList.Num()));
+	}
+}
+
+void ALevelScript_EndofDay::PrintLog(FString String)
+{
+	if (GEngine)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, String);
+	}
 }
