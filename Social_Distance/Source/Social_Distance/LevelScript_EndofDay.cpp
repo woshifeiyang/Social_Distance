@@ -21,7 +21,7 @@ void ALevelScript_EndofDay::BeginPlay()
 	GameInstance = Cast<UMyGameInstance>(GetGameInstance());
 	if(GameInstance != nullptr)
 	{
-		PrintLog("Game Instance number is:" + FString::FromInt(GameInstance->InteractableNPCList.Num()));
+		
 	}
 }
 

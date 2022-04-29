@@ -13,9 +13,4 @@ void UMyGameInstance::Init()
 	TimeOfDay = 5.0f;
 	DayLoop = 1;
 	
-	for(AActor* Actor: InteractableNPCList)
-	{
-		ANPC_Interactable* NPC = Cast<ANPC_Interactable>(Actor);
-		
-	}
 }

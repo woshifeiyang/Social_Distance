@@ -13,10 +13,17 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SOCIAL_DISTANCE_MyGameInstance_generated_h
 
-#define Social_Distance_Source_Social_Distance_MyGameInstance_h_15_SPARSE_DATA
-#define Social_Distance_Source_Social_Distance_MyGameInstance_h_15_RPC_WRAPPERS
-#define Social_Distance_Source_Social_Distance_MyGameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Social_Distance_Source_Social_Distance_MyGameInstance_h_15_INCLASS_NO_PURE_DECLS \
+#define Social_Distance_Source_Social_Distance_MyGameInstance_h_12_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FNPC_Data_Statics; \
+	SOCIAL_DISTANCE_API static class UScriptStruct* StaticStruct();
+
+
+template<> SOCIAL_DISTANCE_API UScriptStruct* StaticStruct<struct FNPC_Data>();
+
+#define Social_Distance_Source_Social_Distance_MyGameInstance_h_27_SPARSE_DATA
+#define Social_Distance_Source_Social_Distance_MyGameInstance_h_27_RPC_WRAPPERS
+#define Social_Distance_Source_Social_Distance_MyGameInstance_h_27_RPC_WRAPPERS_NO_PURE_DECLS
+#define Social_Distance_Source_Social_Distance_MyGameInstance_h_27_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyGameInstance(); \
 	friend struct Z_Construct_UClass_UMyGameInstance_Statics; \
@@ -25,7 +32,7 @@ public: \
 	DECLARE_SERIALIZER(UMyGameInstance)
 
 
-#define Social_Distance_Source_Social_Distance_MyGameInstance_h_15_INCLASS \
+#define Social_Distance_Source_Social_Distance_MyGameInstance_h_27_INCLASS \
 private: \
 	static void StaticRegisterNativesUMyGameInstance(); \
 	friend struct Z_Construct_UClass_UMyGameInstance_Statics; \
@@ -34,7 +41,7 @@ public: \
 	DECLARE_SERIALIZER(UMyGameInstance)
 
 
-#define Social_Distance_Source_Social_Distance_MyGameInstance_h_15_STANDARD_CONSTRUCTORS \
+#define Social_Distance_Source_Social_Distance_MyGameInstance_h_27_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyGameInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyGameInstance) \
@@ -47,7 +54,7 @@ private: \
 public:
 
 
-#define Social_Distance_Source_Social_Distance_MyGameInstance_h_15_ENHANCED_CONSTRUCTORS \
+#define Social_Distance_Source_Social_Distance_MyGameInstance_h_27_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyGameInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +67,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyGameInstance); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyGameInstance)
 
 
-#define Social_Distance_Source_Social_Distance_MyGameInstance_h_15_PRIVATE_PROPERTY_OFFSET
-#define Social_Distance_Source_Social_Distance_MyGameInstance_h_12_PROLOG
-#define Social_Distance_Source_Social_Distance_MyGameInstance_h_15_GENERATED_BODY_LEGACY \
+#define Social_Distance_Source_Social_Distance_MyGameInstance_h_27_PRIVATE_PROPERTY_OFFSET
+#define Social_Distance_Source_Social_Distance_MyGameInstance_h_24_PROLOG
+#define Social_Distance_Source_Social_Distance_MyGameInstance_h_27_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Social_Distance_Source_Social_Distance_MyGameInstance_h_15_PRIVATE_PROPERTY_OFFSET \
-	Social_Distance_Source_Social_Distance_MyGameInstance_h_15_SPARSE_DATA \
-	Social_Distance_Source_Social_Distance_MyGameInstance_h_15_RPC_WRAPPERS \
-	Social_Distance_Source_Social_Distance_MyGameInstance_h_15_INCLASS \
-	Social_Distance_Source_Social_Distance_MyGameInstance_h_15_STANDARD_CONSTRUCTORS \
+	Social_Distance_Source_Social_Distance_MyGameInstance_h_27_PRIVATE_PROPERTY_OFFSET \
+	Social_Distance_Source_Social_Distance_MyGameInstance_h_27_SPARSE_DATA \
+	Social_Distance_Source_Social_Distance_MyGameInstance_h_27_RPC_WRAPPERS \
+	Social_Distance_Source_Social_Distance_MyGameInstance_h_27_INCLASS \
+	Social_Distance_Source_Social_Distance_MyGameInstance_h_27_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Social_Distance_Source_Social_Distance_MyGameInstance_h_15_GENERATED_BODY \
+#define Social_Distance_Source_Social_Distance_MyGameInstance_h_27_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Social_Distance_Source_Social_Distance_MyGameInstance_h_15_PRIVATE_PROPERTY_OFFSET \
-	Social_Distance_Source_Social_Distance_MyGameInstance_h_15_SPARSE_DATA \
-	Social_Distance_Source_Social_Distance_MyGameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Social_Distance_Source_Social_Distance_MyGameInstance_h_15_INCLASS_NO_PURE_DECLS \
-	Social_Distance_Source_Social_Distance_MyGameInstance_h_15_ENHANCED_CONSTRUCTORS \
+	Social_Distance_Source_Social_Distance_MyGameInstance_h_27_PRIVATE_PROPERTY_OFFSET \
+	Social_Distance_Source_Social_Distance_MyGameInstance_h_27_SPARSE_DATA \
+	Social_Distance_Source_Social_Distance_MyGameInstance_h_27_RPC_WRAPPERS_NO_PURE_DECLS \
+	Social_Distance_Source_Social_Distance_MyGameInstance_h_27_INCLASS_NO_PURE_DECLS \
+	Social_Distance_Source_Social_Distance_MyGameInstance_h_27_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

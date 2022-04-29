@@ -6,9 +6,21 @@
 #include "Engine/GameInstance.h"
 #include "MyGameInstance.generated.h"
 
-/**
- * 
- */
+USTRUCT(BlueprintType)
+struct FNPC_Data
+{
+	GENERATED_USTRUCT_BODY()
+
+	UPROPERTY(BlueprintReadWrite)
+		FString Name;
+	
+	UPROPERTY(BlueprintReadWrite)
+		float Happiness;
+	
+	UPROPERTY(BlueprintReadWrite)
+		float Risk;
+};
+
 UCLASS()
 class SOCIAL_DISTANCE_API UMyGameInstance : public UGameInstance
 {
@@ -26,12 +38,14 @@ public:
 
 	UPROPERTY()
 		float MC_Happiness;
-
-	UPROPERTY()
-		TArray<AActor*> InteractableNPCList;
-
+	
+	UPROPERTY(BlueprintReadOnly)
+		TMap<FString, FNPC_Data> NPC_Data;
+	
 		FTimerHandle TimerHandle_1;
 	
 	virtual void Init() override;
 	
 };
+
+

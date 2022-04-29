@@ -24,12 +24,7 @@ void ALevelScript_Main::BeginPlay()
 			UGameplayStatics::GetAllActorsOfClass(GetWorld(), ANPC_Interactable::StaticClass(), InteractableNPCList);
 		}else
 		{
-			InteractableNPCList = GameInstance->InteractableNPCList;
-			for(AActor* Actor: InteractableNPCList)
-			{
-				ANPC_Interactable* NPC = Cast<ANPC_Interactable>(Actor);
-				
-			}
+			
 		}
 	}
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
@@ -41,7 +36,20 @@ void ALevelScript_Main::SwitchLevel()
 	GameInstance->MC_Happiness = MainCharacter->Happiness;
 	GameInstance->MC_Risk = MainCharacter->Risk;
 	
-	GameInstance->InteractableNPCList = InteractableNPCList;
+	for(const auto Actor : InteractableNPCList)
+	{
+		ANPC_Interactable* NPC = Cast<ANPC_Interactable>(Actor);
+		if(NPC != nullptr)
+		{
+			FNPC_Data Data;
+			Data.Name = NPC->Name;
+			Data.Happiness = NPC->Happiness;
+			Data.Risk = NPC->Risk;
+			GameInstance->NPC_Data.Add(NPC->Name, Data);
+		}
+		
+	}
+	
 	UGameplayStatics::OpenLevel(GetWorld(), TEXT("EndOfDayMenu"));
 }
 
