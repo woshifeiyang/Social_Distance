@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Social_Distance.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4D8550CA-F714-4FDD-A30B-3ACE9D0D861A}</UniqueIdentifier>
+      <UniqueIdentifier>{E53C61C2-71F6-4F75-A7AD-8FF099470BC8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Social_Distance.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C528E407-12B3-4230-AF94-166E289892ED}</UniqueIdentifier>
+      <UniqueIdentifier>{37B27171-1671-4BBB-85BA-E39D102A2953}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,22 +30,22 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{44DBA39C-9C03-4B9D-9E24-815FD44D8BA9}</UniqueIdentifier>
+      <UniqueIdentifier>{94884AD2-104B-4FE9-98C0-D82B539EB1E8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\HoudiniEngine">
-      <UniqueIdentifier>{18E440D0-2037-4004-B252-1D04FC8D5E8C}</UniqueIdentifier>
+      <UniqueIdentifier>{ABECDC57-D805-4DD1-845B-F1D8DADA7738}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\HoudiniEngine\Source">
-      <UniqueIdentifier>{03435E2A-E988-4C0C-A15B-DB77628DA7F5}</UniqueIdentifier>
+      <UniqueIdentifier>{FF00FAA4-7CBE-4D26-B4FB-935AB2B118EA}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngine">
-      <UniqueIdentifier>{1F36129B-B9B4-4F99-9829-51287F7451FA}</UniqueIdentifier>
+      <UniqueIdentifier>{1FA7AB13-FA02-41E2-9A86-DF91990F91DC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\HoudiniEngine.Build.cs">
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine</Filter>
     </None>
     <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngine\Private">
-      <UniqueIdentifier>{A523CDCC-0322-4376-9058-66EA475D829B}</UniqueIdentifier>
+      <UniqueIdentifier>{8591F512-91C1-4EC0-8AFC-2A7F7998C449}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\GeometryToolsEngine.cpp">
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
@@ -270,7 +270,7 @@
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private</Filter>
     </ClInclude>
     <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngine\Private\Tests">
-      <UniqueIdentifier>{752D35EF-4630-4EB7-B1D7-5C4AE7A023B6}</UniqueIdentifier>
+      <UniqueIdentifier>{DB42DA08-6BAD-448B-922F-4A611AFFE0FB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Private\Tests\HoudiniCoreTests.cpp">
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private\Tests</Filter>
@@ -279,13 +279,13 @@
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Private\Tests</Filter>
     </ClInclude>
     <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngine\Public">
-      <UniqueIdentifier>{2E496B02-6BB1-4927-9DEF-D3D726CF00A9}</UniqueIdentifier>
+      <UniqueIdentifier>{AA17A450-5F80-4CC6-919E-1A3C34E14381}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HoudiniApi.h">
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI">
-      <UniqueIdentifier>{1041BE6D-4E15-4F0B-8322-1AD122CABCB8}</UniqueIdentifier>
+      <UniqueIdentifier>{F6199B90-4B94-432D-8D12-9C9937A3D938}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI\HAPI.h">
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngine\Public\HAPI</Filter>
@@ -306,7 +306,7 @@
       <Filter>Plugins\HoudiniEngine</Filter>
     </None>
     <Filter Include="Plugins\HoudiniEngine\Resources">
-      <UniqueIdentifier>{07F8F07A-66B0-4CD8-813A-A32A6AD28E1F}</UniqueIdentifier>
+      <UniqueIdentifier>{C77740E1-D6B5-45F9-8082-5F2B39AC69F0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\HoudiniEngine\Resources\hengine_banner.png">
       <Filter>Plugins\HoudiniEngine\Resources</Filter>
@@ -330,7 +330,7 @@
       <Filter>Plugins\HoudiniEngine\Resources</Filter>
     </None>
     <Filter Include="Plugins\HoudiniEngine\Resources\Icons">
-      <UniqueIdentifier>{6C4A3CF7-10F9-425B-9E4F-99DE417AC796}</UniqueIdentifier>
+      <UniqueIdentifier>{0AD62842-A5DF-4347-AA47-0DD88546F1C8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\HoudiniEngine\Resources\Icons\asset_help16x16.png">
       <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
@@ -477,13 +477,13 @@
       <Filter>Plugins\HoudiniEngine\Resources\Icons</Filter>
     </None>
     <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngineEditor">
-      <UniqueIdentifier>{C73314EE-34AA-4DB9-B2DF-432DC4E69580}</UniqueIdentifier>
+      <UniqueIdentifier>{66C0F90D-131D-4A72-B7E0-14F26CDB442C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\HoudiniEngineEditor.Build.cs">
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor</Filter>
     </None>
     <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private">
-      <UniqueIdentifier>{ACFC2758-2681-4482-A323-B572864DF9B7}</UniqueIdentifier>
+      <UniqueIdentifier>{BF430781-4659-460A-9E85-994DAFACDEF9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\AssetTypeActions_HoudiniAsset.cpp">
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
@@ -645,7 +645,7 @@
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private</Filter>
     </ClInclude>
     <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\Tests">
-      <UniqueIdentifier>{0B6407DA-2AD7-4F82-A4CD-CE7621BC1031}</UniqueIdentifier>
+      <UniqueIdentifier>{4BDD7B2F-5AB1-4349-BDDB-6F41B542501B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\Tests\HoudiniEditorColliderTests.cpp">
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\Tests</Filter>
@@ -714,7 +714,7 @@
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Private\Tests</Filter>
     </ClInclude>
     <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public">
-      <UniqueIdentifier>{35DBE648-46C7-4474-8B0B-60729E356DA9}</UniqueIdentifier>
+      <UniqueIdentifier>{584728D8-08E0-4E3F-A33A-277DD6A1E16C}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public\HoudiniPublicAPI.h">
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public</Filter>
@@ -741,13 +741,13 @@
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineEditor\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngineRuntime">
-      <UniqueIdentifier>{1AA938E0-4A34-43D9-A8BF-59F170F7B8BB}</UniqueIdentifier>
+      <UniqueIdentifier>{78CA42D9-0A91-43DC-9782-FB8766467CE4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\HoudiniEngineRuntime.Build.cs">
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime</Filter>
     </None>
     <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private">
-      <UniqueIdentifier>{0B53575F-A7D3-473B-844C-828232042019}</UniqueIdentifier>
+      <UniqueIdentifier>{E5C777E9-5D70-4CD2-B804-606BC37E0076}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\HoudiniAsset.cpp">
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
@@ -1005,7 +1005,7 @@
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private</Filter>
     </ClInclude>
     <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\Tests">
-      <UniqueIdentifier>{97CB65C0-4A6E-466F-94F2-0885886210C3}</UniqueIdentifier>
+      <UniqueIdentifier>{5143EBED-0568-4F11-AFCE-ACE99ED5EA6A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\Tests\HoudiniRuntimeTests.cpp">
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\Tests</Filter>
@@ -1014,7 +1014,7 @@
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Private\Tests</Filter>
     </ClInclude>
     <Filter Include="Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Public">
-      <UniqueIdentifier>{6B469FED-F12D-48F8-8BA6-ABC7FD03F3D8}</UniqueIdentifier>
+      <UniqueIdentifier>{16EC0599-6901-4641-9DE1-97EEC53F4654}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Public\HoudiniAsset.h">
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Public</Filter>
@@ -1026,8 +1026,14 @@
       <Filter>Plugins\HoudiniEngine\Source\HoudiniEngineRuntime\Public</Filter>
     </ClInclude>
     <Filter Include="Source\Social_Distance">
-      <UniqueIdentifier>{1AF398E5-4F89-4AA1-AF31-DABEE477E462}</UniqueIdentifier>
+      <UniqueIdentifier>{982E31B0-D677-4A87-A296-7BF7055BDB58}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Social_Distance\CharacterSaveGame.cpp">
+      <Filter>Source\Social_Distance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Social_Distance\CharacterSaveGame.h">
+      <Filter>Source\Social_Distance</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Social_Distance\C_InteractableNPC.cpp">
       <Filter>Source\Social_Distance</Filter>
     </ClCompile>
