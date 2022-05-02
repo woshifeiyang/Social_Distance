@@ -25,6 +25,12 @@ public:
 	
 	UPROPERTY()
 		TArray<AActor*> InteractableNPCList;
+
+	UPROPERTY()
+		TSubclassOf<class UUserWidget> TutorialUI;
+
+	UPROPERTY()
+		UUserWidget* TutorialFrameInstance;
 	
 		FTimerHandle TimerHandle_1;
 
@@ -34,6 +40,10 @@ protected:
 	virtual void BeginPlay() override;
 
 	void SwitchLevel();
+	
+	void SaveCharacterDate();
+
+	void LoadCharacterDate();
 	
 	void PrintLog(FString String);
 };

@@ -148,20 +148,6 @@ static struct FScriptStruct_Social_Distance_StaticRegisterNativesFNPC_Data
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DayLoop_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_DayLoop;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MC_Risk_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MC_Risk;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MC_Happiness_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MC_Happiness;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_NPC_Data_ValueProp;
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_NPC_Data_Key_KeyProp;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NPC_Data_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FMapPropertyParams NewProp_NPC_Data;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -190,35 +176,9 @@ static struct FScriptStruct_Social_Distance_StaticRegisterNativesFNPC_Data
 	};
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_DayLoop = { "DayLoop", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyGameInstance, DayLoop), METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_DayLoop_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_DayLoop_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_MC_Risk_MetaData[] = {
-		{ "ModuleRelativePath", "MyGameInstance.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_MC_Risk = { "MC_Risk", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyGameInstance, MC_Risk), METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_MC_Risk_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_MC_Risk_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_MC_Happiness_MetaData[] = {
-		{ "ModuleRelativePath", "MyGameInstance.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_MC_Happiness = { "MC_Happiness", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyGameInstance, MC_Happiness), METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_MC_Happiness_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_MC_Happiness_MetaData)) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_NPC_Data_ValueProp = { "NPC_Data", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 1, Z_Construct_UScriptStruct_FNPC_Data, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_NPC_Data_Key_KeyProp = { "NPC_Data_Key", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_NPC_Data_MetaData[] = {
-		{ "Category", "MyGameInstance" },
-		{ "ModuleRelativePath", "MyGameInstance.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_NPC_Data = { "NPC_Data", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyGameInstance, NPC_Data), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_NPC_Data_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_NPC_Data_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMyGameInstance_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_TimeOfDay,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_DayLoop,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_MC_Risk,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_MC_Happiness,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_NPC_Data_ValueProp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_NPC_Data_Key_KeyProp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_NPC_Data,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UMyGameInstance_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UMyGameInstance>::IsAbstract,
@@ -247,7 +207,7 @@ static struct FScriptStruct_Social_Distance_StaticRegisterNativesFNPC_Data
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyGameInstance, 2778899526);
+	IMPLEMENT_CLASS(UMyGameInstance, 104861850);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<UMyGameInstance>()
 	{
 		return UMyGameInstance::StaticClass();

@@ -32,15 +32,6 @@ public:
 
 	UPROPERTY(BlueprintReadOnly)
 		int32 DayLoop;
-
-	UPROPERTY()
-		float MC_Risk;
-
-	UPROPERTY()
-		float MC_Happiness;
-	
-	UPROPERTY(BlueprintReadOnly)
-		TMap<FString, FNPC_Data> NPC_Data;
 	
 		FTimerHandle TimerHandle_1;
 	
