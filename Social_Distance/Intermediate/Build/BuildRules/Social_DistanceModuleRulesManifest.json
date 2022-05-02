@@ -1,11 +1,11 @@
 {
 	"SourceFiles": [
-		"E:\\Github\\Group5\\Social_Distance\\Source\\Social_Distance\\Social_Distance.Build.cs",
-		"E:\\Github\\Group5\\Social_Distance\\Plugins\\HoudiniEngine\\Source\\HoudiniEngine\\HoudiniEngine.Build.cs",
-		"E:\\Github\\Group5\\Social_Distance\\Plugins\\HoudiniEngine\\Source\\HoudiniEngineEditor\\HoudiniEngineEditor.Build.cs",
-		"E:\\Github\\Group5\\Social_Distance\\Plugins\\HoudiniEngine\\Source\\HoudiniEngineRuntime\\HoudiniEngineRuntime.Build.cs",
-		"E:\\Github\\Group5\\Social_Distance\\Source\\Social_Distance.Target.cs",
-		"E:\\Github\\Group5\\Social_Distance\\Source\\Social_DistanceEditor.Target.cs"
+		"E:\\SocialDistance\\Social_Distance\\Social_Distance\\Source\\Social_Distance\\Social_Distance.Build.cs",
+		"E:\\SocialDistance\\Social_Distance\\Social_Distance\\Plugins\\HoudiniEngine\\Source\\HoudiniEngine\\HoudiniEngine.Build.cs",
+		"E:\\SocialDistance\\Social_Distance\\Social_Distance\\Plugins\\HoudiniEngine\\Source\\HoudiniEngineRuntime\\HoudiniEngineRuntime.Build.cs",
+		"E:\\SocialDistance\\Social_Distance\\Social_Distance\\Plugins\\HoudiniEngine\\Source\\HoudiniEngineEditor\\HoudiniEngineEditor.Build.cs",
+		"E:\\SocialDistance\\Social_Distance\\Social_Distance\\Source\\Social_Distance.Target.cs",
+		"E:\\SocialDistance\\Social_Distance\\Social_Distance\\Source\\Social_DistanceEditor.Target.cs"
 	],
 	"EngineVersion": "4.26.2"
 }
