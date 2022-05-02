@@ -119,6 +119,10 @@ E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_D
 D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/LevelScriptActor.h
 D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LevelScriptActor.generated.h
 E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\LevelScript_Main.generated.h
+E:\Github\Group5\Social_Distance\Source\Social_Distance\CharacterSaveGame.h
+D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/SaveGame.h
+D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SaveGame.generated.h
+E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\CharacterSaveGame.generated.h
 E:\Github\Group5\Social_Distance\Source\Social_Distance\NPC_Interactable.h
 E:\Github\Group5\Social_Distance\Source\Social_Distance\MainCharacterAnimInstance.h
 E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MainCharacterAnimInstance.generated.h

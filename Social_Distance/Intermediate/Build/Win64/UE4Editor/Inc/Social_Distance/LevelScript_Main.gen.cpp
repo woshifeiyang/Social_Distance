@@ -20,6 +20,8 @@ void EmptyLinkFunctionForGeneratedCodeLevelScript_Main() {}
 	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_UMyGameInstance_NoRegister();
 	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_AMainCharacter_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 // End Cross Module References
 	void ALevelScript_Main::StaticRegisterNativesALevelScript_Main()
 	{
@@ -47,6 +49,14 @@ void EmptyLinkFunctionForGeneratedCodeLevelScript_Main() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InteractableNPCList_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_InteractableNPCList;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TutorialUI_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_TutorialUI;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TutorialFrameInstance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TutorialFrameInstance;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -82,11 +92,26 @@ void EmptyLinkFunctionForGeneratedCodeLevelScript_Main() {}
 	};
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_InteractableNPCList = { "InteractableNPCList", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALevelScript_Main, InteractableNPCList), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_InteractableNPCList_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_InteractableNPCList_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialUI_MetaData[] = {
+		{ "ModuleRelativePath", "LevelScript_Main.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialUI = { "TutorialUI", nullptr, (EPropertyFlags)0x0014000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALevelScript_Main, TutorialUI), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialUI_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialUI_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialFrameInstance_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "LevelScript_Main.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialFrameInstance = { "TutorialFrameInstance", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALevelScript_Main, TutorialFrameInstance), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialFrameInstance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialFrameInstance_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALevelScript_Main_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_GameInstance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_MainCharacter,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_InteractableNPCList_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_InteractableNPCList,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialUI,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialFrameInstance,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ALevelScript_Main_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ALevelScript_Main>::IsAbstract,
@@ -115,7 +140,7 @@ void EmptyLinkFunctionForGeneratedCodeLevelScript_Main() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALevelScript_Main, 301670199);
+	IMPLEMENT_CLASS(ALevelScript_Main, 2060671803);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<ALevelScript_Main>()
 	{
 		return ALevelScript_Main::StaticClass();

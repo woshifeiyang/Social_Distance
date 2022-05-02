@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeEndOfDayInterface() {}
 	UPackage* Z_Construct_UPackage__Script_Social_Distance();
 	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_UMyGameInstance_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_URichTextBlock_NoRegister();
+	SOCIAL_DISTANCE_API UClass* Z_Construct_UClass_UCharacterSaveGame_NoRegister();
 // End Cross Module References
 	void UEndOfDayInterface::StaticRegisterNativesUEndOfDayInterface()
 	{
@@ -53,6 +54,10 @@ void EmptyLinkFunctionForGeneratedCodeEndOfDayInterface() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Depressed_NPC_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Depressed_NPC;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SaveGameInstance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SaveGameInstance;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -106,12 +111,19 @@ void EmptyLinkFunctionForGeneratedCodeEndOfDayInterface() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UEndOfDayInterface_Statics::NewProp_Depressed_NPC = { "Depressed_NPC", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UEndOfDayInterface, Depressed_NPC), Z_Construct_UClass_URichTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UEndOfDayInterface_Statics::NewProp_Depressed_NPC_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UEndOfDayInterface_Statics::NewProp_Depressed_NPC_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UEndOfDayInterface_Statics::NewProp_SaveGameInstance_MetaData[] = {
+		{ "ModuleRelativePath", "EndOfDayInterface.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UEndOfDayInterface_Statics::NewProp_SaveGameInstance = { "SaveGameInstance", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UEndOfDayInterface, SaveGameInstance), Z_Construct_UClass_UCharacterSaveGame_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UEndOfDayInterface_Statics::NewProp_SaveGameInstance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UEndOfDayInterface_Statics::NewProp_SaveGameInstance_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UEndOfDayInterface_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEndOfDayInterface_Statics::NewProp_GameInstance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEndOfDayInterface_Statics::NewProp_Happiness_Level,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEndOfDayInterface_Statics::NewProp_Risk_Level,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEndOfDayInterface_Statics::NewProp_Covid_NPC,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEndOfDayInterface_Statics::NewProp_Depressed_NPC,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEndOfDayInterface_Statics::NewProp_SaveGameInstance,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UEndOfDayInterface_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UEndOfDayInterface>::IsAbstract,
@@ -140,7 +152,7 @@ void EmptyLinkFunctionForGeneratedCodeEndOfDayInterface() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UEndOfDayInterface, 2617424923);
+	IMPLEMENT_CLASS(UEndOfDayInterface, 710139922);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<UEndOfDayInterface>()
 	{
 		return UEndOfDayInterface::StaticClass();

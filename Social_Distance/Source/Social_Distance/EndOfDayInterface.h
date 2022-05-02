@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "CharacterSaveGame.h"
 #include "MyGameInstance.h"
 #include "Blueprint/UserWidget.h"
 #include "EndOfDayInterface.generated.h"
@@ -29,6 +30,9 @@ public:
 
 	UPROPERTY(meta = (BindWidget))
 	class URichTextBlock* Depressed_NPC;
+	
+	UPROPERTY()
+	UCharacterSaveGame* SaveGameInstance;
 	
 protected:
 	virtual bool Initialize() override; // override this, its like beginplay but for UUserWidgets
