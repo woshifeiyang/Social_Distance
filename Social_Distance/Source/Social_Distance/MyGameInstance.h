@@ -27,10 +27,10 @@ class SOCIAL_DISTANCE_API UMyGameInstance : public UGameInstance
 	GENERATED_BODY()
 	
 public:
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadWrite)
 		float TimeOfDay;
 
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadWrite)
 		int32 DayLoop;
 	
 		FTimerHandle TimerHandle_1;

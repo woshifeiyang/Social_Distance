@@ -79,10 +79,9 @@ void UEndOfDayInterface::InitSummaryPage()
 		if(Element.Value.Risk >= 90.0f)
 		{
 			String += Element.Key;
-			String += ", ";
+			String += "  ";
 		}
 	}
-	String.RemoveAt(String.Len() - 2, 2);
 	Covid_NPC->SetText(FText::FromString("<TitleText>" + String + "</>"));
 	// NPC who are depressed
 	String = "";
@@ -91,10 +90,9 @@ void UEndOfDayInterface::InitSummaryPage()
 		if(Element.Value.Happiness <= 10.0f)
 		{
 			String += Element.Key;
-			String += ", ";
+			String += "  ";
 		}
 	}
-	String.RemoveAt(String.Len() - 2, 2);
 	Depressed_NPC->SetText(FText::FromString("<TitleText>" + String + "</>"));
 }
 

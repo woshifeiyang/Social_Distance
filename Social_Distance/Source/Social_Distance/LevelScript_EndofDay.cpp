@@ -18,11 +18,6 @@ void ALevelScript_EndofDay::BeginPlay()
 	Super::BeginPlay();
 	EndOfDayUIInstance = Cast<UEndOfDayInterface>(CreateWidget(GetWorld(), EndOfDayInterfaceUI));
 	EndOfDayUIInstance->AddToViewport();
-	GameInstance = Cast<UMyGameInstance>(GetGameInstance());
-	if(GameInstance != nullptr)
-	{
-		
-	}
 }
 
 void ALevelScript_EndofDay::PrintLog(FString String)

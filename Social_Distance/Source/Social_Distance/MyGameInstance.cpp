@@ -10,7 +10,7 @@ void UMyGameInstance::Init()
 {
 	Super::Init();
 	
-	TimeOfDay = 5.0f;
+	TimeOfDay = 60.0f;
 	DayLoop = 1;
 	
 }

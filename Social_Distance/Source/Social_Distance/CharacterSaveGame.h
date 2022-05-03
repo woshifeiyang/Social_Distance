@@ -18,10 +18,10 @@ class SOCIAL_DISTANCE_API UCharacterSaveGame : public USaveGame
 	GENERATED_BODY()
 
 public:
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadWrite)
 		float MC_Risk;
 
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadWrite)
 		float MC_Happiness;
 
 	UPROPERTY(BlueprintReadOnly)

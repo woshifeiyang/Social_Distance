@@ -67,14 +67,14 @@ void EmptyLinkFunctionForGeneratedCodeCharacterSaveGame() {}
 		{ "ModuleRelativePath", "CharacterSaveGame.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCharacterSaveGame_Statics::NewProp_MC_Risk = { "MC_Risk", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCharacterSaveGame, MC_Risk), METADATA_PARAMS(Z_Construct_UClass_UCharacterSaveGame_Statics::NewProp_MC_Risk_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCharacterSaveGame_Statics::NewProp_MC_Risk_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCharacterSaveGame_Statics::NewProp_MC_Risk = { "MC_Risk", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCharacterSaveGame, MC_Risk), METADATA_PARAMS(Z_Construct_UClass_UCharacterSaveGame_Statics::NewProp_MC_Risk_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCharacterSaveGame_Statics::NewProp_MC_Risk_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCharacterSaveGame_Statics::NewProp_MC_Happiness_MetaData[] = {
 		{ "Category", "CharacterSaveGame" },
 		{ "ModuleRelativePath", "CharacterSaveGame.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCharacterSaveGame_Statics::NewProp_MC_Happiness = { "MC_Happiness", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCharacterSaveGame, MC_Happiness), METADATA_PARAMS(Z_Construct_UClass_UCharacterSaveGame_Statics::NewProp_MC_Happiness_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCharacterSaveGame_Statics::NewProp_MC_Happiness_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCharacterSaveGame_Statics::NewProp_MC_Happiness = { "MC_Happiness", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCharacterSaveGame, MC_Happiness), METADATA_PARAMS(Z_Construct_UClass_UCharacterSaveGame_Statics::NewProp_MC_Happiness_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCharacterSaveGame_Statics::NewProp_MC_Happiness_MetaData)) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UCharacterSaveGame_Statics::NewProp_NPC_Data_ValueProp = { "NPC_Data", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 1, Z_Construct_UScriptStruct_FNPC_Data, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UCharacterSaveGame_Statics::NewProp_NPC_Data_Key_KeyProp = { "NPC_Data_Key", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
@@ -118,7 +118,7 @@ void EmptyLinkFunctionForGeneratedCodeCharacterSaveGame() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCharacterSaveGame, 3992680642);
+	IMPLEMENT_CLASS(UCharacterSaveGame, 1445796639);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<UCharacterSaveGame>()
 	{
 		return UCharacterSaveGame::StaticClass();

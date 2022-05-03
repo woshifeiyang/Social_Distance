@@ -24,7 +24,6 @@ void ALevelScript_Main::BeginPlay()
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
 	// 获取所有NPC对象的初始化值
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ANPC_Interactable::StaticClass(), InteractableNPCList);
-	PrintLog("The number of npc is:" + FString::FromInt(InteractableNPCList.Num()));
 	if(GameInstance != nullptr)
 	{
 		GetWorldTimerManager().SetTimer(TimerHandle_1, this, &ALevelScript_Main::SwitchLevel, GameInstance->TimeOfDay, false);
