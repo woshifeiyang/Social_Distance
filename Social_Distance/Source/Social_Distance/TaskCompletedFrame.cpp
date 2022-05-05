@@ -2,6 +2,8 @@
 
 
 #include "TaskCompletedFrame.h"
+
+#include "NPC_Interactable.h"
 #include "Struct_TaskProperty.h"
 #include "Components/Button.h"
 #include "Kismet/GameplayStatics.h"
@@ -31,12 +33,29 @@ void UTaskCompletedFrame::AcceptSubmitTask()
 				FTaskProperty* Row = MainCharacter->TaskPropertyDataTable->FindRow<FTaskProperty>(Name, ContextString);
 				if(Row != nullptr && Row->TaskIndex == Index)
 				{
-					if(MainCharacter->Risk - Row->MCReward_Risk > 0.0f)
+					if(MainCharacter->Happiness + Row->MCReward_Risk <= 100.0f)
 					{
-						MainCharacter->Risk -= Row->MCReward_Risk;
+						MainCharacter->Happiness += Row->MCReward_Risk;
 					}else
 					{
-						MainCharacter->Risk = 0;
+						MainCharacter->Happiness = 100.0f;
+					}
+					// 获取所有NPC对象
+					TArray<AActor*> InteractableNPCList;
+					UGameplayStatics::GetAllActorsOfClass(GetWorld(), ANPC_Interactable::StaticClass(), InteractableNPCList);
+					for(const auto Actor : InteractableNPCList)
+					{
+						ANPC_Interactable* NPC = Cast<ANPC_Interactable>(Actor);
+						if(NPC->Name == Row->NPC_Name)
+						{
+							if(NPC->Happiness + Row->NPCReward_Risk <= 100.0f)
+							{
+								NPC->Happiness += Row->NPCReward_Risk;
+							}else
+							{
+								NPC->Happiness = 100.0f;
+							}
+						}
 					}
 				}
 			}
