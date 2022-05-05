@@ -30,9 +30,17 @@ public:
 		TSubclassOf<class UUserWidget> TutorialUI;
 
 	UPROPERTY()
+		TSubclassOf<class UUserWidget> StartOfDayUI;
+
+	UPROPERTY()
 		UUserWidget* TutorialFrameInstance;
+
+	UPROPERTY()
+		UUserWidget* StartOfDayFrameInstance;
 	
 		FTimerHandle TimerHandle_1;
+
+		FTimerHandle TimerHandle_2;
 
 protected:
 	ALevelScript_Main();
@@ -40,6 +48,8 @@ protected:
 	virtual void BeginPlay() override;
 
 	void SwitchLevel();
+
+	void CloseUI();
 	
 	void SaveCharacterDate();
 

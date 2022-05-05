@@ -15,6 +15,13 @@ ALevelScript_Main::ALevelScript_Main()
 	{
 		TutorialUI = TutorialBPClass.Class;
 	}
+	// 绑定关卡加载UI
+	ConstructorHelpers::FClassFinder<UUserWidget> StartOfDayBPClass(TEXT("UserWidget'/Game/UI/WB_StartOfDay.WB_StartofDay_C'"));
+	if(StartOfDayBPClass.Succeeded())
+	{
+		StartOfDayUI = StartOfDayBPClass.Class;
+	}
+	
 }
 
 void ALevelScript_Main::BeginPlay()
@@ -24,6 +31,7 @@ void ALevelScript_Main::BeginPlay()
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
 	// 获取所有NPC对象的初始化值
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ANPC_Interactable::StaticClass(), InteractableNPCList);
+								
 	if(GameInstance != nullptr)
 	{
 		GetWorldTimerManager().SetTimer(TimerHandle_1, this, &ALevelScript_Main::SwitchLevel, GameInstance->TimeOfDay, false);
@@ -37,6 +45,14 @@ void ALevelScript_Main::BeginPlay()
 			}
 		}else
 		{
+			// 加载关卡出场动画
+			StartOfDayFrameInstance = Cast<UUserWidget>(CreateWidget(GetWorld(), StartOfDayUI));
+			if(StartOfDayFrameInstance != nullptr)
+			{
+				StartOfDayFrameInstance->AddToViewport();
+			}
+			GetWorldTimerManager().SetTimer(TimerHandle_2, this, &ALevelScript_Main::CloseUI, 5.0f, false);
+			
 			LoadCharacterDate();
 			for(const auto Actor : InteractableNPCList)
 			{
@@ -63,6 +79,12 @@ void ALevelScript_Main::SwitchLevel()
 {
 	SaveCharacterDate();
 	UGameplayStatics::OpenLevel(GetWorld(), TEXT("EndOfDayMenu"));
+}
+
+void ALevelScript_Main::CloseUI()
+{
+	StartOfDayFrameInstance->RemoveFromParent();
+	GetWorld()->GetTimerManager().ClearTimer(TimerHandle_2);
 }
 
 void ALevelScript_Main::SaveCharacterDate()

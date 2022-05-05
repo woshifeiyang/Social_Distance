@@ -54,9 +54,17 @@ void EmptyLinkFunctionForGeneratedCodeLevelScript_Main() {}
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_TutorialUI;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StartOfDayUI_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_StartOfDayUI;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TutorialFrameInstance_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TutorialFrameInstance;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StartOfDayFrameInstance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_StartOfDayFrameInstance;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -99,19 +107,34 @@ void EmptyLinkFunctionForGeneratedCodeLevelScript_Main() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialUI = { "TutorialUI", nullptr, (EPropertyFlags)0x0014000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALevelScript_Main, TutorialUI), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialUI_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialUI_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_StartOfDayUI_MetaData[] = {
+		{ "ModuleRelativePath", "LevelScript_Main.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_StartOfDayUI = { "StartOfDayUI", nullptr, (EPropertyFlags)0x0014000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALevelScript_Main, StartOfDayUI), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_StartOfDayUI_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_StartOfDayUI_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialFrameInstance_MetaData[] = {
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "LevelScript_Main.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialFrameInstance = { "TutorialFrameInstance", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALevelScript_Main, TutorialFrameInstance), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialFrameInstance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialFrameInstance_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_StartOfDayFrameInstance_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "LevelScript_Main.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_StartOfDayFrameInstance = { "StartOfDayFrameInstance", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALevelScript_Main, StartOfDayFrameInstance), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_StartOfDayFrameInstance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_StartOfDayFrameInstance_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALevelScript_Main_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_GameInstance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_MainCharacter,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_InteractableNPCList_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_InteractableNPCList,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialUI,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_StartOfDayUI,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_TutorialFrameInstance,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelScript_Main_Statics::NewProp_StartOfDayFrameInstance,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ALevelScript_Main_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ALevelScript_Main>::IsAbstract,
@@ -140,7 +163,7 @@ void EmptyLinkFunctionForGeneratedCodeLevelScript_Main() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALevelScript_Main, 2060671803);
+	IMPLEMENT_CLASS(ALevelScript_Main, 514550224);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<ALevelScript_Main>()
 	{
 		return ALevelScript_Main::StaticClass();
