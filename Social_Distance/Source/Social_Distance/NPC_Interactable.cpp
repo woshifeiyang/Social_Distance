@@ -149,6 +149,7 @@ void ANPC_Interactable::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 void ANPC_Interactable::NotifyActorOnClicked(FKey ButtonPressed)
 {
 	Super::NotifyActorOnClicked(ButtonPressed);
+
 	if(Distance <= ConversationalDistance)
 	{
 		SimpleName->SetVisibility(false);
@@ -159,9 +160,13 @@ void ANPC_Interactable::NotifyActorOnClicked(FKey ButtonPressed)
 			if(MainCharacter)
 			{
 				MainCharacter->TalkingPoint = MainCharacter->SelfLocation;
-				FRotator LookAtYaw = GetLookAtRotationYaw(MainCharacter->GetActorLocation());
-				FRotator InterpRotation = FMath::RInterpTo(GetActorRotation(), LookAtYaw, 0.1f, 5.0f);
-				SetActorRotation(InterpRotation);
+				const FRotator NPC_LookAtYaw = GetLookAtRotationYaw(MainCharacter->GetActorLocation());
+				const FRotator InterRotation = FMath::RInterpTo(GetActorRotation(), NPC_LookAtYaw, 0.1f, 5.0f);
+				SetActorRotation(InterRotation);
+
+				const FRotator LookAtRotation = UKismetMathLibrary::FindLookAtRotation(MainCharacter->SelfLocation, SelfLocation);
+				const FRotator LookAtRotationYaw(0.f,LookAtRotation.Yaw,0.f);
+				MainCharacter->SetActorRotation(LookAtRotationYaw);
 			}
 			if(MainCharacterAnimInstance)
 			{
@@ -231,7 +236,7 @@ void ANPC_Interactable::UpdateState()
 		// 播放咳嗽声
 		if(CoughAudio != nullptr && AudioController == false)
 		{
-			CoughAudio->bLooping = true;
+			CoughAudio->bLooping = false;
 			UGameplayStatics::PlaySound2D(GetWorld(), CoughAudio, 1.0f);
 			AudioController = true;
 		}
