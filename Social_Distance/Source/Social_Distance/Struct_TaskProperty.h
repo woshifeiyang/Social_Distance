@@ -33,6 +33,9 @@ struct FTaskProperty : public FTableRowBase
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int32 TaskIndex;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int32 TaskOrderNum;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FString NPC_Name;
@@ -53,8 +56,8 @@ struct FTaskProperty : public FTableRowBase
 		FString TaskTip_2;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float MCReward_Risk;
+		float MCReward_Happiness;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float NPCReward_Risk;
+		float NPCReward_Happiness;
 };

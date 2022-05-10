@@ -100,6 +100,14 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		class UWidgetComponent* SimpleName;
+
+	UPROPERTY(BlueprintReadWrite)
+		USoundWave* CoughAudio;
+	
+		class FAudioDeviceManager* AudioManager;
+		
+	UPROPERTY()
+		bool AudioController;
 	
 	UPROPERTY()
 		TSubclassOf<class UTaskRequestFrame> TaskFrameUI;
@@ -169,6 +177,8 @@ public:
 		void InitSimpleNameBlueprint();
 
 		bool IsTaskInList(int32& Index);
+
+		int32 GetOrderNumFromTaskArray();
 
 		FRotator GetLookAtRotationYaw(FVector Target);
 	

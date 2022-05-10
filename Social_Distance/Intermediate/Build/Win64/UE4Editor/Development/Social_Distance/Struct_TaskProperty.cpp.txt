@@ -1,6 +1,6 @@
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
-E:\SocialDistance\Social_Distance\Social_Distance\Source\Social_Distance\Struct_TaskProperty.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
-E:\SocialDistance\Social_Distance\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\Struct_TaskProperty.generated.h
+E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Development\Social_Distance\Definitions.Social_Distance.h
+E:\Github\Group5\Social_Distance\Source\Social_Distance\Struct_TaskProperty.h
+D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
+D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
+D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
+E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\Struct_TaskProperty.generated.h

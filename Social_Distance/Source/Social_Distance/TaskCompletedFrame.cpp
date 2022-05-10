@@ -2,7 +2,6 @@
 
 
 #include "TaskCompletedFrame.h"
-
 #include "NPC_Interactable.h"
 #include "Struct_TaskProperty.h"
 #include "Components/Button.h"
@@ -33,9 +32,9 @@ void UTaskCompletedFrame::AcceptSubmitTask()
 				FTaskProperty* Row = MainCharacter->TaskPropertyDataTable->FindRow<FTaskProperty>(Name, ContextString);
 				if(Row != nullptr && Row->TaskIndex == Index)
 				{
-					if(MainCharacter->Happiness + Row->MCReward_Risk <= 100.0f)
+					if(MainCharacter->Happiness + Row->MCReward_Happiness <= 100.0f)
 					{
-						MainCharacter->Happiness += Row->MCReward_Risk;
+						MainCharacter->Happiness += Row->MCReward_Happiness;
 					}else
 					{
 						MainCharacter->Happiness = 100.0f;
@@ -48,9 +47,9 @@ void UTaskCompletedFrame::AcceptSubmitTask()
 						ANPC_Interactable* NPC = Cast<ANPC_Interactable>(Actor);
 						if(NPC->Name == Row->NPC_Name)
 						{
-							if(NPC->Happiness + Row->NPCReward_Risk <= 100.0f)
+							if(NPC->Happiness + Row->MCReward_Happiness <= 100.0f)
 							{
-								NPC->Happiness += Row->NPCReward_Risk;
+								NPC->Happiness += Row->MCReward_Happiness;
 							}else
 							{
 								NPC->Happiness = 100.0f;

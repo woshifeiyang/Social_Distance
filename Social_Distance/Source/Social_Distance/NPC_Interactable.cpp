@@ -71,6 +71,9 @@ ANPC_Interactable::ANPC_Interactable()
 	{
 		TaskCompletedFrameUI = TaskCompletedBPClass.Class;
 	}
+	// 咳嗽音频
+	ConstructorHelpers::FObjectFinder<USoundWave> CoughClass(TEXT("SoundWave'/Game/StarterContent/Audio/cough.cough'"));
+	CoughAudio = CoughClass.Object; 
 }
 
 // Called when the game starts or when spawned
@@ -87,6 +90,8 @@ void ANPC_Interactable::BeginPlay()
 	Bubble->SetRelativeLocation(FVector(0, 0, 250));
 	SimpleName->SetRelativeLocation(FVector(0, 0, 250));
 	LineEffect->SetRenderCustomDepth(true);
+	AudioManager = GEngine->GetAudioDeviceManager();
+	AudioController = false;
 	GetWorldTimerManager().SetTimer(TimerHandle_5, this, &ANPC_Interactable::AutoDecreaseHappiness, 5.0f, true);
 	// 获取MainCharacter在游戏中的实例
 	MainCharacter = Cast<AMainCharacter>(UGameplayStatics::GetActorOfClass(GetWorld(), AMainCharacter::StaticClass()));
@@ -223,12 +228,26 @@ void ANPC_Interactable::UpdateState()
 	Distance = GetDistanceTo(MainCharacter);
 	if(Distance <= RiskRangeValue)
 	{
+		// 播放咳嗽声
+		if(CoughAudio != nullptr && AudioController == false)
+		{
+			CoughAudio->bLooping = true;
+			UGameplayStatics::PlaySound2D(GetWorld(), CoughAudio, 1.0f);
+			AudioController = true;
+		}
 		if(Risk + RiskIncreaseRate < 100.0f)
 		{
 			Risk += RiskIncreaseRate;
 		}else
 		{
 			Risk = 100.0f;
+		}
+	}else
+	{
+		if(AudioManager != nullptr && AudioController == true)
+		{
+			AudioManager->StopSoundsUsingResource(CoughAudio);
+			AudioController = false;
 		}
 	}
 }
@@ -364,11 +383,15 @@ void ANPC_Interactable::ShowTaskCompletedFrameBP()
 			URichTextBlock* TaskCompletedContent = TaskCompletedFrameInstance->TaskCompletedContent;
 			if(TaskCompletedContent != nullptr)
 			{
-				int32 Index;
-				IsTaskInList(Index);
-				FString String = "<BodyText>" + TaskArray[Index]->TaskCompletedContent + "</>";
-				TaskCompletedContent->SetText(FText::FromString(String));
-				TaskCompletedFrameInstance->Index = Index;
+				int32 OrderNum = GetOrderNumFromTaskArray();
+				if(OrderNum != -1 && OrderNum < TaskArray.Num())
+				{
+					FString String = "<BodyText>" + TaskArray[OrderNum]->TaskCompletedContent + "</>";
+					TaskCompletedContent->SetText(FText::FromString(String));
+					int32 Index;
+					IsTaskInList(Index);
+					TaskCompletedFrameInstance->Index = Index;
+				}
 			}
 			TaskCompletedFrameInstance->AddToViewport();
 			GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
@@ -438,6 +461,19 @@ bool ANPC_Interactable::IsTaskInList(int32& Index)
 		}
 	}
 	return false;
+}
+// 将玩家动态任务列表与该NPC自己的任务列表相比对，如果玩家动态列表有该NPC任务，则返回该任务在该NPC任务列表中的Index
+int32 ANPC_Interactable::GetOrderNumFromTaskArray()
+{
+	for(auto Row : TaskArray)
+	{
+		if(MainCharacter->TaskList.Find(Row->TaskIndex) != nullptr)
+		{
+			const int32 Index = Row->TaskOrderNum;
+			return Index;
+		}
+	}
+	return -1;
 }
 
 FRotator ANPC_Interactable::GetLookAtRotationYaw(FVector Target)
