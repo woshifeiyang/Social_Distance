@@ -341,7 +341,7 @@ void ANPC_Interactable::ShowTaskRequestFrameBP()
 {
 	// 随机几率弹出任务请求框
 	int32 num = FMath::RandRange(1,100);
-	if(num <= 30)
+	if(num <= 20)
 	{
 		if(TaskFrameUI != nullptr)
 		{

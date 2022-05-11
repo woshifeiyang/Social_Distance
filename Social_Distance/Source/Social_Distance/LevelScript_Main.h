@@ -37,10 +37,21 @@ public:
 
 	UPROPERTY()
 		UUserWidget* StartOfDayFrameInstance;
+
+	UPROPERTY()
+		TArray<URichTextBlock*> RichTextArray;
+	
+	UPROPERTY()
+		TSubclassOf<class UInGameInterface> InGameInterfaceUI;
+	
+	UPROPERTY()
+		UInGameInterface* InGameInterfaceInstance;
 	
 		FTimerHandle TimerHandle_1;
 
 		FTimerHandle TimerHandle_2;
+
+		FTimerHandle TimerHandle_3;
 
 protected:
 	ALevelScript_Main();
@@ -53,7 +64,13 @@ protected:
 	
 	void SaveCharacterDate();
 
-	void LoadCharacterDate();
+	void UpdateCharacterState();
+
+	void InitRickTextArray();
+
+	void ShowTaskList();
+
+	void GetInfoFromDataTable(int32 Index, FString& TaskContent, FString& TaskTip_1, FString& TaskTip_2);
 	
 	void PrintLog(FString String);
 };
