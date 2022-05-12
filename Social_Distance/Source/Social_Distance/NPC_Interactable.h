@@ -103,6 +103,9 @@ public:
 
 	UPROPERTY(BlueprintReadWrite)
 		USoundWave* CoughAudio;
+
+	UPROPERTY(BlueprintReadWrite)
+		USoundWave* TalkingAudio;
 	
 		class FAudioDeviceManager* AudioManager;
 		

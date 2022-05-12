@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeSarah_InteractableNPC() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASarah_InteractableNPC, 3811564354);
+	IMPLEMENT_CLASS(ASarah_InteractableNPC, 2154524492);
 	template<> SOCIAL_DISTANCE_API UClass* StaticClass<ASarah_InteractableNPC>()
 	{
 		return ASarah_InteractableNPC::StaticClass();

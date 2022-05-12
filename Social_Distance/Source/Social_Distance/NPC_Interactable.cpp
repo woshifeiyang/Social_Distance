@@ -72,8 +72,11 @@ ANPC_Interactable::ANPC_Interactable()
 		TaskCompletedFrameUI = TaskCompletedBPClass.Class;
 	}
 	// 咳嗽音频
-	ConstructorHelpers::FObjectFinder<USoundWave> CoughClass(TEXT("SoundWave'/Game/StarterContent/Audio/cough.cough'"));
-	CoughAudio = CoughClass.Object; 
+	const ConstructorHelpers::FObjectFinder<USoundWave> CoughClass(TEXT("SoundWave'/Game/StarterContent/Audio/cough.cough'"));
+	CoughAudio = CoughClass.Object;
+	// 对话音频
+	const ConstructorHelpers::FObjectFinder<USoundWave> TalkingClass(TEXT("SoundWave'/Game/StarterContent/Audio/Talking.Talking'"));
+	TalkingAudio = TalkingClass.Object;
 }
 
 // Called when the game starts or when spawned
@@ -155,6 +158,13 @@ void ANPC_Interactable::NotifyActorOnClicked(FKey ButtonPressed)
 		SimpleName->SetVisibility(false);
 		Bubble->SetVisibility(true);
 		MainBubble->SetVisibility(true);
+		// 播放对话声
+		if(TalkingAudio != nullptr)
+		{
+			TalkingAudio->bLooping = true;
+			UGameplayStatics::PlaySound2D(GetWorld(), TalkingAudio, 0.5f);
+		}
+		
 		if(DoOnce)
 		{
 			if(MainCharacter)
@@ -315,6 +325,7 @@ void ANPC_Interactable::SetLineEffect()
  * 如果玩家在对话过程中移动了则中断对话气泡
  * 中断任务弹出框定时器
  * 中断Happiness增加
+ * 停止播放对话声
  */
 void ANPC_Interactable::IsMoving()
 {
@@ -330,6 +341,10 @@ void ANPC_Interactable::IsMoving()
 		}
 		MainBubble->SetVisibility(false);
 		Bubble->SetVisibility(false);
+		if(AudioManager != nullptr && TalkingAudio != nullptr)
+		{
+			AudioManager->StopSoundsUsingResource(TalkingAudio);
+		}
 		GetWorld()->GetTimerManager().ClearTimer(TimerHandle_2);
 		GetWorld()->GetTimerManager().ClearTimer(TimerHandle_3);
 		GetWorld()->GetTimerManager().ClearTimer(TimerHandle_4);	
@@ -343,6 +358,10 @@ void ANPC_Interactable::ShowTaskRequestFrameBP()
 	int32 num = FMath::RandRange(1,100);
 	if(num <= 20)
 	{
+		if(AudioManager != nullptr && TalkingAudio != nullptr)
+		{
+			AudioManager->StopSoundsUsingResource(TalkingAudio);
+		}
 		if(TaskFrameUI != nullptr)
 		{
 			if(TaskRequestFrameInstance != nullptr)

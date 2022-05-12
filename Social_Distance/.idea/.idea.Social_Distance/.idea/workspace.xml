@@ -7,24 +7,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c3334d4c-cf80-44bc-a546-5ba610f556f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Social_Distance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Social_Distance/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0001.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0001.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0004.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0004.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0005.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0005.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0006.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0006.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0007.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0007.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0008.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0008.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0010.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0010.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0011.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0011.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0012.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0012.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0013.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0013.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0015.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Social_Distance-0015.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Audio/background-noise_2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/background-noise_2.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Maps/NewWorld.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Maps/NewWorld.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Maps/StartMenu1.umap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonCPP/Blueprints/MyMainCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonCPP/Blueprints/MyMainCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/DT_TaskProperty.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/DT_TaskProperty.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/WB_StartOfDay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/WB_StartOfDay.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/WB_tutorial.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/WB_tutorial.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/Social_DistanceModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/Social_DistanceModuleRules.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Audio/Talking_1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Audio/Talking_2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Audio/Talking_3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Audio/Talking_4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Audio/Talking_5.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/Social_DistanceEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/Social_DistanceEditor/Development/DependencyCache.bin" afterDir="false" />
@@ -33,58 +23,38 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/Social_DistanceEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/Social_DistanceEditor/Development/Metadata-HotReload.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/Social_DistanceEditor/Development/Social_DistanceEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/Social_DistanceEditor/Development/Social_DistanceEditor.uhtmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/ActionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0001.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0001.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0004.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0004.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0004.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0004.suppressed.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0005.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0005.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0006.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0006.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0007.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0007.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0007.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0007.suppressed.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0008.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0008.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0008.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0008.suppressed.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0009.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0009.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0009.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0009.suppressed.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0010.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0010.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0010.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0010.suppressed.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0011.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0011.dll.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0011.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0011.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0011.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0011.lib.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0011.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0011.suppressed.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0012.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0012.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0012.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0012.suppressed.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Social_Distance/LevelScript_Main.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Social_Distance/LevelScript_Main.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Social_Distance/MainCharacter.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Social_Distance/MainCharacter.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0013.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0013.dll.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0013.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0013.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0013.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0013.lib.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0013.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0013.suppressed.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0015.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0015.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0015.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Social_Distance/UE4Editor-Social_Distance-0015.suppressed.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Social_Distance/NPC_Interactable.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Social_Distance/NPC_Interactable.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Social_Distance/Sam_InteractableNPC.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Social_Distance/Sam_InteractableNPC.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Social_Distance/Sarah_InteractableNPC.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Social_Distance/Sarah_InteractableNPC.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Social_Distance/Social_Distance.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Social_Distance/Social_Distance.init.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Social_Distance/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Social_Distance/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/NewWorld_Auto1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/NewWorld_Auto1.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/MyMainCharacter_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/MyMainCharacter_Auto1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/UI/WB_StartOfDay_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/UI/WB_StartOfDay_Auto1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/UI/WB_tutorial_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/UI/WB_tutorial_Auto1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-36CD669A4037EAF9C6C23E8A15DF35BE/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-3E8844D140B10ED1AF4A67832CA68F90/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-4CC59E724033BBCE7634F5903226A076/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-4D30B190495C84048C63CDBC05B6B50A/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-9BE20A1748CD1CD99D417EA7676E6803/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-BA1366DE4A6840841904748F9E0F9D6E/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-0435E02B4F49271762815CBC4C840349/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-0F1F330F4CCE94A37C175594A00CEEFC/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-12036A474FE302255BE8078D65513D53/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-1EDF0359496A09CF5A1505BCA00110A2/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-53877C21449D3AA6A45571AE47B5B534/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-6F94F8FD486898E36072FDBC0C02B1CE/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-71C467714325A066FC97BC86E3D22348/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-76AAB7FC465F7F423B5CD983B61FF0E0/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-90997F15487B1876C3BA7C9EA53E2C6D/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-A4CB22A249F96C9B12644EBE888C6BF2/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-D18FA12940326E2585B2839DB9355425/CrashReportClient.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Social_Distance-backup-2022.05.09-22.20.46.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Social_Distance-backup-2022.05.09-23.44.54.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Social_Distance-backup-2022.05.10-13.09.31.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Social_Distance-backup-2022.05.10-20.40.33.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Social_Distance-backup-2022.05.10-20.49.59.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Social_Distance-backup-2022.05.10-20.57.26.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Social_Distance-backup-2022.05.10-21.11.34.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/Social_Distance-backup-2022.05.10-00.02.02.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/Social_Distance-backup-2022.05.10-00.35.01.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/Social_Distance-backup-2022.05.10-13.25.56.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/Social_Distance.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/Social_Distance.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/SaveGames/SaveGame.sav" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SaveGames/SaveGame.sav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Social_Distance/LevelScript_Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Social_Distance/LevelScript_Main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Social_Distance/LevelScript_Main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Social_Distance/LevelScript_Main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Social_Distance/MainCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Social_Distance/MainCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Social_Distance/MainCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Social_Distance/MainCharacter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Social_Distance/NPC_Interactable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Social_Distance/NPC_Interactable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Social_Distance/NPC_Interactable.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Social_Distance/NPC_Interactable.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -536,6 +506,8 @@
       <workItem from="1652139937155" duration="3577000" />
       <workItem from="1652215606801" duration="4547000" />
       <workItem from="1652296236607" duration="6189000" />
+      <workItem from="1652372335695" duration="1243000" />
+      <workItem from="1652373774066" duration="206000" />
     </task>
     <servers />
   </component>
