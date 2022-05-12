@@ -109,6 +109,8 @@ D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Dynam
 D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
 E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\InGameInterface.generated.h
+E:\Github\Group5\Social_Distance\Source\Social_Distance\MyGameInstance.h
+E:\Github\Group5\Social_Distance\Intermediate\Build\Win64\UE4Editor\Inc\Social_Distance\MyGameInstance.generated.h
 D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\UMG\Public\Components/WidgetComponent.h
 D:\Unreal Engine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetComponent.generated.h
 D:\Unreal Engine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h

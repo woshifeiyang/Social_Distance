@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "InGameInterface.h"
+#include "MyGameInstance.h"
 #include "GameFramework/Character.h"
 #include "Components/WidgetComponent.h"
 #include "Engine/DataTable.h"
@@ -72,6 +73,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		class UWidgetComponent* Bubble;
+
+	UPROPERTY()
+		UMyGameInstance* GameInstance;
 	
 	FTimerHandle TimerHandle_1;
 

@@ -2,6 +2,7 @@
 
 
 #include "MainCharacter.h"
+
 #include "NPC_Interactable.h"
 #include "NPC_Movable.h"
 #include "Components/CapsuleComponent.h"
@@ -56,8 +57,15 @@ AMainCharacter::AMainCharacter()
 void AMainCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	Happiness = InitHappiness;
-	Risk = InitRisk;
+	GameInstance = Cast<UMyGameInstance>(GetGameInstance());
+	if(GameInstance != nullptr)
+	{
+		if(GameInstance->DayLoop == 1)
+		{
+			Happiness = InitHappiness;
+			Risk = InitRisk;
+		}
+	}
 	Bubble->SetVisibility(false);				// 初始化默认气泡不显示
 	Bubble->SetRelativeLocation(FVector(0, 0, 250));
 	// 获取所有NPC对象
